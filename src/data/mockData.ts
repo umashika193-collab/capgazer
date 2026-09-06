@@ -1645,7 +1645,7 @@ export const trackerItemsData: TrackerItem[] = [
   }
 ];
 
-// 5. なんか最近よく見るな～（日次自動更新 ＆ 直近30日ローテーション保持）
+// 5. なんか最近よく見るな～（厳選8件・直近45日ローテーション保持）
 export const recentTrendsData: RecentTrendItem[] = [
   {
     id: "trend-energy-drink-expansion",

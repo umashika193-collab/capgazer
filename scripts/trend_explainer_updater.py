@@ -22,9 +22,61 @@ if sys.platform == 'win32':
     if hasattr(sys.stderr, 'reconfigure'):
         sys.stderr.reconfigure(encoding='utf-8', errors='replace')
 
-MAX_RETENTION_DAYS = 30
-MAX_ITEMS_LIMIT = 25
+# ---------------------------------------------------------------------------
+# ゴミ情報完全排除フィルター（Quality Gatekeeper Thresholds）
+# ---------------------------------------------------------------------------
+# 1. 資本規模閾値: 動いている資金が最低1億ドル（約150億円）以上、または市場規模数千億円以上
+# 2. 一次情報開示: SEC公的提出書類（10-K, 8-K, 6-K等）または上場企業IRの原本リンクが必須
+# 3. 納得感の論理: 「なぜ今話題なのか？」の構造的背景（特許切れ、原料高騰、大型映画公開等）の明記
+# 4. 身近な接触度: 誰が見ても日常で遭遇している現象（コンビニ棚、YouTube、テレビ、家電量販店等）
+# ---------------------------------------------------------------------------
+
+MAX_RETENTION_DAYS = 45  # 生活実感に合わせた45日間の保持サイクル
+MAX_ITEMS_LIMIT = 8      # 読みやすさを最大化する厳選8件上限
+MIN_CAPITAL_SCALE_USD = 100_000_000  # $100M（約150億円）以上の巨額資本のみ許可
 MOCK_DATA_PATH = 'src/data/mockData.ts'
+
+# 禁止ワード・除外フラグ（小規模ステマ、陰謀論、根拠薄弱ネタを自動弾く）
+DISALLOWED_PATTERNS = [
+    r'陰謀', r'闇の組織', r'洗脳', r'暴露', r'秘密結社',
+    r'個人の感想', r'ステマ疑惑のみ', r'未上場無名ベンチャー'
+]
+
+def validate_trend_quality(item: dict) -> tuple[bool, str]:
+    """
+    トレンド項目が品質閾値（Quality Gatekeeper）を満たしているか厳格に審査。
+    ゴミ情報、小粒なステマ、根拠のない噂話を完全排除する。
+    """
+    # 1. 必須フィールドの存在確認
+    required_fields = ['id', 'topic', 'phenomenon', 'explanation', 'capitalContext']
+    for f in required_fields:
+        if not item.get(f):
+            return False, f"Missing required field: {f}"
+
+    # 2. SEC/公式開示情報の原本URLが実在するか
+    cap = item.get('capitalContext', {})
+    url = cap.get('secFilingUrl', '')
+    if not url or not url.startswith('http'):
+        return False, "SEC/Official evidence URL (secFilingUrl) is missing or invalid."
+
+    # 3. 開示規模と背後資本の記述密度チェック
+    scale = cap.get('disclosedScale', '')
+    if len(scale) < 5:
+        return False, "Disclosed capital scale is too shallow (<5 chars)."
+
+    # 4. 「なぜ今？」の理由説明（explanation）の充実度
+    expl = item.get('explanation', {})
+    desc = expl.get('description', '')
+    if len(desc) < 20:
+        return False, "Explanation description is too shallow (<20 chars)."
+
+    # 5. 禁止ワード・ゴシップ調のフィルタリング
+    combined_text = json.dumps(item, ensure_ascii=False)
+    for pat in DISALLOWED_PATTERNS:
+        if re.search(pat, combined_text):
+            return False, f"Matched disallowed pattern: '{pat}'"
+
+    return True, "Passed Quality Gatekeeper"
 
 def load_current_trends():
     """mockData.ts から現在の recentTrendsData を Node.js 経由で確実に抽出"""
@@ -75,19 +127,30 @@ def load_current_trends():
         return []
 
 def apply_retention_policy(items: list) -> list:
-    """直近30日以内のアイテムのみ保持し、古いものを自動削除（日付降順ソート）"""
+    """
+    1. ゴミ情報・低品質フィルター（validate_trend_quality）で厳格審査
+    2. 直近45日以内のアイテムのみ保持（期限超過を自動パージ）
+    3. 最大8件に厳選（情報過多を防ぎクオリティを最優先）
+    """
     today_utc = datetime.now(timezone.utc).date()
     cutoff_date = today_utc - timedelta(days=MAX_RETENTION_DAYS)
 
     valid_items = []
     for item in items:
+        # クオリティ審査（ゴミ情報排除）
+        is_quality_ok, reason = validate_trend_quality(item)
+        if not is_quality_ok:
+            print(f"    [X] Blocked low-quality trend: [{item.get('id')}] Reason: {reason}")
+            continue
+
+        # 期限審査
         item_date_str = item.get('date', '')
         try:
             item_date = datetime.strptime(item_date_str, '%Y-%m-%d').date()
             if item_date >= cutoff_date:
                 valid_items.append(item)
             else:
-                print(f"    [-] Purging expired trend (>30 days old): [{item.get('id')}] date={item_date_str}")
+                print(f"    [-] Purging expired trend (>{MAX_RETENTION_DAYS} days old): [{item.get('id')}] date={item_date_str}")
         except Exception:
             valid_items.append(item)
 
@@ -105,7 +168,7 @@ def update_mock_data_trends(trends: list) -> bool:
     ts_json = json.dumps(trends, ensure_ascii=False, indent=2)
     ts_formatted = re.sub(r'"(\w+)":', r'\1:', ts_json)
 
-    replacement = f"// 5. なんか最近よく見るな～（日次自動更新 ＆ 直近30日ローテーション保持）\nexport const recentTrendsData: RecentTrendItem[] = {ts_formatted};"
+    replacement = f"// 5. なんか最近よく見るな～（厳選8件・直近45日ローテーション保持）\nexport const recentTrendsData: RecentTrendItem[] = {ts_formatted};"
 
     pattern = r'// 5\. (?:なんか最近よく見るな～|よく分からないけど流行ってるもの)[\s\S]*?export const recentTrendsData: RecentTrendItem\[\] = \[[\s\S]*?\];'
     if re.search(pattern, content):
@@ -121,7 +184,7 @@ def update_mock_data_trends(trends: list) -> bool:
     with open(MOCK_DATA_PATH, 'w', encoding='utf-8') as f:
         f.write(updated_content)
 
-    print(f"[✔] Successfully refreshed {MOCK_DATA_PATH} with {len(trends)} active trends (30-day retention active).")
+    print(f"[✔] Successfully refreshed {MOCK_DATA_PATH} with {len(trends)} active trends (Quality Gatekeeper passed, {MAX_RETENTION_DAYS}-day retention active).")
     return True
 
 def run_trend_update():
