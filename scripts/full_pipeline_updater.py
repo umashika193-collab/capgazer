@@ -102,13 +102,15 @@ def run_full_pipeline():
     except Exception as e:
         print(f"    [!] Error during dynamic sector recalculation: {e}", file=sys.stderr)
 
-    # 3. フィード自動生成（Gemini API 連携）
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if api_key:
-        print("\n[*] Step 3: Triggering Gemini AI Intelligence Synthesis...")
-        print("    [✔] Gemini API Key verified. Analyzing fresh filings...")
-    else:
-        print("\n[*] Step 3: Gemini API Key not set in environment. Retaining verified feed baseline.")
+    # 3. フィード完全自律更新（SEC EDGAR 直接連動・APIキー不要）
+    print("\n[*] Step 3: Triggering Autonomous SEC Policy Feed Generator (Zero-Config)...")
+    try:
+        sys.path.insert(0, 'scripts')
+        from feed_auto_generator import run_feed_update
+        run_feed_update()
+        print("    [✔] Category 03 (Policy Feed) Fully Synchronized with Live SEC EDGAR.")
+    except Exception as e:
+        print(f"    [!] Error during feed auto generation: {e}", file=sys.stderr)
 
     # 4. カテゴリー04（よく分からないけど流行ってるもの）の30日保持ローテーション＆自動更新
     print("\n[*] Step 4: Refreshing Category 04 (Recent Trends) & Enforcing 30-Day Retention...")

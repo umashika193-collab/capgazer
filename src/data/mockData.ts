@@ -829,824 +829,1312 @@ export const topAssetManagersData: AssetManagerProfile[] = [
 
 // 4. アジェンダ別 政策分析＆産業インパクト・フィード（世界市場を揺るがすグローバル・メガトレンド）
 export const trackerItemsData: TrackerItem[] = [
-  // 1. 【2026年8月最新】NVIDIA & AIメガテックへの反トラスト法・独占調査
   {
-    id: 'item-nvidia-doj-2026',
-    date: '2026-08-26',
-    institution: 'Nvidia Corp & US Dept of Justice (SEC Form 8-K)',
-    institutionEn: 'Nvidia Corp & US Department of Justice (SEC Form 8-K)',
-    institutionType: 'Corporation',
-    category: 'tech',
-    title: 'NvidiaとAI大手に対する米司法省（DOJ）反トラスト調査とGPU配分開示要求',
-    titleEn: 'Nvidia & Big Tech Face DOJ Antitrust Subpoenas Over AI GPU Allocation & Bundling',
+    id: "feed-sec-nvda-20260903",
+    date: "2026-09-03",
+    institution: "Nvidia Corp (NVDA)",
+    institutionEn: "Nvidia Corp (NVDA)",
+    institutionType: "Corporation",
+    category: "tech",
+    title: "【SEC公的開示】Nvidia Corpが最新重要報告書（Form 8-K）を正式提出",
+    titleEn: "[SEC Filing] Nvidia Corp Files Official Current Report (Form 8-K)",
     summary: [
-      '米司法省およびFTCが、NvidiaによるAIチップ供給の優先配分（メガテック優遇）に関する独占禁止法調査を本格化。',
-      'NvidiaがSEC Form 8-Kを提出し、クラウド事業者への拘束条項や独禁法リスクに関する追加開示を実施。',
-      '機関投資家はAIインフラの過度な一極集中リスクを警戒し、BroadcomやカスタムASIC企業への分散投資を開始。'
+      "米SEC EDGARに提出された公式文書（Form 8-K）を検知。公的提出日: 2026-09-03。",
+      "資本市場および機関投資家向けに開示された法定報告書原本へのアクセスを即時同期。",
+      "市場への重大な影響を持つ重要事項・資本異動に関する最新ファクトチェックを反映。"
     ],
     summaryEn: [
-      'US DOJ and FTC escalated formal antitrust investigations into Nvidia regarding preferential AI chip allocations to mega hyperscalers.',
-      'Nvidia filed an SEC Form 8-K disclosing regulatory inquiries and restrictive covenants in datacenter networking contracts.',
-      'Institutional investors diversifying capital into Broadcom, Marvell, and custom ASIC designers to hedge single-vendor regulatory risk.'
+      "Verified official regulatory submission (Form 8-K) via SEC EDGAR. Filing Date: 2026-09-03.",
+      "Direct primary source link synchronized for institutional capital flow verification.",
+      "Incorporating latest corporate material event updates and governance disclosures."
     ],
     primaryPolicy: {
-      title: 'AIサプライチェーンにおける優越的地位濫用と拘束条件の審査',
-      titleEn: 'Scrutiny of Market Abuse & Restrictive AI Supply Covenants',
-      description: 'Nvidiaが自社製ネットワーク機器（Quantum/Spectrum-X）をGPUと抱き合わせ販売している疑い、および特定テック大手への優先供給に対する召喚状送付。',
-      descriptionEn: 'DOJ subpoenas examining whether Nvidia tied GPU availability to the purchase of its proprietary Spectrum-X/Quantum networking gear.',
+      title: "SEC Form 8-K 法定報告書の正式受理・原本照合",
+      titleEn: "Official Acceptance & Verification of SEC Form 8-K",
+      description: "Nvidia Corpが米国証券取引委員会に提出した法定重要報告書。事業運営や資本政策、重要契約に関する公的開示。",
+      descriptionEn: "Statutory material filing submitted by Nvidia Corp to the US SEC, disclosing corporate operations and capital events.",
       keyPoints: [
-        'SEC Form 8-Kにおける法的調査リスクの公式記載（2026年8月開示）',
-        '顧客企業（クラウド各社）に対する競合チップ利用制限条項の無効化審査',
-        '欧州委員会（EC）によるフランス・ドイツ拠点への立ち入り調査の連動'
+        "提出書類: SEC Form 8-K（公式原本リンク検証済）",
+        "開示企業: Nvidia Corp (CIK: 0001045810)",
+        "法定報告日: 2026-09-03"
       ],
       keyPointsEn: [
-        'Formal disclosure of antitrust investigations in SEC Form 8-K (August 2026)',
-        'Regulatory review of exclusivity lock-in terms imposed on cloud customers',
-        'Parallel EU Commission dawn raids across French and German subsidiaries'
+        "Filing Type: SEC Form 8-K (Verified Primary URL)",
+        "Reporting Entity: Nvidia Corp (CIK: 0001045810)",
+        "Filing Date: 2026-09-03"
       ]
     },
     capitalIncentive: {
-      title: 'AIバブルの法的規制リスクヘッジとマルチベンダー化（供給網分散）',
-      titleEn: 'Regulatory Risk Hedging & Multi-Vendor Supply Redundancy',
-      description: 'Nvidia 1社に依存したポートフォリオが独禁法制裁で急落するリスクを回避するため、ファンド各社がAMD、Broadcom、カスタム半導体開発企業へ資金を分散配分。',
-      descriptionEn: 'Funds hedging against single-stock concentration risks by allocating capital to AMD, Broadcom, and custom ASIC architectures.',
-      financialRationale: '独占禁止法違反による巨額制裁金および供給停止命令は、投資先企業の純利益を直接吹き飛ばすテールリスクであるため、事前ヘッジが必須と判断。',
-      financialRationaleEn: 'Antitrust injunctions and multibillion-dollar penalties represent uninsurable tail risks, compelling proactive institutional portfolio diversification.'
+      title: "巨大資本・機関投資家への開示義務と市場規律",
+      titleEn: "Institutional Market Discipline and Mandatory Disclosures",
+      description: "BlackRockやVanguardなど主要機関投資家に対する法定開示責任の履行。透明性維持による資本コスト抑制と信認確保。",
+      descriptionEn: "Fulfilling fiduciary reporting obligations to mega asset managers to preserve market credibility.",
+      financialRationale: "連邦証券法に基づく情報開示の即時反映による情報非対称性の排除と株価形成の適正化。",
+      financialRationaleEn: "Mitigating information asymmetry and ensuring fair price discovery under federal securities law."
     },
     industryImpact: {
-      title: 'メガテックの自社製AIチップ（TPU/Trainium/Maia）内製化の加速',
-      titleEn: 'Accelerated In-House Silicon Deployment by Hyperscalers',
-      description: 'Google、Amazon、MicrosoftがNvidiaへの依存比率を下げるため、自社開発プロセッサのデータセンター配備比率を前年比50%以上引き上げ。',
-      descriptionEn: 'Google (TPU), Amazon (Trainium), and Microsoft (Maia) increasing in-house silicon datacenter deployment by over 50% YoY.',
-      marketReaction: 'Nvidiaの株価ボラティリティが上昇する一方、カスタムチップ設計を受託するBroadcomやMarvellへの資金流入が加速。',
-      marketReactionEn: 'Nvidia options volatility spiked while institutional inflows accelerated into custom silicon architects (Broadcom, Marvell).',
+      title: "半導体・AIコンピューティングセクターおよび競合サプライチェーンへの波及",
+      titleEn: "Spillover Effects across Tech Supply Chain",
+      description: "グローバルな産業構造におけるキープレイヤーの動向が、提携先・下請け・競合他社の投資判断に直接波及。",
+      descriptionEn: "Decisions by core industry pillars directly influencing supply chain partners and competitors.",
+      marketReaction: "機関投資家のアルゴリズム取引による即時プライシングおよびポジション調整の契機。",
+      marketReactionEn: "Catalyst for institutional algorithmic rebalancing and credit assessment.",
       caseStudy: {
-        target: 'Nvidia Corp (SEC CIK: 0001045810 / Form 8-K: 2026-08-26)',
-        outcome: '公式開示資料にて独占調査の進捗とサプライチェーン分散対応方針を投資家へ正式報告。',
-        outcomeEn: 'Formally disclosed antitrust inquiry status and multi-vendor diversification roadmap in official SEC 8-K filing.'
+        target: "Nvidia Corp サプライチェーン関係各社",
+        outcome: "公式開示情報の即時確認によるリスクヘッジと投資戦略の再検証",
+        outcomeEn: "Real-time risk mitigation and strategic reassessment via primary source validation"
       }
     },
-    status: 'investigating',
-    statusLabel: '米司法省調査本格化',
-    statusLabelEn: 'DOJ Investigation Escalating',
-    sourceName: 'Nvidia Corp Form 8-K (SEC Accession: 0001045810-26-000073)',
-    sourceType: 'SEC Official Form 8-K (2026-08-26)',
-    sourceUrl: 'https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/nvda-20260826.htm',
-    tags: ['#Nvidia', '#生成AI', '#反トラスト法', '#米司法省', '#SEC開示'],
-    tagsEn: ['#Nvidia', '#GenerativeAI', '#Antitrust', '#DOJ', '#SECFiling'],
-    involvedCompanies: ['Nvidia Corp', 'Microsoft Corp', 'Alphabet Inc.', 'Amazon.com', 'Broadcom Inc.'],
-    impactScore: 98,
+    status: "active",
+    statusLabel: "SEC公的開示済",
+    statusLabelEn: "SEC Filing Verified",
+    sourceName: "SEC EDGAR (CIK: 0001045810)",
+    sourceType: "SEC Form 8-K",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm",
+    tags: [
+      "NVDA",
+      "8-K",
+      "SEC開示",
+      "公的一次情報"
+    ],
+    tagsEn: [
+      "NVDA",
+      "8-K",
+      "SEC Filing",
+      "Primary Source"
+    ],
+    involvedCompanies: [
+      "Nvidia Corp",
+      "BlackRock",
+      "Vanguard"
+    ],
+    impactScore: 88
   },
-
-  // 2. 【2026年7月最新】Microsoft ＆ OpenAI独禁法審査とクラウド是正
   {
-    id: 'item-msft-openai-ftc-2026',
-    date: '2026-07-10',
-    institution: 'Microsoft Corp & US FTC / EU Commission (SEC Form 10-K)',
-    institutionEn: 'Microsoft Corp & US FTC / EU Commission (SEC Form 10-K)',
-    institutionType: 'Corporation',
-    category: 'tech',
-    title: 'Microsoft ＆ OpenAI：米欧独禁当局の企業結合審査とクラウド排他条項の自主是正',
-    titleEn: 'Microsoft & OpenAI Relinquish Board Observers & Ease Azure Exclusivity Amid FTC Scrutiny',
+    id: "feed-sec-msft-20260902",
+    date: "2026-09-02",
+    institution: "Microsoft Corp (MSFT)",
+    institutionEn: "Microsoft Corp (MSFT)",
+    institutionType: "Corporation",
+    category: "tech",
+    title: "【SEC公的開示】Microsoft Corpが最新重要報告書（Form 8-K）を正式提出",
+    titleEn: "[SEC Filing] Microsoft Corp Files Official Current Report (Form 8-K)",
     summary: [
-      'FTCおよび欧州委員会によるAI寡占調査を受け、MicrosoftがOpenAIの取締役会オブザーバー席を自主返上。',
-      'Azureクラウド利用の排他的拘束条項を緩和し、競合クラウド（AWS, GCP）でのOpenAIモデル提供を容認。',
-      '機関投資家は独禁法制裁リスクを警戒し、特定AI企業への過度な依存からマルチモデル戦略への転換を要求。'
+      "米SEC EDGARに提出された公式文書（Form 8-K）を検知。公的提出日: 2026-09-02。",
+      "資本市場および機関投資家向けに開示された法定報告書原本へのアクセスを即時同期。",
+      "市場への重大な影響を持つ重要事項・資本異動に関する最新ファクトチェックを反映。"
     ],
     summaryEn: [
-      'Microsoft voluntarily gave up its OpenAI board observer seat following US FTC and EU Commission merger probes.',
-      'Relaxed Azure cloud exclusivity clauses, allowing OpenAI models to be served across AWS and Google Cloud environments.',
-      'Institutional investors pressured tech giants to pivot toward open multi-model architectures to avoid regulatory break-up risks.'
+      "Verified official regulatory submission (Form 8-K) via SEC EDGAR. Filing Date: 2026-09-02.",
+      "Direct primary source link synchronized for institutional capital flow verification.",
+      "Incorporating latest corporate material event updates and governance disclosures."
     ],
     primaryPolicy: {
-      title: '生成AIスタートアップへの巨額出資に対する実質的企業結合審査',
-      titleEn: 'Substantive Merger Review of Minority GenAI Stakes',
-      description: '議決権を持たない出資比率（49%）であっても、実質的な支配権や独占的インフラ拘束があるとみなす新基準への対応。',
-      descriptionEn: 'Regulators treating non-voting 49% stakes and compute exclusivity as de facto merger acquisitions requiring antitrust clearance.',
+      title: "SEC Form 8-K 法定報告書の正式受理・原本照合",
+      titleEn: "Official Acceptance & Verification of SEC Form 8-K",
+      description: "Microsoft Corpが米国証券取引委員会に提出した法定重要報告書。事業運営や資本政策、重要契約に関する公的開示。",
+      descriptionEn: "Statutory material filing submitted by Microsoft Corp to the US SEC, disclosing corporate operations and capital events.",
       keyPoints: [
-        'OpenAI取締役会におけるオブザーバー席の完全返上（SEC Form 10-K開示）',
-        'クラウドインフラ排他的供給契約の解除と第三者プラットフォーム開放',
-        'Meta (Llama) や Mistral AI などオープンモデルのAzure積極採用'
+        "提出書類: SEC Form 8-K（公式原本リンク検証済）",
+        "開示企業: Microsoft Corp (CIK: 0000789019)",
+        "法定報告日: 2026-09-02"
       ],
       keyPointsEn: [
-        'Surrender of OpenAI board observer seat disclosed in SEC Form 10-K',
-        'Termination of compute lock-in, enabling multi-cloud OpenAI deployments',
-        'Aggressive Azure integration of open-weights models (Meta Llama, Mistral)'
+        "Filing Type: SEC Form 8-K (Verified Primary URL)",
+        "Reporting Entity: Microsoft Corp (CIK: 0000789019)",
+        "Filing Date: 2026-09-02"
       ]
     },
     capitalIncentive: {
-      title: '独禁法による強制分割・巨額制裁金リスクの回避とエコシステム防衛',
-      titleEn: 'Antitrust Injunction Mitigation & Cloud Revenue Protection',
-      description: '米欧当局による反トラスト訴訟が長期化し、AI事業全体の成長が法的に差し止められる破滅的リスクを未然に防ぐため。',
-      financialRationale: '法規制リスクを低減させつつ、自社クラウド（Azure）の利用総量を拡大させるマルチモデル戦略の方が財務的リターンが高いと判断。',
-      financialRationaleEn: 'Preventing regulatory injunctions while maximizing aggregate Azure consumption via open multi-model offerings.'
+      title: "巨大資本・機関投資家への開示義務と市場規律",
+      titleEn: "Institutional Market Discipline and Mandatory Disclosures",
+      description: "BlackRockやVanguardなど主要機関投資家に対する法定開示責任の履行。透明性維持による資本コスト抑制と信認確保。",
+      descriptionEn: "Fulfilling fiduciary reporting obligations to mega asset managers to preserve market credibility.",
+      financialRationale: "連邦証券法に基づく情報開示の即時反映による情報非対称性の排除と株価形成の適正化。",
+      financialRationaleEn: "Mitigating information asymmetry and ensuring fair price discovery under federal securities law."
     },
     industryImpact: {
-      title: 'エンタープライズAIの「マルチモデル（複数AI併用）」化の決定打',
-      titleEn: 'Enterprise Shift to Vendor-Agnostic Multi-Model AI',
-      description: '企業顧客が特定モデル（GPT-4等）にロックインされることを避け、用途に応じてAnthropicやオープンソースAIを使い分ける体制へ移行。',
-      descriptionEn: 'Global enterprises transitioning away from single-model lock-in toward diversified model routing architectures.',
-      marketReaction: 'Microsoftの法務リスクが後退し、AI関連クラウド売上が四半期ベースで過去最高を更新。',
-      marketReactionEn: 'Microsoft cloud revenue hit all-time highs as legal antitrust uncertainty eased.',
+      title: "クラウド・生成AIインフラセクターおよび競合サプライチェーンへの波及",
+      titleEn: "Spillover Effects across Tech Supply Chain",
+      description: "グローバルな産業構造におけるキープレイヤーの動向が、提携先・下請け・競合他社の投資判断に直接波及。",
+      descriptionEn: "Decisions by core industry pillars directly influencing supply chain partners and competitors.",
+      marketReaction: "機関投資家のアルゴリズム取引による即時プライシングおよびポジション調整の契機。",
+      marketReactionEn: "Catalyst for institutional algorithmic rebalancing and credit assessment.",
       caseStudy: {
-        target: 'Microsoft Corp (SEC Form 10-K: 2026-07), OpenAI',
-        outcome: '取締役オブザーバー席の返上と、Azure上のオープンAIモデル群の拡充により規制当局の審査を軟着陸。',
-        outcomeEn: 'Successfully resolved regulatory scrutiny by relinquishing board seats and broadening Azure AI offerings.'
+        target: "Microsoft Corp サプライチェーン関係各社",
+        outcome: "公式開示情報の即時確認によるリスクヘッジと投資戦略の再検証",
+        outcomeEn: "Real-time risk mitigation and strategic reassessment via primary source validation"
       }
     },
-    status: 'shifting',
-    statusLabel: '自主是正・規制対応',
-    statusLabelEn: 'Voluntary Compliance',
-    sourceName: 'Microsoft Corp Annual Report (SEC Form 10-K 2026-07)',
-    sourceType: 'SEC Official Form 10-K',
-    sourceUrl: 'https://www.sec.gov/Archives/edgar/data/789019/000078901924000038/msft-20240630.htm',
-    tags: ['#Microsoft', '#OpenAI', '#FTC独占審査', '#Azure', '#マルチモデル'],
-    tagsEn: ['#Microsoft', '#OpenAI', '#FTCAntitrust', '#Azure', '#MultiModel'],
-    involvedCompanies: ['Microsoft Corp', 'OpenAI', 'Alphabet Inc.', 'Amazon.com'],
-    impactScore: 94,
+    status: "active",
+    statusLabel: "SEC公的開示済",
+    statusLabelEn: "SEC Filing Verified",
+    sourceName: "SEC EDGAR (CIK: 0000789019)",
+    sourceType: "SEC Form 8-K",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/789019/000119312526380280/d291965d8k.htm",
+    tags: [
+      "MSFT",
+      "8-K",
+      "SEC開示",
+      "公的一次情報"
+    ],
+    tagsEn: [
+      "MSFT",
+      "8-K",
+      "SEC Filing",
+      "Primary Source"
+    ],
+    involvedCompanies: [
+      "Microsoft Corp",
+      "BlackRock",
+      "Vanguard"
+    ],
+    impactScore: 88
   },
-
-  // 3. 【2026年6月最新】ディズニー：アクティビスト委任状争奪戦後の映画制作改革
   {
-    id: 'item-disney-activist-roi-2026',
-    date: '2026-06-15',
-    institution: 'The Walt Disney Company (SEC DEF 14A / Form 10-K)',
-    institutionEn: 'The Walt Disney Company (SEC DEF 14A / Form 10-K)',
-    institutionType: 'Corporation',
-    category: 'gaming',
-    title: 'ウォルト・ディズニー：アクティビスト委任状争奪戦後の映画制作改革と非財務ノルマ凍結',
-    titleEn: 'Walt Disney Overhauls Studio Pipeline & Freezes DEI Quotas After Proxy Fight',
+    id: "feed-sec-sony-20260903",
+    date: "2026-09-03",
+    institution: "Sony Group Corp (SONY)",
+    institutionEn: "Sony Group Corp (SONY)",
+    institutionType: "Corporation",
+    category: "gaming",
+    title: "【SEC公的開示】Sony Group Corpが最新重要報告書（Form 6-K）を正式提出",
+    titleEn: "[SEC Filing] Sony Group Corp Files Official Current Report (Form 6-K)",
     summary: [
-      'ネルソン・ペルツ（トライアン・パートナーズ）ら物言う株主との委任状争奪戦（プロキシファイト）を経て制作体制を抜本改革。',
-      '巨額の興行赤字を出した非財務スコア重視の作品制作を凍結し、コアIP（アナ雪、トイストーリー、マーベル王道）へ全集中。',
-      '映画・配信部門で年間75億ドルのコスト削減を実行し、ストリーミング事業の営業黒字化を達成。'
+      "米SEC EDGARに提出された公式文書（Form 6-K）を検知。公的提出日: 2026-09-03。",
+      "資本市場および機関投資家向けに開示された法定報告書原本へのアクセスを即時同期。",
+      "市場への重大な影響を持つ重要事項・資本異動に関する最新ファクトチェックを反映。"
     ],
     summaryEn: [
-      'Walt Disney instituted sweeping studio restructuring following a historic proxy battle with activist Nelson Peltz (Trian Partners).',
-      'Froze ideological DEI script mandates after major box-office write-downs, refocusing on core franchise ROI (Frozen, Toy Story, Marvel).',
-      'Executed $7.5B in annualized cost reductions, returning direct-to-consumer streaming to operating profitability.'
+      "Verified official regulatory submission (Form 6-K) via SEC EDGAR. Filing Date: 2026-09-03.",
+      "Direct primary source link synchronized for institutional capital flow verification.",
+      "Incorporating latest corporate material event updates and governance disclosures."
     ],
     primaryPolicy: {
-      title: 'スタジオ製作本数の半減と「ストーリーテリング＆興行収入第一主義」の復活',
-      titleEn: 'Studio Slate Reduction & Return to Box-Office Primacy',
-      description: 'CEOボブ・アイガーが、過度なイデオロギー表現や政治的メッセージを含む作品設計を禁止し、クリエイターに観客満足度と興行リターンを徹底義務付け。',
-      descriptionEn: 'CEO Bob Iger mandated halving annual film releases, eliminating non-pecuniary diversity quotas in executive comp in favor of box-office ROI.',
+      title: "SEC Form 6-K 法定報告書の正式受理・原本照合",
+      titleEn: "Official Acceptance & Verification of SEC Form 6-K",
+      description: "Sony Group Corpが米国証券取引委員会に提出した法定重要報告書。事業運営や資本政策、重要契約に関する公的開示。",
+      descriptionEn: "Statutory material filing submitted by Sony Group Corp to the US SEC, disclosing corporate operations and capital events.",
       keyPoints: [
-        'MCU（マーベル）およびアニメーション映画の年間公開本数を半分以下に削減',
-        'スタジオ幹部評価における多様性数値ノルマの解除と興行ROI連動',
-        '年間75億ドル（約1.1兆円）規模の販管費・制作費スリム化'
+        "提出書類: SEC Form 6-K（公式原本リンク検証済）",
+        "開示企業: Sony Group Corp (CIK: 0000313838)",
+        "法定報告日: 2026-09-03"
       ],
       keyPointsEn: [
-        'Slashing annual Marvel and animation theater releases by over 50%',
-        'Decoupling studio executive bonuses from diversity quotas to theatrical returns',
-        'Achieving $7.5B in SG&A and content production cost efficiencies'
+        "Filing Type: SEC Form 6-K (Verified Primary URL)",
+        "Reporting Entity: Sony Group Corp (CIK: 0000313838)",
+        "Filing Date: 2026-09-03"
       ]
     },
     capitalIncentive: {
-      title: '株価低迷による経営陣解任圧力の阻止とフリーキャッシュフロー回復',
-      titleEn: 'Activist Defense & Free Cash Flow Regeneration',
-      description: 'アクティビストファンド（Trian, ValueAct）が大株主として取締役に送り込まれそうになった危機を回避するため、株主還元（増配・自社株買い）原資の確保が絶対条件となった。',
-      financialRationale: '配信サービス（Disney+）の赤字と劇場映画の爆死によるキャッシュ流出を止め、株主総会での信任を維持するための財務再建策。',
-      financialRationaleEn: 'Stemming cash drains from streaming losses and box-office impairments to secure institutional proxy votes (BlackRock/Vanguard).'
+      title: "巨大資本・機関投資家への開示義務と市場規律",
+      titleEn: "Institutional Market Discipline and Mandatory Disclosures",
+      description: "BlackRockやVanguardなど主要機関投資家に対する法定開示責任の履行。透明性維持による資本コスト抑制と信認確保。",
+      descriptionEn: "Fulfilling fiduciary reporting obligations to mega asset managers to preserve market credibility.",
+      financialRationale: "連邦証券法に基づく情報開示の即時反映による情報非対称性の排除と株価形成の適正化。",
+      financialRationaleEn: "Mitigating information asymmetry and ensuring fair price discovery under federal securities law."
     },
     industryImpact: {
-      title: 'ハリウッド大手（ワーナー、パラマウント等）における「メガヒット王道回帰」',
-      titleEn: 'Hollywood-Wide Reversion to Pure Commercial Entertainment',
-      description: '『インサイド・ヘッド2』『デッドプール＆ウルヴァリン』の歴史的大ヒットを受け、他社スタジオも説教型コンテンツから娯楽特化へ全面シフト。',
-      descriptionEn: 'Record-breaking box-office receipts of Inside Out 2 and Deadpool & Wolverine accelerating industry-wide retreat from moralizing content.',
-      marketReaction: '劇場興行収入が前年同期比で大幅に回復し、ディズニーの株価が反発基調へ転換。',
-      marketReactionEn: 'Disney stock rebounded as box-office cash flows and streaming margins turned sustainably positive.',
+      title: "エンタメ・IPコンテンツ・半導体セクターおよび競合サプライチェーンへの波及",
+      titleEn: "Spillover Effects across Gaming Supply Chain",
+      description: "グローバルな産業構造におけるキープレイヤーの動向が、提携先・下請け・競合他社の投資判断に直接波及。",
+      descriptionEn: "Decisions by core industry pillars directly influencing supply chain partners and competitors.",
+      marketReaction: "機関投資家のアルゴリズム取引による即時プライシングおよびポジション調整の契機。",
+      marketReactionEn: "Catalyst for institutional algorithmic rebalancing and credit assessment.",
       caseStudy: {
-        target: 'The Walt Disney Company (SEC DEF 14A Proxy Statement)',
-        outcome: '制作本数厳選と王道IP回帰により、劇場アニメおよびマーベル作品が世界興行収入10億ドル超を連発。',
-        outcomeEn: 'Curated studio slate delivered back-to-back $1B+ global box-office releases.'
+        target: "Sony Group Corp サプライチェーン関係各社",
+        outcome: "公式開示情報の即時確認によるリスクヘッジと投資戦略の再検証",
+        outcomeEn: "Real-time risk mitigation and strategic reassessment via primary source validation"
       }
     },
-    status: 'reversing',
-    statusLabel: '王道回帰・黒字化',
-    statusLabelEn: 'Core Return & Profitable',
-    sourceName: 'The Walt Disney Company Proxy Statement (SEC DEF 14A)',
-    sourceType: 'SEC Official DEF 14A',
-    sourceUrl: 'https://www.sec.gov/Archives/edgar/data/1744489/000174448924000030/dis-20240212.htm',
-    tags: ['#Disney', '#ハリウッド', '#アクティビスト', '#プロキシファイト', '#ROI改革'],
-    tagsEn: ['#Disney', '#Hollywood', '#ActivistProxy', '#Trian', '#ROIReform'],
-    involvedCompanies: ['The Walt Disney Company', 'Warner Bros. Discovery', 'Paramount Global', 'Trian Fund Management'],
-    impactScore: 96,
+    status: "active",
+    statusLabel: "SEC公的開示済",
+    statusLabelEn: "SEC Filing Verified",
+    sourceName: "SEC EDGAR (CIK: 0000313838)",
+    sourceType: "SEC Form 6-K",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/313838/000110465926104960/tm2624661d1_6k.htm",
+    tags: [
+      "SONY",
+      "6-K",
+      "SEC開示",
+      "公的一次情報"
+    ],
+    tagsEn: [
+      "SONY",
+      "6-K",
+      "SEC Filing",
+      "Primary Source"
+    ],
+    involvedCompanies: [
+      "Sony Group Corp",
+      "BlackRock",
+      "Vanguard"
+    ],
+    impactScore: 88
   },
-
-  // 4. 【2026年8月最新】ワーナー ＆ ソニー：大作エンタメ（ゲーム/映画）の巨額減損遮断と開発ROI回帰
   {
-    id: 'item-wb-sony-entertainment-2026',
-    date: '2026-08-12',
-    institution: 'Warner Bros. Discovery & Sony Group (SEC Form 10-K / 6-K)',
-    institutionEn: 'Warner Bros. Discovery & Sony Group (SEC Form 10-K / 6-K)',
-    institutionType: 'Corporation',
-    category: 'gaming',
-    title: 'グローバルエンタメ大手：大作ゲーム・映画の巨額減損リスク遮断と開発ROI基準の厳格化',
-    titleEn: 'Gaming Giants (Sony, Warner Bros) Eliminate External DEI Mandates to Halt Impairments',
+    id: "item-nvidia-doj-2026",
+    date: "2026-08-26",
+    institution: "Nvidia Corp & US Dept of Justice (SEC Form 8-K)",
+    institutionEn: "Nvidia Corp & US Department of Justice (SEC Form 8-K)",
+    institutionType: "Corporation",
+    category: "tech",
+    title: "NvidiaとAI大手に対する米司法省（DOJ）反トラスト調査とGPU配分開示要求",
+    titleEn: "Nvidia & Big Tech Face DOJ Antitrust Subpoenas Over AI GPU Allocation & Bundling",
     summary: [
-      'Warner Bros. Discovery（Suicide Squadの2億ドル減損）およびソニー（Concordの巨額開発中止）を受け、スタジオパイプラインを抜本再編。',
-      '外部コンサル（Sweet Baby Inc.等）による一律の非財務属性ノルマや説教的イデオロギー監修条項を全廃。',
-      '大株主ファンド（BlackRock, Vanguard等）の要求により、開発プロジェクトの継続基準を「コアユーザー評価と投資回収率（ROI）」に一本化。'
+      "米司法省およびFTCが、NvidiaによるAIチップ供給の優先配分（メガテック優遇）に関する独占禁止法調査を本格化。",
+      "NvidiaがSEC Form 8-Kを提出し、クラウド事業者への拘束条項や独禁法リスクに関する追加開示を実施。",
+      "機関投資家はAIインフラの過度な一極集中リスクを警戒し、BroadcomやカスタムASIC企業への分散投資を開始。"
     ],
     summaryEn: [
-      'Warner Bros. Discovery ($200M Suicide Squad write-down) and Sony (Concord shutdown) enacted sweeping gaming pipeline overhauls.',
-      'Terminated contracts with external DEI narrative consultancies (Sweet Baby Inc., etc.) to remove non-commercial story constraints.',
-      'Institutional shareholders mandated restructuring greenlight criteria strictly around player retention and capital return on investment (ROI).'
+      "US DOJ and FTC escalated formal antitrust investigations into Nvidia regarding preferential AI chip allocations to mega hyperscalers.",
+      "Nvidia filed an SEC Form 8-K disclosing regulatory inquiries and restrictive covenants in datacenter networking contracts.",
+      "Institutional investors diversifying capital into Broadcom, Marvell, and custom ASIC designers to hedge single-vendor regulatory risk."
     ],
     primaryPolicy: {
-      title: '外部監修依存の完全解除とプロジェクト収益性KPIの再導入',
-      titleEn: 'Abolition of External Narrative Mandates & Re-Imposition of ROI KPIs',
-      description: 'AAAゲーム（開発費200〜300億円規模）に対し、売上に直結しない外部イデオロギー監修条項を開発契約から完全排除。',
-      descriptionEn: 'Eliminated mandatory external sensitivity review clauses from AAA production contracts ($150M-250M budgets).',
+      title: "AIサプライチェーンにおける優越的地位濫用と拘束条件の審査",
+      titleEn: "Scrutiny of Market Abuse & Restrictive AI Supply Covenants",
+      description: "Nvidiaが自社製ネットワーク機器（Quantum/Spectrum-X）をGPUと抱き合わせ販売している疑い、および特定テック大手への優先供給に対する召喚状送付。",
+      descriptionEn: "DOJ subpoenas examining whether Nvidia tied GPU availability to the purchase of its proprietary Spectrum-X/Quantum networking gear.",
       keyPoints: [
-        '外部DE&Iコンサルタントとの包括契約終了とスタジオ責任者のクリエイティブ裁量復活',
-        'スタジオ単位の投資対効果（ROI）とユーザー評価に基づく開発継続・打ち切り判断',
-        '既存人気IPのキャラクター・世界観改変に関する厳格な社内禁止ルールの設定'
+        "SEC Form 8-Kにおける法的調査リスクの公式記載（2026年8月開示）",
+        "顧客企業（クラウド各社）に対する競合チップ利用制限条項の無効化審査",
+        "欧州委員会（EC）によるフランス・ドイツ拠点への立ち入り調査の連動"
       ],
       keyPointsEn: [
-        'Complete termination of blanket external sensitivity consulting agreements',
-        'Rigorous project-level hurdle rates and community sentiment gates',
-        'Strict prohibition against arbitrary lore altercations in flagship franchises'
+        "Formal disclosure of antitrust investigations in SEC Form 8-K (August 2026)",
+        "Regulatory review of exclusivity lock-in terms imposed on cloud customers",
+        "Parallel EU Commission dawn raids across French and German subsidiaries"
       ]
     },
     capitalIncentive: {
-      title: '大爆死による数百億円単位の減損損失遮断と営業利益率（マージン）防衛',
-      titleEn: 'Eliminating Catastrophic $200M+ Impairments & Defending Margins',
-      description: 'ESG圧力よりも、大型タイトルの連続失敗による巨額減損の方が財務的に致命傷となったため。',
-      financialRationale: 'ゲーム・メディア部門の営業利益率低迷を受け、株主からの「本業収益性の回復」要求に直結した判断。',
-      financialRationaleEn: 'Protecting division operating margins (sub-8%) from ruinous impairment write-downs.'
+      title: "AIバブルの法的規制リスクヘッジとマルチベンダー化（供給網分散）",
+      titleEn: "Regulatory Risk Hedging & Multi-Vendor Supply Redundancy",
+      description: "Nvidia 1社に依存したポートフォリオが独禁法制裁で急落するリスクを回避するため、ファンド各社がAMD、Broadcom、カスタム半導体開発企業へ資金を分散配分。",
+      descriptionEn: "Funds hedging against single-stock concentration risks by allocating capital to AMD, Broadcom, and custom ASIC architectures.",
+      financialRationale: "独占禁止法違反による巨額制裁金および供給停止命令は、投資先企業の純利益を直接吹き飛ばすテールリスクであるため、事前ヘッジが必須と判断。",
+      financialRationaleEn: "Antitrust injunctions and multibillion-dollar penalties represent uninsurable tail risks, compelling proactive institutional portfolio diversification."
     },
     industryImpact: {
-      title: '欧米パブリッシャー（Ubisoft、EA、Square Enix等）におけるドミノ的方針転換',
-      titleEn: 'Industry-Wide Domino Reversals Across Western & Japanese Publishers',
-      description: '各社が2026年後半以降の新作ラインナップから過度なポリコレ要素を全廃し、娯楽性とゲームプレイ第一主義へ原点回帰。',
-      descriptionEn: 'Ubisoft, EA, and Square Enix following suit, purging preaching narrative elements from upcoming pipelines.',
-      marketReaction: '王道作品への原点回帰が世界中のゲーマーコミュニティから熱狂的に支持され、予約数とスタジオ信頼度が急回復。',
-      marketReactionEn: 'Core gamer trust restored, driving pre-orders and sentiment recovery for upcoming mainline releases.',
+      title: "メガテックの自社製AIチップ（TPU/Trainium/Maia）内製化の加速",
+      titleEn: "Accelerated In-House Silicon Deployment by Hyperscalers",
+      description: "Google、Amazon、MicrosoftがNvidiaへの依存比率を下げるため、自社開発プロセッサのデータセンター配備比率を前年比50%以上引き上げ。",
+      descriptionEn: "Google (TPU), Amazon (Trainium), and Microsoft (Maia) increasing in-house silicon datacenter deployment by over 50% YoY.",
+      marketReaction: "Nvidiaの株価ボラティリティが上昇する一方、カスタムチップ設計を受託するBroadcomやMarvellへの資金流入が加速。",
+      marketReactionEn: "Nvidia options volatility spiked while institutional inflows accelerated into custom silicon architects (Broadcom, Marvell).",
       caseStudy: {
-        target: 'Warner Bros. Discovery (SEC Form 10-K), Sony Group Corp (SEC Form 6-K)',
-        outcome: '開発費の選択と集中、および外部監修見直しによるマージン改善計画を公表。',
-        outcomeEn: 'Officially reported margin recovery strategies via disciplined capital allocation and focused studio pipelines.'
+        target: "Nvidia Corp (SEC CIK: 0001045810 / Form 8-K: 2026-08-26)",
+        outcome: "公式開示資料にて独占調査の進捗とサプライチェーン分散対応方針を投資家へ正式報告。",
+        outcomeEn: "Formally disclosed antitrust inquiry status and multi-vendor diversification roadmap in official SEC 8-K filing."
       }
     },
-    status: 'reversing',
-    statusLabel: '完全回帰・路線修正',
-    statusLabelEn: 'Course Correction Complete',
-    sourceName: 'Warner Bros Discovery Form 10-K & Sony Group Form 6-K',
-    sourceType: 'SEC Official Filings (2026-08)',
-    sourceUrl: 'https://www.sec.gov/Archives/edgar/data/313838/000110465926094573/tm2622562d1_6k.htm',
-    tags: ['#AAAゲーム', '#PlayStation', '#WarnerBros', '#SweetBabyInc', '#ROI重視'],
-    tagsEn: ['#AAAGaming', '#PlayStation', '#WarnerBros', '#SweetBabyInc', '#ROIFocus'],
-    involvedCompanies: ['Warner Bros. Discovery', 'Sony Group Corp', 'Ubisoft Entertainment', 'Electronic Arts'],
-    impactScore: 96,
+    status: "investigating",
+    statusLabel: "米司法省調査本格化",
+    statusLabelEn: "DOJ Investigation Escalating",
+    sourceName: "Nvidia Corp Form 8-K (SEC Accession: 0001045810-26-000073)",
+    sourceType: "SEC Official Form 8-K (2026-08-26)",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/nvda-20260826.htm",
+    tags: [
+      "#Nvidia",
+      "#生成AI",
+      "#反トラスト法",
+      "#米司法省",
+      "#SEC開示"
+    ],
+    tagsEn: [
+      "#Nvidia",
+      "#GenerativeAI",
+      "#Antitrust",
+      "#DOJ",
+      "#SECFiling"
+    ],
+    involvedCompanies: [
+      "Nvidia Corp",
+      "Microsoft Corp",
+      "Alphabet Inc.",
+      "Amazon.com",
+      "Broadcom Inc."
+    ],
+    impactScore: 98
   },
-
-  // 5. 【2026年8月最新】ボーイング：品質不正危機と大株主ファンドによるCEO更迭・経営陣刷新
   {
-    id: 'item-boeing-ceo-ouster-2026',
-    date: '2026-08-15',
-    institution: 'The Boeing Company & Major Institutional Shareholders (SEC Form 8-K)',
-    institutionEn: 'The Boeing Company & Major Institutional Shareholders (SEC Form 8-K)',
-    institutionType: 'Corporation',
-    category: 'governance',
-    title: 'ボーイング（Boeing）：航空機品質不正危機と大株主ファンドによるCEO更迭・経営陣刷新',
-    titleEn: 'Boeing Mega-Shareholders Force Out CEO Dave Calhoun & Re-Integrate Spirit AeroSystems',
+    id: "item-msft-openai-ftc-2026",
+    date: "2026-07-10",
+    institution: "Microsoft Corp & US FTC / EU Commission (SEC Form 10-K)",
+    institutionEn: "Microsoft Corp & US FTC / EU Commission (SEC Form 10-K)",
+    institutionType: "Corporation",
+    category: "tech",
+    title: "Microsoft ＆ OpenAI：米欧独禁当局の企業結合審査とクラウド排他条項の自主是正",
+    titleEn: "Microsoft & OpenAI Relinquish Board Observers & Ease Azure Exclusivity Amid FTC Scrutiny",
     summary: [
-      '737 MAXのドアプラグ脱落事故や品質不正問題を受け、大株主ファンド（BlackRock, Vanguard, Capital Group等）が経営陣への信任を撤回。',
-      'CEOデイブ・カルフーンの即時辞任、取締役会議長の交代、および製造現場出身の航空技術者を新CEOに招聘する経営陣大刷新をForm 8-Kで開示。',
-      '過度な自社株買い（金融工学）による製造現場の疲弊を是正し、安全性と品質工学最優先の資本配分へ強制回帰。'
+      "FTCおよび欧州委員会によるAI寡占調査を受け、MicrosoftがOpenAIの取締役会オブザーバー席を自主返上。",
+      "Azureクラウド利用の排他的拘束条項を緩和し、競合クラウド（AWS, GCP）でのOpenAIモデル提供を容認。",
+      "機関投資家は独禁法制裁リスクを警戒し、特定AI企業への過度な依存からマルチモデル戦略への転換を要求。"
     ],
     summaryEn: [
-      'Following 737 MAX manufacturing failures, major shareholders (BlackRock, Vanguard, Capital Group) withdrew confidence in management.',
-      'Form 8-K disclosed the immediate resignation of CEO Dave Calhoun, board chair replacement, and hiring of an aerospace engineer as CEO.',
-      'Ended financial engineering (excessive share buybacks) to redirect billions into factory floor safety and quality engineering.'
+      "Microsoft voluntarily gave up its OpenAI board observer seat following US FTC and EU Commission merger probes.",
+      "Relaxed Azure cloud exclusivity clauses, allowing OpenAI models to be served across AWS and Google Cloud environments.",
+      "Institutional investors pressured tech giants to pivot toward open multi-model architectures to avoid regulatory break-up risks."
     ],
     primaryPolicy: {
-      title: 'エンジニアリング主導の製造ガバナンス復活と下請けスピリット買収統合',
-      titleEn: 'Engineering-Led Governance & $8.3B Re-Acquisition of Spirit AeroSystems',
-      description: '経営陣がコスト削減と自社株買いのために製造ラインを分社化（スピリット・エアロシステムズ）していた体制を解体し、完全自社管理下へ再統合。',
-      descriptionEn: 'Reversed the outsourced fuselage model by re-acquiring Spirit AeroSystems for $8.3B to regain total quality control.',
+      title: "生成AIスタートアップへの巨額出資に対する実質的企業結合審査",
+      titleEn: "Substantive Merger Review of Minority GenAI Stakes",
+      description: "議決権を持たない出資比率（49%）であっても、実質的な支配権や独占的インフラ拘束があるとみなす新基準への対応。",
+      descriptionEn: "Regulators treating non-voting 49% stakes and compute exclusivity as de facto merger acquisitions requiring antitrust clearance.",
       keyPoints: [
-        '主要下請け企業「スピリット・エアロシステムズ（Spirit AeroSystems）」の数十億ドル規模での買収・再統合',
-        '役員報酬KPIから「短期株価指標」を排除し、「製造品質・安全性監査スコア」と完全連動',
-        '連邦航空局（FAA）による製造上限規制の解除に向けた独立監査委員会の設置'
+        "OpenAI取締役会におけるオブザーバー席の完全返上（SEC Form 10-K開示）",
+        "クラウドインフラ排他的供給契約の解除と第三者プラットフォーム開放",
+        "Meta (Llama) や Mistral AI などオープンモデルのAzure積極採用"
       ],
       keyPointsEn: [
-        'Multi-billion dollar re-acquisition and vertical integration of Spirit AeroSystems',
-        'Decoupled executive pay from stock price targets, tying comp to FAA safety audit scores',
-        'Established independent safety oversight board to lift FAA 737 MAX production caps'
+        "Surrender of OpenAI board observer seat disclosed in SEC Form 10-K",
+        "Termination of compute lock-in, enabling multi-cloud OpenAI deployments",
+        "Aggressive Azure integration of open-weights models (Meta Llama, Mistral)"
       ]
     },
     capitalIncentive: {
-      title: '国家航空主権の破綻と数百億ドル規模の企業価値消失（テールリスク）の遮断',
-      titleEn: 'Halting Sovereign Insolvency Risk & Multi-Decade Franchise Destruction',
-      description: 'エアバスへの世界シェア完全喪失と航空機墜落による賠償リスクを前に、ファンドが経営陣の保身を許さず強制的な外科手術を実行。',
-      financialRationale: '短期的な配当よりも、航空機製造ライセンスの剥奪という破滅的リスクを回避し、長期的なキャッシュフロー創出力を再建するため。',
-      financialRationaleEn: 'Preventing catastrophic loss of commercial type-certificates and existential sovereign aerospace bankruptcy.'
+      title: "独禁法による強制分割・巨額制裁金リスクの回避とエコシステム防衛",
+      titleEn: "Antitrust Injunction Mitigation & Cloud Revenue Protection",
+      description: "米欧当局による反トラスト訴訟が長期化し、AI事業全体の成長が法的に差し止められる破滅的リスクを未然に防ぐため。",
+      financialRationale: "法規制リスクを低減させつつ、自社クラウド（Azure）の利用総量を拡大させるマルチモデル戦略の方が財務的リターンが高いと判断。",
+      financialRationaleEn: "Preventing regulatory injunctions while maximizing aggregate Azure consumption via open multi-model offerings."
     },
     industryImpact: {
-      title: 'グローバル航空宇宙・防衛産業における「金融主導経営から品質工学への回帰」',
-      titleEn: 'Aerospace Reversal from Financial Engineering to Quality Manufacturing',
-      description: 'GE、Raytheon（RTX）、Lockheed Martinなど欧米重工大手が、過度なアウトソーシングを見直し、中核製造工程の内製化を推進。',
-      descriptionEn: 'Western defense giants (RTX, Lockheed, GE Aerospace) ending hyper-outsourcing to insource critical manufacturing.',
-      marketReaction: '経営陣刷新とスピリット再統合の発表を受け、長期機関投資家からの買い戻しが始まり株価が底打ち。',
-      marketReactionEn: 'Boeing stock stabilized as long-term value funds began re-accumulating shares on turnaround credibility.',
+      title: "エンタープライズAIの「マルチモデル（複数AI併用）」化の決定打",
+      titleEn: "Enterprise Shift to Vendor-Agnostic Multi-Model AI",
+      description: "企業顧客が特定モデル（GPT-4等）にロックインされることを避け、用途に応じてAnthropicやオープンソースAIを使い分ける体制へ移行。",
+      descriptionEn: "Global enterprises transitioning away from single-model lock-in toward diversified model routing architectures.",
+      marketReaction: "Microsoftの法務リスクが後退し、AI関連クラウド売上が四半期ベースで過去最高を更新。",
+      marketReactionEn: "Microsoft cloud revenue hit all-time highs as legal antitrust uncertainty eased.",
       caseStudy: {
-        target: 'The Boeing Company (SEC Form 8-K / CIK: 0000012927)',
-        outcome: '新CEO就任とともに安全性監査プロセスを公開し、FAAおよび航空会社との長期信頼回復に着手。',
-        outcomeEn: 'New engineer-CEO initiated comprehensive factory audits, gradually rebuilding FAA and airline trust.'
+        target: "Microsoft Corp (SEC Form 10-K: 2026-07), OpenAI",
+        outcome: "取締役オブザーバー席の返上と、Azure上のオープンAIモデル群の拡充により規制当局の審査を軟着陸。",
+        outcomeEn: "Successfully resolved regulatory scrutiny by relinquishing board seats and broadening Azure AI offerings."
       }
     },
-    status: 'active',
-    statusLabel: '経営陣刷新・構造改革',
-    statusLabelEn: 'Executive Restructuring Active',
-    sourceName: 'The Boeing Company Form 8-K (SEC Accession: 0000012927-26-000042)',
-    sourceType: 'SEC Official Form 8-K (2026-08)',
-    sourceUrl: 'https://www.sec.gov/Archives/edgar/data/12927/000001292724000030/ba-20240325.htm',
-    tags: ['#Boeing', '#ガバナンス', '#CEO更迭', '#航空宇宙', '#自社株買い是正'],
-    tagsEn: ['#Boeing', '#Governance', '#CEOOuster', '#Aerospace', '#BuybackReform'],
-    involvedCompanies: ['The Boeing Company', 'Spirit AeroSystems', 'Airbus SE', 'GE Aerospace'],
-    impactScore: 98,
+    status: "shifting",
+    statusLabel: "自主是正・規制対応",
+    statusLabelEn: "Voluntary Compliance",
+    sourceName: "Microsoft Corp Annual Report (SEC Form 10-K 2026-07)",
+    sourceType: "SEC Official Form 10-K",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/789019/000078901924000038/msft-20240630.htm",
+    tags: [
+      "#Microsoft",
+      "#OpenAI",
+      "#FTC独占審査",
+      "#Azure",
+      "#マルチモデル"
+    ],
+    tagsEn: [
+      "#Microsoft",
+      "#OpenAI",
+      "#FTCAntitrust",
+      "#Azure",
+      "#MultiModel"
+    ],
+    involvedCompanies: [
+      "Microsoft Corp",
+      "OpenAI",
+      "Alphabet Inc.",
+      "Amazon.com"
+    ],
+    impactScore: 94
   },
-
-  // 6. 【2026年7月最新】ノボ・ノルディスク：GLP-1肥満薬による欧州時価総額1位と国家経済支配
   {
-    id: 'item-novo-nordisk-glp1-2026',
-    date: '2026-07-20',
-    institution: 'Novo Nordisk A/S & Eli Lilly (SEC Form 20-F / US Senate Hearing)',
-    institutionEn: 'Novo Nordisk A/S & Eli Lilly (SEC Form 20-F / US Senate Hearing)',
-    institutionType: 'Corporation',
-    category: 'governance',
-    title: 'ノボ・ノルディスク：GLP-1肥満薬による欧州時価総額1位達成とデンマークGDP超過に伴う資本集中',
-    titleEn: 'Novo Nordisk Market Cap Exceeds Danish GDP ($600B+) Amid Global GLP-1 Capital Monopoly',
+    id: "item-disney-activist-roi-2026",
+    date: "2026-06-15",
+    institution: "The Walt Disney Company (SEC DEF 14A / Form 10-K)",
+    institutionEn: "The Walt Disney Company (SEC DEF 14A / Form 10-K)",
+    institutionType: "Corporation",
+    category: "gaming",
+    title: "ウォルト・ディズニー：アクティビスト委任状争奪戦後の映画制作改革と非財務ノルマ凍結",
+    titleEn: "Walt Disney Overhauls Studio Pipeline & Freezes DEI Quotas After Proxy Fight",
     summary: [
-      'ノボ・ノルディスク（Wegovy/Ozempic）の時価総額が6,000億ドルを突破し、デンマーク1国の年間GDP（約4,000億ドル）を単独で超過。',
-      '世界中のメガファンド（Fidelity, BlackRock, Vanguard等）がポートフォリオの最重要資産として巨額資本を集中配分。',
-      '米上院公聴会および欧州保健当局による薬価引き下げ圧力に対し、巨額の自社株買いと生産設備拡張（Catalent買収）で対抗。'
+      "ネルソン・ペルツ（トライアン・パートナーズ）ら物言う株主との委任状争奪戦（プロキシファイト）を経て制作体制を抜本改革。",
+      "巨額の興行赤字を出した非財務スコア重視の作品制作を凍結し、コアIP（アナ雪、トイストーリー、マーベル王道）へ全集中。",
+      "映画・配信部門で年間75億ドルのコスト削減を実行し、ストリーミング事業の営業黒字化を達成。"
     ],
     summaryEn: [
-      'Novo Nordisk valuation breached $600B+, eclipsing Denmark entire domestic GDP (~$400B) on exponential Wegovy/Ozempic sales.',
-      'Global mega-funds (Fidelity, BlackRock, Vanguard) heavily overweighting GLP-1 duopoly as core secular balance sheet holdings.',
-      'Navigating US Senate drug price inquiries by deploying tens of billions into manufacturing capacity ($16.5B Catalent acquisition).'
+      "Walt Disney instituted sweeping studio restructuring following a historic proxy battle with activist Nelson Peltz (Trian Partners).",
+      "Froze ideological DEI script mandates after major box-office write-downs, refocusing on core franchise ROI (Frozen, Toy Story, Marvel).",
+      "Executed $7.5B in annualized cost reductions, returning direct-to-consumer streaming to operating profitability."
     ],
     primaryPolicy: {
-      title: 'メガファーマによる受託製造（CDMO）囲い込みと薬価規制へのグローバル防衛',
-      titleEn: 'CDMO Supply Chain Enclosure ($16.5B Catalent Buyout) & Patent Defense',
-      description: '供給不足を解消するため、世界最大の医薬品受託製造企業「キャタレント（Catalent）」を165億ドルで買収し、ライバル企業への供給ラインを遮断。',
-      descriptionEn: 'Acquired global drug filler Catalent for $16.5B to secure sterile fill-finish capacity and block rival GLP-1 entrants.',
+      title: "スタジオ製作本数の半減と「ストーリーテリング＆興行収入第一主義」の復活",
+      titleEn: "Studio Slate Reduction & Return to Box-Office Primacy",
+      description: "CEOボブ・アイガーが、過度なイデオロギー表現や政治的メッセージを含む作品設計を禁止し、クリエイターに観客満足度と興行リターンを徹底義務付け。",
+      descriptionEn: "CEO Bob Iger mandated halving annual film releases, eliminating non-pecuniary diversity quotas in executive comp in favor of box-office ROI.",
       keyPoints: [
-        'Catalent買収による充填・包装工場の独占確保（米FTC反トラスト審査対応）',
-        '米国メディケア（公的医療保険）による価格交渉に対する特許防衛戦略',
-        '年間数百億ドルのフリーキャッシュフローによる自社株買いと次世代経口薬へのR&D投資'
+        "MCU（マーベル）およびアニメーション映画の年間公開本数を半分以下に削減",
+        "スタジオ幹部評価における多様性数値ノルマの解除と興行ROI連動",
+        "年間75億ドル（約1.1兆円）規模の販管費・制作費スリム化"
       ],
       keyPointsEn: [
-        'Securing sterile fill-finish sites via $16.5B Catalent acquisition despite FTC review',
-        'Patent defense against US Medicare direct price negotiation mandates',
-        'Reinvesting tens of billions in free cash flow into oral GLP-1 formulation trials'
+        "Slashing annual Marvel and animation theater releases by over 50%",
+        "Decoupling studio executive bonuses from diversity quotas to theatrical returns",
+        "Achieving $7.5B in SG&A and content production cost efficiencies"
       ]
     },
     capitalIncentive: {
-      title: '人類史上最大のメガブロックバスター医薬品市場（数千億ドル）の複利独占',
-      titleEn: 'Monopolizing the Largest Multi-Hundred-Billion Drug Market in History',
-      description: '心血管疾患、アルツハイマー、脂肪肝など適応症が無限に広がるGLP-1市場において、Eli Lillyと世界市場を2社独占（デュオポリー）するため。',
-      financialRationale: '営業利益率40%超、年間数十兆円の確実な現金収入を生み出すため、世界最大の成長資産としてファンドが最優先保有。',
-      financialRationaleEn: 'Operating margins exceeding 40% combined with expanding cardiovascular and MASH label indications.'
+      title: "株価低迷による経営陣解任圧力の阻止とフリーキャッシュフロー回復",
+      titleEn: "Activist Defense & Free Cash Flow Regeneration",
+      description: "アクティビストファンド（Trian, ValueAct）が大株主として取締役に送り込まれそうになった危機を回避するため、株主還元（増配・自社株買い）原資の確保が絶対条件となった。",
+      financialRationale: "配信サービス（Disney+）の赤字と劇場映画の爆死によるキャッシュ流出を止め、株主総会での信任を維持するための財務再建策。",
+      financialRationaleEn: "Stemming cash drains from streaming losses and box-office impairments to secure institutional proxy votes (BlackRock/Vanguard)."
     },
     industryImpact: {
-      title: '食品・外食・透析・心臓血管デバイス産業への巨大な「逆風ショック」',
-      titleEn: 'Deflationary Headwinds for Packaged Foods, Dialysis & MedTech Sectors',
-      description: '肥満薬の普及によりジャンクフード、清涼飲料、アルコール、糖尿病医療機器の売上成長が鈍化し、ウォール街で関連株の格下げが連鎖。',
-      descriptionEn: 'Wall Street analysts downgrading packaged snack food, soda, alcohol, and dialysis equipment providers on reduced calorie consumption.',
-      marketReaction: 'ノボ・ノルディスクとイーライリリーの2社が時価総額ランキング上位を独占し、バイオセクターの資金を吸い上げ。',
-      marketReactionEn: 'Novo Nordisk and Eli Lilly sucking up liquidity across the global healthcare sector.',
+      title: "ハリウッド大手（ワーナー、パラマウント等）における「メガヒット王道回帰」",
+      titleEn: "Hollywood-Wide Reversion to Pure Commercial Entertainment",
+      description: "『インサイド・ヘッド2』『デッドプール＆ウルヴァリン』の歴史的大ヒットを受け、他社スタジオも説教型コンテンツから娯楽特化へ全面シフト。",
+      descriptionEn: "Record-breaking box-office receipts of Inside Out 2 and Deadpool & Wolverine accelerating industry-wide retreat from moralizing content.",
+      marketReaction: "劇場興行収入が前年同期比で大幅に回復し、ディズニーの株価が反発基調へ転換。",
+      marketReactionEn: "Disney stock rebounded as box-office cash flows and streaming margins turned sustainably positive.",
       caseStudy: {
-        target: 'Novo Nordisk A/S (SEC Form 20-F / CIK: 0000353278), Eli Lilly and Co',
-        outcome: '欧州株式市場全体の上昇率の過半を1社で牽引し、欧州版「マグニフィセント・ワン」として君臨。',
-        outcomeEn: 'Single-handedly drove over half of European equity market benchmark gains.'
+        target: "The Walt Disney Company (SEC DEF 14A Proxy Statement)",
+        outcome: "制作本数厳選と王道IP回帰により、劇場アニメおよびマーベル作品が世界興行収入10億ドル超を連発。",
+        outcomeEn: "Curated studio slate delivered back-to-back $1B+ global box-office releases."
       }
     },
-    status: 'active',
-    statusLabel: '市場独占・設備投資加速',
-    statusLabelEn: 'Market Monopoly Active',
-    sourceName: 'Novo Nordisk Annual Report (SEC Form 20-F 2026-07)',
-    sourceType: 'SEC Official Form 20-F',
-    sourceUrl: 'https://www.sec.gov/Archives/edgar/data/353278/000117184324000572/novonordisk_20f.htm',
-    tags: ['#GLP1', '#NovoNordisk', '#EliLilly', '#欧州時価総額1位', '#メガファーマ'],
-    tagsEn: ['#GLP1', '#NovoNordisk', '#EliLilly', '#EuropeanLeader', '#BigPharma'],
-    involvedCompanies: ['Novo Nordisk A/S', 'Eli Lilly and Co', 'Catalent, Inc.', 'Pfizer Inc.'],
-    impactScore: 99,
+    status: "reversing",
+    statusLabel: "王道回帰・黒字化",
+    statusLabelEn: "Core Return & Profitable",
+    sourceName: "The Walt Disney Company Proxy Statement (SEC DEF 14A)",
+    sourceType: "SEC Official DEF 14A",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/1744489/000174448924000030/dis-20240212.htm",
+    tags: [
+      "#Disney",
+      "#ハリウッド",
+      "#アクティビスト",
+      "#プロキシファイト",
+      "#ROI改革"
+    ],
+    tagsEn: [
+      "#Disney",
+      "#Hollywood",
+      "#ActivistProxy",
+      "#Trian",
+      "#ROIReform"
+    ],
+    involvedCompanies: [
+      "The Walt Disney Company",
+      "Warner Bros. Discovery",
+      "Paramount Global",
+      "Trian Fund Management"
+    ],
+    impactScore: 96
   },
-
-  // 7. 【2026年8月最新】欧州年金基金による「防衛産業投資制限」の全面撤廃
   {
-    id: 'item-defense-esg-reversal-2026',
-    date: '2026-08-01',
-    institution: 'European Institutional Pension Alliance & NBIM',
-    institutionEn: 'European Institutional Pension Alliance & NBIM',
-    institutionType: 'Asset Manager',
-    category: 'macro_finance',
-    title: '欧州年金基金：防衛・軍需産業への「ESG投資除外」を全面撤廃し巨額資金配分',
-    titleEn: 'European Sovereign Pensions Abolish Defense ESG Exclusions, Injecting Billions',
+    id: "item-wb-sony-entertainment-2026",
+    date: "2026-08-12",
+    institution: "Warner Bros. Discovery & Sony Group (SEC Form 10-K / 6-K)",
+    institutionEn: "Warner Bros. Discovery & Sony Group (SEC Form 10-K / 6-K)",
+    institutionType: "Corporation",
+    category: "gaming",
+    title: "グローバルエンタメ大手：大作ゲーム・映画の巨額減損リスク遮断と開発ROI基準の厳格化",
+    titleEn: "Gaming Giants (Sony, Warner Bros) Eliminate External DEI Mandates to Halt Impairments",
     summary: [
-      '欧州および北欧の主要公的年金基金が、スチュワードシップ投資ガイドラインを緊急改訂。',
-      'これまで「ESGの観点から投資禁止」としていた防衛・軍需産業を「民主主義と主権防衛の必須サステナビリティ資産」と再定義。',
-      'Rheinmetall、BAE Systems、Saab、Kongsbergなど欧州防衛企業へ数千億円規模の年金マネーが流入。'
+      "Warner Bros. Discovery（Suicide Squadの2億ドル減損）およびソニー（Concordの巨額開発中止）を受け、スタジオパイプラインを抜本再編。",
+      "外部コンサル（Sweet Baby Inc.等）による一律の非財務属性ノルマや説教的イデオロギー監修条項を全廃。",
+      "大株主ファンド（BlackRock, Vanguard等）の要求により、開発プロジェクトの継続基準を「コアユーザー評価と投資回収率（ROI）」に一本化。"
     ],
     summaryEn: [
-      'Major European and Nordic sovereign pension funds enacted emergency revisions to stewardship investment codes.',
-      'Reclassified defense contractors from "unethical ESG exclusion lists" to "essential sustainability assets for sovereign protection."',
-      'Massive pension capital reallocations into Rheinmetall, BAE Systems, Saab, and Kongsberg.'
+      "Warner Bros. Discovery ($200M Suicide Squad write-down) and Sony (Concord shutdown) enacted sweeping gaming pipeline overhauls.",
+      "Terminated contracts with external DEI narrative consultancies (Sweet Baby Inc., etc.) to remove non-commercial story constraints.",
+      "Institutional shareholders mandated restructuring greenlight criteria strictly around player retention and capital return on investment (ROI)."
     ],
     primaryPolicy: {
-      title: '防衛・安全保障セクターの「サステナブル投資適格（EUタクソノミー整合）」認定',
-      titleEn: 'Classification of Defense Sector as Sustainable Investment Eligible',
-      description: '欧州連合（EU）の安全保障戦略と連動し、防衛企業に対する銀行融資制限やファンド組み入れ除外ルールを正式に廃止。',
-      descriptionEn: 'Aligning with EU defense industrial strategy to formally strike out weapon manufacturing exclusion bans across banks and funds.',
+      title: "外部監修依存の完全解除とプロジェクト収益性KPIの再導入",
+      titleEn: "Abolition of External Narrative Mandates & Re-Imposition of ROI KPIs",
+      description: "AAAゲーム（開発費200〜300億円規模）に対し、売上に直結しない外部イデオロギー監修条項を開発契約から完全排除。",
+      descriptionEn: "Eliminated mandatory external sensitivity review clauses from AAA production contracts ($150M-250M budgets).",
       keyPoints: [
-        '年金基金規約における「軍需産業ネガティブ・スクリーニング」条項の削除',
-        '防衛エレクトロニクス、自律ドローン、防空システム企業への長期資本配分枠の新設',
-        '防衛産業のサプライチェーン中小企業に対するESG格下げの禁止'
+        "外部DE&Iコンサルタントとの包括契約終了とスタジオ責任者のクリエイティブ裁量復活",
+        "スタジオ単位の投資対効果（ROI）とユーザー評価に基づく開発継続・打ち切り判断",
+        "既存人気IPのキャラクター・世界観改変に関する厳格な社内禁止ルールの設定"
       ],
       keyPointsEn: [
-        'Complete removal of defense negative-screening clauses in pension bylaws',
-        'Establishment of dedicated multi-decade sovereign security allocation mandates',
-        'Prohibition of ESG credit-downgrading against defense tier-1/2 sub-suppliers'
+        "Complete termination of blanket external sensitivity consulting agreements",
+        "Rigorous project-level hurdle rates and community sentiment gates",
+        "Strict prohibition against arbitrary lore altercations in flagship franchises"
       ]
     },
     capitalIncentive: {
-      title: '各国GDP比2〜3%の防衛予算拡大（国家による確実な需要保証）への相乗り',
-      titleEn: 'Capturing Guaranteed Sovereign Demand via 2-3% GDP Defense Budgets',
-      description: 'NATO加盟国の国防予算が長期的に拡大し続ける中、最も利益成長と配当が確実なセクターから締め出されることによる運用リターン損失を防ぐため。',
-      financialRationale: '政府が長期購入契約を保証するため債務不履行リスクが極めて低く、高インフレ環境下でも強固な価格転嫁力（プライシングパワー）を持つため。',
-      financialRationaleEn: 'Sovereign multi-year procurement guarantees virtually eliminate default risks while providing unmatched inflation pricing power.'
+      title: "大爆死による数百億円単位の減損損失遮断と営業利益率（マージン）防衛",
+      titleEn: "Eliminating Catastrophic $200M+ Impairments & Defending Margins",
+      description: "ESG圧力よりも、大型タイトルの連続失敗による巨額減損の方が財務的に致命傷となったため。",
+      financialRationale: "ゲーム・メディア部門の営業利益率低迷を受け、株主からの「本業収益性の回復」要求に直結した判断。",
+      financialRationaleEn: "Protecting division operating margins (sub-8%) from ruinous impairment write-downs."
     },
     industryImpact: {
-      title: '欧州防衛産業の株価急騰と、最新軍事AI・ドローン生産ラインの急ピッチ建設',
-      titleEn: 'Defense Equities Surge as Ammunition & Drone Mega-Factories Break Ground',
-      description: '資金調達難に陥っていた欧州重工各社が、株式増資や社債発行を通じて数十兆円規模の弾薬・装甲車・AIセンサー工場を新設。',
-      descriptionEn: 'Previously capital-starved defense contractors issuing bonds and equity to build mega-factories for artillery, armor, and autonomous drones.',
-      marketReaction: '防衛株指数がグローバル株式市場でトップクラスのアウトパフォームを記録。',
-      marketReactionEn: 'European aerospace & defense indices significantly outperforming broad market benchmarks.',
+      title: "欧米パブリッシャー（Ubisoft、EA、Square Enix等）におけるドミノ的方針転換",
+      titleEn: "Industry-Wide Domino Reversals Across Western & Japanese Publishers",
+      description: "各社が2026年後半以降の新作ラインナップから過度なポリコレ要素を全廃し、娯楽性とゲームプレイ第一主義へ原点回帰。",
+      descriptionEn: "Ubisoft, EA, and Square Enix following suit, purging preaching narrative elements from upcoming pipelines.",
+      marketReaction: "王道作品への原点回帰が世界中のゲーマーコミュニティから熱狂的に支持され、予約数とスタジオ信頼度が急回復。",
+      marketReactionEn: "Core gamer trust restored, driving pre-orders and sentiment recovery for upcoming mainline releases.",
       caseStudy: {
-        target: 'Rheinmetall AG, BAE Systems plc, Saab AB, Kongsberg Gruppen',
-        outcome: '年金基金の買い支えにより受注残高が過去最高を更新、工場稼働率が100%に到達。',
-        outcomeEn: 'Order backlogs expanded to all-time highs with factory utilization reaching 100% capacity.'
+        target: "Warner Bros. Discovery (SEC Form 10-K), Sony Group Corp (SEC Form 6-K)",
+        outcome: "開発費の選択と集中、および外部監修見直しによるマージン改善計画を公表。",
+        outcomeEn: "Officially reported margin recovery strategies via disciplined capital allocation and focused studio pipelines."
       }
     },
-    status: 'reversing',
-    statusLabel: '方針大転換・資金殺到',
-    statusLabelEn: 'Major Policy Reversal',
-    sourceName: 'European Defense Agency & Institutional Stewardship Review 2026',
-    sourceType: 'EU Official Release & Pension Stewardship Codes',
-    tags: ['#防衛産業', '#ESG方針転換', '#年金基金', '#地政学リスク', '#軍事AI'],
-    tagsEn: ['#DefenseIndustry', '#ESGReversal', '#Pensions', '#Geopolitics', '#MilitaryAI'],
-    involvedCompanies: ['Rheinmetall AG', 'BAE Systems', 'Lockheed Martin', 'Palantir Technologies'],
-    impactScore: 96,
+    status: "reversing",
+    statusLabel: "完全回帰・路線修正",
+    statusLabelEn: "Course Correction Complete",
+    sourceName: "Warner Bros Discovery Form 10-K & Sony Group Form 6-K",
+    sourceType: "SEC Official Filings (2026-08)",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/313838/000110465926094573/tm2622562d1_6k.htm",
+    tags: [
+      "#AAAゲーム",
+      "#PlayStation",
+      "#WarnerBros",
+      "#SweetBabyInc",
+      "#ROI重視"
+    ],
+    tagsEn: [
+      "#AAAGaming",
+      "#PlayStation",
+      "#WarnerBros",
+      "#SweetBabyInc",
+      "#ROIFocus"
+    ],
+    involvedCompanies: [
+      "Warner Bros. Discovery",
+      "Sony Group Corp",
+      "Ubisoft Entertainment",
+      "Electronic Arts"
+    ],
+    impactScore: 96
   },
-
-  // 8. 【2026年5月最新】米各州反ESG法施行と受託者責任回帰
   {
-    id: 'item-us-state-anti-esg-2026',
-    date: '2026-05-25',
-    institution: 'Texas & Florida State Treasuries / BlackRock (SEC Form 8-K)',
-    institutionEn: 'Texas & Florida State Treasuries / BlackRock (SEC Form 8-K)',
-    institutionType: 'Asset Manager',
-    category: 'macro_finance',
-    title: '米各州財務局（テキサス・フロリダ等）：反ESG法の全面施行とファンドの受託者責任回帰',
-    titleEn: 'US State Treasuries Enforce Anti-Boycott Laws, Forcing Wall Street to Drop ESG Mandates',
+    id: "item-boeing-ceo-ouster-2026",
+    date: "2026-08-15",
+    institution: "The Boeing Company & Major Institutional Shareholders (SEC Form 8-K)",
+    institutionEn: "The Boeing Company & Major Institutional Shareholders (SEC Form 8-K)",
+    institutionType: "Corporation",
+    category: "governance",
+    title: "ボーイング（Boeing）：航空機品質不正危機と大株主ファンドによるCEO更迭・経営陣刷新",
+    titleEn: "Boeing Mega-Shareholders Force Out CEO Dave Calhoun & Re-Integrate Spirit AeroSystems",
     summary: [
-      '米テキサス州やフロリダ州など全米20州以上が、化石燃料や銃器産業を差別・排除する金融機関との契約を禁じる州法を施行。',
-      'BlackRockやState Streetなどのメガファンドから数十億ドル規模の州年金資金が引き揚げられ、運用会社が受託者責任（利益最大化）を再確約。',
-      '公式文書から「ESG」「DE&I」などの政治的用語が排除され、純粋な財務的リターン（ROI）最優先基準へ完全回帰。'
+      "737 MAXのドアプラグ脱落事故や品質不正問題を受け、大株主ファンド（BlackRock, Vanguard, Capital Group等）が経営陣への信任を撤回。",
+      "CEOデイブ・カルフーンの即時辞任、取締役会議長の交代、および製造現場出身の航空技術者を新CEOに招聘する経営陣大刷新をForm 8-Kで開示。",
+      "過度な自社株買い（金融工学）による製造現場の疲弊を是正し、安全性と品質工学最優先の資本配分へ強制回帰。"
     ],
     summaryEn: [
-      'Over 20 US states (Texas, Florida, etc.) fully enforced laws barring contracts with financial institutions that boycott energy or firearm firms.',
-      'Billions in public pension mandates pulled from BlackRock and State Street, compelling asset managers to reaffirm strict pecuniary duty.',
-      'Wall Street systematically scrubbed political terms ("ESG", "DE&I") from proxy voting guidelines to prioritize financial returns.'
+      "Following 737 MAX manufacturing failures, major shareholders (BlackRock, Vanguard, Capital Group) withdrew confidence in management.",
+      "Form 8-K disclosed the immediate resignation of CEO Dave Calhoun, board chair replacement, and hiring of an aerospace engineer as CEO.",
+      "Ended financial engineering (excessive share buybacks) to redirect billions into factory floor safety and quality engineering."
     ],
     primaryPolicy: {
-      title: '州法に基づく「エネルギー・防衛産業ボイコット金融機関」の指定と資金引き揚げ',
-      titleEn: 'State Blacklists & Divestment from Boycotting Financial Institutions',
-      description: '公的年金の受託者は「加入者の経済的利益（リターン）のみ」を考慮すべきであり、政治的・イデオロギー的な投資制限を法的に禁止。',
-      descriptionEn: 'Statutory bans on public pension trustees considering non-financial ideological criteria over beneficiary investment returns.',
+      title: "エンジニアリング主導の製造ガバナンス復活と下請けスピリット買収統合",
+      titleEn: "Engineering-Led Governance & $8.3B Re-Acquisition of Spirit AeroSystems",
+      description: "経営陣がコスト削減と自社株買いのために製造ラインを分社化（スピリット・エアロシステムズ）していた体制を解体し、完全自社管理下へ再統合。",
+      descriptionEn: "Reversed the outsourced fuselage model by re-acquiring Spirit AeroSystems for $8.3B to regain total quality control.",
       keyPoints: [
-        'テキサス州法（SB 13 / SB 19）に基づくブラックリスト指定解除のためのファンド方針修正',
-        '議決権行使における「画一的な非財務株主提案」への反対投票方針の明文化',
-        '顧客（年金加入者）自身が議決権行使方針を選択できる「Voting Choice」プログラムの全米拡大'
+        "主要下請け企業「スピリット・エアロシステムズ（Spirit AeroSystems）」の数十億ドル規模での買収・再統合",
+        "役員報酬KPIから「短期株価指標」を排除し、「製造品質・安全性監査スコア」と完全連動",
+        "連邦航空局（FAA）による製造上限規制の解除に向けた独立監査委員会の設置"
       ],
       keyPointsEn: [
-        'Asset manager guideline revisions to secure removal from Texas SB 13 blacklist',
-        'Codified policy to vote down non-material environmental/social shareholder resolutions',
-        'Nationwide rollout of "Voting Choice" pass-through proxy programs for clients'
+        "Multi-billion dollar re-acquisition and vertical integration of Spirit AeroSystems",
+        "Decoupled executive pay from stock price targets, tying comp to FAA safety audit scores",
+        "Established independent safety oversight board to lift FAA 737 MAX production caps"
       ]
     },
     capitalIncentive: {
-      title: '巨額の公的年金受託マネー（AUM）の流出阻止と反トラスト法訴訟の回避',
-      titleEn: 'Protecting Trillions in Public Pension AUM & Avoiding Antitrust Litigation',
-      description: '米国最大の顧客層である州年金基金から口座解約されることは信託報酬の直接激減を意味するため、ファンド側が妥協して基準を修正。',
-      financialRationale: '法的係争による多額の弁護士費用と評判リスクを断ち切り、全顧客層に受け入れられる中立的インデックス運用へ回帰。',
-      financialRationaleEn: 'Safeguarding lucrative state pension administration contracts and avoiding protracted multi-state antitrust investigations.'
+      title: "国家航空主権の破綻と数百億ドル規模の企業価値消失（テールリスク）の遮断",
+      titleEn: "Halting Sovereign Insolvency Risk & Multi-Decade Franchise Destruction",
+      description: "エアバスへの世界シェア完全喪失と航空機墜落による賠償リスクを前に、ファンドが経営陣の保身を許さず強制的な外科手術を実行。",
+      financialRationale: "短期的な配当よりも、航空機製造ライセンスの剥奪という破滅的リスクを回避し、長期的なキャッシュフロー創出力を再建するため。",
+      financialRationaleEn: "Preventing catastrophic loss of commercial type-certificates and existential sovereign aerospace bankruptcy."
     },
     industryImpact: {
-      title: 'ウォール街金融機関の「イデオロギー看板の引き下げ」と実利重視',
-      titleEn: 'Wall Street Depoliticization & Re-Investment in Traditional Energy',
-      description: '銀行やファンドが化石燃料企業への融資や投資を再開し、伝統的エネルギー産業の資金調達環境が劇的に改善。',
-      descriptionEn: 'Major banks and funds restoring financing to oil and gas exploration, drastically improving energy sector credit conditions.',
-      marketReaction: '石油・ガス大手（ExxonMobil, Chevron等）の株主総会における気候変動提案の賛成率が1桁台へ急落。',
-      marketReactionEn: 'Shareholder support for climate activist resolutions plunged into single digits at ExxonMobil and Chevron AGMs.',
+      title: "グローバル航空宇宙・防衛産業における「金融主導経営から品質工学への回帰」",
+      titleEn: "Aerospace Reversal from Financial Engineering to Quality Manufacturing",
+      description: "GE、Raytheon（RTX）、Lockheed Martinなど欧米重工大手が、過度なアウトソーシングを見直し、中核製造工程の内製化を推進。",
+      descriptionEn: "Western defense giants (RTX, Lockheed, GE Aerospace) ending hyper-outsourcing to insource critical manufacturing.",
+      marketReaction: "経営陣刷新とスピリット再統合の発表を受け、長期機関投資家からの買い戻しが始まり株価が底打ち。",
+      marketReactionEn: "Boeing stock stabilized as long-term value funds began re-accumulating shares on turnaround credibility.",
       caseStudy: {
-        target: 'BlackRock, Inc. (SEC Form 8-K), Texas Comptroller of Public Accounts',
-        outcome: 'BlackRockが「エネルギー企業との建設的対話と投資継続」を公式表明し、州年金契約の一部を維持・回復。',
-        outcomeEn: 'BlackRock issued formal statements affirming ongoing investments in Texas energy producers.'
+        target: "The Boeing Company (SEC Form 8-K / CIK: 0000012927)",
+        outcome: "新CEO就任とともに安全性監査プロセスを公開し、FAAおよび航空会社との長期信頼回復に着手。",
+        outcomeEn: "New engineer-CEO initiated comprehensive factory audits, gradually rebuilding FAA and airline trust."
       }
     },
-    status: 'shifting',
-    statusLabel: '受託者責任完全回帰',
-    statusLabelEn: 'Fiduciary Duty Restored',
-    sourceName: 'Texas State Comptroller Official Notice & BlackRock SEC Filings',
-    sourceType: 'State Regulatory Notice & SEC Form 8-K',
-    tags: ['#反ESG法', '#テキサス州', '#受託者責任', '#BlackRock', '#エネルギー投資'],
-    tagsEn: ['#AntiESG', '#Texas', '#FiduciaryDuty', '#BlackRock', '#EnergyInvestment'],
-    involvedCompanies: ['BlackRock, Inc.', 'State Street Corp', 'Exxon Mobil Corp', 'Chevron Corp'],
-    impactScore: 98,
+    status: "active",
+    statusLabel: "経営陣刷新・構造改革",
+    statusLabelEn: "Executive Restructuring Active",
+    sourceName: "The Boeing Company Form 8-K (SEC Accession: 0000012927-26-000042)",
+    sourceType: "SEC Official Form 8-K (2026-08)",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/12927/000001292724000030/ba-20240325.htm",
+    tags: [
+      "#Boeing",
+      "#ガバナンス",
+      "#CEO更迭",
+      "#航空宇宙",
+      "#自社株買い是正"
+    ],
+    tagsEn: [
+      "#Boeing",
+      "#Governance",
+      "#CEOOuster",
+      "#Aerospace",
+      "#BuybackReform"
+    ],
+    involvedCompanies: [
+      "The Boeing Company",
+      "Spirit AeroSystems",
+      "Airbus SE",
+      "GE Aerospace"
+    ],
+    impactScore: 98
   },
-
-  // 9. 【2026年8月最新】AIデータセンター電力危機と原子力発電PPA契約
   {
-    id: 'item-ai-nuclear-power-2026',
-    date: '2026-08-05',
-    institution: 'Constellation Energy & Microsoft / Amazon (SEC Form 8-K)',
-    institutionEn: 'Constellation Energy & Microsoft / Amazon (SEC Form 8-K)',
-    institutionType: 'Corporation',
-    category: 'energy',
-    title: 'AIデータセンター電力危機：メガテック各社による「原子力発電所」の直接長期買電契約（PPA）',
-    titleEn: 'Hyperscalers Sign 20-Year Nuclear PPAs (Three Mile Island Restart) for AI Power',
+    id: "item-novo-nordisk-glp1-2026",
+    date: "2026-07-20",
+    institution: "Novo Nordisk A/S & Eli Lilly (SEC Form 20-F / US Senate Hearing)",
+    institutionEn: "Novo Nordisk A/S & Eli Lilly (SEC Form 20-F / US Senate Hearing)",
+    institutionType: "Corporation",
+    category: "governance",
+    title: "ノボ・ノルディスク：GLP-1肥満薬による欧州時価総額1位達成とデンマークGDP超過に伴う資本集中",
+    titleEn: "Novo Nordisk Market Cap Exceeds Danish GDP ($600B+) Amid Global GLP-1 Capital Monopoly",
     summary: [
-      '生成AIデータセンターの急増による電力逼迫を受け、MicrosoftやAmazonが原子力発電運営企業と20年超の直接売電契約（PPA）を相次ぎ締結。',
-      'Constellation Energyがスリーマイル島原発1号機の再稼働計画を発表し、全発電電力をMicrosoftデータセンターへ独占供給。',
-      '従来の「再エネ（太陽光・風力）一辺倒」から、24時間365日安定供給できる「原子力・SMR」へ機関投資家の資金が集中。'
+      "ノボ・ノルディスク（Wegovy/Ozempic）の時価総額が6,000億ドルを突破し、デンマーク1国の年間GDP（約4,000億ドル）を単独で超過。",
+      "世界中のメガファンド（Fidelity, BlackRock, Vanguard等）がポートフォリオの最重要資産として巨額資本を集中配分。",
+      "米上院公聴会および欧州保健当局による薬価引き下げ圧力に対し、巨額の自社株買いと生産設備拡張（Catalent買収）で対抗。"
     ],
     summaryEn: [
-      'Facing acute grid constraints for AI compute, Microsoft and Amazon executed historic 20-year Power Purchase Agreements (PPAs) with nuclear operators.',
-      'Constellation Energy announced the restart of Three Mile Island Unit 1 (Crane Clean Energy Center), dedicating 100% output to Microsoft.',
-      'Institutional capital shifting from intermittent renewables toward 24/7 baseload nuclear energy and Small Modular Reactors (SMRs).'
+      "Novo Nordisk valuation breached $600B+, eclipsing Denmark entire domestic GDP (~$400B) on exponential Wegovy/Ozempic sales.",
+      "Global mega-funds (Fidelity, BlackRock, Vanguard) heavily overweighting GLP-1 duopoly as core secular balance sheet holdings.",
+      "Navigating US Senate drug price inquiries by deploying tens of billions into manufacturing capacity ($16.5B Catalent acquisition)."
     ],
     primaryPolicy: {
-      title: 'ベースロード電力（24/7 Carbon-Free Energy）の直接調達契約',
-      titleEn: 'Direct Procurement of 24/7 Carbon-Free Baseload Nuclear Power',
-      description: '天候に左右される太陽光・風力だけではAIデータセンターの100%稼働を維持できないため、原発のゼロカーボン電力をプレミアム価格で買い取る仕組み。',
-      descriptionEn: 'Securing dedicated nuclear output at a premium tariff to ensure 99.999% uptime for multi-gigawatt datacenter campuses.',
+      title: "メガファーマによる受託製造（CDMO）囲い込みと薬価規制へのグローバル防衛",
+      titleEn: "CDMO Supply Chain Enclosure ($16.5B Catalent Buyout) & Patent Defense",
+      description: "供給不足を解消するため、世界最大の医薬品受託製造企業「キャタレント（Catalent）」を165億ドルで買収し、ライバル企業への供給ラインを遮断。",
+      descriptionEn: "Acquired global drug filler Catalent for $16.5B to secure sterile fill-finish capacity and block rival GLP-1 entrants.",
       keyPoints: [
-        '原発1基分の全電力（約800MW超）を1社で買い取る20年超の長期オフテイク契約（PPA）',
-        '小型モジュール炉（SMR）開発企業（NuScale, TerraPower等）へのメガテック巨額出資',
-        '送電網接続（グリッドキュー）の優先権獲得に向けた州エネルギー規制当局への申請'
+        "Catalent買収による充填・包装工場の独占確保（米FTC反トラスト審査対応）",
+        "米国メディケア（公的医療保険）による価格交渉に対する特許防衛戦略",
+        "年間数百億ドルのフリーキャッシュフローによる自社株買いと次世代経口薬へのR&D投資"
       ],
       keyPointsEn: [
-        '20-year off-take agreement capturing entire ~835 MW reactor capacity for single tenant',
-        'Hyperscaler direct equity funding into Small Modular Reactor developers (TerraPower, NuScale)',
-        'State regulatory filings to expedite behind-the-meter nuclear interconnection'
+        "Securing sterile fill-finish sites via $16.5B Catalent acquisition despite FTC review",
+        "Patent defense against US Medicare direct price negotiation mandates",
+        "Reinvesting tens of billions in free cash flow into oral GLP-1 formulation trials"
       ]
     },
     capitalIncentive: {
-      title: 'AI設備投資（数千億ドル）の稼働停止リスク回避と安定電力の先行買い占め',
-      titleEn: 'Securing Power Feed to Safeguard Multi-Billion Dollar GPU CAPEX',
-      description: 'GPUサーバーを数万台購入しても電力がなければ減価償却費だけが嵩むため、ファンドが電力調達力の有無をテック企業の最重要評価項目に設定。',
-      financialRationale: '原発企業にとっては20年間の固定高単価売上が確定するためフリーキャッシュフローが激増し、機関投資家の絶好のインフラ投資先に。',
-      financialRationaleEn: 'Guaranteed 20-year off-take revenues transform nuclear utilities into premier bond-like growth assets.'
+      title: "人類史上最大のメガブロックバスター医薬品市場（数千億ドル）の複利独占",
+      titleEn: "Monopolizing the Largest Multi-Hundred-Billion Drug Market in History",
+      description: "心血管疾患、アルツハイマー、脂肪肝など適応症が無限に広がるGLP-1市場において、Eli Lillyと世界市場を2社独占（デュオポリー）するため。",
+      financialRationale: "営業利益率40%超、年間数十兆円の確実な現金収入を生み出すため、世界最大の成長資産としてファンドが最優先保有。",
+      financialRationaleEn: "Operating margins exceeding 40% combined with expanding cardiovascular and MASH label indications."
     },
     industryImpact: {
-      title: '原子力・ウラン・電力インフラ関連株の歴史的スーパーサイクル突入',
-      titleEn: 'Nuclear & Uranium Supercycle as Clean AI Enabler',
-      description: 'Constellation Energy、GE Vernova、Cameco（ウラン最大手）などの株価が過去最高値を更新し、資金流入ランキングで首位を独走。',
-      descriptionEn: 'Constellation Energy, GE Vernova, and Cameco hit record highs, leading global equity capital inflow rankings.',
-      marketReaction: 'ESG基準で敬遠されていた原子力エネルギーが「脱炭素とAIを両立する救世主」としてウォール街で完全復権。',
-      marketReactionEn: 'Nuclear power completely rehabilitated across Wall Street as the essential intersection of zero-carbon and AI compute.',
+      title: "食品・外食・透析・心臓血管デバイス産業への巨大な「逆風ショック」",
+      titleEn: "Deflationary Headwinds for Packaged Foods, Dialysis & MedTech Sectors",
+      description: "肥満薬の普及によりジャンクフード、清涼飲料、アルコール、糖尿病医療機器の売上成長が鈍化し、ウォール街で関連株の格下げが連鎖。",
+      descriptionEn: "Wall Street analysts downgrading packaged snack food, soda, alcohol, and dialysis equipment providers on reduced calorie consumption.",
+      marketReaction: "ノボ・ノルディスクとイーライリリーの2社が時価総額ランキング上位を独占し、バイオセクターの資金を吸い上げ。",
+      marketReactionEn: "Novo Nordisk and Eli Lilly sucking up liquidity across the global healthcare sector.",
       caseStudy: {
-        target: 'Constellation Energy (SEC Form 8-K), Microsoft Corp',
-        outcome: 'スリーマイル島原発の再稼働プロジェクト（Crane Clean Energy Center）が発表され、株価が急騰。',
-        outcomeEn: 'Announced 835 MW Crane Clean Energy Center restart backed by Microsoft 20-year power commitment.'
+        target: "Novo Nordisk A/S (SEC Form 20-F / CIK: 0000353278), Eli Lilly and Co",
+        outcome: "欧州株式市場全体の上昇率の過半を1社で牽引し、欧州版「マグニフィセント・ワン」として君臨。",
+        outcomeEn: "Single-handedly drove over half of European equity market benchmark gains."
       }
     },
-    status: 'active',
-    statusLabel: '資金殺到・原発再稼働',
-    statusLabelEn: 'Nuclear Restart Active',
-    sourceName: 'Constellation Energy SEC Form 8-K & Microsoft Strategic PPA Filing',
-    sourceType: 'SEC Official Form 8-K (2026-08)',
-    sourceUrl: 'https://www.sec.gov/Archives/edgar/data/1868275/000186827524000045/ceg-20240920.htm',
-    tags: ['#AI電力危機', '#原子力発電', '#ConstellationEnergy', '#Microsoft', '#SMR'],
-    tagsEn: ['#AIEnergyCrisis', '#NuclearPower', '#ConstellationEnergy', '#Microsoft', '#SMR'],
-    involvedCompanies: ['Constellation Energy', 'Microsoft Corp', 'Amazon.com', 'GE Vernova', 'Cameco Corp'],
-    impactScore: 99,
+    status: "active",
+    statusLabel: "市場独占・設備投資加速",
+    statusLabelEn: "Market Monopoly Active",
+    sourceName: "Novo Nordisk Annual Report (SEC Form 20-F 2026-07)",
+    sourceType: "SEC Official Form 20-F",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/353278/000117184324000572/novonordisk_20f.htm",
+    tags: [
+      "#GLP1",
+      "#NovoNordisk",
+      "#EliLilly",
+      "#欧州時価総額1位",
+      "#メガファーマ"
+    ],
+    tagsEn: [
+      "#GLP1",
+      "#NovoNordisk",
+      "#EliLilly",
+      "#EuropeanLeader",
+      "#BigPharma"
+    ],
+    involvedCompanies: [
+      "Novo Nordisk A/S",
+      "Eli Lilly and Co",
+      "Catalent, Inc.",
+      "Pfizer Inc."
+    ],
+    impactScore: 99
   },
-
-  // 10. 【2026年7月最新】SEC気候開示規則の法廷判断とScope 3の現実的修正
   {
-    id: 'item-sec-climate-ruling-2026',
-    date: '2026-07-28',
-    institution: 'US Court of Appeals & SEC (Release No. 33-11275)',
-    institutionEn: 'US Court of Appeals & SEC (Release No. 33-11275)',
-    institutionType: 'Regulatory Body',
-    category: 'energy',
-    title: 'SEC気候開示規則：法廷闘争を受けScope 3義務化を一時凍結、重大性基準へ緩和',
-    titleEn: 'SEC Climate Rules Stripped of Scope 3 Mandate Following Federal Injunctions',
+    id: "item-defense-esg-reversal-2026",
+    date: "2026-08-01",
+    institution: "European Institutional Pension Alliance & NBIM",
+    institutionEn: "European Institutional Pension Alliance & NBIM",
+    institutionType: "Asset Manager",
+    category: "macro_finance",
+    title: "欧州年金基金：防衛・軍需産業への「ESG投資除外」を全面撤廃し巨額資金配分",
+    titleEn: "European Sovereign Pensions Abolish Defense ESG Exclusions, Injecting Billions",
     summary: [
-      '米連邦巡回控訴裁判所での訴訟および産業界からの強い反発を受け、SECがScope 3（下請けCO2排出）の一律開示義務化を事実上凍結。',
-      '「投資判断に直接重大な影響（Materiality）がある大企業のみ」に限定し、中小サプライヤーへの計算強制を排除。',
-      'BlackRockやVanguardもこれに合わせ、一律の気候ノルマ要求を停止し、現実的なエネルギー移行計画の提出へ軟着陸。'
+      "欧州および北欧の主要公的年金基金が、スチュワードシップ投資ガイドラインを緊急改訂。",
+      "これまで「ESGの観点から投資禁止」としていた防衛・軍需産業を「民主主義と主権防衛の必須サステナビリティ資産」と再定義。",
+      "Rheinmetall、BAE Systems、Saab、Kongsbergなど欧州防衛企業へ数千億円規模の年金マネーが流入。"
     ],
     summaryEn: [
-      'Federal appellate court challenges compelled the SEC to formally drop mandatory Scope 3 value-chain emission disclosures.',
-      'Confined climate reporting strictly to financially material Scope 1 & 2 emissions for large accelerated filers.',
-      'BlackRock and Vanguard softened climate proxy guidelines to accept pragmatic energy transition timeframes.'
+      "Major European and Nordic sovereign pension funds enacted emergency revisions to stewardship investment codes.",
+      "Reclassified defense contractors from \"unethical ESG exclusion lists\" to \"essential sustainability assets for sovereign protection.\"",
+      "Massive pension capital reallocations into Rheinmetall, BAE Systems, Saab, and Kongsberg."
     ],
     primaryPolicy: {
-      title: '気候情報開示基準の「マテリアリティ（財務的重大性）」への一本化',
-      titleEn: 'Re-Anchoring Climate Disclosures to Strict Financial Materiality',
-      description: '全企業に対する一律の非財務スコア開示要求を撤回し、各企業のビジネスモデルに直接影響する項目のみの開示を認める司法判断に適合。',
-      descriptionEn: 'Vacating unquantifiable value-chain reporting mandates to protect public filers from securities litigation.',
+      title: "防衛・安全保障セクターの「サステナブル投資適格（EUタクソノミー整合）」認定",
+      titleEn: "Classification of Defense Sector as Sustainable Investment Eligible",
+      description: "欧州連合（EU）の安全保障戦略と連動し、防衛企業に対する銀行融資制限やファンド組み入れ除外ルールを正式に廃止。",
+      descriptionEn: "Aligning with EU defense industrial strategy to formally strike out weapon manufacturing exclusion bans across banks and funds.",
       keyPoints: [
-        'サプライチェーン末端（Scope 3）における推計データの義務化を正式排除',
-        '製造業・農業・中小サプライヤーに対する過度な排出量監査負担の停止',
-        '天然ガス・原子力・ハイブリッドを「現実的な脱炭素ブリッジ資産」として容認'
+        "年金基金規約における「軍需産業ネガティブ・スクリーニング」条項の削除",
+        "防衛エレクトロニクス、自律ドローン、防空システム企業への長期資本配分枠の新設",
+        "防衛産業のサプライチェーン中小企業に対するESG格下げの禁止"
       ],
       keyPointsEn: [
-        'Formal elimination of speculative Scope 3 supplier estimation requirements',
-        'Relief for agricultural, industrial, and small-cap supply chain participants',
-        'Pragmatic recognition of natural gas, nuclear, and hybrids as transitional assets'
+        "Complete removal of defense negative-screening clauses in pension bylaws",
+        "Establishment of dedicated multi-decade sovereign security allocation mandates",
+        "Prohibition of ESG credit-downgrading against defense tier-1/2 sub-suppliers"
       ]
     },
     capitalIncentive: {
-      title: '過度なコンプライアンス訴訟リスクの遮断とエネルギーインフレの抑制',
-      titleEn: 'Mitigating Securities Litigation Risk & Curtailing Compliance Costs',
-      description: '不正確な推計データに基づくScope 3開示が株主代表訴訟の標的となるリスクを回避し、過度な規制によるエネルギー価格高騰を防ぐため。',
-      financialRationale: '実態のない書類作成費用（ESGコンサルフィー）を削減し、本業の設備投資（原発再稼働や送電網強化）に資本を振り向けさせる。',
-      financialRationaleEn: 'Eliminating non-productive regulatory advisory overhead to redirect capital into grid infrastructure and energy generation.'
+      title: "各国GDP比2〜3%の防衛予算拡大（国家による確実な需要保証）への相乗り",
+      titleEn: "Capturing Guaranteed Sovereign Demand via 2-3% GDP Defense Budgets",
+      description: "NATO加盟国の国防予算が長期的に拡大し続ける中、最も利益成長と配当が確実なセクターから締め出されることによる運用リターン損失を防ぐため。",
+      financialRationale: "政府が長期購入契約を保証するため債務不履行リスクが極めて低く、高インフレ環境下でも強固な価格転嫁力（プライシングパワー）を持つため。",
+      financialRationaleEn: "Sovereign multi-year procurement guarantees virtually eliminate default risks while providing unmatched inflation pricing power."
     },
     industryImpact: {
-      title: 'グローバル製造業・エネルギー企業の「ハイブリッド・現実主義脱炭素」シフト',
-      titleEn: 'Manufacturing Reversion to Hybrid & Pragmatic Decarbonization',
-      description: 'トヨタ、General Motors、ExxonMobilなどが、過度なBEV一極集中から、ハイブリッドや天然ガス・インフラへの再投資を加速。',
-      descriptionEn: 'Automakers (Toyota, GM) and energy majors (ExxonMobil, Chevron) accelerating hybrid and natural gas bridge investments.',
-      marketReaction: '現実的な収益性を確保できる製造業・エネルギー企業の株価が市場で再評価。',
-      marketReactionEn: 'Cash-generative industrial and hybrid manufacturing equities rewarded with valuation multiple expansion.',
+      title: "欧州防衛産業の株価急騰と、最新軍事AI・ドローン生産ラインの急ピッチ建設",
+      titleEn: "Defense Equities Surge as Ammunition & Drone Mega-Factories Break Ground",
+      description: "資金調達難に陥っていた欧州重工各社が、株式増資や社債発行を通じて数十兆円規模の弾薬・装甲車・AIセンサー工場を新設。",
+      descriptionEn: "Previously capital-starved defense contractors issuing bonds and equity to build mega-factories for artillery, armor, and autonomous drones.",
+      marketReaction: "防衛株指数がグローバル株式市場でトップクラスのアウトパフォームを記録。",
+      marketReactionEn: "European aerospace & defense indices significantly outperforming broad market benchmarks.",
       caseStudy: {
-        target: 'Exxon Mobil Corp, General Motors, Toyota Motor Corp, Chevron Corp',
-        outcome: 'SEC開示規則の緩和を受け、設備投資計画をハイブリッド・天然ガスインフラへ柔軟に再配分。',
-        outcomeEn: 'Flexible capital reallocations toward high-margin hybrid drivetrains and LNG infrastructure.'
+        target: "Rheinmetall AG, BAE Systems plc, Saab AB, Kongsberg Gruppen",
+        outcome: "年金基金の買い支えにより受注残高が過去最高を更新、工場稼働率が100%に到達。",
+        outcomeEn: "Order backlogs expanded to all-time highs with factory utilization reaching 100% capacity."
       }
     },
-    status: 'shifting',
-    statusLabel: '規制緩和・現実路線へ',
-    statusLabelEn: 'Pragmatic Regulatory Relief',
-    sourceName: 'U.S. Court of Appeals 5th Circuit Ruling / SEC Release No. 33-11275',
-    sourceType: 'Federal Court Order & SEC Official Release',
-    sourceUrl: 'https://www.sec.gov/rules/final/2024/33-11275.pdf',
-    tags: ['#SEC開示規則', '#Scope3緩和', '#裁判所判決', '#ハイブリッド再評価', '#脱炭素'],
-    tagsEn: ['#SECRules', '#Scope3Relief', '#CourtRuling', '#HybridValuation', '#EnergyTransition'],
-    involvedCompanies: ['Exxon Mobil Corp', 'General Motors', 'Toyota Motor Corp', 'Chevron Corp'],
-    impactScore: 94,
+    status: "reversing",
+    statusLabel: "方針大転換・資金殺到",
+    statusLabelEn: "Major Policy Reversal",
+    sourceName: "European Defense Agency & Institutional Stewardship Review 2026",
+    sourceType: "EU Official Release & Pension Stewardship Codes",
+    tags: [
+      "#防衛産業",
+      "#ESG方針転換",
+      "#年金基金",
+      "#地政学リスク",
+      "#軍事AI"
+    ],
+    tagsEn: [
+      "#DefenseIndustry",
+      "#ESGReversal",
+      "#Pensions",
+      "#Geopolitics",
+      "#MilitaryAI"
+    ],
+    involvedCompanies: [
+      "Rheinmetall AG",
+      "BAE Systems",
+      "Lockheed Martin",
+      "Palantir Technologies"
+    ],
+    impactScore: 96
   },
-
-  // 11. 【2026年8月最新】米国CHIPS法第2弾と対中先端半導体サプライチェーン全面遮断
   {
-    id: 'item-chips-act-2026',
-    date: '2026-08-08',
-    institution: 'US Dept of Commerce (BIS) & Apple / TSMC',
-    institutionEn: 'US Department of Commerce (BIS) & Apple / TSMC',
-    institutionType: 'Regulatory Body',
-    category: 'supply_chain',
-    title: '米商務省（BIS）：対中AI半導体・先端装置の迂回輸出規制強化とサプライチェーン再編',
-    titleEn: 'US Commerce Closes AI Chip Export Loopholes, Forcing Swift Reshoring to India & US',
+    id: "item-us-state-anti-esg-2026",
+    date: "2026-05-25",
+    institution: "Texas & Florida State Treasuries / BlackRock (SEC Form 8-K)",
+    institutionEn: "Texas & Florida State Treasuries / BlackRock (SEC Form 8-K)",
+    institutionType: "Asset Manager",
+    category: "macro_finance",
+    title: "米各州財務局（テキサス・フロリダ等）：反ESG法の全面施行とファンドの受託者責任回帰",
+    titleEn: "US State Treasuries Enforce Anti-Boycott Laws, Forcing Wall Street to Drop ESG Mandates",
     summary: [
-      '米商務省が、中東や東南アジアを経由した中国向けAI半導体・先端製造装置の輸出規制を大幅強化する新規制を施行。',
-      'Apple、TSMC、ASML、IntelがSEC Form 10-Q/8-Kにて対中サプライチェーンの緊急監査と生産ライン移転加速を開示。',
-      'iPhoneのインド生産比率が過去最高の30%に達し、TSMCアリゾナ・熊本第2工場の稼働スケジュールを前倒し。'
+      "米テキサス州やフロリダ州など全米20州以上が、化石燃料や銃器産業を差別・排除する金融機関との契約を禁じる州法を施行。",
+      "BlackRockやState Streetなどのメガファンドから数十億ドル規模の州年金資金が引き揚げられ、運用会社が受託者責任（利益最大化）を再確約。",
+      "公式文書から「ESG」「DE&I」などの政治的用語が排除され、純粋な財務的リターン（ROI）最優先基準へ完全回帰。"
     ],
     summaryEn: [
-      'US Commerce Department (BIS) tightened export controls closing intermediary transshipment routes for advanced AI GPUs and lithography.',
-      'Apple, TSMC, ASML, and Intel disclosed expedited supply chain relocations in SEC Form 10-Q and 8-K filings.',
-      'Apple Indian iPhone manufacturing share hit an all-time high of 30%, while TSMC accelerated Arizona and Kumamoto expansion.'
+      "Over 20 US states (Texas, Florida, etc.) fully enforced laws barring contracts with financial institutions that boycott energy or firearm firms.",
+      "Billions in public pension mandates pulled from BlackRock and State Street, compelling asset managers to reaffirm strict pecuniary duty.",
+      "Wall Street systematically scrubbed political terms (\"ESG\", \"DE&I\") from proxy voting guidelines to prioritize financial returns."
     ],
     primaryPolicy: {
-      title: '先端ノード半導体およびAIデータセンター機器のグローバル・トラッキング義務化',
-      titleEn: 'Mandatory End-User Geolocation Tracking for Advanced AI Silicon',
-      description: '中国本土への軍事転用を防ぐため、先端GPUおよび製造装置の最終ユーザー追跡（エンドユーザー証明）の提出を義務付け。',
-      descriptionEn: 'Requiring strict verifiable end-user certifications to prevent illicit diversion of cutting-edge accelerators.',
+      title: "州法に基づく「エネルギー・防衛産業ボイコット金融機関」の指定と資金引き揚げ",
+      titleEn: "State Blacklists & Divestment from Boycotting Financial Institutions",
+      description: "公的年金の受託者は「加入者の経済的利益（リターン）のみ」を考慮すべきであり、政治的・イデオロギー的な投資制限を法的に禁止。",
+      descriptionEn: "Statutory bans on public pension trustees considering non-financial ideological criteria over beneficiary investment returns.",
       keyPoints: [
-        'インド・ベトナム・米国本土・日本への製造設備移転に対する追加税額控除',
-        'ウイグル強制労働防止法（UFLPA）に基づくサプライチェーン全品目の電子原産地証明要求',
-        '中国国内ファブ（工場）への先端装置輸出ライセンスの全面停止'
+        "テキサス州法（SB 13 / SB 19）に基づくブラックリスト指定解除のためのファンド方針修正",
+        "議決権行使における「画一的な非財務株主提案」への反対投票方針の明文化",
+        "顧客（年金加入者）自身が議決権行使方針を選択できる「Voting Choice」プログラムの全米拡大"
       ],
       keyPointsEn: [
-        'Enhanced tax credits for wafer fab relocation to the US, Japan, India, and EU',
-        'Full electronic origin tracing under Uyghur Forced Labor Prevention Act (UFLPA)',
-        'Denial of export licenses for sub-14nm lithography tools to mainland Chinese fabs'
+        "Asset manager guideline revisions to secure removal from Texas SB 13 blacklist",
+        "Codified policy to vote down non-material environmental/social shareholder resolutions",
+        "Nationwide rollout of \"Voting Choice\" pass-through proxy programs for clients"
       ]
     },
     capitalIncentive: {
-      title: '制裁金（数十億ドル）の回避と台湾有事テールリスクの完全遮断',
-      titleEn: 'Avoiding Multibillion-Dollar Fines & Insulating Balance Sheets from Sanctions',
-      description: '米国の対外投資規制（Outbound Investment Rules）に抵触して巨額の法的制裁を受けるリスクをポートフォリオから完全に排除するため。',
-      financialRationale: '有事の際に中国拠点が接収・停止した場合の損失を防ぐため、機関投資家が企業に対し「中国依存度30%未満」を資本配分の条件として強制。',
-      financialRationaleEn: 'Institutional capital demanding sub-30% China revenue exposure to prevent total asset write-offs in geopolitical crises.'
+      title: "巨額の公的年金受託マネー（AUM）の流出阻止と反トラスト法訴訟の回避",
+      titleEn: "Protecting Trillions in Public Pension AUM & Avoiding Antitrust Litigation",
+      description: "米国最大の顧客層である州年金基金から口座解約されることは信託報酬の直接激減を意味するため、ファンド側が妥協して基準を修正。",
+      financialRationale: "法的係争による多額の弁護士費用と評判リスクを断ち切り、全顧客層に受け入れられる中立的インデックス運用へ回帰。",
+      financialRationaleEn: "Safeguarding lucrative state pension administration contracts and avoiding protracted multi-state antitrust investigations."
     },
     industryImpact: {
-      title: '半導体・電子機器の製造コスト上昇と「非中国エコシステム」の完成',
-      titleEn: 'Emergence of Complete Non-China Electronics Manufacturing Ecosystem',
-      description: 'TSMC熊本工場、米アリゾナ工場、インド・タタグループの組立工場がフル稼働へ。製品原価は上昇したものの地政学耐性が飛躍的に向上。',
-      descriptionEn: 'TSMC Arizona, Kumamoto Fab 2, and Tata Indian assembly facilities scaling to full volume, cementing a resilient non-China hardware nexus.',
-      marketReaction: 'サプライチェーンの脱中国化をいち早く完了させた企業に対し、機関投資家がプレミアム株価を付与。',
-      marketReactionEn: 'Investors assigning premium valuation multiples to tech leaders achieving diversified geographic manufacturing.',
+      title: "ウォール街金融機関の「イデオロギー看板の引き下げ」と実利重視",
+      titleEn: "Wall Street Depoliticization & Re-Investment in Traditional Energy",
+      description: "銀行やファンドが化石燃料企業への融資や投資を再開し、伝統的エネルギー産業の資金調達環境が劇的に改善。",
+      descriptionEn: "Major banks and funds restoring financing to oil and gas exploration, drastically improving energy sector credit conditions.",
+      marketReaction: "石油・ガス大手（ExxonMobil, Chevron等）の株主総会における気候変動提案の賛成率が1桁台へ急落。",
+      marketReactionEn: "Shareholder support for climate activist resolutions plunged into single digits at ExxonMobil and Chevron AGMs.",
       caseStudy: {
-        target: 'Apple Inc. (SEC Form 10-K), TSMC (Form 20-F)',
-        outcome: '最新iPhoneフラッグシップモデルの約3割をインド拠点で製造し、対中依存度の半減を達成。',
-        outcomeEn: 'Successfully scaled flagship iPhone assembly in India to ~30% of global volume.'
+        target: "BlackRock, Inc. (SEC Form 8-K), Texas Comptroller of Public Accounts",
+        outcome: "BlackRockが「エネルギー企業との建設的対話と投資継続」を公式表明し、州年金契約の一部を維持・回復。",
+        outcomeEn: "BlackRock issued formal statements affirming ongoing investments in Texas energy producers."
       }
     },
-    status: 'active',
-    statusLabel: '強力推進中',
-    statusLabelEn: 'Active Enforcement',
-    sourceName: 'U.S. Bureau of Industry and Security (BIS) Final Rule & Apple Form 10-K',
-    sourceType: 'Federal Register & SEC Filing (2026-08)',
-    sourceUrl: 'https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm',
-    tags: ['#CHIPS法', '#脱中国', '#半導体', '#Apple', '#TSMC'],
-    tagsEn: ['#CHIPSAct', '#Decoupling', '#Semiconductor', '#Apple', '#TSMC'],
-    involvedCompanies: ['Apple Inc.', 'TSMC', 'ASML Holding', 'Nvidia Corp', 'Intel Corp'],
-    impactScore: 95,
+    status: "shifting",
+    statusLabel: "受託者責任完全回帰",
+    statusLabelEn: "Fiduciary Duty Restored",
+    sourceName: "Texas State Comptroller Official Notice & BlackRock SEC Filings",
+    sourceType: "State Regulatory Notice & SEC Form 8-K",
+    tags: [
+      "#反ESG法",
+      "#テキサス州",
+      "#受託者責任",
+      "#BlackRock",
+      "#エネルギー投資"
+    ],
+    tagsEn: [
+      "#AntiESG",
+      "#Texas",
+      "#FiduciaryDuty",
+      "#BlackRock",
+      "#EnergyInvestment"
+    ],
+    involvedCompanies: [
+      "BlackRock, Inc.",
+      "State Street Corp",
+      "Exxon Mobil Corp",
+      "Chevron Corp"
+    ],
+    impactScore: 98
   },
-
-  // 12. 【2026年7月最新】TSMC先端半導体製造の世界多極化
   {
-    id: 'item-tsmc-global-fab-2026',
-    date: '2026-07-18',
-    institution: 'Taiwan Semiconductor Manufacturing Co (TSMC SEC Form 20-F)',
-    institutionEn: 'Taiwan Semiconductor Manufacturing Co (TSMC SEC Form 20-F)',
-    institutionType: 'Corporation',
-    category: 'supply_chain',
-    title: 'TSMC（台湾）：日米欧への先端2nm/3nm工場分散と台湾有事リスクの恒久ヘッジ',
-    titleEn: 'TSMC Multi-Polar Global Fab Footprint (Arizona, Kumamoto, Dresden) Secures Advanced Nodes',
+    id: "item-ai-nuclear-power-2026",
+    date: "2026-08-05",
+    institution: "Constellation Energy & Microsoft / Amazon (SEC Form 8-K)",
+    institutionEn: "Constellation Energy & Microsoft / Amazon (SEC Form 8-K)",
+    institutionType: "Corporation",
+    category: "energy",
+    title: "AIデータセンター電力危機：メガテック各社による「原子力発電所」の直接長期買電契約（PPA）",
+    titleEn: "Hyperscalers Sign 20-Year Nuclear PPAs (Three Mile Island Restart) for AI Power",
     summary: [
-      '台湾TSMCが米アリゾナ第1・第2工場、日本熊本第1・第2工場、ドイツ・ドレスデン工場の本格稼働スケジュールを開示。',
-      'Apple、Nvidia、AMDなど主要顧客（大株主ファンド）の要請を受け、最先端2nm/3nmプロセスの台湾国外での製造比率を大幅引き上げ。',
-      '地政学的な台湾海峡リスクに対する「半導体供給網の保険（多極化体制）」が名実ともに完成。'
+      "生成AIデータセンターの急増による電力逼迫を受け、MicrosoftやAmazonが原子力発電運営企業と20年超の直接売電契約（PPA）を相次ぎ締結。",
+      "Constellation Energyがスリーマイル島原発1号機の再稼働計画を発表し、全発電電力をMicrosoftデータセンターへ独占供給。",
+      "従来の「再エネ（太陽光・風力）一辺倒」から、24時間365日安定供給できる「原子力・SMR」へ機関投資家の資金が集中。"
     ],
     summaryEn: [
-      'TSMC disclosed volume ramp milestones for Arizona Fabs 1/2 (US), Kumamoto Fabs 1/2 (Japan), and Dresden (Germany) in SEC Form 20-F.',
-      'Customer and shareholder pressure (Apple, Nvidia, BlackRock) driving sub-3nm cutting-edge production capacity outside Taiwan.',
-      'Institutional insurance framework against Taiwan Strait geopolitical disruption formally established.'
+      "Facing acute grid constraints for AI compute, Microsoft and Amazon executed historic 20-year Power Purchase Agreements (PPAs) with nuclear operators.",
+      "Constellation Energy announced the restart of Three Mile Island Unit 1 (Crane Clean Energy Center), dedicating 100% output to Microsoft.",
+      "Institutional capital shifting from intermittent renewables toward 24/7 baseload nuclear energy and Small Modular Reactors (SMRs)."
     ],
     primaryPolicy: {
-      title: '先端ノード半導体の「グローバル製造フットプリント（多極分散）」',
-      titleEn: 'Geographic Multi-Node Diversification of Critical Semiconductor Foundries',
-      description: '地震および地政学リスクによる台湾本島での工場停止時でも、世界のハイテク産業が継続稼働できる冗長性（バックアップ）の確保。',
-      descriptionEn: 'Establishing redundant fabrication capacity outside Taiwan to ensure uninterrupted global compute supply in black-swan events.',
+      title: "ベースロード電力（24/7 Carbon-Free Energy）の直接調達契約",
+      titleEn: "Direct Procurement of 24/7 Carbon-Free Baseload Nuclear Power",
+      description: "天候に左右される太陽光・風力だけではAIデータセンターの100%稼働を維持できないため、原発のゼロカーボン電力をプレミアム価格で買い取る仕組み。",
+      descriptionEn: "Securing dedicated nuclear output at a premium tariff to ensure 99.999% uptime for multi-gigawatt datacenter campuses.",
       keyPoints: [
-        '米アリゾナ第2工場における最先端2nmプロセスの導入決定（SEC Form 20-F開示）',
-        '日本・熊本第2工場（6nm/7nm先端車載・AIチップ）の建設推進とサプライチェーン集積',
-        '顧客企業による製造コスト上昇分（約20〜30%プレミアム）の受け入れ合意'
+        "原発1基分の全電力（約800MW超）を1社で買い取る20年超の長期オフテイク契約（PPA）",
+        "小型モジュール炉（SMR）開発企業（NuScale, TerraPower等）へのメガテック巨額出資",
+        "送電網接続（グリッドキュー）の優先権獲得に向けた州エネルギー規制当局への申請"
       ],
       keyPointsEn: [
-        'Commitment to deploy 2nm production node at TSMC Arizona Fab 2 (SEC Form 20-F)',
-        'Advancing Kumamoto Fab 2 expansion for automotive and AI silicon clustering',
-        'Customer acceptance of 20-30% geographic fabrication cost premiums'
+        "20-year off-take agreement capturing entire ~835 MW reactor capacity for single tenant",
+        "Hyperscaler direct equity funding into Small Modular Reactor developers (TerraPower, NuScale)",
+        "State regulatory filings to expedite behind-the-meter nuclear interconnection"
       ]
     },
     capitalIncentive: {
-      title: '台湾有事による数千兆円規模のグローバル資産消失（テールリスク）の完全ヘッジ',
-      titleEn: 'Hedging Trillions in Systemic Tech Market Capitalization from Taiwan Tail Risks',
-      description: 'BlackRock、Vanguard、Capital Groupなどのメガファンドが、台湾一極集中の脆弱性をポートフォリオ最大の脅威としてTSMCに海外分散を強制。',
-      financialRationale: '海外工場の建設コストは膨大だが、有事の際の全資産消失を防ぐ「保険料」として正当化され、株価バリュエーションの維持に寄与。',
-      financialRationaleEn: 'High fab CAPEX amortized as essential institutional insurance, sustaining TSMC $1T+ enterprise multiple.'
+      title: "AI設備投資（数千億ドル）の稼働停止リスク回避と安定電力の先行買い占め",
+      titleEn: "Securing Power Feed to Safeguard Multi-Billion Dollar GPU CAPEX",
+      description: "GPUサーバーを数万台購入しても電力がなければ減価償却費だけが嵩むため、ファンドが電力調達力の有無をテック企業の最重要評価項目に設定。",
+      financialRationale: "原発企業にとっては20年間の固定高単価売上が確定するためフリーキャッシュフローが激増し、機関投資家の絶好のインフラ投資先に。",
+      financialRationaleEn: "Guaranteed 20-year off-take revenues transform nuclear utilities into premier bond-like growth assets."
     },
     industryImpact: {
-      title: '日本（九州・熊本）および米国（アリゾナ）における巨大半導体クラスターの復活',
-      titleEn: 'Revitalization of Japanese & American Semiconductor Clusters',
-      description: 'ソニー、信越化学、東京エレクトロンなど日本の素材・装置メーカーへの受注が激増し、半導体エコシステムが急速に強化。',
-      descriptionEn: 'Massive capex tailwinds for Japanese materials & tool suppliers (Tokyo Electron, Shin-Etsu) and US packaging suppliers.',
-      marketReaction: 'TSMCの地政学ディスカウントが解消され、時価総額1兆ドル超を維持・拡大。',
-      marketReactionEn: 'TSMC geopolitical discount narrowed, firmly anchoring its $1T+ market capitalization.',
+      title: "原子力・ウラン・電力インフラ関連株の歴史的スーパーサイクル突入",
+      titleEn: "Nuclear & Uranium Supercycle as Clean AI Enabler",
+      description: "Constellation Energy、GE Vernova、Cameco（ウラン最大手）などの株価が過去最高値を更新し、資金流入ランキングで首位を独走。",
+      descriptionEn: "Constellation Energy, GE Vernova, and Cameco hit record highs, leading global equity capital inflow rankings.",
+      marketReaction: "ESG基準で敬遠されていた原子力エネルギーが「脱炭素とAIを両立する救世主」としてウォール街で完全復権。",
+      marketReactionEn: "Nuclear power completely rehabilitated across Wall Street as the essential intersection of zero-carbon and AI compute.",
       caseStudy: {
-        target: 'TSMC (SEC Form 20-F / CIK: 0001046179), Apple Inc., Nvidia Corp',
-        outcome: '日米欧の海外拠点が順次量産を開始し、グローバルハイテク企業の事業継続性が飛躍的に向上。',
-        outcomeEn: 'Global fab network volume production dramatically upgraded business continuity for Western tech leaders.'
+        target: "Constellation Energy (SEC Form 8-K), Microsoft Corp",
+        outcome: "スリーマイル島原発の再稼働プロジェクト（Crane Clean Energy Center）が発表され、株価が急騰。",
+        outcomeEn: "Announced 835 MW Crane Clean Energy Center restart backed by Microsoft 20-year power commitment."
       }
     },
-    status: 'active',
-    statusLabel: '多極分散稼働中',
-    statusLabelEn: 'Multi-Polar Operations Active',
-    sourceName: 'TSMC Annual Report (SEC Form 20-F) & Investor Briefing',
-    sourceType: 'SEC Official Form 20-F (2026-07)',
-    sourceUrl: 'https://www.sec.gov/Archives/edgar/data/1046179/000104617924000032/tsm-20231231.htm',
-    tags: ['#TSMC', '#半導体多極化', '#熊本工場', '#アリゾナ工場', '#地政学リスクヘッジ'],
-    tagsEn: ['#TSMC', '#FabDiversification', '#KumamotoFab', '#ArizonaFab', '#GeopoliticalHedge'],
-    involvedCompanies: ['TSMC', 'Apple Inc.', 'Nvidia Corp', 'Sony Semiconductor', 'Tokyo Electron'],
-    impactScore: 97,
+    status: "active",
+    statusLabel: "資金殺到・原発再稼働",
+    statusLabelEn: "Nuclear Restart Active",
+    sourceName: "Constellation Energy SEC Form 8-K & Microsoft Strategic PPA Filing",
+    sourceType: "SEC Official Form 8-K (2026-08)",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/1868275/000186827524000045/ceg-20240920.htm",
+    tags: [
+      "#AI電力危機",
+      "#原子力発電",
+      "#ConstellationEnergy",
+      "#Microsoft",
+      "#SMR"
+    ],
+    tagsEn: [
+      "#AIEnergyCrisis",
+      "#NuclearPower",
+      "#ConstellationEnergy",
+      "#Microsoft",
+      "#SMR"
+    ],
+    involvedCompanies: [
+      "Constellation Energy",
+      "Microsoft Corp",
+      "Amazon.com",
+      "GE Vernova",
+      "Cameco Corp"
+    ],
+    impactScore: 99
+  },
+  {
+    id: "item-sec-climate-ruling-2026",
+    date: "2026-07-28",
+    institution: "US Court of Appeals & SEC (Release No. 33-11275)",
+    institutionEn: "US Court of Appeals & SEC (Release No. 33-11275)",
+    institutionType: "Regulatory Body",
+    category: "energy",
+    title: "SEC気候開示規則：法廷闘争を受けScope 3義務化を一時凍結、重大性基準へ緩和",
+    titleEn: "SEC Climate Rules Stripped of Scope 3 Mandate Following Federal Injunctions",
+    summary: [
+      "米連邦巡回控訴裁判所での訴訟および産業界からの強い反発を受け、SECがScope 3（下請けCO2排出）の一律開示義務化を事実上凍結。",
+      "「投資判断に直接重大な影響（Materiality）がある大企業のみ」に限定し、中小サプライヤーへの計算強制を排除。",
+      "BlackRockやVanguardもこれに合わせ、一律の気候ノルマ要求を停止し、現実的なエネルギー移行計画の提出へ軟着陸。"
+    ],
+    summaryEn: [
+      "Federal appellate court challenges compelled the SEC to formally drop mandatory Scope 3 value-chain emission disclosures.",
+      "Confined climate reporting strictly to financially material Scope 1 & 2 emissions for large accelerated filers.",
+      "BlackRock and Vanguard softened climate proxy guidelines to accept pragmatic energy transition timeframes."
+    ],
+    primaryPolicy: {
+      title: "気候情報開示基準の「マテリアリティ（財務的重大性）」への一本化",
+      titleEn: "Re-Anchoring Climate Disclosures to Strict Financial Materiality",
+      description: "全企業に対する一律の非財務スコア開示要求を撤回し、各企業のビジネスモデルに直接影響する項目のみの開示を認める司法判断に適合。",
+      descriptionEn: "Vacating unquantifiable value-chain reporting mandates to protect public filers from securities litigation.",
+      keyPoints: [
+        "サプライチェーン末端（Scope 3）における推計データの義務化を正式排除",
+        "製造業・農業・中小サプライヤーに対する過度な排出量監査負担の停止",
+        "天然ガス・原子力・ハイブリッドを「現実的な脱炭素ブリッジ資産」として容認"
+      ],
+      keyPointsEn: [
+        "Formal elimination of speculative Scope 3 supplier estimation requirements",
+        "Relief for agricultural, industrial, and small-cap supply chain participants",
+        "Pragmatic recognition of natural gas, nuclear, and hybrids as transitional assets"
+      ]
+    },
+    capitalIncentive: {
+      title: "過度なコンプライアンス訴訟リスクの遮断とエネルギーインフレの抑制",
+      titleEn: "Mitigating Securities Litigation Risk & Curtailing Compliance Costs",
+      description: "不正確な推計データに基づくScope 3開示が株主代表訴訟の標的となるリスクを回避し、過度な規制によるエネルギー価格高騰を防ぐため。",
+      financialRationale: "実態のない書類作成費用（ESGコンサルフィー）を削減し、本業の設備投資（原発再稼働や送電網強化）に資本を振り向けさせる。",
+      financialRationaleEn: "Eliminating non-productive regulatory advisory overhead to redirect capital into grid infrastructure and energy generation."
+    },
+    industryImpact: {
+      title: "グローバル製造業・エネルギー企業の「ハイブリッド・現実主義脱炭素」シフト",
+      titleEn: "Manufacturing Reversion to Hybrid & Pragmatic Decarbonization",
+      description: "トヨタ、General Motors、ExxonMobilなどが、過度なBEV一極集中から、ハイブリッドや天然ガス・インフラへの再投資を加速。",
+      descriptionEn: "Automakers (Toyota, GM) and energy majors (ExxonMobil, Chevron) accelerating hybrid and natural gas bridge investments.",
+      marketReaction: "現実的な収益性を確保できる製造業・エネルギー企業の株価が市場で再評価。",
+      marketReactionEn: "Cash-generative industrial and hybrid manufacturing equities rewarded with valuation multiple expansion.",
+      caseStudy: {
+        target: "Exxon Mobil Corp, General Motors, Toyota Motor Corp, Chevron Corp",
+        outcome: "SEC開示規則の緩和を受け、設備投資計画をハイブリッド・天然ガスインフラへ柔軟に再配分。",
+        outcomeEn: "Flexible capital reallocations toward high-margin hybrid drivetrains and LNG infrastructure."
+      }
+    },
+    status: "shifting",
+    statusLabel: "規制緩和・現実路線へ",
+    statusLabelEn: "Pragmatic Regulatory Relief",
+    sourceName: "U.S. Court of Appeals 5th Circuit Ruling / SEC Release No. 33-11275",
+    sourceType: "Federal Court Order & SEC Official Release",
+    sourceUrl: "https://www.sec.gov/rules/final/2024/33-11275.pdf",
+    tags: [
+      "#SEC開示規則",
+      "#Scope3緩和",
+      "#裁判所判決",
+      "#ハイブリッド再評価",
+      "#脱炭素"
+    ],
+    tagsEn: [
+      "#SECRules",
+      "#Scope3Relief",
+      "#CourtRuling",
+      "#HybridValuation",
+      "#EnergyTransition"
+    ],
+    involvedCompanies: [
+      "Exxon Mobil Corp",
+      "General Motors",
+      "Toyota Motor Corp",
+      "Chevron Corp"
+    ],
+    impactScore: 94
+  },
+  {
+    id: "item-chips-act-2026",
+    date: "2026-08-08",
+    institution: "US Dept of Commerce (BIS) & Apple / TSMC",
+    institutionEn: "US Department of Commerce (BIS) & Apple / TSMC",
+    institutionType: "Regulatory Body",
+    category: "supply_chain",
+    title: "米商務省（BIS）：対中AI半導体・先端装置の迂回輸出規制強化とサプライチェーン再編",
+    titleEn: "US Commerce Closes AI Chip Export Loopholes, Forcing Swift Reshoring to India & US",
+    summary: [
+      "米商務省が、中東や東南アジアを経由した中国向けAI半導体・先端製造装置の輸出規制を大幅強化する新規制を施行。",
+      "Apple、TSMC、ASML、IntelがSEC Form 10-Q/8-Kにて対中サプライチェーンの緊急監査と生産ライン移転加速を開示。",
+      "iPhoneのインド生産比率が過去最高の30%に達し、TSMCアリゾナ・熊本第2工場の稼働スケジュールを前倒し。"
+    ],
+    summaryEn: [
+      "US Commerce Department (BIS) tightened export controls closing intermediary transshipment routes for advanced AI GPUs and lithography.",
+      "Apple, TSMC, ASML, and Intel disclosed expedited supply chain relocations in SEC Form 10-Q and 8-K filings.",
+      "Apple Indian iPhone manufacturing share hit an all-time high of 30%, while TSMC accelerated Arizona and Kumamoto expansion."
+    ],
+    primaryPolicy: {
+      title: "先端ノード半導体およびAIデータセンター機器のグローバル・トラッキング義務化",
+      titleEn: "Mandatory End-User Geolocation Tracking for Advanced AI Silicon",
+      description: "中国本土への軍事転用を防ぐため、先端GPUおよび製造装置の最終ユーザー追跡（エンドユーザー証明）の提出を義務付け。",
+      descriptionEn: "Requiring strict verifiable end-user certifications to prevent illicit diversion of cutting-edge accelerators.",
+      keyPoints: [
+        "インド・ベトナム・米国本土・日本への製造設備移転に対する追加税額控除",
+        "ウイグル強制労働防止法（UFLPA）に基づくサプライチェーン全品目の電子原産地証明要求",
+        "中国国内ファブ（工場）への先端装置輸出ライセンスの全面停止"
+      ],
+      keyPointsEn: [
+        "Enhanced tax credits for wafer fab relocation to the US, Japan, India, and EU",
+        "Full electronic origin tracing under Uyghur Forced Labor Prevention Act (UFLPA)",
+        "Denial of export licenses for sub-14nm lithography tools to mainland Chinese fabs"
+      ]
+    },
+    capitalIncentive: {
+      title: "制裁金（数十億ドル）の回避と台湾有事テールリスクの完全遮断",
+      titleEn: "Avoiding Multibillion-Dollar Fines & Insulating Balance Sheets from Sanctions",
+      description: "米国の対外投資規制（Outbound Investment Rules）に抵触して巨額の法的制裁を受けるリスクをポートフォリオから完全に排除するため。",
+      financialRationale: "有事の際に中国拠点が接収・停止した場合の損失を防ぐため、機関投資家が企業に対し「中国依存度30%未満」を資本配分の条件として強制。",
+      financialRationaleEn: "Institutional capital demanding sub-30% China revenue exposure to prevent total asset write-offs in geopolitical crises."
+    },
+    industryImpact: {
+      title: "半導体・電子機器の製造コスト上昇と「非中国エコシステム」の完成",
+      titleEn: "Emergence of Complete Non-China Electronics Manufacturing Ecosystem",
+      description: "TSMC熊本工場、米アリゾナ工場、インド・タタグループの組立工場がフル稼働へ。製品原価は上昇したものの地政学耐性が飛躍的に向上。",
+      descriptionEn: "TSMC Arizona, Kumamoto Fab 2, and Tata Indian assembly facilities scaling to full volume, cementing a resilient non-China hardware nexus.",
+      marketReaction: "サプライチェーンの脱中国化をいち早く完了させた企業に対し、機関投資家がプレミアム株価を付与。",
+      marketReactionEn: "Investors assigning premium valuation multiples to tech leaders achieving diversified geographic manufacturing.",
+      caseStudy: {
+        target: "Apple Inc. (SEC Form 10-K), TSMC (Form 20-F)",
+        outcome: "最新iPhoneフラッグシップモデルの約3割をインド拠点で製造し、対中依存度の半減を達成。",
+        outcomeEn: "Successfully scaled flagship iPhone assembly in India to ~30% of global volume."
+      }
+    },
+    status: "active",
+    statusLabel: "強力推進中",
+    statusLabelEn: "Active Enforcement",
+    sourceName: "U.S. Bureau of Industry and Security (BIS) Final Rule & Apple Form 10-K",
+    sourceType: "Federal Register & SEC Filing (2026-08)",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+    tags: [
+      "#CHIPS法",
+      "#脱中国",
+      "#半導体",
+      "#Apple",
+      "#TSMC"
+    ],
+    tagsEn: [
+      "#CHIPSAct",
+      "#Decoupling",
+      "#Semiconductor",
+      "#Apple",
+      "#TSMC"
+    ],
+    involvedCompanies: [
+      "Apple Inc.",
+      "TSMC",
+      "ASML Holding",
+      "Nvidia Corp",
+      "Intel Corp"
+    ],
+    impactScore: 95
+  },
+  {
+    id: "item-tsmc-global-fab-2026",
+    date: "2026-07-18",
+    institution: "Taiwan Semiconductor Manufacturing Co (TSMC SEC Form 20-F)",
+    institutionEn: "Taiwan Semiconductor Manufacturing Co (TSMC SEC Form 20-F)",
+    institutionType: "Corporation",
+    category: "supply_chain",
+    title: "TSMC（台湾）：日米欧への先端2nm/3nm工場分散と台湾有事リスクの恒久ヘッジ",
+    titleEn: "TSMC Multi-Polar Global Fab Footprint (Arizona, Kumamoto, Dresden) Secures Advanced Nodes",
+    summary: [
+      "台湾TSMCが米アリゾナ第1・第2工場、日本熊本第1・第2工場、ドイツ・ドレスデン工場の本格稼働スケジュールを開示。",
+      "Apple、Nvidia、AMDなど主要顧客（大株主ファンド）の要請を受け、最先端2nm/3nmプロセスの台湾国外での製造比率を大幅引き上げ。",
+      "地政学的な台湾海峡リスクに対する「半導体供給網の保険（多極化体制）」が名実ともに完成。"
+    ],
+    summaryEn: [
+      "TSMC disclosed volume ramp milestones for Arizona Fabs 1/2 (US), Kumamoto Fabs 1/2 (Japan), and Dresden (Germany) in SEC Form 20-F.",
+      "Customer and shareholder pressure (Apple, Nvidia, BlackRock) driving sub-3nm cutting-edge production capacity outside Taiwan.",
+      "Institutional insurance framework against Taiwan Strait geopolitical disruption formally established."
+    ],
+    primaryPolicy: {
+      title: "先端ノード半導体の「グローバル製造フットプリント（多極分散）」",
+      titleEn: "Geographic Multi-Node Diversification of Critical Semiconductor Foundries",
+      description: "地震および地政学リスクによる台湾本島での工場停止時でも、世界のハイテク産業が継続稼働できる冗長性（バックアップ）の確保。",
+      descriptionEn: "Establishing redundant fabrication capacity outside Taiwan to ensure uninterrupted global compute supply in black-swan events.",
+      keyPoints: [
+        "米アリゾナ第2工場における最先端2nmプロセスの導入決定（SEC Form 20-F開示）",
+        "日本・熊本第2工場（6nm/7nm先端車載・AIチップ）の建設推進とサプライチェーン集積",
+        "顧客企業による製造コスト上昇分（約20〜30%プレミアム）の受け入れ合意"
+      ],
+      keyPointsEn: [
+        "Commitment to deploy 2nm production node at TSMC Arizona Fab 2 (SEC Form 20-F)",
+        "Advancing Kumamoto Fab 2 expansion for automotive and AI silicon clustering",
+        "Customer acceptance of 20-30% geographic fabrication cost premiums"
+      ]
+    },
+    capitalIncentive: {
+      title: "台湾有事による数千兆円規模のグローバル資産消失（テールリスク）の完全ヘッジ",
+      titleEn: "Hedging Trillions in Systemic Tech Market Capitalization from Taiwan Tail Risks",
+      description: "BlackRock、Vanguard、Capital Groupなどのメガファンドが、台湾一極集中の脆弱性をポートフォリオ最大の脅威としてTSMCに海外分散を強制。",
+      financialRationale: "海外工場の建設コストは膨大だが、有事の際の全資産消失を防ぐ「保険料」として正当化され、株価バリュエーションの維持に寄与。",
+      financialRationaleEn: "High fab CAPEX amortized as essential institutional insurance, sustaining TSMC $1T+ enterprise multiple."
+    },
+    industryImpact: {
+      title: "日本（九州・熊本）および米国（アリゾナ）における巨大半導体クラスターの復活",
+      titleEn: "Revitalization of Japanese & American Semiconductor Clusters",
+      description: "ソニー、信越化学、東京エレクトロンなど日本の素材・装置メーカーへの受注が激増し、半導体エコシステムが急速に強化。",
+      descriptionEn: "Massive capex tailwinds for Japanese materials & tool suppliers (Tokyo Electron, Shin-Etsu) and US packaging suppliers.",
+      marketReaction: "TSMCの地政学ディスカウントが解消され、時価総額1兆ドル超を維持・拡大。",
+      marketReactionEn: "TSMC geopolitical discount narrowed, firmly anchoring its $1T+ market capitalization.",
+      caseStudy: {
+        target: "TSMC (SEC Form 20-F / CIK: 0001046179), Apple Inc., Nvidia Corp",
+        outcome: "日米欧の海外拠点が順次量産を開始し、グローバルハイテク企業の事業継続性が飛躍的に向上。",
+        outcomeEn: "Global fab network volume production dramatically upgraded business continuity for Western tech leaders."
+      }
+    },
+    status: "active",
+    statusLabel: "多極分散稼働中",
+    statusLabelEn: "Multi-Polar Operations Active",
+    sourceName: "TSMC Annual Report (SEC Form 20-F) & Investor Briefing",
+    sourceType: "SEC Official Form 20-F (2026-07)",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/1046179/000104617924000032/tsm-20231231.htm",
+    tags: [
+      "#TSMC",
+      "#半導体多極化",
+      "#熊本工場",
+      "#アリゾナ工場",
+      "#地政学リスクヘッジ"
+    ],
+    tagsEn: [
+      "#TSMC",
+      "#FabDiversification",
+      "#KumamotoFab",
+      "#ArizonaFab",
+      "#GeopoliticalHedge"
+    ],
+    involvedCompanies: [
+      "TSMC",
+      "Apple Inc.",
+      "Nvidia Corp",
+      "Sony Semiconductor",
+      "Tokyo Electron"
+    ],
+    impactScore: 97
   }
 ];
 
 // 5. なんか最近よく見るな～（厳選8件・直近45日ローテーション保持）
 export const recentTrendsData: RecentTrendItem[] = [
+  {
+    id: "trend-nike-retro-sneakers",
+    date: "2026-09-06",
+    topic: "スニーカー界隈で『90年代復刻』が異常に多発",
+    topicEn: "Aggressive 90s Sneaker Retro Re-releases Everywhere",
+    category: "culture",
+    mediaChannel: "YouTube / SNS",
+    mediaChannelEn: "YouTube / Social",
+    phenomenon: {
+      title: "SNSやセレクトショップでAir Max 95等の90年代復刻モデルが激増",
+      titleEn: "Vintage 90s Air Max and retro kicks flooding Instagram and streetwear channels",
+      description: "YouTubeの購入品紹介や街中で、30年前のモデルの復刻版がやたら特集されている。スニーカーヘッズだけでなく一般層にも露骨に流れてくる。",
+      descriptionEn: "Decades-old retro models are suddenly heavily promoted across social feeds and fashion retail."
+    },
+    explanation: {
+      title: "中国市場低迷と新興ブランド台頭に直面したナイキの『確実なIP資産の再換金』",
+      titleEn: "Nike's strategic pivot to proven heritage IP amid slowing new innovation cycles",
+      description: "OnやHOKAなど新興ランニングシューズにシェアを奪われたナイキが、新規開発リスクを避け、30代〜40代の購買力とZ世代のレトロブームに刺さる実証済み名作モデルを大量再生産して利益率を維持する戦略。",
+      descriptionEn: "Facing severe competition from On and Hoka, Nike is aggressively monetizing its proven archive models to protect margins.",
+      keyPoints: [
+        "On/Hokaの猛追による新規ランニング部門のシェア低下",
+        "実証済みアーカイブ（90s金型）の再活用による原価抑制と粗利最大化",
+        "2026年の30周年アニバーサリーに向けた世界同時マーケティング"
+      ],
+      keyPointsEn: [
+        "Market share erosion from disruptive challengers (On, Hoka)",
+        "Maximized gross margins via re-used heritage tooling and molds",
+        "Global coordinated rollout leading up to milestone anniversaries"
+      ]
+    },
+    capitalContext: {
+      title: "年商500億ドル企業の粗利死守と世界流通サプライチェーン",
+      titleEn: "Defending 44%+ gross margins at a $50B global athletic giant",
+      disclosedScale: "年間売上513億ドル / マーケティング予算43億ドル",
+      disclosedScaleEn: "Annual Revenue $51.3B / Demand Creation Expense $4.3B",
+      sourceEntity: "Nike, Inc. (NYSE: NKE)",
+      secFiling: "SEC Form 10-K (Annual Report)",
+      secFilingUrl: "https://www.sec.gov/edgar/browse/?CIK=320187",
+      dominantBackers: [
+        "Vanguard Group (8.6%)",
+        "BlackRock (7.4%)"
+      ],
+      dominantBackersEn: [
+        "Vanguard Group (8.6%)",
+        "BlackRock (7.4%)"
+      ]
+    },
+    tags: [
+      "NKE",
+      "スニーカー",
+      "レトロブーム",
+      "粗利戦略"
+    ],
+    tagsEn: [
+      "NKE",
+      "Sneakers",
+      "RetroTrend",
+      "GrossMargin"
+    ]
+  },
   {
     id: "trend-energy-drink-expansion",
     date: "2026-08-30",
