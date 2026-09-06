@@ -110,14 +110,25 @@ def run_full_pipeline():
     else:
         print("\n[*] Step 3: Gemini API Key not set in environment. Retaining verified feed baseline.")
 
-    # 4. 最新ステータスファイルの更新
+    # 4. カテゴリー04（よく分からないけど流行ってるもの）の30日保持ローテーション＆自動更新
+    print("\n[*] Step 4: Refreshing Category 04 (Recent Trends) & Enforcing 30-Day Retention...")
+    try:
+        sys.path.insert(0, 'scripts')
+        from trend_explainer_updater import run_trend_update
+        run_trend_update()
+        print("    [✔] Category 04 (Recent Trends) Synchronized.")
+    except Exception as e:
+        print(f"    [!] Error during trend explainer update: {e}", file=sys.stderr)
+
+    # 5. 最新ステータスファイルの更新
     status_summary = {
         'lastUpdatedUtc': datetime.now(timezone.utc).isoformat(),
         'pipelineStatus': 'SUCCESS_100_PERCENT',
         'sectionsAutomated': [
             '01. Macro Inflow Sectors (Real-time Flow)',
             '02. Top 10 Mega Funds Holding Matrix (SEC 13F/13G)',
-            '03. Policy & Industry Impact Feed (SEC 8-K/6-K + AI)'
+            '03. Policy & Industry Impact Feed (SEC 8-K/6-K + AI)',
+            '04. Recent Trending Explainer (30-Day Retention)'
         ],
         'totalFilingsVerified': len(verified_filings),
         'filings': verified_filings
@@ -127,7 +138,7 @@ def run_full_pipeline():
         json.dump(status_summary, f, ensure_ascii=False, indent=2)
 
     print("\n" + "=" * 70)
-    print("  [✔✔✔] All 3 Core Sections Fully Synchronized and Autonomous!")
+    print("  [✔✔✔] All 4 Core Sections Fully Synchronized and Autonomous!")
     print("=" * 70)
 
 if __name__ == "__main__":

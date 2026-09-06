@@ -139,3 +139,41 @@ export interface AssetManagerProfile {
   recentShift: string;
   recentShiftEn?: string;
 }
+
+// 4. よく分からないけど流行ってるもの（日常トレンド ＆ 資本背景データ型）
+export interface RecentTrendItem {
+  id: string;
+  date: string; // YYYY-MM-DD
+  topic: string;
+  topicEn: string;
+  category: 'entertainment' | 'health' | 'tech' | 'culture';
+  mediaChannel: 'YouTube / SNS' | 'テレビ / 医療メディア' | 'テック / ガジェット' | '映画 / エンタメ';
+  mediaChannelEn: 'YouTube / Social' | 'TV / Medical Media' | 'Tech / Hardware' | 'Cinema / Entertainment';
+  phenomenon: {
+    title: string;
+    titleEn: string;
+    description: string;
+    descriptionEn: string;
+  };
+  explanation: {
+    title: string;
+    titleEn: string;
+    description: string;
+    descriptionEn: string;
+    keyPoints: string[];
+    keyPointsEn: string[];
+  };
+  capitalContext: {
+    title: string;
+    titleEn: string;
+    disclosedScale: string;
+    disclosedScaleEn: string;
+    sourceEntity: string;
+    secFiling: string;
+    secFilingUrl?: string;
+    dominantBackers: string[];
+    dominantBackersEn?: string[];
+  };
+  tags: string[];
+  tagsEn: string[];
+}

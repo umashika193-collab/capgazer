@@ -1,4 +1,4 @@
-import type { TrackerItem, FlowNode, AssetManagerProfile, CurrentInflowSector } from '../types/tracker';
+import type { TrackerItem, FlowNode, AssetManagerProfile, CurrentInflowSector, RecentTrendItem } from '../types/tracker';
 
 // 【SEC EDGAR & 機関投資家一次開示 完全検証済みデータセット（2026年8月 日英バイリンガル版）】
 
@@ -1644,3 +1644,404 @@ export const trackerItemsData: TrackerItem[] = [
     impactScore: 97,
   }
 ];
+
+// 5. なんか最近よく見るな～（日次自動更新 ＆ 直近30日ローテーション保持）
+export const recentTrendsData: RecentTrendItem[] = [
+  {
+    id: "trend-energy-drink-expansion",
+    date: "2026-08-30",
+    topic: "コンビニでエナジードリンクの棚が異常に拡大している理由",
+    topicEn: "Why Energy Drinks Dominate Convenience Store Refrigerators",
+    category: "culture",
+    mediaChannel: "テレビ / 医療メディア",
+    mediaChannelEn: "TV / Medical Media",
+    phenomenon: {
+      title: "コンビニの冷蔵庫で、お茶やコーヒーの棚を削ってモンスターや高額エナドリが壁一面を占拠",
+      titleEn: "Energy drinks aggressively expanding shelf space at the expense of traditional tea and canned coffee",
+      description: "駅や街のコンビニのドリンクコーナーで、モンスターエナジー、ZONE、レッドブル、セルシウスなどが目線の特等席（ゴールデンゾーン）を占め、カラフルな缶が異常な面積を占拠している現象。",
+      descriptionEn: "Consumers noticing high-caffeine functional beverages taking over prime eye-level refrigerator shelves once reserved for traditional soft drinks."
+    },
+    explanation: {
+      title: "若者の砂糖離れに対抗し、粗利益率50〜60%を稼ぎ出す「機能性飲料」への資本シフト",
+      titleEn: "Beverage Conglomerates Pivoting to High-Margin (50-60% Gross Margin) Functional Energy",
+      description: "従来の甘い炭酸飲料や缶コーヒーの売上が頭打ちになる中、世界飲料メガ（コカ・コーラ、ペプシコ）はエナジードリンク企業に出資・買収を加速。原価率が極めて低く、値引きなしの定価販売（1本200円超）が維持できる高収益セグメントへ棚割り交渉力を集中させている。",
+      descriptionEn: "Facing stagnant volume in sugary sodas, beverage giants (Coca-Cola, PepsiCo) channeled multibillion capital into Monster and Celsius, weaponizing distribution fleets to capture high-margin retail space.",
+      keyPoints: [
+        "原価が低く、定価販売が守られる高粗利益率（50%超）ビジネス",
+        "コカ・コーラによるモンスター・ビバレッジ出資（約19.5%保有）と流通網の完全統合",
+        "ゲーマー・デスクワーカー向け「合法的な集中力・覚醒体験」への課金習慣化"
+      ],
+      keyPointsEn: [
+        "Extraordinary operating margins (50%+) sustained by premium non-discounted pricing",
+        "Coca-Cola 19.5% equity partnership locking in global DSD distribution supremacy",
+        "Monetizing cognitive energy and habitual caffeine demand among gamers and knowledge workers"
+      ]
+    },
+    capitalContext: {
+      title: "モンスター・ビバレッジ時価総額500億ドルと、コカ・コーラ連合の資本力",
+      titleEn: "Monster Beverage $50B Market Cap & The Coca-Cola Distribution Alliance",
+      disclosedScale: "時価総額 約500億ドル / 粗利益率 53.5%",
+      disclosedScaleEn: "$50B Market Cap / 53.5% Gross Margin",
+      sourceEntity: "Monster Beverage Corp (NASDAQ: MNST) / The Coca-Cola Co",
+      secFiling: "SEC Form 10-K (Monster Beverage Corp)",
+      secFilingUrl: "https://www.sec.gov/edgar/browse/?CIK=0000865752",
+      dominantBackers: [
+        "The Coca-Cola Company (約19.5%)",
+        "Vanguard (約8.8%)",
+        "BlackRock (約7.4%)"
+      ],
+      dominantBackersEn: [
+        "The Coca-Cola Company (approx. 19.5%)",
+        "Vanguard Group (approx. 8.8%)",
+        "BlackRock (approx. 7.4%)"
+      ]
+    },
+    tags: [
+      "#エナジードリンク",
+      "#モンスターエナジー",
+      "#コンビニ棚割り",
+      "#コカコーラ出資",
+      "#粗利率50パーセント",
+      "#高利益率ビジネス"
+    ],
+    tagsEn: [
+      "#EnergyDrinks",
+      "#MonsterBeverage",
+      "#ShelfSpaceStrategy",
+      "#CocaColaPartnership",
+      "#HighMarginRetail",
+      "#BeverageEconomics"
+    ]
+  },
+  {
+    id: "trend-dubai-chocolate-hype",
+    date: "2026-08-29",
+    topic: "SNSで「ドバイチョコ」や高級ナッツスイーツ動画が爆発している理由",
+    topicEn: "Why \"Dubai Chocolate\" & High-End Nut Confectionery Flooded Social Feeds",
+    category: "culture",
+    mediaChannel: "YouTube / SNS",
+    mediaChannelEn: "YouTube / Social",
+    phenomenon: {
+      title: "YouTubeのASMRやTikTokで、緑のペーストが詰まった分厚いチョコを割る動画が激増",
+      titleEn: "Explosion of viral ASMR videos snapping thick chocolate bars filled with bright green pistachio paste",
+      description: "TikTok、Instagramリール、YouTubeで、中からサクサクのカダイフとピスタチオペーストが溢れ出る「ドバイチョコ」の咀嚼音動画が世界中で大バズりし、1枚数千円で行列や品薄が発生している現象。",
+      descriptionEn: "Global viral sensation across short-form video algorithms featuring the distinctive crunch and cross-section of crispy knafeh pistachio-stuffed chocolate bars."
+    },
+    explanation: {
+      title: "「断面萌え×ASMR」のアルゴリズム最適化と、カカオ豆大暴騰による高単価ナッツシフト",
+      titleEn: "Algorithmic Audio-Visual Resonance Meets Global Cocoa Inflation Cost Shifts",
+      description: "視覚的インパクト（鮮やかなピスタチオグリーン）と聴覚刺激（カダイフのバリバリ音）がショート動画の視聴維持率を跳ね上げるバイラル構造。さらに背景には、世界的なカカオ豆の不作・価格高騰（先物価格が一時3倍）により、製菓業界が「カカオの量を減らし、高単価・高付加価値なナッツペースト菓子へ転換して利益を確保する」構造変化が重なっている。",
+      descriptionEn: "Engineered for maximum algorithmic retention via distinct auditory crunch and vivid green cross-sections, coinciding with historic cocoa bean commodity surges compelling confectioners to pivot toward high-ticket nut-filled luxury formats.",
+      keyPoints: [
+        "TikTok / YouTube Shortsの視聴維持率を最大化する「サクサク音（ASMR）×断面」",
+        "カカオ豆の歴史的暴騰（気候変動と病害）に伴う製菓原材料の価格転嫁",
+        "1枚2,000円〜4,000円でも売れる「自分へのプチ贅沢・体験型消費」の確立"
+      ],
+      keyPointsEn: [
+        "Short-form algorithm optimization capitalizing on crunchy ASMR audio and visual indulgence",
+        "Hedging against historic global cocoa futures inflation via high-margin nut paste formulas",
+        "Monetizing experiential micro-luxury and social status gifting ($20-$30 per bar)"
+      ]
+    },
+    capitalContext: {
+      title: "カカオ先物高騰と、世界最大手バリーカレボー等のプレミアムナッツ原料市場",
+      titleEn: "Surging Cocoa Futures & Barry Callebaut Premium Confectionery Sourcing",
+      disclosedScale: "世界チョコレート・ナッツ市場 年間1,200億ドル規模",
+      disclosedScaleEn: "$120B+ Global Chocolate & Specialty Nut Confectionery Market",
+      sourceEntity: "Barry Callebaut AG / Lindt & Sprüngli / 各国高級製菓チェーン",
+      secFiling: "Annual Confectionery Commodity Disclosures & Commodities Exchange",
+      secFilingUrl: "https://www.sec.gov/edgar/browse/?CIK=0000047217",
+      dominantBackers: [
+        "Barry Callebaut (スイス原料最大手)",
+        "BlackRock",
+        "UBS Wealth Mgmt"
+      ],
+      dominantBackersEn: [
+        "Barry Callebaut AG",
+        "BlackRock",
+        "UBS Wealth Management"
+      ]
+    },
+    tags: [
+      "#ドバイチョコ",
+      "#ASMR動画",
+      "#ピスタチオ",
+      "#カカオ高騰",
+      "#体験型消費",
+      "#SNSアルゴリズム"
+    ],
+    tagsEn: [
+      "#DubaiChocolate",
+      "#ASMRViral",
+      "#PistachioPaste",
+      "#CocoaInflation",
+      "#ExperientialSpending",
+      "#ShortFormAlgorithm"
+    ]
+  },
+  {
+    id: "trend-michael-jackson-resurgence",
+    date: "2026-08-28",
+    topic: "YouTubeでマイケル・ジャクソン急増の理由",
+    topicEn: "Why Michael Jackson is Suddenly Trending on YouTube",
+    category: "entertainment",
+    mediaChannel: "YouTube / SNS",
+    mediaChannelEn: "YouTube / Social",
+    phenomenon: {
+      title: "YouTubeのShortsやおすすめ動画で、急にMJのダンスや楽曲が頻出する",
+      titleEn: "Sudden influx of Michael Jackson dance shorts, reaction videos, and retrospectives",
+      description: "YouTubeのおすすめフィードやTikTokで、マイケル・ジャクソンのダンス解説、名曲リミックス、ライブ映像が最近やたらと流れてくる現象。",
+      descriptionEn: "Users noticing persistent recommendations of Michael Jackson choreography clips, audio trends, and retrospectives across YouTube Shorts and TikTok."
+    },
+    explanation: {
+      title: "2025〜2026年大型伝記映画『Michael』の公開に向けたプロモーション",
+      titleEn: "Preparation for Major Biopic \"Michael\" & Catalog Streaming Monetization",
+      description: "ライオンズゲートおよびユニバーサル配給による大型伝記映画『Michael』の世界公開が控えており、音楽権利を持つソニーや配給会社が、映画公開に向けてアルゴリズムを活用した若年層（Z世代・アルファ世代）への再認知と楽曲バイラルを積極的に仕掛けている。",
+      descriptionEn: "In anticipation of the global biopic \"Michael\", rights-holders and distributors are actively cultivating Gen-Z and Alpha discovery across streaming algorithms to build box-office momentum.",
+      keyPoints: [
+        "大型伝記映画『Michael』の全世界プロモーション連動",
+        "Z世代・アルファ世代へ過去の名曲（Thriller, Billie Jean等）をストリーミング再生させるバイラル施策",
+        "映画公開前に楽曲認知を高めておくことで、公開時の興行収入とストリーミング収益を最大化"
+      ],
+      keyPointsEn: [
+        "Global rollout tied to the upcoming Lionsgate / Universal biopic \"Michael\"",
+        "Catalog viral seeding to introduce timeless hits to younger streaming listeners",
+        "Maximizing synchronized theatrical box office and recurring audio streaming royalties"
+      ]
+    },
+    capitalContext: {
+      title: "ソニーによる約6億ドルの楽曲権利買収と、安定利回りを求める巨大ファンド",
+      titleEn: "Sony $600M Music Catalog Acquisition & Defensive Cash Flow Seeking Funds",
+      disclosedScale: "約6億ドル（約900億円）",
+      disclosedScaleEn: "$600M (approx. ¥90B)",
+      sourceEntity: "Sony Group Corp (Sony Music) / Lions Gate / Universal",
+      secFiling: "SEC Form 6-K (Sony Group Corp)",
+      secFilingUrl: "https://www.sec.gov/edgar/browse/?CIK=0000313838",
+      dominantBackers: [
+        "Sony Group Corp",
+        "BlackRock (約6%保有)",
+        "Vanguard (約4%保有)"
+      ],
+      dominantBackersEn: [
+        "Sony Group Corp",
+        "BlackRock (approx. 6% stake)",
+        "Vanguard (approx. 4% stake)"
+      ]
+    },
+    tags: [
+      "#マイケルジャクソン",
+      "#YouTubeアルゴリズム",
+      "#映画Michael",
+      "#ソニーMusic",
+      "#音楽カタログ投資"
+    ],
+    tagsEn: [
+      "#MichaelJackson",
+      "#YouTubeAlgorithm",
+      "#MichaelBiopic",
+      "#SonyMusic",
+      "#CatalogIP"
+    ]
+  },
+  {
+    id: "trend-mounjaro-tv-coverage",
+    date: "2026-08-25",
+    topic: "テレビや美容クリニックで「マンジャロ」が話題な理由",
+    topicEn: "Why \"Mounjaro\" is Widely Covered on TV & Lifestyle Media",
+    category: "health",
+    mediaChannel: "テレビ / 医療メディア",
+    mediaChannelEn: "TV / Medical Media",
+    phenomenon: {
+      title: "情報番組や雑誌、ネット広告で「奇跡の痩せ薬」として頻繁に登場する",
+      titleEn: "Frequent features as a \"breakthrough weight loss drug\" on broadcast TV and lifestyle media",
+      description: "テレビの情報番組や週刊誌、美容クリニックの広告で「劇的に体重が落ちる新薬」としてマンジャロが肯定的に取り上げられ、大きな話題になっている現象。",
+      descriptionEn: "Mainstream TV morning shows, health columns, and aesthetic clinic campaigns prominently highlighting Mounjaro as a revolutionary weight management medication."
+    },
+    explanation: {
+      title: "米製薬大手イーライリリーの新薬が日本でも本格普及期に入ったため",
+      titleEn: "Eli Lilly GLP-1 Breakthrough Entering Mainstream Market Expansion",
+      description: "糖尿病治療薬として世界で空前の売上を記録している「GLP-1/GIP作動薬」が日本でも薬価収載され、肥満症への適応拡大や市場開拓に向けた製薬会社の大規模な疾患啓発・流通強化が進行中。メディアや医療機関への情報提供が活発化している。",
+      descriptionEn: "The GLP-1/GIP drug class, shattering global pharmaceutical sales records, is scaling distribution across Japan, supported by legitimate disease awareness campaigns and physician outreach.",
+      keyPoints: [
+        "世界的なメガブロックバスター薬（マンジャロ/ゼップバウンド）の日本市場普及",
+        "製薬大手による疾患啓発マーケティングと学会・医療機関向けの情報提供",
+        "保険適用の糖尿病治療と、自費診療（美容医療）の双方で需要が急増したことによる社会現象化"
+      ],
+      keyPointsEn: [
+        "Global rollout of blockbuster GLP-1/GIP treatments across Japanese healthcare channels",
+        "Substantial pharmaceutical educational outreach to healthcare providers and media",
+        "Surging parallel demand across covered medical prescriptions and private wellness clinics"
+      ]
+    },
+    capitalContext: {
+      title: "時価総額9,000億ドル突破と、生涯課金モデルを支える巨大年金マネー",
+      titleEn: "Eli Lilly $900B Market Cap & High-Margin Recurring Healthcare Mandate",
+      disclosedScale: "時価総額 約9,000億ドル / 生産設備投資 200億ドル超",
+      disclosedScaleEn: "$900B+ Market Cap / $20B+ Manufacturing CAPEX",
+      sourceEntity: "Eli Lilly and Company (NYSE: LLY) / 田辺三菱製薬",
+      secFiling: "SEC Form 10-K / 10-Q (Eli Lilly and Company)",
+      secFilingUrl: "https://www.sec.gov/edgar/browse/?CIK=0000059478",
+      dominantBackers: [
+        "Vanguard (約8.5%保有)",
+        "BlackRock (約7.3%保有)",
+        "Capital Group"
+      ],
+      dominantBackersEn: [
+        "Vanguard Group (approx. 8.5%)",
+        "BlackRock (approx. 7.3%)",
+        "Capital Group"
+      ]
+    },
+    tags: [
+      "#マンジャロ",
+      "#イーライリリー",
+      "#GLP1",
+      "#テレビ情報番組",
+      "#美容医療",
+      "#製薬マネー"
+    ],
+    tagsEn: [
+      "#Mounjaro",
+      "#EliLilly",
+      "#GLP1",
+      "#BroadcastTV",
+      "#Healthcare",
+      "#PharmaFlow"
+    ]
+  },
+  {
+    id: "trend-ai-hardware-push",
+    date: "2026-08-20",
+    topic: "新製品がすべて“AI搭載”を推してくる理由",
+    topicEn: "Why Every New Gadget & Laptop Aggressively Brands \"AI-Powered\"",
+    category: "tech",
+    mediaChannel: "テック / ガジェット",
+    mediaChannelEn: "Tech / Hardware",
+    phenomenon: {
+      title: "スマホ、ノートPC、家電の新製品発表で「AI」が連呼される",
+      titleEn: "Constant marketing of \"AI-Enabled\", \"Copilot Keys\", and on-device neural processing",
+      description: "家電量販店や新製品発表会で、最新のスマホやパソコン、さらにはテレビや白物家電にまで「AI搭載」の文字が溢れている現象。",
+      descriptionEn: "Consumers encountering ubiquitous \"AI PC\", \"AI Camera\", and \"Smart Assistant\" branding across consumer electronics and flagship smartphones."
+    },
+    explanation: {
+      title: "スマホやPCの買い替え需要の喚起と、巨額の半導体設備投資の回収",
+      titleEn: "Stimulating Replacement Cycles & Monetizing Vast Semiconductor Infrastructure",
+      description: "スマートフォンの性能が成熟して一般ユーザーの買い替え周期が長期化（4〜5年）する中、大手テック企業は「オンデバイスAI」を新たな買い替え動機として位置づけている。また、半導体メーカーが投じた巨額の製造設備費を回収するためにAI対応チップの大量出荷が不可欠となっている。",
+      descriptionEn: "With smartphone upgrade cycles lengthening to 4-5 years, tech conglomerates are positioning on-device AI as the premier catalyst for consumer hardware refreshes to absorb semiconductor foundry capacity.",
+      keyPoints: [
+        "長期化した端末買い替えサイクルの強制再起動（アップグレード需要創出）",
+        "NPU（AI専用プロセッサ）を標準搭載した新世代チップの普及促進",
+        "大手クラウド企業による自社AIエコシステム（Microsoft Copilot, Apple Intelligence等）への囲い込み"
+      ],
+      keyPointsEn: [
+        "Accelerating consumer replacement cycles beyond standard 4-year upgrade plateaus",
+        "Universal deployment of dedicated NPU silicon across mainstream consumer devices",
+        "Ecosystem lock-in driven by proprietary assistants (Microsoft Copilot, Apple Intelligence)"
+      ]
+    },
+    capitalContext: {
+      title: "年間数百億ドルのAI設備投資（CAPEX）とサプライチェーンの思惑",
+      titleEn: "Tens of Billions in Hyperscale Hardware CAPEX & Silicon Supply Contracts",
+      disclosedScale: "年間AI設備投資 約2,000億ドル規模（主要テック合算）",
+      disclosedScaleEn: "Approx. $200B Annual Combined AI CAPEX",
+      sourceEntity: "Microsoft, Apple, Google, Intel, AMD, Qualcomm",
+      secFiling: "SEC Form 10-K (Annual Reports of Big Tech)",
+      secFilingUrl: "https://www.sec.gov/edgar/browse/?CIK=0000789019",
+      dominantBackers: [
+        "BlackRock",
+        "Vanguard",
+        "State Street",
+        "Fidelity"
+      ],
+      dominantBackersEn: [
+        "BlackRock",
+        "Vanguard Group",
+        "State Street",
+        "Fidelity"
+      ]
+    },
+    tags: [
+      "#AIスマホ",
+      "#AIPC",
+      "#買い替え需要",
+      "#半導体投資",
+      "#Copilot",
+      "#AppleIntelligence"
+    ],
+    tagsEn: [
+      "#AISmartphones",
+      "#AIPC",
+      "#UpgradeCycle",
+      "#SemiconductorCAPEX",
+      "#Copilot",
+      "#OnDeviceAI"
+    ]
+  },
+  {
+    id: "trend-retro-game-movie-rush",
+    date: "2026-08-12",
+    topic: "マリオやレトロゲーム映画化がやたら多い理由",
+    topicEn: "Why Hollywood is Flooded with Classic Video Game & Retro IP Movies",
+    category: "culture",
+    mediaChannel: "映画 / エンタメ",
+    mediaChannelEn: "Cinema / Entertainment",
+    phenomenon: {
+      title: "映画館で新作オリジナルよりも、昔のゲームやアニメの実写・CG映画が目立つ",
+      titleEn: "Theaters dominated by 90s/00s video game adaptations and nostalgia franchises",
+      description: "スーパーマリオ、ソニック、マインクラフト、ゼルダの伝説など、子どもの頃に遊んだゲームや有名キャラクターの映画化・リメイクが次々と発表される現象。",
+      descriptionEn: "Theatrical releases and streaming catalogs packed with high-budget adaptations of Mario, Sonic, Minecraft, and classic nostalgia franchises over original screenplays."
+    },
+    explanation: {
+      title: "制作費の高騰により、失敗リスクを避けて「確実に客が入る既存IP」に集中するため",
+      titleEn: "Ballooning Budgets Driving Extreme Risk Aversion Toward Proven Franchises",
+      description: "映画1本の制作・宣伝費が2億〜3億ドル（数百億円）に達する中、完全新規のオリジナル作品がコケた場合の損失が壊滅的になるため、スタジオは「最初から世界中に数千万人〜数億人の認知度があるゲームIP」にのみ大型予算を投じるようになっている。親子2世代で映画館に来てくれる点も強み。",
+      descriptionEn: "With blockbuster budgets exceeding $200M-$300M, studios and studio financiers cannot absorb the failure of unproven original concepts, channeling capital into generational gaming brands with guaranteed multi-demographic turnout.",
+      keyPoints: [
+        "1本数百億円に達する映画制作費の高騰と失敗リスクの極小化",
+        "親世代（懐かしさ）と子世代（現役プレイヤー）を同時に集客できる強力なIP力",
+        "映画ヒット後のグッズ販売、テーマパーク、ゲーム再販による複合収益モデル"
+      ],
+      keyPointsEn: [
+        "Minimizing catastrophic box office downside as blockbuster production budgets escalate",
+        "Multi-generational appeal uniting nostalgic parents and active gaming youth",
+        "Omnichannel monetization across merchandise, theme park expansions, and software remasters"
+      ]
+    },
+    capitalContext: {
+      title: "機関投資家による「検証済みIPへの集中投資」という資本規律",
+      titleEn: "Strict Institutional Capital Discipline Demanding Verified Intellectual Property",
+      disclosedScale: "グローバル映画興行・IP市場 年間数十億ドル規模",
+      disclosedScaleEn: "Multibillion-Dollar Global Theatrical & IP Merchandising Market",
+      sourceEntity: "Nintendo, Universal Pictures, Sony Pictures, Warner Bros. Discovery",
+      secFiling: "SEC Form 10-K / Form 20-F (Media Conglomerates)",
+      secFilingUrl: "https://www.sec.gov/edgar/browse/?CIK=0000072000",
+      dominantBackers: [
+        "BlackRock",
+        "Vanguard",
+        "State Street"
+      ],
+      dominantBackersEn: [
+        "BlackRock",
+        "Vanguard Group",
+        "State Street"
+      ]
+    },
+    tags: [
+      "#ゲーム映画化",
+      "#レトロIP",
+      "#マリオ映画",
+      "#任天堂",
+      "#ハリウッド制作費",
+      "#IPビジネス"
+    ],
+    tagsEn: [
+      "#VideoGameMovies",
+      "#RetroIP",
+      "#SuperMarioMovie",
+      "#Nintendo",
+      "#HollywoodBudgets",
+      "#FranchiseEconomy"
+    ]
+  }
+];
+

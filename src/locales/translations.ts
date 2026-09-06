@@ -11,6 +11,7 @@ export const translations = {
     tabInflows: '[ 01. 資金流入上位セクター ]',
     tabMatrix: '[ 02. 主要運用会社 ＆ 保有マトリクス ]',
     tabFeed: '[ 03. 政策 ＆ 産業インパクト・フィード ]',
+    tabTrends: '[ 04. なんか最近よく見るな～ ]',
 
     // Tab 1: Inflows
     inflowsTitle: '現在最も資金が流入している5大セクター（2026年8月 リアルタイムマネーフロー）',
@@ -48,6 +49,13 @@ export const translations = {
     sourceLabel: '一次情報ソース',
     tagsLabel: '関連タグ',
     involvedLabel: '関連主要企業',
+    searchPlaceholder: '銘柄コード、企業名、日常の疑問（例: マイケル、マンジャロ、YouTube、テレビ）で検索...',
+    quickInquiriesLabel: '💡 日常の疑問・トレンドから資本を調べる:',
+    clearSearch: 'クリア',
+
+    // Tab 4: Trends
+    trendsTitle: 'なんか最近よく見るな～（トレンドの背景 ＆ 資本リサーチ）',
+    trendsDesc: 'YouTubeやテレビで「なんか最近よく見るな～」と思うトレンド。なぜ今これが話題なのか、背後で動いている企業や大型投資・SEC公式開示をAIが客観的にリサーチ（直近30日保持・毎朝07:00自動更新）',
 
     // Modal Common
     closeModal: '閉じる',
@@ -69,6 +77,7 @@ export const translations = {
     tabInflows: '[ 01. Top Capital Inflow Sectors ]',
     tabMatrix: '[ 02. Top 10 Asset Managers & Holdings ]',
     tabFeed: '[ 03. Policy & Industrial Impact Feed ]',
+    tabTrends: '[ 04. Trending Now: Why Is It Everywhere? ]',
 
     // Tab 1: Inflows
     inflowsTitle: 'Top 5 Sectors Receiving Major Capital Inflows (August 2026 Live Flow)',
@@ -106,6 +115,13 @@ export const translations = {
     sourceLabel: 'Primary Source Filing',
     tagsLabel: 'Relevant Tags',
     involvedLabel: 'Involved Corporations',
+    searchPlaceholder: 'Search by ticker, company, or daily trend (e.g., Michael, Mounjaro, YouTube, TV)...',
+    quickInquiriesLabel: '💡 TRENDING INQUIRIES & CAPITAL MANDATES:',
+    clearSearch: 'Clear',
+
+    // Tab 4: Trends
+    trendsTitle: 'Trending Now: Why Is It Everywhere? (Underlying Capital & Corporate Moves)',
+    trendsDesc: 'Ever wondered why certain topics flood your YouTube or TV feeds? Objective AI research tracking the corporate investments, SEC filings, and capital flows behind current media trends (30-day rolling retention).',
 
     // Modal Common
     closeModal: 'Close',

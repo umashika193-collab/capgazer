@@ -1,10 +1,11 @@
 {
-  "lastUpdatedUtc": "2026-09-04T23:45:58.406403+00:00",
+  "lastUpdatedUtc": "2026-09-06T13:33:59.731934+00:00",
   "pipelineStatus": "SUCCESS_100_PERCENT",
   "sectionsAutomated": [
     "01. Macro Inflow Sectors (Real-time Flow)",
     "02. Top 10 Mega Funds Holding Matrix (SEC 13F/13G)",
-    "03. Policy & Industry Impact Feed (SEC 8-K/6-K + AI)"
+    "03. Policy & Industry Impact Feed (SEC 8-K/6-K + AI)",
+    "04. Recent Trending Explainer (30-Day Retention)"
   ],
   "totalFilingsVerified": 3,
   "filings": [
