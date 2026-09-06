@@ -24,6 +24,11 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
       - name: Run 100% Full-Pipeline Autonomous Updater
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -38,6 +43,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "All sections are up to date. No commit needed."
           else
-            git commit -m "chore(auto): 100% full-pipeline daily update (Inflows, Holdings, Feed) [skip ci]"
+            git commit -m "chore(auto): 100% full-pipeline daily update (Inflows, Holdings, Feed, Trends) [skip ci]"
             git push
           fi
