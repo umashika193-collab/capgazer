@@ -9,11 +9,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 1,
     name: "AIデータセンター ＆ 電力・送電インフラ",
     nameEn: "AI Compute & Power Grid Infrastructure",
-    inflowAmount: "$205 億 / 四半期",
-    inflowAmountEn: "$204.9B / Quarter",
-    inflowGrowth: "+30% YoY",
-    inflowGrowthEn: "+30% YoY",
-    growthNum: 30,
+    inflowAmount: "$202 億 / 四半期",
+    inflowAmountEn: "$202.2B / Quarter",
+    inflowGrowth: "+29% YoY",
+    inflowGrowthEn: "+29% YoY",
+    growthNum: 29,
     shareRatio: 29,
     description: "生成AIの急激な普及に伴い「電力不足」が最大のボトルネック化。半導体に加え、原子力発電所・送電網・天然ガス火力・冷却システムへ巨額マネーが集中。",
     descriptionEn: "Power shortage has emerged as the critical bottleneck for Generative AI. Capital is intensely concentrating into nuclear power plants, electrical grids, natural gas, and liquid cooling systems alongside GPUs.",
@@ -71,69 +71,15 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     ]
   },
   {
-    id: "glp1_biotech",
-    rank: 2,
-    name: "GLP-1肥満・代謝薬 ＆ 次世代ヘルスケア",
-    nameEn: "GLP-1 Obesity, Metabolic & Next-Gen Healthcare",
-    inflowAmount: "$136 億 / 四半期",
-    inflowAmountEn: "$135.6B / Quarter",
-    inflowGrowth: "+61% YoY",
-    inflowGrowthEn: "+61% YoY",
-    growthNum: 61,
-    shareRatio: 19,
-    description: "肥満症・糖尿病・心血管疾患・脂肪肝（MASH）など、全世界の成人人口の数十％に及ぶ巨大実需市場。空前の売上と利益率を叩き出す製薬大手へ買いが集中。",
-    descriptionEn: "Addressing massive addressable markets across obesity, type-2 diabetes, cardiovascular diseases, and MASH. Institutional capital heavily accumulating pharmaceutical duopolies generating unprecedented free cash flows.",
-    drivingForce: "景気変動に左右されない確実な現金創出（キャッシュマシーン）力。保険適用拡大と適応症の追加による持続的成長期待。",
-    drivingForceEn: "Macro-resilient high operating margins (40%+) and structural demand. Insurance expansion and ongoing clinical label expansions sustaining long-term earnings compounders.",
-    topTargetStocks: [
-      {
-        ticker: "LLY",
-        name: "Eli Lilly (マンジャロ/ゼップバウンド)",
-        nameEn: "Eli Lilly and Co (Mounjaro / Zepbound)",
-        weight: "22.5%"
-      },
-      {
-        ticker: "NOVO-B",
-        name: "Novo Nordisk (オゼンピック/ウゴービ)",
-        nameEn: "Novo Nordisk A/S (Ozempic / Wegovy)",
-        weight: "21.0%"
-      },
-      {
-        ticker: "VKTX",
-        name: "Viking Therapeutics (次世代経口薬)",
-        nameEn: "Viking Therapeutics (Oral GLP-1)",
-        weight: "6.5%"
-      },
-      {
-        ticker: "ABBV",
-        name: "AbbVie (免疫/オンコロジー)",
-        nameEn: "AbbVie Inc. (Immunology / Oncology)",
-        weight: "7.2%"
-      }
-    ],
-    dominantBuyers: [
-      "Fidelity",
-      "Capital Group",
-      "Amundi",
-      "UBS"
-    ],
-    dominantBuyersEn: [
-      "Fidelity Investments",
-      "Capital Group",
-      "Amundi Asset Mgmt",
-      "UBS Wealth Mgmt"
-    ]
-  },
-  {
     id: "defense_cyber",
-    rank: 3,
+    rank: 2,
     name: "防衛テック ＆ サイバーセキュリティ・自律システム",
     nameEn: "Defense Tech, Cyber Security & Autonomous Systems",
-    inflowAmount: "$134 億 / 四半期",
-    inflowAmountEn: "$134.2B / Quarter",
-    inflowGrowth: "+27% YoY",
-    inflowGrowthEn: "+27% YoY",
-    growthNum: 27,
+    inflowAmount: "$136 億 / 四半期",
+    inflowAmountEn: "$136.2B / Quarter",
+    inflowGrowth: "+28% YoY",
+    inflowGrowthEn: "+28% YoY",
+    growthNum: 28,
     shareRatio: 19,
     description: "ウクライナ・中東・台湾海峡の地政学リスクにより、欧米各国の国防予算がGDP比2〜3%超へ大幅拡大。軍事AI、ドローン、サイバー防衛企業へ資金が殺到。",
     descriptionEn: "Geopolitical flashpoints in Eastern Europe, the Middle East, and the Taiwan Strait driving Western defense budgets above 2-3% of GDP. Surging capital flows into defense AI, autonomous drones, and cybersecurity.",
@@ -185,15 +131,69 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     ]
   },
   {
+    id: "glp1_biotech",
+    rank: 3,
+    name: "GLP-1肥満・代謝薬 ＆ 次世代ヘルスケア",
+    nameEn: "GLP-1 Obesity, Metabolic & Next-Gen Healthcare",
+    inflowAmount: "$135 億 / 四半期",
+    inflowAmountEn: "$134.7B / Quarter",
+    inflowGrowth: "+59% YoY",
+    inflowGrowthEn: "+59% YoY",
+    growthNum: 59,
+    shareRatio: 19,
+    description: "肥満症・糖尿病・心血管疾患・脂肪肝（MASH）など、全世界の成人人口の数十％に及ぶ巨大実需市場。空前の売上と利益率を叩き出す製薬大手へ買いが集中。",
+    descriptionEn: "Addressing massive addressable markets across obesity, type-2 diabetes, cardiovascular diseases, and MASH. Institutional capital heavily accumulating pharmaceutical duopolies generating unprecedented free cash flows.",
+    drivingForce: "景気変動に左右されない確実な現金創出（キャッシュマシーン）力。保険適用拡大と適応症の追加による持続的成長期待。",
+    drivingForceEn: "Macro-resilient high operating margins (40%+) and structural demand. Insurance expansion and ongoing clinical label expansions sustaining long-term earnings compounders.",
+    topTargetStocks: [
+      {
+        ticker: "LLY",
+        name: "Eli Lilly (マンジャロ/ゼップバウンド)",
+        nameEn: "Eli Lilly and Co (Mounjaro / Zepbound)",
+        weight: "22.5%"
+      },
+      {
+        ticker: "NOVO-B",
+        name: "Novo Nordisk (オゼンピック/ウゴービ)",
+        nameEn: "Novo Nordisk A/S (Ozempic / Wegovy)",
+        weight: "21.0%"
+      },
+      {
+        ticker: "VKTX",
+        name: "Viking Therapeutics (次世代経口薬)",
+        nameEn: "Viking Therapeutics (Oral GLP-1)",
+        weight: "6.5%"
+      },
+      {
+        ticker: "ABBV",
+        name: "AbbVie (免疫/オンコロジー)",
+        nameEn: "AbbVie Inc. (Immunology / Oncology)",
+        weight: "7.2%"
+      }
+    ],
+    dominantBuyers: [
+      "Fidelity",
+      "Capital Group",
+      "Amundi",
+      "UBS"
+    ],
+    dominantBuyersEn: [
+      "Fidelity Investments",
+      "Capital Group",
+      "Amundi Asset Mgmt",
+      "UBS Wealth Mgmt"
+    ]
+  },
+  {
     id: "semiconductors_advanced",
     rank: 4,
     name: "先端半導体製造 ＆ AIハードウェアサプライチェーン",
     nameEn: "Advanced Semiconductor Foundry & AI Hardware",
-    inflowAmount: "$119 億 / 四半期",
-    inflowAmountEn: "$118.9B / Quarter",
-    inflowGrowth: "+23% YoY",
-    inflowGrowthEn: "+23% YoY",
-    growthNum: 23,
+    inflowAmount: "$120 億 / 四半期",
+    inflowAmountEn: "$119.9B / Quarter",
+    inflowGrowth: "+24% YoY",
+    inflowGrowthEn: "+24% YoY",
+    growthNum: 24,
     shareRatio: 17,
     description: "AIモデルの巨大化に伴う2nm・3nm先端プロセス微細化、先端パッケージング（CoWoS）、高帯域メモリ（HBM）への独占的供給企業へ資本が集中。",
     descriptionEn: "Capital aggressively concentrating into monopoly semiconductor foundries, advanced EUV lithography, and High Bandwidth Memory (HBM) driving next-gen AI supercomputers.",
@@ -249,11 +249,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 5,
     name: "プライベートクレジット ＆ オルタナティブ金融",
     nameEn: "Private Credit & Alternative Direct Lending",
-    inflowAmount: "$112 億 / 四半期",
-    inflowAmountEn: "$111.6B / Quarter",
-    inflowGrowth: "+38% YoY",
-    inflowGrowthEn: "+38% YoY",
-    growthNum: 38,
+    inflowAmount: "$114 億 / 四半期",
+    inflowAmountEn: "$114.2B / Quarter",
+    inflowGrowth: "+43% YoY",
+    inflowGrowthEn: "+43% YoY",
+    growthNum: 43,
     shareRatio: 16,
     description: "銀行の融資規制強化（バーゼル3最終化）を受け、企業向け直接融資（プライベートデット）を手掛けるメガオルタナティブ資産運用会社へ年金マネーが流入。",
     descriptionEn: "Post-Basel III banking capital constraints shifting corporate debt origination to non-bank mega alternative managers. Public pensions allocating heavily to direct lending funds.",
