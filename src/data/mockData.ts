@@ -9,8 +9,8 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 1,
     name: "AIデータセンター ＆ 電力・送電インフラ",
     nameEn: "AI Compute & Power Grid Infrastructure",
-    inflowAmount: "$187 億 / 四半期",
-    inflowAmountEn: "$187.4B / Quarter",
+    inflowAmount: "$188 億 / 四半期",
+    inflowAmountEn: "$187.6B / Quarter",
     inflowGrowth: "+23% YoY",
     inflowGrowthEn: "+23% YoY",
     growthNum: 23,
@@ -75,12 +75,12 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 2,
     name: "先端半導体製造 ＆ AIハードウェアサプライチェーン",
     nameEn: "Advanced Semiconductor Foundry & AI Hardware",
-    inflowAmount: "$138 億 / 四半期",
-    inflowAmountEn: "$137.5B / Quarter",
-    inflowGrowth: "+34% YoY",
-    inflowGrowthEn: "+34% YoY",
-    growthNum: 34,
-    shareRatio: 20,
+    inflowAmount: "$133 億 / 四半期",
+    inflowAmountEn: "$132.9B / Quarter",
+    inflowGrowth: "+31% YoY",
+    inflowGrowthEn: "+31% YoY",
+    growthNum: 31,
+    shareRatio: 19,
     description: "AIモデルの巨大化に伴う2nm・3nm先端プロセス微細化、先端パッケージング（CoWoS）、高帯域メモリ（HBM）への独占的供給企業へ資本が集中。",
     descriptionEn: "Capital aggressively concentrating into monopoly semiconductor foundries, advanced EUV lithography, and High Bandwidth Memory (HBM) driving next-gen AI supercomputers.",
     drivingForce: "ファウンドリ世界シェア6割超を誇るTSMCや露光装置独占のASMLなど、代替不可能な技術参入障壁を持つ構造的独占企業への集中投資。",
@@ -135,11 +135,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 3,
     name: "防衛テック ＆ サイバーセキュリティ・自律システム",
     nameEn: "Defense Tech, Cyber Security & Autonomous Systems",
-    inflowAmount: "$135 億 / 四半期",
-    inflowAmountEn: "$134.8B / Quarter",
-    inflowGrowth: "+27% YoY",
-    inflowGrowthEn: "+27% YoY",
-    growthNum: 27,
+    inflowAmount: "$131 億 / 四半期",
+    inflowAmountEn: "$131.3B / Quarter",
+    inflowGrowth: "+25% YoY",
+    inflowGrowthEn: "+25% YoY",
+    growthNum: 25,
     shareRatio: 19,
     description: "ウクライナ・中東・台湾海峡の地政学リスクにより、欧米各国の国防予算がGDP比2〜3%超へ大幅拡大。軍事AI、ドローン、サイバー防衛企業へ資金が殺到。",
     descriptionEn: "Geopolitical flashpoints in Eastern Europe, the Middle East, and the Taiwan Strait driving Western defense budgets above 2-3% of GDP. Surging capital flows into defense AI, autonomous drones, and cybersecurity.",
@@ -195,11 +195,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 4,
     name: "GLP-1肥満・代謝薬 ＆ 次世代ヘルスケア",
     nameEn: "GLP-1 Obesity, Metabolic & Next-Gen Healthcare",
-    inflowAmount: "$127 億 / 四半期",
-    inflowAmountEn: "$127.1B / Quarter",
-    inflowGrowth: "+47% YoY",
-    inflowGrowthEn: "+47% YoY",
-    growthNum: 47,
+    inflowAmount: "$128 億 / 四半期",
+    inflowAmountEn: "$127.9B / Quarter",
+    inflowGrowth: "+48% YoY",
+    inflowGrowthEn: "+48% YoY",
+    growthNum: 48,
     shareRatio: 18,
     description: "肥満症・糖尿病・心血管疾患・脂肪肝（MASH）など、全世界の成人人口の数十％に及ぶ巨大実需市場。空前の売上と利益率を叩き出す製薬大手へ買いが集中。",
     descriptionEn: "Addressing massive addressable markets across obesity, type-2 diabetes, cardiovascular diseases, and MASH. Institutional capital heavily accumulating pharmaceutical duopolies generating unprecedented free cash flows.",
@@ -249,11 +249,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 5,
     name: "プライベートクレジット ＆ オルタナティブ金融",
     nameEn: "Private Credit & Alternative Direct Lending",
-    inflowAmount: "$114 億 / 四半期",
-    inflowAmountEn: "$114.1B / Quarter",
-    inflowGrowth: "+42% YoY",
-    inflowGrowthEn: "+42% YoY",
-    growthNum: 42,
+    inflowAmount: "$113 億 / 四半期",
+    inflowAmountEn: "$113.4B / Quarter",
+    inflowGrowth: "+41% YoY",
+    inflowGrowthEn: "+41% YoY",
+    growthNum: 41,
     shareRatio: 16,
     description: "銀行の融資規制強化（バーゼル3最終化）を受け、企業向け直接融資（プライベートデット）を手掛けるメガオルタナティブ資産運用会社へ年金マネーが流入。",
     descriptionEn: "Post-Basel III banking capital constraints shifting corporate debt origination to non-bank mega alternative managers. Public pensions allocating heavily to direct lending funds.",
@@ -2706,72 +2706,6 @@ export const recentTrendsData: RecentTrendItem[] = [
       "#SemiconductorCAPEX",
       "#Copilot",
       "#OnDeviceAI"
-    ]
-  },
-  {
-    id: "trend-retro-game-movie-rush",
-    date: "2026-08-12",
-    topic: "マリオやレトロゲーム映画化がやたら多い理由",
-    topicEn: "Why Hollywood is Flooded with Classic Video Game & Retro IP Movies",
-    category: "culture",
-    mediaChannel: "映画 / エンタメ",
-    mediaChannelEn: "Cinema / Entertainment",
-    phenomenon: {
-      title: "映画館で新作オリジナルよりも、昔のゲームやアニメの実写・CG映画が目立つ",
-      titleEn: "Theaters dominated by 90s/00s video game adaptations and nostalgia franchises",
-      description: "スーパーマリオ、ソニック、マインクラフト、ゼルダの伝説など、子どもの頃に遊んだゲームや有名キャラクターの映画化・リメイクが次々と発表される現象。",
-      descriptionEn: "Theatrical releases and streaming catalogs packed with high-budget adaptations of Mario, Sonic, Minecraft, and classic nostalgia franchises over original screenplays."
-    },
-    explanation: {
-      title: "制作費の高騰により、失敗リスクを避けて「確実に客が入る既存IP」に集中するため",
-      titleEn: "Ballooning Budgets Driving Extreme Risk Aversion Toward Proven Franchises",
-      description: "映画1本の制作・宣伝費が2億〜3億ドル（数百億円）に達する中、完全新規のオリジナル作品がコケた場合の損失が壊滅的になるため、スタジオは「最初から世界中に数千万人〜数億人の認知度があるゲームIP」にのみ大型予算を投じるようになっている。親子2世代で映画館に来てくれる点も強み。",
-      descriptionEn: "With blockbuster budgets exceeding $200M-$300M, studios and studio financiers cannot absorb the failure of unproven original concepts, channeling capital into generational gaming brands with guaranteed multi-demographic turnout.",
-      keyPoints: [
-        "1本数百億円に達する映画制作費の高騰と失敗リスクの極小化",
-        "親世代（懐かしさ）と子世代（現役プレイヤー）を同時に集客できる強力なIP力",
-        "映画ヒット後のグッズ販売、テーマパーク、ゲーム再販による複合収益モデル"
-      ],
-      keyPointsEn: [
-        "Minimizing catastrophic box office downside as blockbuster production budgets escalate",
-        "Multi-generational appeal uniting nostalgic parents and active gaming youth",
-        "Omnichannel monetization across merchandise, theme park expansions, and software remasters"
-      ]
-    },
-    capitalContext: {
-      title: "機関投資家による「検証済みIPへの集中投資」という資本規律",
-      titleEn: "Strict Institutional Capital Discipline Demanding Verified Intellectual Property",
-      disclosedScale: "グローバル映画興行・IP市場 年間数十億ドル規模",
-      disclosedScaleEn: "Multibillion-Dollar Global Theatrical & IP Merchandising Market",
-      sourceEntity: "Nintendo, Universal Pictures, Sony Pictures, Warner Bros. Discovery",
-      secFiling: "SEC Form 10-K / Form 20-F (Media Conglomerates)",
-      secFilingUrl: "https://www.sec.gov/edgar/browse/?CIK=0000072000",
-      dominantBackers: [
-        "BlackRock",
-        "Vanguard",
-        "State Street"
-      ],
-      dominantBackersEn: [
-        "BlackRock",
-        "Vanguard Group",
-        "State Street"
-      ]
-    },
-    tags: [
-      "#ゲーム映画化",
-      "#レトロIP",
-      "#マリオ映画",
-      "#任天堂",
-      "#ハリウッド制作費",
-      "#IPビジネス"
-    ],
-    tagsEn: [
-      "#VideoGameMovies",
-      "#RetroIP",
-      "#SuperMarioMovie",
-      "#Nintendo",
-      "#HollywoodBudgets",
-      "#FranchiseEconomy"
     ]
   }
 ];
