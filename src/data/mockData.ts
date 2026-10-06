@@ -9,11 +9,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 1,
     name: "AIデータセンター ＆ 電力・送電インフラ",
     nameEn: "AI Compute & Power Grid Infrastructure",
-    inflowAmount: "$193 億 / 四半期",
-    inflowAmountEn: "$192.7B / Quarter",
-    inflowGrowth: "+25% YoY",
-    inflowGrowthEn: "+25% YoY",
-    growthNum: 25,
+    inflowAmount: "$194 億 / 四半期",
+    inflowAmountEn: "$194.1B / Quarter",
+    inflowGrowth: "+26% YoY",
+    inflowGrowthEn: "+26% YoY",
+    growthNum: 26,
     shareRatio: 28,
     description: "生成AIの急激な普及に伴い「電力不足」が最大のボトルネック化。半導体に加え、原子力発電所・送電網・天然ガス火力・冷却システムへ巨額マネーが集中。",
     descriptionEn: "Power shortage has emerged as the critical bottleneck for Generative AI. Capital is intensely concentrating into nuclear power plants, electrical grids, natural gas, and liquid cooling systems alongside GPUs.",
@@ -75,11 +75,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 2,
     name: "先端半導体製造 ＆ AIハードウェアサプライチェーン",
     nameEn: "Advanced Semiconductor Foundry & AI Hardware",
-    inflowAmount: "$143 億 / 四半期",
-    inflowAmountEn: "$143.1B / Quarter",
-    inflowGrowth: "+39% YoY",
-    inflowGrowthEn: "+39% YoY",
-    growthNum: 39,
+    inflowAmount: "$147 億 / 四半期",
+    inflowAmountEn: "$146.9B / Quarter",
+    inflowGrowth: "+45% YoY",
+    inflowGrowthEn: "+45% YoY",
+    growthNum: 45,
     shareRatio: 21,
     description: "AIモデルの巨大化に伴う2nm・3nm先端プロセス微細化、先端パッケージング（CoWoS）、高帯域メモリ（HBM）への独占的供給企業へ資本が集中。",
     descriptionEn: "Capital aggressively concentrating into monopoly semiconductor foundries, advanced EUV lithography, and High Bandwidth Memory (HBM) driving next-gen AI supercomputers.",
@@ -131,12 +131,66 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     ]
   },
   {
-    id: "defense_cyber",
+    id: "glp1_biotech",
     rank: 3,
+    name: "GLP-1肥満・代謝薬 ＆ 次世代ヘルスケア",
+    nameEn: "GLP-1 Obesity, Metabolic & Next-Gen Healthcare",
+    inflowAmount: "$124 億 / 四半期",
+    inflowAmountEn: "$124.0B / Quarter",
+    inflowGrowth: "+42% YoY",
+    inflowGrowthEn: "+42% YoY",
+    growthNum: 42,
+    shareRatio: 18,
+    description: "肥満症・糖尿病・心血管疾患・脂肪肝（MASH）など、全世界の成人人口の数十％に及ぶ巨大実需市場。空前の売上と利益率を叩き出す製薬大手へ買いが集中。",
+    descriptionEn: "Addressing massive addressable markets across obesity, type-2 diabetes, cardiovascular diseases, and MASH. Institutional capital heavily accumulating pharmaceutical duopolies generating unprecedented free cash flows.",
+    drivingForce: "景気変動に左右されない確実な現金創出（キャッシュマシーン）力。保険適用拡大と適応症の追加による持続的成長期待。",
+    drivingForceEn: "Macro-resilient high operating margins (40%+) and structural demand. Insurance expansion and ongoing clinical label expansions sustaining long-term earnings compounders.",
+    topTargetStocks: [
+      {
+        ticker: "LLY",
+        name: "Eli Lilly (マンジャロ/ゼップバウンド)",
+        nameEn: "Eli Lilly and Co (Mounjaro / Zepbound)",
+        weight: "22.5%"
+      },
+      {
+        ticker: "NOVO-B",
+        name: "Novo Nordisk (オゼンピック/ウゴービ)",
+        nameEn: "Novo Nordisk A/S (Ozempic / Wegovy)",
+        weight: "21.0%"
+      },
+      {
+        ticker: "VKTX",
+        name: "Viking Therapeutics (次世代経口薬)",
+        nameEn: "Viking Therapeutics (Oral GLP-1)",
+        weight: "6.5%"
+      },
+      {
+        ticker: "ABBV",
+        name: "AbbVie (免疫/オンコロジー)",
+        nameEn: "AbbVie Inc. (Immunology / Oncology)",
+        weight: "7.2%"
+      }
+    ],
+    dominantBuyers: [
+      "Fidelity",
+      "Capital Group",
+      "Amundi",
+      "UBS"
+    ],
+    dominantBuyersEn: [
+      "Fidelity Investments",
+      "Capital Group",
+      "Amundi Asset Mgmt",
+      "UBS Wealth Mgmt"
+    ]
+  },
+  {
+    id: "defense_cyber",
+    rank: 4,
     name: "防衛テック ＆ サイバーセキュリティ・自律システム",
     nameEn: "Defense Tech, Cyber Security & Autonomous Systems",
     inflowAmount: "$124 億 / 四半期",
-    inflowAmountEn: "$124.4B / Quarter",
+    inflowAmountEn: "$123.8B / Quarter",
     inflowGrowth: "+21% YoY",
     inflowGrowthEn: "+21% YoY",
     growthNum: 21,
@@ -191,66 +245,12 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     ]
   },
   {
-    id: "glp1_biotech",
-    rank: 4,
-    name: "GLP-1肥満・代謝薬 ＆ 次世代ヘルスケア",
-    nameEn: "GLP-1 Obesity, Metabolic & Next-Gen Healthcare",
-    inflowAmount: "$123 億 / 四半期",
-    inflowAmountEn: "$123.1B / Quarter",
-    inflowGrowth: "+40% YoY",
-    inflowGrowthEn: "+40% YoY",
-    growthNum: 40,
-    shareRatio: 18,
-    description: "肥満症・糖尿病・心血管疾患・脂肪肝（MASH）など、全世界の成人人口の数十％に及ぶ巨大実需市場。空前の売上と利益率を叩き出す製薬大手へ買いが集中。",
-    descriptionEn: "Addressing massive addressable markets across obesity, type-2 diabetes, cardiovascular diseases, and MASH. Institutional capital heavily accumulating pharmaceutical duopolies generating unprecedented free cash flows.",
-    drivingForce: "景気変動に左右されない確実な現金創出（キャッシュマシーン）力。保険適用拡大と適応症の追加による持続的成長期待。",
-    drivingForceEn: "Macro-resilient high operating margins (40%+) and structural demand. Insurance expansion and ongoing clinical label expansions sustaining long-term earnings compounders.",
-    topTargetStocks: [
-      {
-        ticker: "LLY",
-        name: "Eli Lilly (マンジャロ/ゼップバウンド)",
-        nameEn: "Eli Lilly and Co (Mounjaro / Zepbound)",
-        weight: "22.5%"
-      },
-      {
-        ticker: "NOVO-B",
-        name: "Novo Nordisk (オゼンピック/ウゴービ)",
-        nameEn: "Novo Nordisk A/S (Ozempic / Wegovy)",
-        weight: "21.0%"
-      },
-      {
-        ticker: "VKTX",
-        name: "Viking Therapeutics (次世代経口薬)",
-        nameEn: "Viking Therapeutics (Oral GLP-1)",
-        weight: "6.5%"
-      },
-      {
-        ticker: "ABBV",
-        name: "AbbVie (免疫/オンコロジー)",
-        nameEn: "AbbVie Inc. (Immunology / Oncology)",
-        weight: "7.2%"
-      }
-    ],
-    dominantBuyers: [
-      "Fidelity",
-      "Capital Group",
-      "Amundi",
-      "UBS"
-    ],
-    dominantBuyersEn: [
-      "Fidelity Investments",
-      "Capital Group",
-      "Amundi Asset Mgmt",
-      "UBS Wealth Mgmt"
-    ]
-  },
-  {
     id: "private_credit",
     rank: 5,
     name: "プライベートクレジット ＆ オルタナティブ金融",
     nameEn: "Private Credit & Alternative Direct Lending",
     inflowAmount: "$106 億 / 四半期",
-    inflowAmountEn: "$106.2B / Quarter",
+    inflowAmountEn: "$105.9B / Quarter",
     inflowGrowth: "+32% YoY",
     inflowGrowthEn: "+32% YoY",
     growthNum: 32,
@@ -829,6 +829,87 @@ export const topAssetManagersData: AssetManagerProfile[] = [
 
 // 4. アジェンダ別 政策分析＆産業インパクト・フィード（世界市場を揺るがすグローバル・メガトレンド）
 export const trackerItemsData: TrackerItem[] = [
+  {
+    id: "feed-sec-sony-20261005",
+    date: "2026-10-05",
+    institution: "Sony Group Corp (SONY)",
+    institutionEn: "Sony Group Corp (SONY)",
+    institutionType: "Corporation",
+    category: "gaming",
+    title: "【SEC公的開示】Sony Group Corpが最新重要報告書（Form 6-K）を正式提出",
+    titleEn: "[SEC Filing] Sony Group Corp Files Official Current Report (Form 6-K)",
+    summary: [
+      "米SEC EDGARに提出された公式文書（Form 6-K）を検知。公的提出日: 2026-10-05。",
+      "資本市場および機関投資家向けに開示された法定報告書原本へのアクセスを即時同期。",
+      "市場への重大な影響を持つ重要事項・資本異動に関する最新ファクトチェックを反映。"
+    ],
+    summaryEn: [
+      "Verified official regulatory submission (Form 6-K) via SEC EDGAR. Filing Date: 2026-10-05.",
+      "Direct primary source link synchronized for institutional capital flow verification.",
+      "Incorporating latest corporate material event updates and governance disclosures."
+    ],
+    primaryPolicy: {
+      title: "SEC Form 6-K 法定報告書の正式受理・原本照合",
+      titleEn: "Official Acceptance & Verification of SEC Form 6-K",
+      description: "Sony Group Corpが米国証券取引委員会に提出した法定重要報告書。事業運営や資本政策、重要契約に関する公的開示。",
+      descriptionEn: "Statutory material filing submitted by Sony Group Corp to the US SEC, disclosing corporate operations and capital events.",
+      keyPoints: [
+        "提出書類: SEC Form 6-K（公式原本リンク検証済）",
+        "開示企業: Sony Group Corp (CIK: 0000313838)",
+        "法定報告日: 2026-10-05"
+      ],
+      keyPointsEn: [
+        "Filing Type: SEC Form 6-K (Verified Primary URL)",
+        "Reporting Entity: Sony Group Corp (CIK: 0000313838)",
+        "Filing Date: 2026-10-05"
+      ]
+    },
+    capitalIncentive: {
+      title: "巨大資本・機関投資家への開示義務と市場規律",
+      titleEn: "Institutional Market Discipline and Mandatory Disclosures",
+      description: "BlackRockやVanguardなど主要機関投資家に対する法定開示責任の履行。透明性維持による資本コスト抑制と信認確保。",
+      descriptionEn: "Fulfilling fiduciary reporting obligations to mega asset managers to preserve market credibility.",
+      financialRationale: "連邦証券法に基づく情報開示の即時反映による情報非対称性の排除と株価形成の適正化。",
+      financialRationaleEn: "Mitigating information asymmetry and ensuring fair price discovery under federal securities law."
+    },
+    industryImpact: {
+      title: "エンタメ・IPコンテンツ・半導体セクターおよび競合サプライチェーンへの波及",
+      titleEn: "Spillover Effects across Gaming Supply Chain",
+      description: "グローバルな産業構造におけるキープレイヤーの動向が、提携先・下請け・競合他社の投資判断に直接波及。",
+      descriptionEn: "Decisions by core industry pillars directly influencing supply chain partners and competitors.",
+      marketReaction: "機関投資家のアルゴリズム取引による即時プライシングおよびポジション調整の契機。",
+      marketReactionEn: "Catalyst for institutional algorithmic rebalancing and credit assessment.",
+      caseStudy: {
+        target: "Sony Group Corp サプライチェーン関係各社",
+        outcome: "公式開示情報の即時確認によるリスクヘッジと投資戦略の再検証",
+        outcomeEn: "Real-time risk mitigation and strategic reassessment via primary source validation"
+      }
+    },
+    status: "active",
+    statusLabel: "SEC公的開示済",
+    statusLabelEn: "SEC Filing Verified",
+    sourceName: "SEC EDGAR (CIK: 0000313838)",
+    sourceType: "SEC Form 6-K",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/313838/000110465926113566/tm2626783d1_6k.htm",
+    tags: [
+      "SONY",
+      "6-K",
+      "SEC開示",
+      "公的一次情報"
+    ],
+    tagsEn: [
+      "SONY",
+      "6-K",
+      "SEC Filing",
+      "Primary Source"
+    ],
+    involvedCompanies: [
+      "Sony Group Corp",
+      "BlackRock",
+      "Vanguard"
+    ],
+    impactScore: 88
+  },
   {
     id: "feed-sec-tsm-20260924",
     date: "2026-09-24",
@@ -2638,74 +2719,6 @@ export const recentTrendsData: RecentTrendItem[] = [
       "#BroadcastTV",
       "#Healthcare",
       "#PharmaFlow"
-    ]
-  },
-  {
-    id: "trend-ai-hardware-push",
-    date: "2026-08-20",
-    topic: "新製品がすべて“AI搭載”を推してくる理由",
-    topicEn: "Why Every New Gadget & Laptop Aggressively Brands \"AI-Powered\"",
-    category: "tech",
-    mediaChannel: "テック / ガジェット",
-    mediaChannelEn: "Tech / Hardware",
-    phenomenon: {
-      title: "スマホ、ノートPC、家電の新製品発表で「AI」が連呼される",
-      titleEn: "Constant marketing of \"AI-Enabled\", \"Copilot Keys\", and on-device neural processing",
-      description: "家電量販店や新製品発表会で、最新のスマホやパソコン、さらにはテレビや白物家電にまで「AI搭載」の文字が溢れている現象。",
-      descriptionEn: "Consumers encountering ubiquitous \"AI PC\", \"AI Camera\", and \"Smart Assistant\" branding across consumer electronics and flagship smartphones."
-    },
-    explanation: {
-      title: "スマホやPCの買い替え需要の喚起と、巨額の半導体設備投資の回収",
-      titleEn: "Stimulating Replacement Cycles & Monetizing Vast Semiconductor Infrastructure",
-      description: "スマートフォンの性能が成熟して一般ユーザーの買い替え周期が長期化（4〜5年）する中、大手テック企業は「オンデバイスAI」を新たな買い替え動機として位置づけている。また、半導体メーカーが投じた巨額の製造設備費を回収するためにAI対応チップの大量出荷が不可欠となっている。",
-      descriptionEn: "With smartphone upgrade cycles lengthening to 4-5 years, tech conglomerates are positioning on-device AI as the premier catalyst for consumer hardware refreshes to absorb semiconductor foundry capacity.",
-      keyPoints: [
-        "長期化した端末買い替えサイクルの強制再起動（アップグレード需要創出）",
-        "NPU（AI専用プロセッサ）を標準搭載した新世代チップの普及促進",
-        "大手クラウド企業による自社AIエコシステム（Microsoft Copilot, Apple Intelligence等）への囲い込み"
-      ],
-      keyPointsEn: [
-        "Accelerating consumer replacement cycles beyond standard 4-year upgrade plateaus",
-        "Universal deployment of dedicated NPU silicon across mainstream consumer devices",
-        "Ecosystem lock-in driven by proprietary assistants (Microsoft Copilot, Apple Intelligence)"
-      ]
-    },
-    capitalContext: {
-      title: "年間数百億ドルのAI設備投資（CAPEX）とサプライチェーンの思惑",
-      titleEn: "Tens of Billions in Hyperscale Hardware CAPEX & Silicon Supply Contracts",
-      disclosedScale: "年間AI設備投資 約2,000億ドル規模（主要テック合算）",
-      disclosedScaleEn: "Approx. $200B Annual Combined AI CAPEX",
-      sourceEntity: "Microsoft, Apple, Google, Intel, AMD, Qualcomm",
-      secFiling: "SEC Form 10-K (Annual Reports of Big Tech)",
-      secFilingUrl: "https://www.sec.gov/edgar/browse/?CIK=0000789019",
-      dominantBackers: [
-        "BlackRock",
-        "Vanguard",
-        "State Street",
-        "Fidelity"
-      ],
-      dominantBackersEn: [
-        "BlackRock",
-        "Vanguard Group",
-        "State Street",
-        "Fidelity"
-      ]
-    },
-    tags: [
-      "#AIスマホ",
-      "#AIPC",
-      "#買い替え需要",
-      "#半導体投資",
-      "#Copilot",
-      "#AppleIntelligence"
-    ],
-    tagsEn: [
-      "#AISmartphones",
-      "#AIPC",
-      "#UpgradeCycle",
-      "#SemiconductorCAPEX",
-      "#Copilot",
-      "#OnDeviceAI"
     ]
   }
 ];
