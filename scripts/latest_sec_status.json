@@ -1,5 +1,5 @@
 {
-  "lastUpdatedUtc": "2026-10-07T01:13:52.799566+00:00",
+  "lastUpdatedUtc": "2026-10-08T01:35:24.073595+00:00",
   "pipelineStatus": "SUCCESS_100_PERCENT",
   "sectionsAutomated": [
     "01. Macro Inflow Sectors (Real-time Flow)",
@@ -7,15 +7,8 @@
     "03. Policy & Industry Impact Feed (SEC 8-K/6-K + AI)",
     "04. Recent Trending Explainer (30-Day Retention)"
   ],
-  "totalFilingsVerified": 3,
+  "totalFilingsVerified": 2,
   "filings": [
-    {
-      "key": "STATE_STREET",
-      "name": "State Street Corp",
-      "form": "8-K",
-      "date": "2026-09-14",
-      "url": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000580/stt-20260911.htm"
-    },
     {
       "key": "SONY",
       "name": "Sony Group Corp",
