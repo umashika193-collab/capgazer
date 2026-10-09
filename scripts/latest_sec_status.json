@@ -1,5 +1,5 @@
 {
-  "lastUpdatedUtc": "2026-10-08T01:35:24.073595+00:00",
+  "lastUpdatedUtc": "2026-10-09T01:45:59.196118+00:00",
   "pipelineStatus": "SUCCESS_100_PERCENT",
   "sectionsAutomated": [
     "01. Macro Inflow Sectors (Real-time Flow)",
@@ -7,7 +7,7 @@
     "03. Policy & Industry Impact Feed (SEC 8-K/6-K + AI)",
     "04. Recent Trending Explainer (30-Day Retention)"
   ],
-  "totalFilingsVerified": 2,
+  "totalFilingsVerified": 1,
   "filings": [
     {
       "key": "SONY",
@@ -15,13 +15,6 @@
       "form": "6-K",
       "date": "2026-10-05",
       "url": "https://www.sec.gov/Archives/edgar/data/313838/000110465926113566/tm2626783d1_6k.htm"
-    },
-    {
-      "key": "TSM",
-      "name": "TSMC (ADR)",
-      "form": "6-K",
-      "date": "2026-09-24",
-      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000660/tsm-monthend6kx20260924.htm"
     }
   ]
 }
