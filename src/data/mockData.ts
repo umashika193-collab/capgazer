@@ -9,12 +9,12 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 1,
     name: "AIデータセンター ＆ 電力・送電インフラ",
     nameEn: "AI Compute & Power Grid Infrastructure",
-    inflowAmount: "$200 億 / 四半期",
-    inflowAmountEn: "$200.2B / Quarter",
-    inflowGrowth: "+28% YoY",
-    inflowGrowthEn: "+28% YoY",
-    growthNum: 28,
-    shareRatio: 29,
+    inflowAmount: "$199 億 / 四半期",
+    inflowAmountEn: "$199.0B / Quarter",
+    inflowGrowth: "+27% YoY",
+    inflowGrowthEn: "+27% YoY",
+    growthNum: 27,
+    shareRatio: 28,
     description: "生成AIの急激な普及に伴い「電力不足」が最大のボトルネック化。半導体に加え、原子力発電所・送電網・天然ガス火力・冷却システムへ巨額マネーが集中。",
     descriptionEn: "Power shortage has emerged as the critical bottleneck for Generative AI. Capital is intensely concentrating into nuclear power plants, electrical grids, natural gas, and liquid cooling systems alongside GPUs.",
     drivingForce: "メガテック各社のAI設備投資（CAPEX）が年間数千億ドル規模へ倍増。安定したベースロード電力を供給できるエネルギー企業が最優先の買い対象に。",
@@ -75,11 +75,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 2,
     name: "先端半導体製造 ＆ AIハードウェアサプライチェーン",
     nameEn: "Advanced Semiconductor Foundry & AI Hardware",
-    inflowAmount: "$140 億 / 四半期",
-    inflowAmountEn: "$139.9B / Quarter",
-    inflowGrowth: "+35% YoY",
-    inflowGrowthEn: "+35% YoY",
-    growthNum: 35,
+    inflowAmount: "$139 億 / 四半期",
+    inflowAmountEn: "$139.1B / Quarter",
+    inflowGrowth: "+34% YoY",
+    inflowGrowthEn: "+34% YoY",
+    growthNum: 34,
     shareRatio: 20,
     description: "AIモデルの巨大化に伴う2nm・3nm先端プロセス微細化、先端パッケージング（CoWoS）、高帯域メモリ（HBM）への独占的供給企業へ資本が集中。",
     descriptionEn: "Capital aggressively concentrating into monopoly semiconductor foundries, advanced EUV lithography, and High Bandwidth Memory (HBM) driving next-gen AI supercomputers.",
@@ -135,11 +135,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 3,
     name: "防衛テック ＆ サイバーセキュリティ・自律システム",
     nameEn: "Defense Tech, Cyber Security & Autonomous Systems",
-    inflowAmount: "$128 億 / 四半期",
-    inflowAmountEn: "$128.3B / Quarter",
-    inflowGrowth: "+23% YoY",
-    inflowGrowthEn: "+23% YoY",
-    growthNum: 23,
+    inflowAmount: "$129 億 / 四半期",
+    inflowAmountEn: "$128.6B / Quarter",
+    inflowGrowth: "+24% YoY",
+    inflowGrowthEn: "+24% YoY",
+    growthNum: 24,
     shareRatio: 18,
     description: "ウクライナ・中東・台湾海峡の地政学リスクにより、欧米各国の国防予算がGDP比2〜3%超へ大幅拡大。軍事AI、ドローン、サイバー防衛企業へ資金が殺到。",
     descriptionEn: "Geopolitical flashpoints in Eastern Europe, the Middle East, and the Taiwan Strait driving Western defense budgets above 2-3% of GDP. Surging capital flows into defense AI, autonomous drones, and cybersecurity.",
@@ -195,11 +195,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 4,
     name: "GLP-1肥満・代謝薬 ＆ 次世代ヘルスケア",
     nameEn: "GLP-1 Obesity, Metabolic & Next-Gen Healthcare",
-    inflowAmount: "$124 億 / 四半期",
-    inflowAmountEn: "$124.4B / Quarter",
-    inflowGrowth: "+42% YoY",
-    inflowGrowthEn: "+42% YoY",
-    growthNum: 42,
+    inflowAmount: "$126 億 / 四半期",
+    inflowAmountEn: "$125.5B / Quarter",
+    inflowGrowth: "+44% YoY",
+    inflowGrowthEn: "+44% YoY",
+    growthNum: 44,
     shareRatio: 18,
     description: "肥満症・糖尿病・心血管疾患・脂肪肝（MASH）など、全世界の成人人口の数十％に及ぶ巨大実需市場。空前の売上と利益率を叩き出す製薬大手へ買いが集中。",
     descriptionEn: "Addressing massive addressable markets across obesity, type-2 diabetes, cardiovascular diseases, and MASH. Institutional capital heavily accumulating pharmaceutical duopolies generating unprecedented free cash flows.",
@@ -249,8 +249,8 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 5,
     name: "プライベートクレジット ＆ オルタナティブ金融",
     nameEn: "Private Credit & Alternative Direct Lending",
-    inflowAmount: "$108 億 / 四半期",
-    inflowAmountEn: "$107.8B / Quarter",
+    inflowAmount: "$107 億 / 四半期",
+    inflowAmountEn: "$106.6B / Quarter",
     inflowGrowth: "+33% YoY",
     inflowGrowthEn: "+33% YoY",
     growthNum: 33,
@@ -2653,72 +2653,6 @@ export const recentTrendsData: RecentTrendItem[] = [
       "#MichaelBiopic",
       "#SonyMusic",
       "#CatalogIP"
-    ]
-  },
-  {
-    id: "trend-mounjaro-tv-coverage",
-    date: "2026-08-25",
-    topic: "テレビや美容クリニックで「マンジャロ」が話題な理由",
-    topicEn: "Why \"Mounjaro\" is Widely Covered on TV & Lifestyle Media",
-    category: "health",
-    mediaChannel: "テレビ / 医療メディア",
-    mediaChannelEn: "TV / Medical Media",
-    phenomenon: {
-      title: "情報番組や雑誌、ネット広告で「奇跡の痩せ薬」として頻繁に登場する",
-      titleEn: "Frequent features as a \"breakthrough weight loss drug\" on broadcast TV and lifestyle media",
-      description: "テレビの情報番組や週刊誌、美容クリニックの広告で「劇的に体重が落ちる新薬」としてマンジャロが肯定的に取り上げられ、大きな話題になっている現象。",
-      descriptionEn: "Mainstream TV morning shows, health columns, and aesthetic clinic campaigns prominently highlighting Mounjaro as a revolutionary weight management medication."
-    },
-    explanation: {
-      title: "米製薬大手イーライリリーの新薬が日本でも本格普及期に入ったため",
-      titleEn: "Eli Lilly GLP-1 Breakthrough Entering Mainstream Market Expansion",
-      description: "糖尿病治療薬として世界で空前の売上を記録している「GLP-1/GIP作動薬」が日本でも薬価収載され、肥満症への適応拡大や市場開拓に向けた製薬会社の大規模な疾患啓発・流通強化が進行中。メディアや医療機関への情報提供が活発化している。",
-      descriptionEn: "The GLP-1/GIP drug class, shattering global pharmaceutical sales records, is scaling distribution across Japan, supported by legitimate disease awareness campaigns and physician outreach.",
-      keyPoints: [
-        "世界的なメガブロックバスター薬（マンジャロ/ゼップバウンド）の日本市場普及",
-        "製薬大手による疾患啓発マーケティングと学会・医療機関向けの情報提供",
-        "保険適用の糖尿病治療と、自費診療（美容医療）の双方で需要が急増したことによる社会現象化"
-      ],
-      keyPointsEn: [
-        "Global rollout of blockbuster GLP-1/GIP treatments across Japanese healthcare channels",
-        "Substantial pharmaceutical educational outreach to healthcare providers and media",
-        "Surging parallel demand across covered medical prescriptions and private wellness clinics"
-      ]
-    },
-    capitalContext: {
-      title: "時価総額9,000億ドル突破と、生涯課金モデルを支える巨大年金マネー",
-      titleEn: "Eli Lilly $900B Market Cap & High-Margin Recurring Healthcare Mandate",
-      disclosedScale: "時価総額 約9,000億ドル / 生産設備投資 200億ドル超",
-      disclosedScaleEn: "$900B+ Market Cap / $20B+ Manufacturing CAPEX",
-      sourceEntity: "Eli Lilly and Company (NYSE: LLY) / 田辺三菱製薬",
-      secFiling: "SEC Form 10-K / 10-Q (Eli Lilly and Company)",
-      secFilingUrl: "https://www.sec.gov/edgar/browse/?CIK=0000059478",
-      dominantBackers: [
-        "Vanguard (約8.5%保有)",
-        "BlackRock (約7.3%保有)",
-        "Capital Group"
-      ],
-      dominantBackersEn: [
-        "Vanguard Group (approx. 8.5%)",
-        "BlackRock (approx. 7.3%)",
-        "Capital Group"
-      ]
-    },
-    tags: [
-      "#マンジャロ",
-      "#イーライリリー",
-      "#GLP1",
-      "#テレビ情報番組",
-      "#美容医療",
-      "#製薬マネー"
-    ],
-    tagsEn: [
-      "#Mounjaro",
-      "#EliLilly",
-      "#GLP1",
-      "#BroadcastTV",
-      "#Healthcare",
-      "#PharmaFlow"
     ]
   }
 ];
