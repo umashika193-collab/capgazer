@@ -9,11 +9,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 1,
     name: "AIデータセンター ＆ 電力・送電インフラ",
     nameEn: "AI Compute & Power Grid Infrastructure",
-    inflowAmount: "$199 億 / 四半期",
-    inflowAmountEn: "$199.0B / Quarter",
-    inflowGrowth: "+27% YoY",
-    inflowGrowthEn: "+27% YoY",
-    growthNum: 27,
+    inflowAmount: "$200 億 / 四半期",
+    inflowAmountEn: "$200.3B / Quarter",
+    inflowGrowth: "+28% YoY",
+    inflowGrowthEn: "+28% YoY",
+    growthNum: 28,
     shareRatio: 28,
     description: "生成AIの急激な普及に伴い「電力不足」が最大のボトルネック化。半導体に加え、原子力発電所・送電網・天然ガス火力・冷却システムへ巨額マネーが集中。",
     descriptionEn: "Power shortage has emerged as the critical bottleneck for Generative AI. Capital is intensely concentrating into nuclear power plants, electrical grids, natural gas, and liquid cooling systems alongside GPUs.",
@@ -75,11 +75,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 2,
     name: "先端半導体製造 ＆ AIハードウェアサプライチェーン",
     nameEn: "Advanced Semiconductor Foundry & AI Hardware",
-    inflowAmount: "$139 億 / 四半期",
-    inflowAmountEn: "$139.1B / Quarter",
-    inflowGrowth: "+34% YoY",
-    inflowGrowthEn: "+34% YoY",
-    growthNum: 34,
+    inflowAmount: "$141 億 / 四半期",
+    inflowAmountEn: "$141.3B / Quarter",
+    inflowGrowth: "+37% YoY",
+    inflowGrowthEn: "+37% YoY",
+    growthNum: 37,
     shareRatio: 20,
     description: "AIモデルの巨大化に伴う2nm・3nm先端プロセス微細化、先端パッケージング（CoWoS）、高帯域メモリ（HBM）への独占的供給企業へ資本が集中。",
     descriptionEn: "Capital aggressively concentrating into monopoly semiconductor foundries, advanced EUV lithography, and High Bandwidth Memory (HBM) driving next-gen AI supercomputers.",
@@ -135,12 +135,12 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 3,
     name: "防衛テック ＆ サイバーセキュリティ・自律システム",
     nameEn: "Defense Tech, Cyber Security & Autonomous Systems",
-    inflowAmount: "$129 億 / 四半期",
-    inflowAmountEn: "$128.6B / Quarter",
-    inflowGrowth: "+24% YoY",
-    inflowGrowthEn: "+24% YoY",
-    growthNum: 24,
-    shareRatio: 18,
+    inflowAmount: "$132 億 / 四半期",
+    inflowAmountEn: "$131.5B / Quarter",
+    inflowGrowth: "+25% YoY",
+    inflowGrowthEn: "+25% YoY",
+    growthNum: 25,
+    shareRatio: 19,
     description: "ウクライナ・中東・台湾海峡の地政学リスクにより、欧米各国の国防予算がGDP比2〜3%超へ大幅拡大。軍事AI、ドローン、サイバー防衛企業へ資金が殺到。",
     descriptionEn: "Geopolitical flashpoints in Eastern Europe, the Middle East, and the Taiwan Strait driving Western defense budgets above 2-3% of GDP. Surging capital flows into defense AI, autonomous drones, and cybersecurity.",
     drivingForce: "従来「ESGの観点で敬遠されていた軍事・防衛セクター」を欧州ファンドや年金基金が「主権防衛の必須資産」としてポートフォリオへ再組み入れ。",
@@ -195,11 +195,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 4,
     name: "GLP-1肥満・代謝薬 ＆ 次世代ヘルスケア",
     nameEn: "GLP-1 Obesity, Metabolic & Next-Gen Healthcare",
-    inflowAmount: "$126 億 / 四半期",
-    inflowAmountEn: "$125.5B / Quarter",
-    inflowGrowth: "+44% YoY",
-    inflowGrowthEn: "+44% YoY",
-    growthNum: 44,
+    inflowAmount: "$128 億 / 四半期",
+    inflowAmountEn: "$127.9B / Quarter",
+    inflowGrowth: "+48% YoY",
+    inflowGrowthEn: "+48% YoY",
+    growthNum: 48,
     shareRatio: 18,
     description: "肥満症・糖尿病・心血管疾患・脂肪肝（MASH）など、全世界の成人人口の数十％に及ぶ巨大実需市場。空前の売上と利益率を叩き出す製薬大手へ買いが集中。",
     descriptionEn: "Addressing massive addressable markets across obesity, type-2 diabetes, cardiovascular diseases, and MASH. Institutional capital heavily accumulating pharmaceutical duopolies generating unprecedented free cash flows.",
@@ -249,8 +249,8 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 5,
     name: "プライベートクレジット ＆ オルタナティブ金融",
     nameEn: "Private Credit & Alternative Direct Lending",
-    inflowAmount: "$107 億 / 四半期",
-    inflowAmountEn: "$106.6B / Quarter",
+    inflowAmount: "$108 億 / 四半期",
+    inflowAmountEn: "$107.7B / Quarter",
     inflowGrowth: "+33% YoY",
     inflowGrowthEn: "+33% YoY",
     growthNum: 33,
@@ -2589,70 +2589,6 @@ export const recentTrendsData: RecentTrendItem[] = [
       "#CocoaInflation",
       "#ExperientialSpending",
       "#ShortFormAlgorithm"
-    ]
-  },
-  {
-    id: "trend-michael-jackson-resurgence",
-    date: "2026-08-28",
-    topic: "YouTubeでマイケル・ジャクソン急増の理由",
-    topicEn: "Why Michael Jackson is Suddenly Trending on YouTube",
-    category: "entertainment",
-    mediaChannel: "YouTube / SNS",
-    mediaChannelEn: "YouTube / Social",
-    phenomenon: {
-      title: "YouTubeのShortsやおすすめ動画で、急にMJのダンスや楽曲が頻出する",
-      titleEn: "Sudden influx of Michael Jackson dance shorts, reaction videos, and retrospectives",
-      description: "YouTubeのおすすめフィードやTikTokで、マイケル・ジャクソンのダンス解説、名曲リミックス、ライブ映像が最近やたらと流れてくる現象。",
-      descriptionEn: "Users noticing persistent recommendations of Michael Jackson choreography clips, audio trends, and retrospectives across YouTube Shorts and TikTok."
-    },
-    explanation: {
-      title: "2025〜2026年大型伝記映画『Michael』の公開に向けたプロモーション",
-      titleEn: "Preparation for Major Biopic \"Michael\" & Catalog Streaming Monetization",
-      description: "ライオンズゲートおよびユニバーサル配給による大型伝記映画『Michael』の世界公開が控えており、音楽権利を持つソニーや配給会社が、映画公開に向けてアルゴリズムを活用した若年層（Z世代・アルファ世代）への再認知と楽曲バイラルを積極的に仕掛けている。",
-      descriptionEn: "In anticipation of the global biopic \"Michael\", rights-holders and distributors are actively cultivating Gen-Z and Alpha discovery across streaming algorithms to build box-office momentum.",
-      keyPoints: [
-        "大型伝記映画『Michael』の全世界プロモーション連動",
-        "Z世代・アルファ世代へ過去の名曲（Thriller, Billie Jean等）をストリーミング再生させるバイラル施策",
-        "映画公開前に楽曲認知を高めておくことで、公開時の興行収入とストリーミング収益を最大化"
-      ],
-      keyPointsEn: [
-        "Global rollout tied to the upcoming Lionsgate / Universal biopic \"Michael\"",
-        "Catalog viral seeding to introduce timeless hits to younger streaming listeners",
-        "Maximizing synchronized theatrical box office and recurring audio streaming royalties"
-      ]
-    },
-    capitalContext: {
-      title: "ソニーによる約6億ドルの楽曲権利買収と、安定利回りを求める巨大ファンド",
-      titleEn: "Sony $600M Music Catalog Acquisition & Defensive Cash Flow Seeking Funds",
-      disclosedScale: "約6億ドル（約900億円）",
-      disclosedScaleEn: "$600M (approx. ¥90B)",
-      sourceEntity: "Sony Group Corp (Sony Music) / Lions Gate / Universal",
-      secFiling: "SEC Form 6-K (Sony Group Corp)",
-      secFilingUrl: "https://www.sec.gov/edgar/browse/?CIK=0000313838",
-      dominantBackers: [
-        "Sony Group Corp",
-        "BlackRock (約6%保有)",
-        "Vanguard (約4%保有)"
-      ],
-      dominantBackersEn: [
-        "Sony Group Corp",
-        "BlackRock (approx. 6% stake)",
-        "Vanguard (approx. 4% stake)"
-      ]
-    },
-    tags: [
-      "#マイケルジャクソン",
-      "#YouTubeアルゴリズム",
-      "#映画Michael",
-      "#ソニーMusic",
-      "#音楽カタログ投資"
-    ],
-    tagsEn: [
-      "#MichaelJackson",
-      "#YouTubeAlgorithm",
-      "#MichaelBiopic",
-      "#SonyMusic",
-      "#CatalogIP"
     ]
   }
 ];
