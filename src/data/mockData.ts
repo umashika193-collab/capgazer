@@ -10,7 +10,7 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     name: "AIデータセンター ＆ 電力・送電インフラ",
     nameEn: "AI Compute & Power Grid Infrastructure",
     inflowAmount: "$200 億 / 四半期",
-    inflowAmountEn: "$200.3B / Quarter",
+    inflowAmountEn: "$200.5B / Quarter",
     inflowGrowth: "+28% YoY",
     inflowGrowthEn: "+28% YoY",
     growthNum: 28,
@@ -75,12 +75,12 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 2,
     name: "先端半導体製造 ＆ AIハードウェアサプライチェーン",
     nameEn: "Advanced Semiconductor Foundry & AI Hardware",
-    inflowAmount: "$141 億 / 四半期",
-    inflowAmountEn: "$141.3B / Quarter",
-    inflowGrowth: "+37% YoY",
-    inflowGrowthEn: "+37% YoY",
-    growthNum: 37,
-    shareRatio: 20,
+    inflowAmount: "$138 億 / 四半期",
+    inflowAmountEn: "$137.8B / Quarter",
+    inflowGrowth: "+34% YoY",
+    inflowGrowthEn: "+34% YoY",
+    growthNum: 34,
+    shareRatio: 19,
     description: "AIモデルの巨大化に伴う2nm・3nm先端プロセス微細化、先端パッケージング（CoWoS）、高帯域メモリ（HBM）への独占的供給企業へ資本が集中。",
     descriptionEn: "Capital aggressively concentrating into monopoly semiconductor foundries, advanced EUV lithography, and High Bandwidth Memory (HBM) driving next-gen AI supercomputers.",
     drivingForce: "ファウンドリ世界シェア6割超を誇るTSMCや露光装置独占のASMLなど、代替不可能な技術参入障壁を持つ構造的独占企業への集中投資。",
@@ -135,8 +135,8 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 3,
     name: "防衛テック ＆ サイバーセキュリティ・自律システム",
     nameEn: "Defense Tech, Cyber Security & Autonomous Systems",
-    inflowAmount: "$132 億 / 四半期",
-    inflowAmountEn: "$131.5B / Quarter",
+    inflowAmount: "$131 億 / 四半期",
+    inflowAmountEn: "$131.4B / Quarter",
     inflowGrowth: "+25% YoY",
     inflowGrowthEn: "+25% YoY",
     growthNum: 25,
@@ -195,11 +195,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 4,
     name: "GLP-1肥満・代謝薬 ＆ 次世代ヘルスケア",
     nameEn: "GLP-1 Obesity, Metabolic & Next-Gen Healthcare",
-    inflowAmount: "$128 億 / 四半期",
-    inflowAmountEn: "$127.9B / Quarter",
-    inflowGrowth: "+48% YoY",
-    inflowGrowthEn: "+48% YoY",
-    growthNum: 48,
+    inflowAmount: "$130 億 / 四半期",
+    inflowAmountEn: "$130.4B / Quarter",
+    inflowGrowth: "+52% YoY",
+    inflowGrowthEn: "+52% YoY",
+    growthNum: 52,
     shareRatio: 18,
     description: "肥満症・糖尿病・心血管疾患・脂肪肝（MASH）など、全世界の成人人口の数十％に及ぶ巨大実需市場。空前の売上と利益率を叩き出す製薬大手へ買いが集中。",
     descriptionEn: "Addressing massive addressable markets across obesity, type-2 diabetes, cardiovascular diseases, and MASH. Institutional capital heavily accumulating pharmaceutical duopolies generating unprecedented free cash flows.",
@@ -249,8 +249,8 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 5,
     name: "プライベートクレジット ＆ オルタナティブ金融",
     nameEn: "Private Credit & Alternative Direct Lending",
-    inflowAmount: "$108 億 / 四半期",
-    inflowAmountEn: "$107.7B / Quarter",
+    inflowAmount: "$107 億 / 四半期",
+    inflowAmountEn: "$107.1B / Quarter",
     inflowGrowth: "+33% YoY",
     inflowGrowthEn: "+33% YoY",
     growthNum: 33,
@@ -2523,72 +2523,6 @@ export const recentTrendsData: RecentTrendItem[] = [
       "#CocaColaPartnership",
       "#HighMarginRetail",
       "#BeverageEconomics"
-    ]
-  },
-  {
-    id: "trend-dubai-chocolate-hype",
-    date: "2026-08-29",
-    topic: "SNSで「ドバイチョコ」や高級ナッツスイーツ動画が爆発している理由",
-    topicEn: "Why \"Dubai Chocolate\" & High-End Nut Confectionery Flooded Social Feeds",
-    category: "culture",
-    mediaChannel: "YouTube / SNS",
-    mediaChannelEn: "YouTube / Social",
-    phenomenon: {
-      title: "YouTubeのASMRやTikTokで、緑のペーストが詰まった分厚いチョコを割る動画が激増",
-      titleEn: "Explosion of viral ASMR videos snapping thick chocolate bars filled with bright green pistachio paste",
-      description: "TikTok、Instagramリール、YouTubeで、中からサクサクのカダイフとピスタチオペーストが溢れ出る「ドバイチョコ」の咀嚼音動画が世界中で大バズりし、1枚数千円で行列や品薄が発生している現象。",
-      descriptionEn: "Global viral sensation across short-form video algorithms featuring the distinctive crunch and cross-section of crispy knafeh pistachio-stuffed chocolate bars."
-    },
-    explanation: {
-      title: "「断面萌え×ASMR」のアルゴリズム最適化と、カカオ豆大暴騰による高単価ナッツシフト",
-      titleEn: "Algorithmic Audio-Visual Resonance Meets Global Cocoa Inflation Cost Shifts",
-      description: "視覚的インパクト（鮮やかなピスタチオグリーン）と聴覚刺激（カダイフのバリバリ音）がショート動画の視聴維持率を跳ね上げるバイラル構造。さらに背景には、世界的なカカオ豆の不作・価格高騰（先物価格が一時3倍）により、製菓業界が「カカオの量を減らし、高単価・高付加価値なナッツペースト菓子へ転換して利益を確保する」構造変化が重なっている。",
-      descriptionEn: "Engineered for maximum algorithmic retention via distinct auditory crunch and vivid green cross-sections, coinciding with historic cocoa bean commodity surges compelling confectioners to pivot toward high-ticket nut-filled luxury formats.",
-      keyPoints: [
-        "TikTok / YouTube Shortsの視聴維持率を最大化する「サクサク音（ASMR）×断面」",
-        "カカオ豆の歴史的暴騰（気候変動と病害）に伴う製菓原材料の価格転嫁",
-        "1枚2,000円〜4,000円でも売れる「自分へのプチ贅沢・体験型消費」の確立"
-      ],
-      keyPointsEn: [
-        "Short-form algorithm optimization capitalizing on crunchy ASMR audio and visual indulgence",
-        "Hedging against historic global cocoa futures inflation via high-margin nut paste formulas",
-        "Monetizing experiential micro-luxury and social status gifting ($20-$30 per bar)"
-      ]
-    },
-    capitalContext: {
-      title: "カカオ先物高騰と、世界最大手バリーカレボー等のプレミアムナッツ原料市場",
-      titleEn: "Surging Cocoa Futures & Barry Callebaut Premium Confectionery Sourcing",
-      disclosedScale: "世界チョコレート・ナッツ市場 年間1,200億ドル規模",
-      disclosedScaleEn: "$120B+ Global Chocolate & Specialty Nut Confectionery Market",
-      sourceEntity: "Barry Callebaut AG / Lindt & Sprüngli / 各国高級製菓チェーン",
-      secFiling: "Annual Confectionery Commodity Disclosures & Commodities Exchange",
-      secFilingUrl: "https://www.sec.gov/edgar/browse/?CIK=0000047217",
-      dominantBackers: [
-        "Barry Callebaut (スイス原料最大手)",
-        "BlackRock",
-        "UBS Wealth Mgmt"
-      ],
-      dominantBackersEn: [
-        "Barry Callebaut AG",
-        "BlackRock",
-        "UBS Wealth Management"
-      ]
-    },
-    tags: [
-      "#ドバイチョコ",
-      "#ASMR動画",
-      "#ピスタチオ",
-      "#カカオ高騰",
-      "#体験型消費",
-      "#SNSアルゴリズム"
-    ],
-    tagsEn: [
-      "#DubaiChocolate",
-      "#ASMRViral",
-      "#PistachioPaste",
-      "#CocoaInflation",
-      "#ExperientialSpending",
-      "#ShortFormAlgorithm"
     ]
   }
 ];
