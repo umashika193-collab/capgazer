@@ -9,12 +9,12 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 1,
     name: "AIデータセンター ＆ 電力・送電インフラ",
     nameEn: "AI Compute & Power Grid Infrastructure",
-    inflowAmount: "$200 億 / 四半期",
-    inflowAmountEn: "$200.5B / Quarter",
-    inflowGrowth: "+28% YoY",
-    inflowGrowthEn: "+28% YoY",
-    growthNum: 28,
-    shareRatio: 28,
+    inflowAmount: "$204 億 / 四半期",
+    inflowAmountEn: "$203.7B / Quarter",
+    inflowGrowth: "+29% YoY",
+    inflowGrowthEn: "+29% YoY",
+    growthNum: 29,
+    shareRatio: 29,
     description: "生成AIの急激な普及に伴い「電力不足」が最大のボトルネック化。半導体に加え、原子力発電所・送電網・天然ガス火力・冷却システムへ巨額マネーが集中。",
     descriptionEn: "Power shortage has emerged as the critical bottleneck for Generative AI. Capital is intensely concentrating into nuclear power plants, electrical grids, natural gas, and liquid cooling systems alongside GPUs.",
     drivingForce: "メガテック各社のAI設備投資（CAPEX）が年間数千億ドル規模へ倍増。安定したベースロード電力を供給できるエネルギー企業が最優先の買い対象に。",
@@ -75,12 +75,12 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 2,
     name: "先端半導体製造 ＆ AIハードウェアサプライチェーン",
     nameEn: "Advanced Semiconductor Foundry & AI Hardware",
-    inflowAmount: "$138 億 / 四半期",
-    inflowAmountEn: "$137.8B / Quarter",
-    inflowGrowth: "+34% YoY",
-    inflowGrowthEn: "+34% YoY",
-    growthNum: 34,
-    shareRatio: 19,
+    inflowAmount: "$139 億 / 四半期",
+    inflowAmountEn: "$139.4B / Quarter",
+    inflowGrowth: "+35% YoY",
+    inflowGrowthEn: "+35% YoY",
+    growthNum: 35,
+    shareRatio: 20,
     description: "AIモデルの巨大化に伴う2nm・3nm先端プロセス微細化、先端パッケージング（CoWoS）、高帯域メモリ（HBM）への独占的供給企業へ資本が集中。",
     descriptionEn: "Capital aggressively concentrating into monopoly semiconductor foundries, advanced EUV lithography, and High Bandwidth Memory (HBM) driving next-gen AI supercomputers.",
     drivingForce: "ファウンドリ世界シェア6割超を誇るTSMCや露光装置独占のASMLなど、代替不可能な技術参入障壁を持つ構造的独占企業への集中投資。",
@@ -135,12 +135,12 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 3,
     name: "防衛テック ＆ サイバーセキュリティ・自律システム",
     nameEn: "Defense Tech, Cyber Security & Autonomous Systems",
-    inflowAmount: "$131 億 / 四半期",
-    inflowAmountEn: "$131.4B / Quarter",
-    inflowGrowth: "+25% YoY",
-    inflowGrowthEn: "+25% YoY",
-    growthNum: 25,
-    shareRatio: 19,
+    inflowAmount: "$129 億 / 四半期",
+    inflowAmountEn: "$129.4B / Quarter",
+    inflowGrowth: "+24% YoY",
+    inflowGrowthEn: "+24% YoY",
+    growthNum: 24,
+    shareRatio: 18,
     description: "ウクライナ・中東・台湾海峡の地政学リスクにより、欧米各国の国防予算がGDP比2〜3%超へ大幅拡大。軍事AI、ドローン、サイバー防衛企業へ資金が殺到。",
     descriptionEn: "Geopolitical flashpoints in Eastern Europe, the Middle East, and the Taiwan Strait driving Western defense budgets above 2-3% of GDP. Surging capital flows into defense AI, autonomous drones, and cybersecurity.",
     drivingForce: "従来「ESGの観点で敬遠されていた軍事・防衛セクター」を欧州ファンドや年金基金が「主権防衛の必須資産」としてポートフォリオへ再組み入れ。",
@@ -195,11 +195,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 4,
     name: "GLP-1肥満・代謝薬 ＆ 次世代ヘルスケア",
     nameEn: "GLP-1 Obesity, Metabolic & Next-Gen Healthcare",
-    inflowAmount: "$130 億 / 四半期",
-    inflowAmountEn: "$130.4B / Quarter",
-    inflowGrowth: "+52% YoY",
-    inflowGrowthEn: "+52% YoY",
-    growthNum: 52,
+    inflowAmount: "$129 億 / 四半期",
+    inflowAmountEn: "$128.6B / Quarter",
+    inflowGrowth: "+49% YoY",
+    inflowGrowthEn: "+49% YoY",
+    growthNum: 49,
     shareRatio: 18,
     description: "肥満症・糖尿病・心血管疾患・脂肪肝（MASH）など、全世界の成人人口の数十％に及ぶ巨大実需市場。空前の売上と利益率を叩き出す製薬大手へ買いが集中。",
     descriptionEn: "Addressing massive addressable markets across obesity, type-2 diabetes, cardiovascular diseases, and MASH. Institutional capital heavily accumulating pharmaceutical duopolies generating unprecedented free cash flows.",
@@ -249,11 +249,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 5,
     name: "プライベートクレジット ＆ オルタナティブ金融",
     nameEn: "Private Credit & Alternative Direct Lending",
-    inflowAmount: "$107 億 / 四半期",
-    inflowAmountEn: "$107.1B / Quarter",
-    inflowGrowth: "+33% YoY",
-    inflowGrowthEn: "+33% YoY",
-    growthNum: 33,
+    inflowAmount: "$105 億 / 四半期",
+    inflowAmountEn: "$104.8B / Quarter",
+    inflowGrowth: "+31% YoY",
+    inflowGrowthEn: "+31% YoY",
+    growthNum: 31,
     shareRatio: 15,
     description: "銀行の融資規制強化（バーゼル3最終化）を受け、企業向け直接融資（プライベートデット）を手掛けるメガオルタナティブ資産運用会社へ年金マネーが流入。",
     descriptionEn: "Post-Basel III banking capital constraints shifting corporate debt origination to non-bank mega alternative managers. Public pensions allocating heavily to direct lending funds.",
@@ -829,6 +829,87 @@ export const topAssetManagersData: AssetManagerProfile[] = [
 
 // 4. アジェンダ別 政策分析＆産業インパクト・フィード（世界市場を揺るがすグローバル・メガトレンド）
 export const trackerItemsData: TrackerItem[] = [
+  {
+    id: "feed-sec-sony-20261014",
+    date: "2026-10-14",
+    institution: "Sony Group Corp (SONY)",
+    institutionEn: "Sony Group Corp (SONY)",
+    institutionType: "Corporation",
+    category: "gaming",
+    title: "【SEC公的開示】Sony Group Corpが最新重要報告書（Form 6-K）を正式提出",
+    titleEn: "[SEC Filing] Sony Group Corp Files Official Current Report (Form 6-K)",
+    summary: [
+      "米SEC EDGARに提出された公式文書（Form 6-K）を検知。公的提出日: 2026-10-14。",
+      "資本市場および機関投資家向けに開示された法定報告書原本へのアクセスを即時同期。",
+      "市場への重大な影響を持つ重要事項・資本異動に関する最新ファクトチェックを反映。"
+    ],
+    summaryEn: [
+      "Verified official regulatory submission (Form 6-K) via SEC EDGAR. Filing Date: 2026-10-14.",
+      "Direct primary source link synchronized for institutional capital flow verification.",
+      "Incorporating latest corporate material event updates and governance disclosures."
+    ],
+    primaryPolicy: {
+      title: "SEC Form 6-K 法定報告書の正式受理・原本照合",
+      titleEn: "Official Acceptance & Verification of SEC Form 6-K",
+      description: "Sony Group Corpが米国証券取引委員会に提出した法定重要報告書。事業運営や資本政策、重要契約に関する公的開示。",
+      descriptionEn: "Statutory material filing submitted by Sony Group Corp to the US SEC, disclosing corporate operations and capital events.",
+      keyPoints: [
+        "提出書類: SEC Form 6-K（公式原本リンク検証済）",
+        "開示企業: Sony Group Corp (CIK: 0000313838)",
+        "法定報告日: 2026-10-14"
+      ],
+      keyPointsEn: [
+        "Filing Type: SEC Form 6-K (Verified Primary URL)",
+        "Reporting Entity: Sony Group Corp (CIK: 0000313838)",
+        "Filing Date: 2026-10-14"
+      ]
+    },
+    capitalIncentive: {
+      title: "巨大資本・機関投資家への開示義務と市場規律",
+      titleEn: "Institutional Market Discipline and Mandatory Disclosures",
+      description: "BlackRockやVanguardなど主要機関投資家に対する法定開示責任の履行。透明性維持による資本コスト抑制と信認確保。",
+      descriptionEn: "Fulfilling fiduciary reporting obligations to mega asset managers to preserve market credibility.",
+      financialRationale: "連邦証券法に基づく情報開示の即時反映による情報非対称性の排除と株価形成の適正化。",
+      financialRationaleEn: "Mitigating information asymmetry and ensuring fair price discovery under federal securities law."
+    },
+    industryImpact: {
+      title: "エンタメ・IPコンテンツ・半導体セクターおよび競合サプライチェーンへの波及",
+      titleEn: "Spillover Effects across Gaming Supply Chain",
+      description: "グローバルな産業構造におけるキープレイヤーの動向が、提携先・下請け・競合他社の投資判断に直接波及。",
+      descriptionEn: "Decisions by core industry pillars directly influencing supply chain partners and competitors.",
+      marketReaction: "機関投資家のアルゴリズム取引による即時プライシングおよびポジション調整の契機。",
+      marketReactionEn: "Catalyst for institutional algorithmic rebalancing and credit assessment.",
+      caseStudy: {
+        target: "Sony Group Corp サプライチェーン関係各社",
+        outcome: "公式開示情報の即時確認によるリスクヘッジと投資戦略の再検証",
+        outcomeEn: "Real-time risk mitigation and strategic reassessment via primary source validation"
+      }
+    },
+    status: "active",
+    statusLabel: "SEC公的開示済",
+    statusLabelEn: "SEC Filing Verified",
+    sourceName: "SEC EDGAR (CIK: 0000313838)",
+    sourceType: "SEC Form 6-K",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/313838/000110465926115761/tm2627356d1_6k.htm",
+    tags: [
+      "SONY",
+      "6-K",
+      "SEC開示",
+      "公的一次情報"
+    ],
+    tagsEn: [
+      "SONY",
+      "6-K",
+      "SEC Filing",
+      "Primary Source"
+    ],
+    involvedCompanies: [
+      "Sony Group Corp",
+      "BlackRock",
+      "Vanguard"
+    ],
+    impactScore: 88
+  },
   {
     id: "feed-sec-sony-20261005",
     date: "2026-10-05",
@@ -2457,72 +2538,6 @@ export const recentTrendsData: RecentTrendItem[] = [
       "Sneakers",
       "RetroTrend",
       "GrossMargin"
-    ]
-  },
-  {
-    id: "trend-energy-drink-expansion",
-    date: "2026-08-30",
-    topic: "コンビニでエナジードリンクの棚が異常に拡大している理由",
-    topicEn: "Why Energy Drinks Dominate Convenience Store Refrigerators",
-    category: "culture",
-    mediaChannel: "テレビ / 医療メディア",
-    mediaChannelEn: "TV / Medical Media",
-    phenomenon: {
-      title: "コンビニの冷蔵庫で、お茶やコーヒーの棚を削ってモンスターや高額エナドリが壁一面を占拠",
-      titleEn: "Energy drinks aggressively expanding shelf space at the expense of traditional tea and canned coffee",
-      description: "駅や街のコンビニのドリンクコーナーで、モンスターエナジー、ZONE、レッドブル、セルシウスなどが目線の特等席（ゴールデンゾーン）を占め、カラフルな缶が異常な面積を占拠している現象。",
-      descriptionEn: "Consumers noticing high-caffeine functional beverages taking over prime eye-level refrigerator shelves once reserved for traditional soft drinks."
-    },
-    explanation: {
-      title: "若者の砂糖離れに対抗し、粗利益率50〜60%を稼ぎ出す「機能性飲料」への資本シフト",
-      titleEn: "Beverage Conglomerates Pivoting to High-Margin (50-60% Gross Margin) Functional Energy",
-      description: "従来の甘い炭酸飲料や缶コーヒーの売上が頭打ちになる中、世界飲料メガ（コカ・コーラ、ペプシコ）はエナジードリンク企業に出資・買収を加速。原価率が極めて低く、値引きなしの定価販売（1本200円超）が維持できる高収益セグメントへ棚割り交渉力を集中させている。",
-      descriptionEn: "Facing stagnant volume in sugary sodas, beverage giants (Coca-Cola, PepsiCo) channeled multibillion capital into Monster and Celsius, weaponizing distribution fleets to capture high-margin retail space.",
-      keyPoints: [
-        "原価が低く、定価販売が守られる高粗利益率（50%超）ビジネス",
-        "コカ・コーラによるモンスター・ビバレッジ出資（約19.5%保有）と流通網の完全統合",
-        "ゲーマー・デスクワーカー向け「合法的な集中力・覚醒体験」への課金習慣化"
-      ],
-      keyPointsEn: [
-        "Extraordinary operating margins (50%+) sustained by premium non-discounted pricing",
-        "Coca-Cola 19.5% equity partnership locking in global DSD distribution supremacy",
-        "Monetizing cognitive energy and habitual caffeine demand among gamers and knowledge workers"
-      ]
-    },
-    capitalContext: {
-      title: "モンスター・ビバレッジ時価総額500億ドルと、コカ・コーラ連合の資本力",
-      titleEn: "Monster Beverage $50B Market Cap & The Coca-Cola Distribution Alliance",
-      disclosedScale: "時価総額 約500億ドル / 粗利益率 53.5%",
-      disclosedScaleEn: "$50B Market Cap / 53.5% Gross Margin",
-      sourceEntity: "Monster Beverage Corp (NASDAQ: MNST) / The Coca-Cola Co",
-      secFiling: "SEC Form 10-K (Monster Beverage Corp)",
-      secFilingUrl: "https://www.sec.gov/edgar/browse/?CIK=0000865752",
-      dominantBackers: [
-        "The Coca-Cola Company (約19.5%)",
-        "Vanguard (約8.8%)",
-        "BlackRock (約7.4%)"
-      ],
-      dominantBackersEn: [
-        "The Coca-Cola Company (approx. 19.5%)",
-        "Vanguard Group (approx. 8.8%)",
-        "BlackRock (approx. 7.4%)"
-      ]
-    },
-    tags: [
-      "#エナジードリンク",
-      "#モンスターエナジー",
-      "#コンビニ棚割り",
-      "#コカコーラ出資",
-      "#粗利率50パーセント",
-      "#高利益率ビジネス"
-    ],
-    tagsEn: [
-      "#EnergyDrinks",
-      "#MonsterBeverage",
-      "#ShelfSpaceStrategy",
-      "#CocaColaPartnership",
-      "#HighMarginRetail",
-      "#BeverageEconomics"
     ]
   }
 ];
