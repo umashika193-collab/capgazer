@@ -9,11 +9,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 1,
     name: "AIデータセンター ＆ 電力・送電インフラ",
     nameEn: "AI Compute & Power Grid Infrastructure",
-    inflowAmount: "$204 億 / 四半期",
-    inflowAmountEn: "$203.7B / Quarter",
-    inflowGrowth: "+29% YoY",
-    inflowGrowthEn: "+29% YoY",
-    growthNum: 29,
+    inflowAmount: "$202 億 / 四半期",
+    inflowAmountEn: "$201.9B / Quarter",
+    inflowGrowth: "+28% YoY",
+    inflowGrowthEn: "+28% YoY",
+    growthNum: 28,
     shareRatio: 29,
     description: "生成AIの急激な普及に伴い「電力不足」が最大のボトルネック化。半導体に加え、原子力発電所・送電網・天然ガス火力・冷却システムへ巨額マネーが集中。",
     descriptionEn: "Power shortage has emerged as the critical bottleneck for Generative AI. Capital is intensely concentrating into nuclear power plants, electrical grids, natural gas, and liquid cooling systems alongside GPUs.",
@@ -76,10 +76,10 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     name: "先端半導体製造 ＆ AIハードウェアサプライチェーン",
     nameEn: "Advanced Semiconductor Foundry & AI Hardware",
     inflowAmount: "$139 億 / 四半期",
-    inflowAmountEn: "$139.4B / Quarter",
-    inflowGrowth: "+35% YoY",
-    inflowGrowthEn: "+35% YoY",
-    growthNum: 35,
+    inflowAmountEn: "$139.0B / Quarter",
+    inflowGrowth: "+34% YoY",
+    inflowGrowthEn: "+34% YoY",
+    growthNum: 34,
     shareRatio: 20,
     description: "AIモデルの巨大化に伴う2nm・3nm先端プロセス微細化、先端パッケージング（CoWoS）、高帯域メモリ（HBM）への独占的供給企業へ資本が集中。",
     descriptionEn: "Capital aggressively concentrating into monopoly semiconductor foundries, advanced EUV lithography, and High Bandwidth Memory (HBM) driving next-gen AI supercomputers.",
@@ -135,12 +135,12 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 3,
     name: "防衛テック ＆ サイバーセキュリティ・自律システム",
     nameEn: "Defense Tech, Cyber Security & Autonomous Systems",
-    inflowAmount: "$129 億 / 四半期",
-    inflowAmountEn: "$129.4B / Quarter",
-    inflowGrowth: "+24% YoY",
-    inflowGrowthEn: "+24% YoY",
-    growthNum: 24,
-    shareRatio: 18,
+    inflowAmount: "$133 億 / 四半期",
+    inflowAmountEn: "$132.7B / Quarter",
+    inflowGrowth: "+26% YoY",
+    inflowGrowthEn: "+26% YoY",
+    growthNum: 26,
+    shareRatio: 19,
     description: "ウクライナ・中東・台湾海峡の地政学リスクにより、欧米各国の国防予算がGDP比2〜3%超へ大幅拡大。軍事AI、ドローン、サイバー防衛企業へ資金が殺到。",
     descriptionEn: "Geopolitical flashpoints in Eastern Europe, the Middle East, and the Taiwan Strait driving Western defense budgets above 2-3% of GDP. Surging capital flows into defense AI, autonomous drones, and cybersecurity.",
     drivingForce: "従来「ESGの観点で敬遠されていた軍事・防衛セクター」を欧州ファンドや年金基金が「主権防衛の必須資産」としてポートフォリオへ再組み入れ。",
@@ -196,10 +196,10 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     name: "GLP-1肥満・代謝薬 ＆ 次世代ヘルスケア",
     nameEn: "GLP-1 Obesity, Metabolic & Next-Gen Healthcare",
     inflowAmount: "$129 億 / 四半期",
-    inflowAmountEn: "$128.6B / Quarter",
-    inflowGrowth: "+49% YoY",
-    inflowGrowthEn: "+49% YoY",
-    growthNum: 49,
+    inflowAmountEn: "$129.0B / Quarter",
+    inflowGrowth: "+50% YoY",
+    inflowGrowthEn: "+50% YoY",
+    growthNum: 50,
     shareRatio: 18,
     description: "肥満症・糖尿病・心血管疾患・脂肪肝（MASH）など、全世界の成人人口の数十％に及ぶ巨大実需市場。空前の売上と利益率を叩き出す製薬大手へ買いが集中。",
     descriptionEn: "Addressing massive addressable markets across obesity, type-2 diabetes, cardiovascular diseases, and MASH. Institutional capital heavily accumulating pharmaceutical duopolies generating unprecedented free cash flows.",
@@ -249,11 +249,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 5,
     name: "プライベートクレジット ＆ オルタナティブ金融",
     nameEn: "Private Credit & Alternative Direct Lending",
-    inflowAmount: "$105 億 / 四半期",
-    inflowAmountEn: "$104.8B / Quarter",
-    inflowGrowth: "+31% YoY",
-    inflowGrowthEn: "+31% YoY",
-    growthNum: 31,
+    inflowAmount: "$104 億 / 四半期",
+    inflowAmountEn: "$103.6B / Quarter",
+    inflowGrowth: "+30% YoY",
+    inflowGrowthEn: "+30% YoY",
+    growthNum: 30,
     shareRatio: 15,
     description: "銀行の融資規制強化（バーゼル3最終化）を受け、企業向け直接融資（プライベートデット）を手掛けるメガオルタナティブ資産運用会社へ年金マネーが流入。",
     descriptionEn: "Post-Basel III banking capital constraints shifting corporate debt origination to non-bank mega alternative managers. Public pensions allocating heavily to direct lending funds.",
@@ -829,6 +829,87 @@ export const topAssetManagersData: AssetManagerProfile[] = [
 
 // 4. アジェンダ別 政策分析＆産業インパクト・フィード（世界市場を揺るがすグローバル・メガトレンド）
 export const trackerItemsData: TrackerItem[] = [
+  {
+    id: "feed-sec-tsm-20261015",
+    date: "2026-10-15",
+    institution: "TSMC (ADR) (TSM)",
+    institutionEn: "TSMC (ADR) (TSM)",
+    institutionType: "Corporation",
+    category: "supply_chain",
+    title: "【SEC公的開示】TSMC (ADR)が最新重要報告書（Form 6-K）を正式提出",
+    titleEn: "[SEC Filing] TSMC (ADR) Files Official Current Report (Form 6-K)",
+    summary: [
+      "米SEC EDGARに提出された公式文書（Form 6-K）を検知。公的提出日: 2026-10-15。",
+      "資本市場および機関投資家向けに開示された法定報告書原本へのアクセスを即時同期。",
+      "市場への重大な影響を持つ重要事項・資本異動に関する最新ファクトチェックを反映。"
+    ],
+    summaryEn: [
+      "Verified official regulatory submission (Form 6-K) via SEC EDGAR. Filing Date: 2026-10-15.",
+      "Direct primary source link synchronized for institutional capital flow verification.",
+      "Incorporating latest corporate material event updates and governance disclosures."
+    ],
+    primaryPolicy: {
+      title: "SEC Form 6-K 法定報告書の正式受理・原本照合",
+      titleEn: "Official Acceptance & Verification of SEC Form 6-K",
+      description: "TSMC (ADR)が米国証券取引委員会に提出した法定重要報告書。事業運営や資本政策、重要契約に関する公的開示。",
+      descriptionEn: "Statutory material filing submitted by TSMC (ADR) to the US SEC, disclosing corporate operations and capital events.",
+      keyPoints: [
+        "提出書類: SEC Form 6-K（公式原本リンク検証済）",
+        "開示企業: TSMC (ADR) (CIK: 0001046179)",
+        "法定報告日: 2026-10-15"
+      ],
+      keyPointsEn: [
+        "Filing Type: SEC Form 6-K (Verified Primary URL)",
+        "Reporting Entity: TSMC (ADR) (CIK: 0001046179)",
+        "Filing Date: 2026-10-15"
+      ]
+    },
+    capitalIncentive: {
+      title: "巨大資本・機関投資家への開示義務と市場規律",
+      titleEn: "Institutional Market Discipline and Mandatory Disclosures",
+      description: "BlackRockやVanguardなど主要機関投資家に対する法定開示責任の履行。透明性維持による資本コスト抑制と信認確保。",
+      descriptionEn: "Fulfilling fiduciary reporting obligations to mega asset managers to preserve market credibility.",
+      financialRationale: "連邦証券法に基づく情報開示の即時反映による情報非対称性の排除と株価形成の適正化。",
+      financialRationaleEn: "Mitigating information asymmetry and ensuring fair price discovery under federal securities law."
+    },
+    industryImpact: {
+      title: "ファウンドリ・先端製造セクターおよび競合サプライチェーンへの波及",
+      titleEn: "Spillover Effects across Supply_chain Supply Chain",
+      description: "グローバルな産業構造におけるキープレイヤーの動向が、提携先・下請け・競合他社の投資判断に直接波及。",
+      descriptionEn: "Decisions by core industry pillars directly influencing supply chain partners and competitors.",
+      marketReaction: "機関投資家のアルゴリズム取引による即時プライシングおよびポジション調整の契機。",
+      marketReactionEn: "Catalyst for institutional algorithmic rebalancing and credit assessment.",
+      caseStudy: {
+        target: "TSMC (ADR) サプライチェーン関係各社",
+        outcome: "公式開示情報の即時確認によるリスクヘッジと投資戦略の再検証",
+        outcomeEn: "Real-time risk mitigation and strategic reassessment via primary source validation"
+      }
+    },
+    status: "active",
+    statusLabel: "SEC公的開示済",
+    statusLabelEn: "SEC Filing Verified",
+    sourceName: "SEC EDGAR (CIK: 0001046179)",
+    sourceType: "SEC Form 6-K",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/tsm-20261015x6k.htm",
+    tags: [
+      "TSM",
+      "6-K",
+      "SEC開示",
+      "公的一次情報"
+    ],
+    tagsEn: [
+      "TSM",
+      "6-K",
+      "SEC Filing",
+      "Primary Source"
+    ],
+    involvedCompanies: [
+      "TSMC (ADR)",
+      "BlackRock",
+      "Vanguard"
+    ],
+    impactScore: 88
+  },
   {
     id: "feed-sec-sony-20261014",
     date: "2026-10-14",
@@ -2391,90 +2472,6 @@ export const trackerItemsData: TrackerItem[] = [
       "Intel Corp"
     ],
     impactScore: 95
-  },
-  {
-    id: "item-tsmc-global-fab-2026",
-    date: "2026-07-18",
-    institution: "Taiwan Semiconductor Manufacturing Co (TSMC SEC Form 20-F)",
-    institutionEn: "Taiwan Semiconductor Manufacturing Co (TSMC SEC Form 20-F)",
-    institutionType: "Corporation",
-    category: "supply_chain",
-    title: "TSMC（台湾）：日米欧への先端2nm/3nm工場分散と台湾有事リスクの恒久ヘッジ",
-    titleEn: "TSMC Multi-Polar Global Fab Footprint (Arizona, Kumamoto, Dresden) Secures Advanced Nodes",
-    summary: [
-      "台湾TSMCが米アリゾナ第1・第2工場、日本熊本第1・第2工場、ドイツ・ドレスデン工場の本格稼働スケジュールを開示。",
-      "Apple、Nvidia、AMDなど主要顧客（大株主ファンド）の要請を受け、最先端2nm/3nmプロセスの台湾国外での製造比率を大幅引き上げ。",
-      "地政学的な台湾海峡リスクに対する「半導体供給網の保険（多極化体制）」が名実ともに完成。"
-    ],
-    summaryEn: [
-      "TSMC disclosed volume ramp milestones for Arizona Fabs 1/2 (US), Kumamoto Fabs 1/2 (Japan), and Dresden (Germany) in SEC Form 20-F.",
-      "Customer and shareholder pressure (Apple, Nvidia, BlackRock) driving sub-3nm cutting-edge production capacity outside Taiwan.",
-      "Institutional insurance framework against Taiwan Strait geopolitical disruption formally established."
-    ],
-    primaryPolicy: {
-      title: "先端ノード半導体の「グローバル製造フットプリント（多極分散）」",
-      titleEn: "Geographic Multi-Node Diversification of Critical Semiconductor Foundries",
-      description: "地震および地政学リスクによる台湾本島での工場停止時でも、世界のハイテク産業が継続稼働できる冗長性（バックアップ）の確保。",
-      descriptionEn: "Establishing redundant fabrication capacity outside Taiwan to ensure uninterrupted global compute supply in black-swan events.",
-      keyPoints: [
-        "米アリゾナ第2工場における最先端2nmプロセスの導入決定（SEC Form 20-F開示）",
-        "日本・熊本第2工場（6nm/7nm先端車載・AIチップ）の建設推進とサプライチェーン集積",
-        "顧客企業による製造コスト上昇分（約20〜30%プレミアム）の受け入れ合意"
-      ],
-      keyPointsEn: [
-        "Commitment to deploy 2nm production node at TSMC Arizona Fab 2 (SEC Form 20-F)",
-        "Advancing Kumamoto Fab 2 expansion for automotive and AI silicon clustering",
-        "Customer acceptance of 20-30% geographic fabrication cost premiums"
-      ]
-    },
-    capitalIncentive: {
-      title: "台湾有事による数千兆円規模のグローバル資産消失（テールリスク）の完全ヘッジ",
-      titleEn: "Hedging Trillions in Systemic Tech Market Capitalization from Taiwan Tail Risks",
-      description: "BlackRock、Vanguard、Capital Groupなどのメガファンドが、台湾一極集中の脆弱性をポートフォリオ最大の脅威としてTSMCに海外分散を強制。",
-      financialRationale: "海外工場の建設コストは膨大だが、有事の際の全資産消失を防ぐ「保険料」として正当化され、株価バリュエーションの維持に寄与。",
-      financialRationaleEn: "High fab CAPEX amortized as essential institutional insurance, sustaining TSMC $1T+ enterprise multiple."
-    },
-    industryImpact: {
-      title: "日本（九州・熊本）および米国（アリゾナ）における巨大半導体クラスターの復活",
-      titleEn: "Revitalization of Japanese & American Semiconductor Clusters",
-      description: "ソニー、信越化学、東京エレクトロンなど日本の素材・装置メーカーへの受注が激増し、半導体エコシステムが急速に強化。",
-      descriptionEn: "Massive capex tailwinds for Japanese materials & tool suppliers (Tokyo Electron, Shin-Etsu) and US packaging suppliers.",
-      marketReaction: "TSMCの地政学ディスカウントが解消され、時価総額1兆ドル超を維持・拡大。",
-      marketReactionEn: "TSMC geopolitical discount narrowed, firmly anchoring its $1T+ market capitalization.",
-      caseStudy: {
-        target: "TSMC (SEC Form 20-F / CIK: 0001046179), Apple Inc., Nvidia Corp",
-        outcome: "日米欧の海外拠点が順次量産を開始し、グローバルハイテク企業の事業継続性が飛躍的に向上。",
-        outcomeEn: "Global fab network volume production dramatically upgraded business continuity for Western tech leaders."
-      }
-    },
-    status: "active",
-    statusLabel: "多極分散稼働中",
-    statusLabelEn: "Multi-Polar Operations Active",
-    sourceName: "TSMC Annual Report (SEC Form 20-F) & Investor Briefing",
-    sourceType: "SEC Official Form 20-F (2026-07)",
-    sourceUrl: "https://www.sec.gov/Archives/edgar/data/1046179/000104617924000032/tsm-20231231.htm",
-    tags: [
-      "#TSMC",
-      "#半導体多極化",
-      "#熊本工場",
-      "#アリゾナ工場",
-      "#地政学リスクヘッジ"
-    ],
-    tagsEn: [
-      "#TSMC",
-      "#FabDiversification",
-      "#KumamotoFab",
-      "#ArizonaFab",
-      "#GeopoliticalHedge"
-    ],
-    involvedCompanies: [
-      "TSMC",
-      "Apple Inc.",
-      "Nvidia Corp",
-      "Sony Semiconductor",
-      "Tokyo Electron"
-    ],
-    impactScore: 97
   }
 ];
 
