@@ -1,5 +1,5 @@
 {
-  "lastUpdatedUtc": "2026-10-21T00:23:53.591798+00:00",
+  "lastUpdatedUtc": "2026-10-22T00:27:26.479324+00:00",
   "pipelineStatus": "SUCCESS_100_PERCENT",
   "sectionsAutomated": [
     "01. Macro Inflow Sectors (Real-time Flow)",
@@ -7,7 +7,7 @@
     "03. Policy & Industry Impact Feed (SEC 8-K/6-K + AI)",
     "04. Recent Trending Explainer (30-Day Retention)"
   ],
-  "totalFilingsVerified": 3,
+  "totalFilingsVerified": 4,
   "filings": [
     {
       "key": "STATE_STREET",
@@ -22,6 +22,13 @@
       "form": "6-K",
       "date": "2026-10-14",
       "url": "https://www.sec.gov/Archives/edgar/data/313838/000110465926115761/tm2627356d1_6k.htm"
+    },
+    {
+      "key": "MSFT",
+      "name": "Microsoft Corp",
+      "form": "DEF 14A",
+      "date": "2026-10-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526427849/d61756ddef14a.htm"
     },
     {
       "key": "TSM",
