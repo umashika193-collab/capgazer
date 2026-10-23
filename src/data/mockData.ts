@@ -9,8 +9,8 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 1,
     name: "AIデータセンター ＆ 電力・送電インフラ",
     nameEn: "AI Compute & Power Grid Infrastructure",
-    inflowAmount: "$201 億 / 四半期",
-    inflowAmountEn: "$200.6B / Quarter",
+    inflowAmount: "$200 億 / 四半期",
+    inflowAmountEn: "$200.0B / Quarter",
     inflowGrowth: "+28% YoY",
     inflowGrowthEn: "+28% YoY",
     growthNum: 28,
@@ -71,130 +71,16 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     ]
   },
   {
-    id: "glp1_biotech",
-    rank: 2,
-    name: "GLP-1肥満・代謝薬 ＆ 次世代ヘルスケア",
-    nameEn: "GLP-1 Obesity, Metabolic & Next-Gen Healthcare",
-    inflowAmount: "$135 億 / 四半期",
-    inflowAmountEn: "$135.3B / Quarter",
-    inflowGrowth: "+61% YoY",
-    inflowGrowthEn: "+61% YoY",
-    growthNum: 61,
-    shareRatio: 19,
-    description: "肥満症・糖尿病・心血管疾患・脂肪肝（MASH）など、全世界の成人人口の数十％に及ぶ巨大実需市場。空前の売上と利益率を叩き出す製薬大手へ買いが集中。",
-    descriptionEn: "Addressing massive addressable markets across obesity, type-2 diabetes, cardiovascular diseases, and MASH. Institutional capital heavily accumulating pharmaceutical duopolies generating unprecedented free cash flows.",
-    drivingForce: "景気変動に左右されない確実な現金創出（キャッシュマシーン）力。保険適用拡大と適応症の追加による持続的成長期待。",
-    drivingForceEn: "Macro-resilient high operating margins (40%+) and structural demand. Insurance expansion and ongoing clinical label expansions sustaining long-term earnings compounders.",
-    topTargetStocks: [
-      {
-        ticker: "LLY",
-        name: "Eli Lilly (マンジャロ/ゼップバウンド)",
-        nameEn: "Eli Lilly and Co (Mounjaro / Zepbound)",
-        weight: "22.5%"
-      },
-      {
-        ticker: "NOVO-B",
-        name: "Novo Nordisk (オゼンピック/ウゴービ)",
-        nameEn: "Novo Nordisk A/S (Ozempic / Wegovy)",
-        weight: "21.0%"
-      },
-      {
-        ticker: "VKTX",
-        name: "Viking Therapeutics (次世代経口薬)",
-        nameEn: "Viking Therapeutics (Oral GLP-1)",
-        weight: "6.5%"
-      },
-      {
-        ticker: "ABBV",
-        name: "AbbVie (免疫/オンコロジー)",
-        nameEn: "AbbVie Inc. (Immunology / Oncology)",
-        weight: "7.2%"
-      }
-    ],
-    dominantBuyers: [
-      "Fidelity",
-      "Capital Group",
-      "Amundi",
-      "UBS"
-    ],
-    dominantBuyersEn: [
-      "Fidelity Investments",
-      "Capital Group",
-      "Amundi Asset Mgmt",
-      "UBS Wealth Mgmt"
-    ]
-  },
-  {
-    id: "defense_cyber",
-    rank: 3,
-    name: "防衛テック ＆ サイバーセキュリティ・自律システム",
-    nameEn: "Defense Tech, Cyber Security & Autonomous Systems",
-    inflowAmount: "$134 億 / 四半期",
-    inflowAmountEn: "$133.8B / Quarter",
-    inflowGrowth: "+26% YoY",
-    inflowGrowthEn: "+26% YoY",
-    growthNum: 26,
-    shareRatio: 19,
-    description: "ウクライナ・中東・台湾海峡の地政学リスクにより、欧米各国の国防予算がGDP比2〜3%超へ大幅拡大。軍事AI、ドローン、サイバー防衛企業へ資金が殺到。",
-    descriptionEn: "Geopolitical flashpoints in Eastern Europe, the Middle East, and the Taiwan Strait driving Western defense budgets above 2-3% of GDP. Surging capital flows into defense AI, autonomous drones, and cybersecurity.",
-    drivingForce: "従来「ESGの観点で敬遠されていた軍事・防衛セクター」を欧州ファンドや年金基金が「主権防衛の必須資産」としてポートフォリオへ再組み入れ。",
-    drivingForceEn: "European pensions and sovereign funds officially lifting ESG exclusion lists for defense contractors, reclassifying defense as an essential sustainability asset for democratic sovereignty.",
-    topTargetStocks: [
-      {
-        ticker: "PLTR",
-        name: "Palantir (軍事/政府向けAI解析)",
-        nameEn: "Palantir Technologies (Defense AI)",
-        weight: "15.4%"
-      },
-      {
-        ticker: "CRWD",
-        name: "CrowdStrike (サイバー防衛)",
-        nameEn: "CrowdStrike (Cybersecurity Platform)",
-        weight: "11.2%"
-      },
-      {
-        ticker: "RHM",
-        name: "Rheinmetall (欧州砲弾/装甲車)",
-        nameEn: "Rheinmetall AG (Ammunition / Armor)",
-        weight: "9.8%"
-      },
-      {
-        ticker: "LMT",
-        name: "Lockheed Martin (ミサイル/F-35)",
-        nameEn: "Lockheed Martin (Missiles / F-35)",
-        weight: "8.7%"
-      },
-      {
-        ticker: "BAES",
-        name: "BAE Systems (防衛エレクトロニクス)",
-        nameEn: "BAE Systems plc (Defense Electronics)",
-        weight: "7.9%"
-      }
-    ],
-    dominantBuyers: [
-      "State Street",
-      "Capital Group",
-      "ノルウェー政府年金 (倫理基準改定)",
-      "BlackRock"
-    ],
-    dominantBuyersEn: [
-      "State Street Global Advisors",
-      "Capital Group",
-      "Norges Bank (NBIM Policy Shift)",
-      "BlackRock"
-    ]
-  },
-  {
     id: "semiconductors_advanced",
-    rank: 4,
+    rank: 2,
     name: "先端半導体製造 ＆ AIハードウェアサプライチェーン",
     nameEn: "Advanced Semiconductor Foundry & AI Hardware",
-    inflowAmount: "$130 億 / 四半期",
-    inflowAmountEn: "$130.3B / Quarter",
-    inflowGrowth: "+29% YoY",
-    inflowGrowthEn: "+29% YoY",
-    growthNum: 29,
-    shareRatio: 18,
+    inflowAmount: "$134 億 / 四半期",
+    inflowAmountEn: "$134.3B / Quarter",
+    inflowGrowth: "+32% YoY",
+    inflowGrowthEn: "+32% YoY",
+    growthNum: 32,
+    shareRatio: 19,
     description: "AIモデルの巨大化に伴う2nm・3nm先端プロセス微細化、先端パッケージング（CoWoS）、高帯域メモリ（HBM）への独占的供給企業へ資本が集中。",
     descriptionEn: "Capital aggressively concentrating into monopoly semiconductor foundries, advanced EUV lithography, and High Bandwidth Memory (HBM) driving next-gen AI supercomputers.",
     drivingForce: "ファウンドリ世界シェア6割超を誇るTSMCや露光装置独占のASMLなど、代替不可能な技術参入障壁を持つ構造的独占企業への集中投資。",
@@ -245,12 +131,126 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     ]
   },
   {
+    id: "glp1_biotech",
+    rank: 3,
+    name: "GLP-1肥満・代謝薬 ＆ 次世代ヘルスケア",
+    nameEn: "GLP-1 Obesity, Metabolic & Next-Gen Healthcare",
+    inflowAmount: "$133 億 / 四半期",
+    inflowAmountEn: "$133.0B / Quarter",
+    inflowGrowth: "+57% YoY",
+    inflowGrowthEn: "+57% YoY",
+    growthNum: 57,
+    shareRatio: 19,
+    description: "肥満症・糖尿病・心血管疾患・脂肪肝（MASH）など、全世界の成人人口の数十％に及ぶ巨大実需市場。空前の売上と利益率を叩き出す製薬大手へ買いが集中。",
+    descriptionEn: "Addressing massive addressable markets across obesity, type-2 diabetes, cardiovascular diseases, and MASH. Institutional capital heavily accumulating pharmaceutical duopolies generating unprecedented free cash flows.",
+    drivingForce: "景気変動に左右されない確実な現金創出（キャッシュマシーン）力。保険適用拡大と適応症の追加による持続的成長期待。",
+    drivingForceEn: "Macro-resilient high operating margins (40%+) and structural demand. Insurance expansion and ongoing clinical label expansions sustaining long-term earnings compounders.",
+    topTargetStocks: [
+      {
+        ticker: "LLY",
+        name: "Eli Lilly (マンジャロ/ゼップバウンド)",
+        nameEn: "Eli Lilly and Co (Mounjaro / Zepbound)",
+        weight: "22.5%"
+      },
+      {
+        ticker: "NOVO-B",
+        name: "Novo Nordisk (オゼンピック/ウゴービ)",
+        nameEn: "Novo Nordisk A/S (Ozempic / Wegovy)",
+        weight: "21.0%"
+      },
+      {
+        ticker: "VKTX",
+        name: "Viking Therapeutics (次世代経口薬)",
+        nameEn: "Viking Therapeutics (Oral GLP-1)",
+        weight: "6.5%"
+      },
+      {
+        ticker: "ABBV",
+        name: "AbbVie (免疫/オンコロジー)",
+        nameEn: "AbbVie Inc. (Immunology / Oncology)",
+        weight: "7.2%"
+      }
+    ],
+    dominantBuyers: [
+      "Fidelity",
+      "Capital Group",
+      "Amundi",
+      "UBS"
+    ],
+    dominantBuyersEn: [
+      "Fidelity Investments",
+      "Capital Group",
+      "Amundi Asset Mgmt",
+      "UBS Wealth Mgmt"
+    ]
+  },
+  {
+    id: "defense_cyber",
+    rank: 4,
+    name: "防衛テック ＆ サイバーセキュリティ・自律システム",
+    nameEn: "Defense Tech, Cyber Security & Autonomous Systems",
+    inflowAmount: "$130 億 / 四半期",
+    inflowAmountEn: "$129.6B / Quarter",
+    inflowGrowth: "+24% YoY",
+    inflowGrowthEn: "+24% YoY",
+    growthNum: 24,
+    shareRatio: 18,
+    description: "ウクライナ・中東・台湾海峡の地政学リスクにより、欧米各国の国防予算がGDP比2〜3%超へ大幅拡大。軍事AI、ドローン、サイバー防衛企業へ資金が殺到。",
+    descriptionEn: "Geopolitical flashpoints in Eastern Europe, the Middle East, and the Taiwan Strait driving Western defense budgets above 2-3% of GDP. Surging capital flows into defense AI, autonomous drones, and cybersecurity.",
+    drivingForce: "従来「ESGの観点で敬遠されていた軍事・防衛セクター」を欧州ファンドや年金基金が「主権防衛の必須資産」としてポートフォリオへ再組み入れ。",
+    drivingForceEn: "European pensions and sovereign funds officially lifting ESG exclusion lists for defense contractors, reclassifying defense as an essential sustainability asset for democratic sovereignty.",
+    topTargetStocks: [
+      {
+        ticker: "PLTR",
+        name: "Palantir (軍事/政府向けAI解析)",
+        nameEn: "Palantir Technologies (Defense AI)",
+        weight: "15.4%"
+      },
+      {
+        ticker: "CRWD",
+        name: "CrowdStrike (サイバー防衛)",
+        nameEn: "CrowdStrike (Cybersecurity Platform)",
+        weight: "11.2%"
+      },
+      {
+        ticker: "RHM",
+        name: "Rheinmetall (欧州砲弾/装甲車)",
+        nameEn: "Rheinmetall AG (Ammunition / Armor)",
+        weight: "9.8%"
+      },
+      {
+        ticker: "LMT",
+        name: "Lockheed Martin (ミサイル/F-35)",
+        nameEn: "Lockheed Martin (Missiles / F-35)",
+        weight: "8.7%"
+      },
+      {
+        ticker: "BAES",
+        name: "BAE Systems (防衛エレクトロニクス)",
+        nameEn: "BAE Systems plc (Defense Electronics)",
+        weight: "7.9%"
+      }
+    ],
+    dominantBuyers: [
+      "State Street",
+      "Capital Group",
+      "ノルウェー政府年金 (倫理基準改定)",
+      "BlackRock"
+    ],
+    dominantBuyersEn: [
+      "State Street Global Advisors",
+      "Capital Group",
+      "Norges Bank (NBIM Policy Shift)",
+      "BlackRock"
+    ]
+  },
+  {
     id: "private_credit",
     rank: 5,
     name: "プライベートクレジット ＆ オルタナティブ金融",
     nameEn: "Private Credit & Alternative Direct Lending",
-    inflowAmount: "$108 億 / 四半期",
-    inflowAmountEn: "$107.9B / Quarter",
+    inflowAmount: "$107 億 / 四半期",
+    inflowAmountEn: "$107.3B / Quarter",
     inflowGrowth: "+33% YoY",
     inflowGrowthEn: "+33% YoY",
     growthNum: 33,
@@ -829,6 +829,87 @@ export const topAssetManagersData: AssetManagerProfile[] = [
 
 // 4. アジェンダ別 政策分析＆産業インパクト・フィード（世界市場を揺るがすグローバル・メガトレンド）
 export const trackerItemsData: TrackerItem[] = [
+  {
+    id: "feed-sec-tsm-20261022",
+    date: "2026-10-22",
+    institution: "TSMC (ADR) (TSM)",
+    institutionEn: "TSMC (ADR) (TSM)",
+    institutionType: "Corporation",
+    category: "supply_chain",
+    title: "【SEC公的開示】TSMC (ADR)が最新重要報告書（Form 6-K）を正式提出",
+    titleEn: "[SEC Filing] TSMC (ADR) Files Official Current Report (Form 6-K)",
+    summary: [
+      "米SEC EDGARに提出された公式文書（Form 6-K）を検知。公的提出日: 2026-10-22。",
+      "資本市場および機関投資家向けに開示された法定報告書原本へのアクセスを即時同期。",
+      "市場への重大な影響を持つ重要事項・資本異動に関する最新ファクトチェックを反映。"
+    ],
+    summaryEn: [
+      "Verified official regulatory submission (Form 6-K) via SEC EDGAR. Filing Date: 2026-10-22.",
+      "Direct primary source link synchronized for institutional capital flow verification.",
+      "Incorporating latest corporate material event updates and governance disclosures."
+    ],
+    primaryPolicy: {
+      title: "SEC Form 6-K 法定報告書の正式受理・原本照合",
+      titleEn: "Official Acceptance & Verification of SEC Form 6-K",
+      description: "TSMC (ADR)が米国証券取引委員会に提出した法定重要報告書。事業運営や資本政策、重要契約に関する公的開示。",
+      descriptionEn: "Statutory material filing submitted by TSMC (ADR) to the US SEC, disclosing corporate operations and capital events.",
+      keyPoints: [
+        "提出書類: SEC Form 6-K（公式原本リンク検証済）",
+        "開示企業: TSMC (ADR) (CIK: 0001046179)",
+        "法定報告日: 2026-10-22"
+      ],
+      keyPointsEn: [
+        "Filing Type: SEC Form 6-K (Verified Primary URL)",
+        "Reporting Entity: TSMC (ADR) (CIK: 0001046179)",
+        "Filing Date: 2026-10-22"
+      ]
+    },
+    capitalIncentive: {
+      title: "巨大資本・機関投資家への開示義務と市場規律",
+      titleEn: "Institutional Market Discipline and Mandatory Disclosures",
+      description: "BlackRockやVanguardなど主要機関投資家に対する法定開示責任の履行。透明性維持による資本コスト抑制と信認確保。",
+      descriptionEn: "Fulfilling fiduciary reporting obligations to mega asset managers to preserve market credibility.",
+      financialRationale: "連邦証券法に基づく情報開示の即時反映による情報非対称性の排除と株価形成の適正化。",
+      financialRationaleEn: "Mitigating information asymmetry and ensuring fair price discovery under federal securities law."
+    },
+    industryImpact: {
+      title: "ファウンドリ・先端製造セクターおよび競合サプライチェーンへの波及",
+      titleEn: "Spillover Effects across Supply_chain Supply Chain",
+      description: "グローバルな産業構造におけるキープレイヤーの動向が、提携先・下請け・競合他社の投資判断に直接波及。",
+      descriptionEn: "Decisions by core industry pillars directly influencing supply chain partners and competitors.",
+      marketReaction: "機関投資家のアルゴリズム取引による即時プライシングおよびポジション調整の契機。",
+      marketReactionEn: "Catalyst for institutional algorithmic rebalancing and credit assessment.",
+      caseStudy: {
+        target: "TSMC (ADR) サプライチェーン関係各社",
+        outcome: "公式開示情報の即時確認によるリスクヘッジと投資戦略の再検証",
+        outcomeEn: "Real-time risk mitigation and strategic reassessment via primary source validation"
+      }
+    },
+    status: "active",
+    statusLabel: "SEC公的開示済",
+    statusLabelEn: "SEC Filing Verified",
+    sourceName: "SEC EDGAR (CIK: 0001046179)",
+    sourceType: "SEC Form 6-K",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000728/tsm-monthend6kx20261022.htm",
+    tags: [
+      "TSM",
+      "6-K",
+      "SEC開示",
+      "公的一次情報"
+    ],
+    tagsEn: [
+      "TSM",
+      "6-K",
+      "SEC Filing",
+      "Primary Source"
+    ],
+    involvedCompanies: [
+      "TSMC (ADR)",
+      "BlackRock",
+      "Vanguard"
+    ],
+    impactScore: 88
+  },
   {
     id: "feed-sec-tsm-20261015",
     date: "2026-10-15",
@@ -2388,90 +2469,6 @@ export const trackerItemsData: TrackerItem[] = [
       "Chevron Corp"
     ],
     impactScore: 94
-  },
-  {
-    id: "item-chips-act-2026",
-    date: "2026-08-08",
-    institution: "US Dept of Commerce (BIS) & Apple / TSMC",
-    institutionEn: "US Department of Commerce (BIS) & Apple / TSMC",
-    institutionType: "Regulatory Body",
-    category: "supply_chain",
-    title: "米商務省（BIS）：対中AI半導体・先端装置の迂回輸出規制強化とサプライチェーン再編",
-    titleEn: "US Commerce Closes AI Chip Export Loopholes, Forcing Swift Reshoring to India & US",
-    summary: [
-      "米商務省が、中東や東南アジアを経由した中国向けAI半導体・先端製造装置の輸出規制を大幅強化する新規制を施行。",
-      "Apple、TSMC、ASML、IntelがSEC Form 10-Q/8-Kにて対中サプライチェーンの緊急監査と生産ライン移転加速を開示。",
-      "iPhoneのインド生産比率が過去最高の30%に達し、TSMCアリゾナ・熊本第2工場の稼働スケジュールを前倒し。"
-    ],
-    summaryEn: [
-      "US Commerce Department (BIS) tightened export controls closing intermediary transshipment routes for advanced AI GPUs and lithography.",
-      "Apple, TSMC, ASML, and Intel disclosed expedited supply chain relocations in SEC Form 10-Q and 8-K filings.",
-      "Apple Indian iPhone manufacturing share hit an all-time high of 30%, while TSMC accelerated Arizona and Kumamoto expansion."
-    ],
-    primaryPolicy: {
-      title: "先端ノード半導体およびAIデータセンター機器のグローバル・トラッキング義務化",
-      titleEn: "Mandatory End-User Geolocation Tracking for Advanced AI Silicon",
-      description: "中国本土への軍事転用を防ぐため、先端GPUおよび製造装置の最終ユーザー追跡（エンドユーザー証明）の提出を義務付け。",
-      descriptionEn: "Requiring strict verifiable end-user certifications to prevent illicit diversion of cutting-edge accelerators.",
-      keyPoints: [
-        "インド・ベトナム・米国本土・日本への製造設備移転に対する追加税額控除",
-        "ウイグル強制労働防止法（UFLPA）に基づくサプライチェーン全品目の電子原産地証明要求",
-        "中国国内ファブ（工場）への先端装置輸出ライセンスの全面停止"
-      ],
-      keyPointsEn: [
-        "Enhanced tax credits for wafer fab relocation to the US, Japan, India, and EU",
-        "Full electronic origin tracing under Uyghur Forced Labor Prevention Act (UFLPA)",
-        "Denial of export licenses for sub-14nm lithography tools to mainland Chinese fabs"
-      ]
-    },
-    capitalIncentive: {
-      title: "制裁金（数十億ドル）の回避と台湾有事テールリスクの完全遮断",
-      titleEn: "Avoiding Multibillion-Dollar Fines & Insulating Balance Sheets from Sanctions",
-      description: "米国の対外投資規制（Outbound Investment Rules）に抵触して巨額の法的制裁を受けるリスクをポートフォリオから完全に排除するため。",
-      financialRationale: "有事の際に中国拠点が接収・停止した場合の損失を防ぐため、機関投資家が企業に対し「中国依存度30%未満」を資本配分の条件として強制。",
-      financialRationaleEn: "Institutional capital demanding sub-30% China revenue exposure to prevent total asset write-offs in geopolitical crises."
-    },
-    industryImpact: {
-      title: "半導体・電子機器の製造コスト上昇と「非中国エコシステム」の完成",
-      titleEn: "Emergence of Complete Non-China Electronics Manufacturing Ecosystem",
-      description: "TSMC熊本工場、米アリゾナ工場、インド・タタグループの組立工場がフル稼働へ。製品原価は上昇したものの地政学耐性が飛躍的に向上。",
-      descriptionEn: "TSMC Arizona, Kumamoto Fab 2, and Tata Indian assembly facilities scaling to full volume, cementing a resilient non-China hardware nexus.",
-      marketReaction: "サプライチェーンの脱中国化をいち早く完了させた企業に対し、機関投資家がプレミアム株価を付与。",
-      marketReactionEn: "Investors assigning premium valuation multiples to tech leaders achieving diversified geographic manufacturing.",
-      caseStudy: {
-        target: "Apple Inc. (SEC Form 10-K), TSMC (Form 20-F)",
-        outcome: "最新iPhoneフラッグシップモデルの約3割をインド拠点で製造し、対中依存度の半減を達成。",
-        outcomeEn: "Successfully scaled flagship iPhone assembly in India to ~30% of global volume."
-      }
-    },
-    status: "active",
-    statusLabel: "強力推進中",
-    statusLabelEn: "Active Enforcement",
-    sourceName: "U.S. Bureau of Industry and Security (BIS) Final Rule & Apple Form 10-K",
-    sourceType: "Federal Register & SEC Filing (2026-08)",
-    sourceUrl: "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
-    tags: [
-      "#CHIPS法",
-      "#脱中国",
-      "#半導体",
-      "#Apple",
-      "#TSMC"
-    ],
-    tagsEn: [
-      "#CHIPSAct",
-      "#Decoupling",
-      "#Semiconductor",
-      "#Apple",
-      "#TSMC"
-    ],
-    involvedCompanies: [
-      "Apple Inc.",
-      "TSMC",
-      "ASML Holding",
-      "Nvidia Corp",
-      "Intel Corp"
-    ],
-    impactScore: 95
   }
 ];
 
