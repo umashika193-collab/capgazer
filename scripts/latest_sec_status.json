@@ -1,5 +1,5 @@
 {
-  "lastUpdatedUtc": "2026-10-28T00:59:50.866913+00:00",
+  "lastUpdatedUtc": "2026-10-29T01:35:07.658502+00:00",
   "pipelineStatus": "SUCCESS_100_PERCENT",
   "sectionsAutomated": [
     "01. Macro Inflow Sectors (Real-time Flow)",
@@ -7,7 +7,7 @@
     "03. Policy & Industry Impact Feed (SEC 8-K/6-K + AI)",
     "04. Recent Trending Explainer (30-Day Retention)"
   ],
-  "totalFilingsVerified": 2,
+  "totalFilingsVerified": 3,
   "filings": [
     {
       "key": "SONY",
@@ -15,6 +15,13 @@
       "form": "6-K",
       "date": "2026-10-14",
       "url": "https://www.sec.gov/Archives/edgar/data/313838/000110465926115761/tm2627356d1_6k.htm"
+    },
+    {
+      "key": "MSFT",
+      "name": "Microsoft Corp",
+      "form": "8-K",
+      "date": "2026-10-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436149/msft-20261028.htm"
     },
     {
       "key": "TSM",
