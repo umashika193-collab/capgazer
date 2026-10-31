@@ -9,12 +9,12 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 1,
     name: "AIデータセンター ＆ 電力・送電インフラ",
     nameEn: "AI Compute & Power Grid Infrastructure",
-    inflowAmount: "$212 億 / 四半期",
-    inflowAmountEn: "$212.5B / Quarter",
-    inflowGrowth: "+32% YoY",
-    inflowGrowthEn: "+32% YoY",
-    growthNum: 32,
-    shareRatio: 29,
+    inflowAmount: "$215 億 / 四半期",
+    inflowAmountEn: "$215.4B / Quarter",
+    inflowGrowth: "+33% YoY",
+    inflowGrowthEn: "+33% YoY",
+    growthNum: 33,
+    shareRatio: 30,
     description: "生成AIの急激な普及に伴い「電力不足」が最大のボトルネック化。半導体に加え、原子力発電所・送電網・天然ガス火力・冷却システムへ巨額マネーが集中。",
     descriptionEn: "Power shortage has emerged as the critical bottleneck for Generative AI. Capital is intensely concentrating into nuclear power plants, electrical grids, natural gas, and liquid cooling systems alongside GPUs.",
     drivingForce: "メガテック各社のAI設備投資（CAPEX）が年間数千億ドル規模へ倍増。安定したベースロード電力を供給できるエネルギー企業が最優先の買い対象に。",
@@ -71,16 +71,70 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     ]
   },
   {
-    id: "semiconductors_advanced",
+    id: "glp1_biotech",
     rank: 2,
+    name: "GLP-1肥満・代謝薬 ＆ 次世代ヘルスケア",
+    nameEn: "GLP-1 Obesity, Metabolic & Next-Gen Healthcare",
+    inflowAmount: "$136 億 / 四半期",
+    inflowAmountEn: "$136.5B / Quarter",
+    inflowGrowth: "+62% YoY",
+    inflowGrowthEn: "+62% YoY",
+    growthNum: 62,
+    shareRatio: 19,
+    description: "肥満症・糖尿病・心血管疾患・脂肪肝（MASH）など、全世界の成人人口の数十％に及ぶ巨大実需市場。空前の売上と利益率を叩き出す製薬大手へ買いが集中。",
+    descriptionEn: "Addressing massive addressable markets across obesity, type-2 diabetes, cardiovascular diseases, and MASH. Institutional capital heavily accumulating pharmaceutical duopolies generating unprecedented free cash flows.",
+    drivingForce: "景気変動に左右されない確実な現金創出（キャッシュマシーン）力。保険適用拡大と適応症の追加による持続的成長期待。",
+    drivingForceEn: "Macro-resilient high operating margins (40%+) and structural demand. Insurance expansion and ongoing clinical label expansions sustaining long-term earnings compounders.",
+    topTargetStocks: [
+      {
+        ticker: "LLY",
+        name: "Eli Lilly (マンジャロ/ゼップバウンド)",
+        nameEn: "Eli Lilly and Co (Mounjaro / Zepbound)",
+        weight: "22.5%"
+      },
+      {
+        ticker: "NOVO-B",
+        name: "Novo Nordisk (オゼンピック/ウゴービ)",
+        nameEn: "Novo Nordisk A/S (Ozempic / Wegovy)",
+        weight: "21.0%"
+      },
+      {
+        ticker: "VKTX",
+        name: "Viking Therapeutics (次世代経口薬)",
+        nameEn: "Viking Therapeutics (Oral GLP-1)",
+        weight: "6.5%"
+      },
+      {
+        ticker: "ABBV",
+        name: "AbbVie (免疫/オンコロジー)",
+        nameEn: "AbbVie Inc. (Immunology / Oncology)",
+        weight: "7.2%"
+      }
+    ],
+    dominantBuyers: [
+      "Fidelity",
+      "Capital Group",
+      "Amundi",
+      "UBS"
+    ],
+    dominantBuyersEn: [
+      "Fidelity Investments",
+      "Capital Group",
+      "Amundi Asset Mgmt",
+      "UBS Wealth Mgmt"
+    ]
+  },
+  {
+    id: "semiconductors_advanced",
+    rank: 3,
     name: "先端半導体製造 ＆ AIハードウェアサプライチェーン",
     nameEn: "Advanced Semiconductor Foundry & AI Hardware",
-    inflowAmount: "$146 億 / 四半期",
-    inflowAmountEn: "$145.9B / Quarter",
-    inflowGrowth: "+43% YoY",
-    inflowGrowthEn: "+43% YoY",
-    growthNum: 43,
-    shareRatio: 20,
+    inflowAmount: "$135 億 / 四半期",
+    inflowAmountEn: "$135.3B / Quarter",
+    inflowGrowth: "+32% YoY",
+    inflowGrowthEn: "+32% YoY",
+    growthNum: 32,
+    shareRatio: 19,
     description: "AIモデルの巨大化に伴う2nm・3nm先端プロセス微細化、先端パッケージング（CoWoS）、高帯域メモリ（HBM）への独占的供給企業へ資本が集中。",
     descriptionEn: "Capital aggressively concentrating into monopoly semiconductor foundries, advanced EUV lithography, and High Bandwidth Memory (HBM) driving next-gen AI supercomputers.",
     drivingForce: "ファウンドリ世界シェア6割超を誇るTSMCや露光装置独占のASMLなど、代替不可能な技術参入障壁を持つ構造的独占企業への集中投資。",
@@ -131,69 +185,15 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     ]
   },
   {
-    id: "glp1_biotech",
-    rank: 3,
-    name: "GLP-1肥満・代謝薬 ＆ 次世代ヘルスケア",
-    nameEn: "GLP-1 Obesity, Metabolic & Next-Gen Healthcare",
-    inflowAmount: "$135 億 / 四半期",
-    inflowAmountEn: "$135.1B / Quarter",
-    inflowGrowth: "+60% YoY",
-    inflowGrowthEn: "+60% YoY",
-    growthNum: 60,
-    shareRatio: 18,
-    description: "肥満症・糖尿病・心血管疾患・脂肪肝（MASH）など、全世界の成人人口の数十％に及ぶ巨大実需市場。空前の売上と利益率を叩き出す製薬大手へ買いが集中。",
-    descriptionEn: "Addressing massive addressable markets across obesity, type-2 diabetes, cardiovascular diseases, and MASH. Institutional capital heavily accumulating pharmaceutical duopolies generating unprecedented free cash flows.",
-    drivingForce: "景気変動に左右されない確実な現金創出（キャッシュマシーン）力。保険適用拡大と適応症の追加による持続的成長期待。",
-    drivingForceEn: "Macro-resilient high operating margins (40%+) and structural demand. Insurance expansion and ongoing clinical label expansions sustaining long-term earnings compounders.",
-    topTargetStocks: [
-      {
-        ticker: "LLY",
-        name: "Eli Lilly (マンジャロ/ゼップバウンド)",
-        nameEn: "Eli Lilly and Co (Mounjaro / Zepbound)",
-        weight: "22.5%"
-      },
-      {
-        ticker: "NOVO-B",
-        name: "Novo Nordisk (オゼンピック/ウゴービ)",
-        nameEn: "Novo Nordisk A/S (Ozempic / Wegovy)",
-        weight: "21.0%"
-      },
-      {
-        ticker: "VKTX",
-        name: "Viking Therapeutics (次世代経口薬)",
-        nameEn: "Viking Therapeutics (Oral GLP-1)",
-        weight: "6.5%"
-      },
-      {
-        ticker: "ABBV",
-        name: "AbbVie (免疫/オンコロジー)",
-        nameEn: "AbbVie Inc. (Immunology / Oncology)",
-        weight: "7.2%"
-      }
-    ],
-    dominantBuyers: [
-      "Fidelity",
-      "Capital Group",
-      "Amundi",
-      "UBS"
-    ],
-    dominantBuyersEn: [
-      "Fidelity Investments",
-      "Capital Group",
-      "Amundi Asset Mgmt",
-      "UBS Wealth Mgmt"
-    ]
-  },
-  {
     id: "defense_cyber",
     rank: 4,
     name: "防衛テック ＆ サイバーセキュリティ・自律システム",
     nameEn: "Defense Tech, Cyber Security & Autonomous Systems",
-    inflowAmount: "$135 億 / 四半期",
-    inflowAmountEn: "$135.0B / Quarter",
-    inflowGrowth: "+27% YoY",
-    inflowGrowthEn: "+27% YoY",
-    growthNum: 27,
+    inflowAmount: "$131 億 / 四半期",
+    inflowAmountEn: "$131.3B / Quarter",
+    inflowGrowth: "+25% YoY",
+    inflowGrowthEn: "+25% YoY",
+    growthNum: 25,
     shareRatio: 18,
     description: "ウクライナ・中東・台湾海峡の地政学リスクにより、欧米各国の国防予算がGDP比2〜3%超へ大幅拡大。軍事AI、ドローン、サイバー防衛企業へ資金が殺到。",
     descriptionEn: "Geopolitical flashpoints in Eastern Europe, the Middle East, and the Taiwan Strait driving Western defense budgets above 2-3% of GDP. Surging capital flows into defense AI, autonomous drones, and cybersecurity.",
@@ -250,7 +250,7 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     name: "プライベートクレジット ＆ オルタナティブ金融",
     nameEn: "Private Credit & Alternative Direct Lending",
     inflowAmount: "$108 億 / 四半期",
-    inflowAmountEn: "$108.4B / Quarter",
+    inflowAmountEn: "$108.5B / Quarter",
     inflowGrowth: "+34% YoY",
     inflowGrowthEn: "+34% YoY",
     growthNum: 34,
@@ -829,6 +829,87 @@ export const topAssetManagersData: AssetManagerProfile[] = [
 
 // 4. アジェンダ別 政策分析＆産業インパクト・フィード（世界市場を揺るがすグローバル・メガトレンド）
 export const trackerItemsData: TrackerItem[] = [
+  {
+    id: "feed-sec-sony-20261030",
+    date: "2026-10-30",
+    institution: "Sony Group Corp (SONY)",
+    institutionEn: "Sony Group Corp (SONY)",
+    institutionType: "Corporation",
+    category: "gaming",
+    title: "【SEC公的開示】Sony Group Corpが最新重要報告書（Form 6-K）を正式提出",
+    titleEn: "[SEC Filing] Sony Group Corp Files Official Current Report (Form 6-K)",
+    summary: [
+      "米SEC EDGARに提出された公式文書（Form 6-K）を検知。公的提出日: 2026-10-30。",
+      "資本市場および機関投資家向けに開示された法定報告書原本へのアクセスを即時同期。",
+      "市場への重大な影響を持つ重要事項・資本異動に関する最新ファクトチェックを反映。"
+    ],
+    summaryEn: [
+      "Verified official regulatory submission (Form 6-K) via SEC EDGAR. Filing Date: 2026-10-30.",
+      "Direct primary source link synchronized for institutional capital flow verification.",
+      "Incorporating latest corporate material event updates and governance disclosures."
+    ],
+    primaryPolicy: {
+      title: "SEC Form 6-K 法定報告書の正式受理・原本照合",
+      titleEn: "Official Acceptance & Verification of SEC Form 6-K",
+      description: "Sony Group Corpが米国証券取引委員会に提出した法定重要報告書。事業運営や資本政策、重要契約に関する公的開示。",
+      descriptionEn: "Statutory material filing submitted by Sony Group Corp to the US SEC, disclosing corporate operations and capital events.",
+      keyPoints: [
+        "提出書類: SEC Form 6-K（公式原本リンク検証済）",
+        "開示企業: Sony Group Corp (CIK: 0000313838)",
+        "法定報告日: 2026-10-30"
+      ],
+      keyPointsEn: [
+        "Filing Type: SEC Form 6-K (Verified Primary URL)",
+        "Reporting Entity: Sony Group Corp (CIK: 0000313838)",
+        "Filing Date: 2026-10-30"
+      ]
+    },
+    capitalIncentive: {
+      title: "巨大資本・機関投資家への開示義務と市場規律",
+      titleEn: "Institutional Market Discipline and Mandatory Disclosures",
+      description: "BlackRockやVanguardなど主要機関投資家に対する法定開示責任の履行。透明性維持による資本コスト抑制と信認確保。",
+      descriptionEn: "Fulfilling fiduciary reporting obligations to mega asset managers to preserve market credibility.",
+      financialRationale: "連邦証券法に基づく情報開示の即時反映による情報非対称性の排除と株価形成の適正化。",
+      financialRationaleEn: "Mitigating information asymmetry and ensuring fair price discovery under federal securities law."
+    },
+    industryImpact: {
+      title: "エンタメ・IPコンテンツ・半導体セクターおよび競合サプライチェーンへの波及",
+      titleEn: "Spillover Effects across Gaming Supply Chain",
+      description: "グローバルな産業構造におけるキープレイヤーの動向が、提携先・下請け・競合他社の投資判断に直接波及。",
+      descriptionEn: "Decisions by core industry pillars directly influencing supply chain partners and competitors.",
+      marketReaction: "機関投資家のアルゴリズム取引による即時プライシングおよびポジション調整の契機。",
+      marketReactionEn: "Catalyst for institutional algorithmic rebalancing and credit assessment.",
+      caseStudy: {
+        target: "Sony Group Corp サプライチェーン関係各社",
+        outcome: "公式開示情報の即時確認によるリスクヘッジと投資戦略の再検証",
+        outcomeEn: "Real-time risk mitigation and strategic reassessment via primary source validation"
+      }
+    },
+    status: "active",
+    statusLabel: "SEC公的開示済",
+    statusLabelEn: "SEC Filing Verified",
+    sourceName: "SEC EDGAR (CIK: 0000313838)",
+    sourceType: "SEC Form 6-K",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/313838/000110465926120456/tm2628525d1_6k.htm",
+    tags: [
+      "SONY",
+      "6-K",
+      "SEC開示",
+      "公的一次情報"
+    ],
+    tagsEn: [
+      "SONY",
+      "6-K",
+      "SEC Filing",
+      "Primary Source"
+    ],
+    involvedCompanies: [
+      "Sony Group Corp",
+      "BlackRock",
+      "Vanguard"
+    ],
+    impactScore: 88
+  },
   {
     id: "feed-sec-msft-20261028",
     date: "2026-10-28",
@@ -2383,90 +2464,6 @@ export const trackerItemsData: TrackerItem[] = [
       "Chevron Corp"
     ],
     impactScore: 98
-  },
-  {
-    id: "item-ai-nuclear-power-2026",
-    date: "2026-08-05",
-    institution: "Constellation Energy & Microsoft / Amazon (SEC Form 8-K)",
-    institutionEn: "Constellation Energy & Microsoft / Amazon (SEC Form 8-K)",
-    institutionType: "Corporation",
-    category: "energy",
-    title: "AIデータセンター電力危機：メガテック各社による「原子力発電所」の直接長期買電契約（PPA）",
-    titleEn: "Hyperscalers Sign 20-Year Nuclear PPAs (Three Mile Island Restart) for AI Power",
-    summary: [
-      "生成AIデータセンターの急増による電力逼迫を受け、MicrosoftやAmazonが原子力発電運営企業と20年超の直接売電契約（PPA）を相次ぎ締結。",
-      "Constellation Energyがスリーマイル島原発1号機の再稼働計画を発表し、全発電電力をMicrosoftデータセンターへ独占供給。",
-      "従来の「再エネ（太陽光・風力）一辺倒」から、24時間365日安定供給できる「原子力・SMR」へ機関投資家の資金が集中。"
-    ],
-    summaryEn: [
-      "Facing acute grid constraints for AI compute, Microsoft and Amazon executed historic 20-year Power Purchase Agreements (PPAs) with nuclear operators.",
-      "Constellation Energy announced the restart of Three Mile Island Unit 1 (Crane Clean Energy Center), dedicating 100% output to Microsoft.",
-      "Institutional capital shifting from intermittent renewables toward 24/7 baseload nuclear energy and Small Modular Reactors (SMRs)."
-    ],
-    primaryPolicy: {
-      title: "ベースロード電力（24/7 Carbon-Free Energy）の直接調達契約",
-      titleEn: "Direct Procurement of 24/7 Carbon-Free Baseload Nuclear Power",
-      description: "天候に左右される太陽光・風力だけではAIデータセンターの100%稼働を維持できないため、原発のゼロカーボン電力をプレミアム価格で買い取る仕組み。",
-      descriptionEn: "Securing dedicated nuclear output at a premium tariff to ensure 99.999% uptime for multi-gigawatt datacenter campuses.",
-      keyPoints: [
-        "原発1基分の全電力（約800MW超）を1社で買い取る20年超の長期オフテイク契約（PPA）",
-        "小型モジュール炉（SMR）開発企業（NuScale, TerraPower等）へのメガテック巨額出資",
-        "送電網接続（グリッドキュー）の優先権獲得に向けた州エネルギー規制当局への申請"
-      ],
-      keyPointsEn: [
-        "20-year off-take agreement capturing entire ~835 MW reactor capacity for single tenant",
-        "Hyperscaler direct equity funding into Small Modular Reactor developers (TerraPower, NuScale)",
-        "State regulatory filings to expedite behind-the-meter nuclear interconnection"
-      ]
-    },
-    capitalIncentive: {
-      title: "AI設備投資（数千億ドル）の稼働停止リスク回避と安定電力の先行買い占め",
-      titleEn: "Securing Power Feed to Safeguard Multi-Billion Dollar GPU CAPEX",
-      description: "GPUサーバーを数万台購入しても電力がなければ減価償却費だけが嵩むため、ファンドが電力調達力の有無をテック企業の最重要評価項目に設定。",
-      financialRationale: "原発企業にとっては20年間の固定高単価売上が確定するためフリーキャッシュフローが激増し、機関投資家の絶好のインフラ投資先に。",
-      financialRationaleEn: "Guaranteed 20-year off-take revenues transform nuclear utilities into premier bond-like growth assets."
-    },
-    industryImpact: {
-      title: "原子力・ウラン・電力インフラ関連株の歴史的スーパーサイクル突入",
-      titleEn: "Nuclear & Uranium Supercycle as Clean AI Enabler",
-      description: "Constellation Energy、GE Vernova、Cameco（ウラン最大手）などの株価が過去最高値を更新し、資金流入ランキングで首位を独走。",
-      descriptionEn: "Constellation Energy, GE Vernova, and Cameco hit record highs, leading global equity capital inflow rankings.",
-      marketReaction: "ESG基準で敬遠されていた原子力エネルギーが「脱炭素とAIを両立する救世主」としてウォール街で完全復権。",
-      marketReactionEn: "Nuclear power completely rehabilitated across Wall Street as the essential intersection of zero-carbon and AI compute.",
-      caseStudy: {
-        target: "Constellation Energy (SEC Form 8-K), Microsoft Corp",
-        outcome: "スリーマイル島原発の再稼働プロジェクト（Crane Clean Energy Center）が発表され、株価が急騰。",
-        outcomeEn: "Announced 835 MW Crane Clean Energy Center restart backed by Microsoft 20-year power commitment."
-      }
-    },
-    status: "active",
-    statusLabel: "資金殺到・原発再稼働",
-    statusLabelEn: "Nuclear Restart Active",
-    sourceName: "Constellation Energy SEC Form 8-K & Microsoft Strategic PPA Filing",
-    sourceType: "SEC Official Form 8-K (2026-08)",
-    sourceUrl: "https://www.sec.gov/Archives/edgar/data/1868275/000186827524000045/ceg-20240920.htm",
-    tags: [
-      "#AI電力危機",
-      "#原子力発電",
-      "#ConstellationEnergy",
-      "#Microsoft",
-      "#SMR"
-    ],
-    tagsEn: [
-      "#AIEnergyCrisis",
-      "#NuclearPower",
-      "#ConstellationEnergy",
-      "#Microsoft",
-      "#SMR"
-    ],
-    involvedCompanies: [
-      "Constellation Energy",
-      "Microsoft Corp",
-      "Amazon.com",
-      "GE Vernova",
-      "Cameco Corp"
-    ],
-    impactScore: 99
   }
 ];
 
