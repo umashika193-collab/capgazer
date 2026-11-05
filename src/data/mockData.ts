@@ -9,11 +9,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 1,
     name: "AIデータセンター ＆ 電力・送電インフラ",
     nameEn: "AI Compute & Power Grid Infrastructure",
-    inflowAmount: "$218 億 / 四半期",
-    inflowAmountEn: "$217.8B / Quarter",
-    inflowGrowth: "+34% YoY",
-    inflowGrowthEn: "+34% YoY",
-    growthNum: 34,
+    inflowAmount: "$219 億 / 四半期",
+    inflowAmountEn: "$218.8B / Quarter",
+    inflowGrowth: "+35% YoY",
+    inflowGrowthEn: "+35% YoY",
+    growthNum: 35,
     shareRatio: 31,
     description: "生成AIの急激な普及に伴い「電力不足」が最大のボトルネック化。半導体に加え、原子力発電所・送電網・天然ガス火力・冷却システムへ巨額マネーが集中。",
     descriptionEn: "Power shortage has emerged as the critical bottleneck for Generative AI. Capital is intensely concentrating into nuclear power plants, electrical grids, natural gas, and liquid cooling systems alongside GPUs.",
@@ -75,11 +75,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 2,
     name: "GLP-1肥満・代謝薬 ＆ 次世代ヘルスケア",
     nameEn: "GLP-1 Obesity, Metabolic & Next-Gen Healthcare",
-    inflowAmount: "$137 億 / 四半期",
-    inflowAmountEn: "$136.7B / Quarter",
-    inflowGrowth: "+63% YoY",
-    inflowGrowthEn: "+63% YoY",
-    growthNum: 63,
+    inflowAmount: "$134 億 / 四半期",
+    inflowAmountEn: "$134.5B / Quarter",
+    inflowGrowth: "+59% YoY",
+    inflowGrowthEn: "+59% YoY",
+    growthNum: 59,
     shareRatio: 19,
     description: "肥満症・糖尿病・心血管疾患・脂肪肝（MASH）など、全世界の成人人口の数十％に及ぶ巨大実需市場。空前の売上と利益率を叩き出す製薬大手へ買いが集中。",
     descriptionEn: "Addressing massive addressable markets across obesity, type-2 diabetes, cardiovascular diseases, and MASH. Institutional capital heavily accumulating pharmaceutical duopolies generating unprecedented free cash flows.",
@@ -189,12 +189,12 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 4,
     name: "先端半導体製造 ＆ AIハードウェアサプライチェーン",
     nameEn: "Advanced Semiconductor Foundry & AI Hardware",
-    inflowAmount: "$124 億 / 四半期",
-    inflowAmountEn: "$123.6B / Quarter",
-    inflowGrowth: "+26% YoY",
-    inflowGrowthEn: "+26% YoY",
-    growthNum: 26,
-    shareRatio: 17,
+    inflowAmount: "$127 億 / 四半期",
+    inflowAmountEn: "$127.4B / Quarter",
+    inflowGrowth: "+28% YoY",
+    inflowGrowthEn: "+28% YoY",
+    growthNum: 28,
+    shareRatio: 18,
     description: "AIモデルの巨大化に伴う2nm・3nm先端プロセス微細化、先端パッケージング（CoWoS）、高帯域メモリ（HBM）への独占的供給企業へ資本が集中。",
     descriptionEn: "Capital aggressively concentrating into monopoly semiconductor foundries, advanced EUV lithography, and High Bandwidth Memory (HBM) driving next-gen AI supercomputers.",
     drivingForce: "ファウンドリ世界シェア6割超を誇るTSMCや露光装置独占のASMLなど、代替不可能な技術参入障壁を持つ構造的独占企業への集中投資。",
@@ -249,11 +249,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 5,
     name: "プライベートクレジット ＆ オルタナティブ金融",
     nameEn: "Private Credit & Alternative Direct Lending",
-    inflowAmount: "$105 億 / 四半期",
-    inflowAmountEn: "$104.9B / Quarter",
-    inflowGrowth: "+31% YoY",
-    inflowGrowthEn: "+31% YoY",
-    growthNum: 31,
+    inflowAmount: "$104 億 / 四半期",
+    inflowAmountEn: "$103.7B / Quarter",
+    inflowGrowth: "+30% YoY",
+    inflowGrowthEn: "+30% YoY",
+    growthNum: 30,
     shareRatio: 15,
     description: "銀行の融資規制強化（バーゼル3最終化）を受け、企業向け直接融資（プライベートデット）を手掛けるメガオルタナティブ資産運用会社へ年金マネーが流入。",
     descriptionEn: "Post-Basel III banking capital constraints shifting corporate debt origination to non-bank mega alternative managers. Public pensions allocating heavily to direct lending funds.",
@@ -829,6 +829,87 @@ export const topAssetManagersData: AssetManagerProfile[] = [
 
 // 4. アジェンダ別 政策分析＆産業インパクト・フィード（世界市場を揺るがすグローバル・メガトレンド）
 export const trackerItemsData: TrackerItem[] = [
+  {
+    id: "feed-sec-msft-20261104",
+    date: "2026-11-04",
+    institution: "Microsoft Corp (MSFT)",
+    institutionEn: "Microsoft Corp (MSFT)",
+    institutionType: "Corporation",
+    category: "tech",
+    title: "【SEC公的開示】Microsoft Corpが最新重要報告書（Form 8-K）を正式提出",
+    titleEn: "[SEC Filing] Microsoft Corp Files Official Current Report (Form 8-K)",
+    summary: [
+      "米SEC EDGARに提出された公式文書（Form 8-K）を検知。公的提出日: 2026-11-04。",
+      "資本市場および機関投資家向けに開示された法定報告書原本へのアクセスを即時同期。",
+      "市場への重大な影響を持つ重要事項・資本異動に関する最新ファクトチェックを反映。"
+    ],
+    summaryEn: [
+      "Verified official regulatory submission (Form 8-K) via SEC EDGAR. Filing Date: 2026-11-04.",
+      "Direct primary source link synchronized for institutional capital flow verification.",
+      "Incorporating latest corporate material event updates and governance disclosures."
+    ],
+    primaryPolicy: {
+      title: "SEC Form 8-K 法定報告書の正式受理・原本照合",
+      titleEn: "Official Acceptance & Verification of SEC Form 8-K",
+      description: "Microsoft Corpが米国証券取引委員会に提出した法定重要報告書。事業運営や資本政策、重要契約に関する公的開示。",
+      descriptionEn: "Statutory material filing submitted by Microsoft Corp to the US SEC, disclosing corporate operations and capital events.",
+      keyPoints: [
+        "提出書類: SEC Form 8-K（公式原本リンク検証済）",
+        "開示企業: Microsoft Corp (CIK: 0000789019)",
+        "法定報告日: 2026-11-04"
+      ],
+      keyPointsEn: [
+        "Filing Type: SEC Form 8-K (Verified Primary URL)",
+        "Reporting Entity: Microsoft Corp (CIK: 0000789019)",
+        "Filing Date: 2026-11-04"
+      ]
+    },
+    capitalIncentive: {
+      title: "巨大資本・機関投資家への開示義務と市場規律",
+      titleEn: "Institutional Market Discipline and Mandatory Disclosures",
+      description: "BlackRockやVanguardなど主要機関投資家に対する法定開示責任の履行。透明性維持による資本コスト抑制と信認確保。",
+      descriptionEn: "Fulfilling fiduciary reporting obligations to mega asset managers to preserve market credibility.",
+      financialRationale: "連邦証券法に基づく情報開示の即時反映による情報非対称性の排除と株価形成の適正化。",
+      financialRationaleEn: "Mitigating information asymmetry and ensuring fair price discovery under federal securities law."
+    },
+    industryImpact: {
+      title: "クラウド・生成AIインフラセクターおよび競合サプライチェーンへの波及",
+      titleEn: "Spillover Effects across Tech Supply Chain",
+      description: "グローバルな産業構造におけるキープレイヤーの動向が、提携先・下請け・競合他社の投資判断に直接波及。",
+      descriptionEn: "Decisions by core industry pillars directly influencing supply chain partners and competitors.",
+      marketReaction: "機関投資家のアルゴリズム取引による即時プライシングおよびポジション調整の契機。",
+      marketReactionEn: "Catalyst for institutional algorithmic rebalancing and credit assessment.",
+      caseStudy: {
+        target: "Microsoft Corp サプライチェーン関係各社",
+        outcome: "公式開示情報の即時確認によるリスクヘッジと投資戦略の再検証",
+        outcomeEn: "Real-time risk mitigation and strategic reassessment via primary source validation"
+      }
+    },
+    status: "active",
+    statusLabel: "SEC公的開示済",
+    statusLabelEn: "SEC Filing Verified",
+    sourceName: "SEC EDGAR (CIK: 0000789019)",
+    sourceType: "SEC Form 8-K",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/789019/000119312526447173/d178557d8k.htm",
+    tags: [
+      "MSFT",
+      "8-K",
+      "SEC開示",
+      "公的一次情報"
+    ],
+    tagsEn: [
+      "MSFT",
+      "8-K",
+      "SEC Filing",
+      "Primary Source"
+    ],
+    involvedCompanies: [
+      "Microsoft Corp",
+      "BlackRock",
+      "Vanguard"
+    ],
+    impactScore: 88
+  },
   {
     id: "feed-sec-aapl-20261103",
     date: "2026-11-03",
@@ -2379,89 +2460,6 @@ export const trackerItemsData: TrackerItem[] = [
       "GE Aerospace"
     ],
     impactScore: 98
-  },
-  {
-    id: "item-novo-nordisk-glp1-2026",
-    date: "2026-07-20",
-    institution: "Novo Nordisk A/S & Eli Lilly (SEC Form 20-F / US Senate Hearing)",
-    institutionEn: "Novo Nordisk A/S & Eli Lilly (SEC Form 20-F / US Senate Hearing)",
-    institutionType: "Corporation",
-    category: "governance",
-    title: "ノボ・ノルディスク：GLP-1肥満薬による欧州時価総額1位達成とデンマークGDP超過に伴う資本集中",
-    titleEn: "Novo Nordisk Market Cap Exceeds Danish GDP ($600B+) Amid Global GLP-1 Capital Monopoly",
-    summary: [
-      "ノボ・ノルディスク（Wegovy/Ozempic）の時価総額が6,000億ドルを突破し、デンマーク1国の年間GDP（約4,000億ドル）を単独で超過。",
-      "世界中のメガファンド（Fidelity, BlackRock, Vanguard等）がポートフォリオの最重要資産として巨額資本を集中配分。",
-      "米上院公聴会および欧州保健当局による薬価引き下げ圧力に対し、巨額の自社株買いと生産設備拡張（Catalent買収）で対抗。"
-    ],
-    summaryEn: [
-      "Novo Nordisk valuation breached $600B+, eclipsing Denmark entire domestic GDP (~$400B) on exponential Wegovy/Ozempic sales.",
-      "Global mega-funds (Fidelity, BlackRock, Vanguard) heavily overweighting GLP-1 duopoly as core secular balance sheet holdings.",
-      "Navigating US Senate drug price inquiries by deploying tens of billions into manufacturing capacity ($16.5B Catalent acquisition)."
-    ],
-    primaryPolicy: {
-      title: "メガファーマによる受託製造（CDMO）囲い込みと薬価規制へのグローバル防衛",
-      titleEn: "CDMO Supply Chain Enclosure ($16.5B Catalent Buyout) & Patent Defense",
-      description: "供給不足を解消するため、世界最大の医薬品受託製造企業「キャタレント（Catalent）」を165億ドルで買収し、ライバル企業への供給ラインを遮断。",
-      descriptionEn: "Acquired global drug filler Catalent for $16.5B to secure sterile fill-finish capacity and block rival GLP-1 entrants.",
-      keyPoints: [
-        "Catalent買収による充填・包装工場の独占確保（米FTC反トラスト審査対応）",
-        "米国メディケア（公的医療保険）による価格交渉に対する特許防衛戦略",
-        "年間数百億ドルのフリーキャッシュフローによる自社株買いと次世代経口薬へのR&D投資"
-      ],
-      keyPointsEn: [
-        "Securing sterile fill-finish sites via $16.5B Catalent acquisition despite FTC review",
-        "Patent defense against US Medicare direct price negotiation mandates",
-        "Reinvesting tens of billions in free cash flow into oral GLP-1 formulation trials"
-      ]
-    },
-    capitalIncentive: {
-      title: "人類史上最大のメガブロックバスター医薬品市場（数千億ドル）の複利独占",
-      titleEn: "Monopolizing the Largest Multi-Hundred-Billion Drug Market in History",
-      description: "心血管疾患、アルツハイマー、脂肪肝など適応症が無限に広がるGLP-1市場において、Eli Lillyと世界市場を2社独占（デュオポリー）するため。",
-      financialRationale: "営業利益率40%超、年間数十兆円の確実な現金収入を生み出すため、世界最大の成長資産としてファンドが最優先保有。",
-      financialRationaleEn: "Operating margins exceeding 40% combined with expanding cardiovascular and MASH label indications."
-    },
-    industryImpact: {
-      title: "食品・外食・透析・心臓血管デバイス産業への巨大な「逆風ショック」",
-      titleEn: "Deflationary Headwinds for Packaged Foods, Dialysis & MedTech Sectors",
-      description: "肥満薬の普及によりジャンクフード、清涼飲料、アルコール、糖尿病医療機器の売上成長が鈍化し、ウォール街で関連株の格下げが連鎖。",
-      descriptionEn: "Wall Street analysts downgrading packaged snack food, soda, alcohol, and dialysis equipment providers on reduced calorie consumption.",
-      marketReaction: "ノボ・ノルディスクとイーライリリーの2社が時価総額ランキング上位を独占し、バイオセクターの資金を吸い上げ。",
-      marketReactionEn: "Novo Nordisk and Eli Lilly sucking up liquidity across the global healthcare sector.",
-      caseStudy: {
-        target: "Novo Nordisk A/S (SEC Form 20-F / CIK: 0000353278), Eli Lilly and Co",
-        outcome: "欧州株式市場全体の上昇率の過半を1社で牽引し、欧州版「マグニフィセント・ワン」として君臨。",
-        outcomeEn: "Single-handedly drove over half of European equity market benchmark gains."
-      }
-    },
-    status: "active",
-    statusLabel: "市場独占・設備投資加速",
-    statusLabelEn: "Market Monopoly Active",
-    sourceName: "Novo Nordisk Annual Report (SEC Form 20-F 2026-07)",
-    sourceType: "SEC Official Form 20-F",
-    sourceUrl: "https://www.sec.gov/Archives/edgar/data/353278/000117184324000572/novonordisk_20f.htm",
-    tags: [
-      "#GLP1",
-      "#NovoNordisk",
-      "#EliLilly",
-      "#欧州時価総額1位",
-      "#メガファーマ"
-    ],
-    tagsEn: [
-      "#GLP1",
-      "#NovoNordisk",
-      "#EliLilly",
-      "#EuropeanLeader",
-      "#BigPharma"
-    ],
-    involvedCompanies: [
-      "Novo Nordisk A/S",
-      "Eli Lilly and Co",
-      "Catalent, Inc.",
-      "Pfizer Inc."
-    ],
-    impactScore: 99
   }
 ];
 
