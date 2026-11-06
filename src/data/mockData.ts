@@ -9,11 +9,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 1,
     name: "AIデータセンター ＆ 電力・送電インフラ",
     nameEn: "AI Compute & Power Grid Infrastructure",
-    inflowAmount: "$219 億 / 四半期",
-    inflowAmountEn: "$218.8B / Quarter",
-    inflowGrowth: "+35% YoY",
-    inflowGrowthEn: "+35% YoY",
-    growthNum: 35,
+    inflowAmount: "$221 億 / 四半期",
+    inflowAmountEn: "$221.2B / Quarter",
+    inflowGrowth: "+36% YoY",
+    inflowGrowthEn: "+36% YoY",
+    growthNum: 36,
     shareRatio: 31,
     description: "生成AIの急激な普及に伴い「電力不足」が最大のボトルネック化。半導体に加え、原子力発電所・送電網・天然ガス火力・冷却システムへ巨額マネーが集中。",
     descriptionEn: "Power shortage has emerged as the critical bottleneck for Generative AI. Capital is intensely concentrating into nuclear power plants, electrical grids, natural gas, and liquid cooling systems alongside GPUs.",
@@ -75,11 +75,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 2,
     name: "GLP-1肥満・代謝薬 ＆ 次世代ヘルスケア",
     nameEn: "GLP-1 Obesity, Metabolic & Next-Gen Healthcare",
-    inflowAmount: "$134 億 / 四半期",
-    inflowAmountEn: "$134.5B / Quarter",
-    inflowGrowth: "+59% YoY",
-    inflowGrowthEn: "+59% YoY",
-    growthNum: 59,
+    inflowAmount: "$138 億 / 四半期",
+    inflowAmountEn: "$138.4B / Quarter",
+    inflowGrowth: "+66% YoY",
+    inflowGrowthEn: "+66% YoY",
+    growthNum: 66,
     shareRatio: 19,
     description: "肥満症・糖尿病・心血管疾患・脂肪肝（MASH）など、全世界の成人人口の数十％に及ぶ巨大実需市場。空前の売上と利益率を叩き出す製薬大手へ買いが集中。",
     descriptionEn: "Addressing massive addressable markets across obesity, type-2 diabetes, cardiovascular diseases, and MASH. Institutional capital heavily accumulating pharmaceutical duopolies generating unprecedented free cash flows.",
@@ -130,10 +130,10 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     name: "防衛テック ＆ サイバーセキュリティ・自律システム",
     nameEn: "Defense Tech, Cyber Security & Autonomous Systems",
     inflowAmount: "$128 億 / 四半期",
-    inflowAmountEn: "$128.5B / Quarter",
-    inflowGrowth: "+24% YoY",
-    inflowGrowthEn: "+24% YoY",
-    growthNum: 24,
+    inflowAmountEn: "$127.7B / Quarter",
+    inflowGrowth: "+23% YoY",
+    inflowGrowthEn: "+23% YoY",
+    growthNum: 23,
     shareRatio: 18,
     description: "ウクライナ・中東・台湾海峡の地政学リスクにより、欧米各国の国防予算がGDP比2〜3%超へ大幅拡大。軍事AI、ドローン、サイバー防衛企業へ資金が殺到。",
     descriptionEn: "Geopolitical flashpoints in Eastern Europe, the Middle East, and the Taiwan Strait driving Western defense budgets above 2-3% of GDP. Surging capital flows into defense AI, autonomous drones, and cybersecurity.",
@@ -189,12 +189,12 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 4,
     name: "先端半導体製造 ＆ AIハードウェアサプライチェーン",
     nameEn: "Advanced Semiconductor Foundry & AI Hardware",
-    inflowAmount: "$127 億 / 四半期",
-    inflowAmountEn: "$127.4B / Quarter",
-    inflowGrowth: "+28% YoY",
-    inflowGrowthEn: "+28% YoY",
-    growthNum: 28,
-    shareRatio: 18,
+    inflowAmount: "$124 億 / 四半期",
+    inflowAmountEn: "$123.5B / Quarter",
+    inflowGrowth: "+26% YoY",
+    inflowGrowthEn: "+26% YoY",
+    growthNum: 26,
+    shareRatio: 17,
     description: "AIモデルの巨大化に伴う2nm・3nm先端プロセス微細化、先端パッケージング（CoWoS）、高帯域メモリ（HBM）への独占的供給企業へ資本が集中。",
     descriptionEn: "Capital aggressively concentrating into monopoly semiconductor foundries, advanced EUV lithography, and High Bandwidth Memory (HBM) driving next-gen AI supercomputers.",
     drivingForce: "ファウンドリ世界シェア6割超を誇るTSMCや露光装置独占のASMLなど、代替不可能な技術参入障壁を持つ構造的独占企業への集中投資。",
@@ -249,11 +249,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 5,
     name: "プライベートクレジット ＆ オルタナティブ金融",
     nameEn: "Private Credit & Alternative Direct Lending",
-    inflowAmount: "$104 億 / 四半期",
-    inflowAmountEn: "$103.7B / Quarter",
-    inflowGrowth: "+30% YoY",
-    inflowGrowthEn: "+30% YoY",
-    growthNum: 30,
+    inflowAmount: "$109 億 / 四半期",
+    inflowAmountEn: "$109.2B / Quarter",
+    inflowGrowth: "+34% YoY",
+    inflowGrowthEn: "+34% YoY",
+    growthNum: 34,
     shareRatio: 15,
     description: "銀行の融資規制強化（バーゼル3最終化）を受け、企業向け直接融資（プライベートデット）を手掛けるメガオルタナティブ資産運用会社へ年金マネーが流入。",
     descriptionEn: "Post-Basel III banking capital constraints shifting corporate debt origination to non-bank mega alternative managers. Public pensions allocating heavily to direct lending funds.",
@@ -829,6 +829,87 @@ export const topAssetManagersData: AssetManagerProfile[] = [
 
 // 4. アジェンダ別 政策分析＆産業インパクト・フィード（世界市場を揺るがすグローバル・メガトレンド）
 export const trackerItemsData: TrackerItem[] = [
+  {
+    id: "feed-sec-msft-20261105",
+    date: "2026-11-05",
+    institution: "Microsoft Corp (MSFT)",
+    institutionEn: "Microsoft Corp (MSFT)",
+    institutionType: "Corporation",
+    category: "tech",
+    title: "【SEC公的開示】Microsoft Corpが最新重要報告書（Form 8-K）を正式提出",
+    titleEn: "[SEC Filing] Microsoft Corp Files Official Current Report (Form 8-K)",
+    summary: [
+      "米SEC EDGARに提出された公式文書（Form 8-K）を検知。公的提出日: 2026-11-05。",
+      "資本市場および機関投資家向けに開示された法定報告書原本へのアクセスを即時同期。",
+      "市場への重大な影響を持つ重要事項・資本異動に関する最新ファクトチェックを反映。"
+    ],
+    summaryEn: [
+      "Verified official regulatory submission (Form 8-K) via SEC EDGAR. Filing Date: 2026-11-05.",
+      "Direct primary source link synchronized for institutional capital flow verification.",
+      "Incorporating latest corporate material event updates and governance disclosures."
+    ],
+    primaryPolicy: {
+      title: "SEC Form 8-K 法定報告書の正式受理・原本照合",
+      titleEn: "Official Acceptance & Verification of SEC Form 8-K",
+      description: "Microsoft Corpが米国証券取引委員会に提出した法定重要報告書。事業運営や資本政策、重要契約に関する公的開示。",
+      descriptionEn: "Statutory material filing submitted by Microsoft Corp to the US SEC, disclosing corporate operations and capital events.",
+      keyPoints: [
+        "提出書類: SEC Form 8-K（公式原本リンク検証済）",
+        "開示企業: Microsoft Corp (CIK: 0000789019)",
+        "法定報告日: 2026-11-05"
+      ],
+      keyPointsEn: [
+        "Filing Type: SEC Form 8-K (Verified Primary URL)",
+        "Reporting Entity: Microsoft Corp (CIK: 0000789019)",
+        "Filing Date: 2026-11-05"
+      ]
+    },
+    capitalIncentive: {
+      title: "巨大資本・機関投資家への開示義務と市場規律",
+      titleEn: "Institutional Market Discipline and Mandatory Disclosures",
+      description: "BlackRockやVanguardなど主要機関投資家に対する法定開示責任の履行。透明性維持による資本コスト抑制と信認確保。",
+      descriptionEn: "Fulfilling fiduciary reporting obligations to mega asset managers to preserve market credibility.",
+      financialRationale: "連邦証券法に基づく情報開示の即時反映による情報非対称性の排除と株価形成の適正化。",
+      financialRationaleEn: "Mitigating information asymmetry and ensuring fair price discovery under federal securities law."
+    },
+    industryImpact: {
+      title: "クラウド・生成AIインフラセクターおよび競合サプライチェーンへの波及",
+      titleEn: "Spillover Effects across Tech Supply Chain",
+      description: "グローバルな産業構造におけるキープレイヤーの動向が、提携先・下請け・競合他社の投資判断に直接波及。",
+      descriptionEn: "Decisions by core industry pillars directly influencing supply chain partners and competitors.",
+      marketReaction: "機関投資家のアルゴリズム取引による即時プライシングおよびポジション調整の契機。",
+      marketReactionEn: "Catalyst for institutional algorithmic rebalancing and credit assessment.",
+      caseStudy: {
+        target: "Microsoft Corp サプライチェーン関係各社",
+        outcome: "公式開示情報の即時確認によるリスクヘッジと投資戦略の再検証",
+        outcomeEn: "Real-time risk mitigation and strategic reassessment via primary source validation"
+      }
+    },
+    status: "active",
+    statusLabel: "SEC公的開示済",
+    statusLabelEn: "SEC Filing Verified",
+    sourceName: "SEC EDGAR (CIK: 0000789019)",
+    sourceType: "SEC Form 8-K",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/789019/000119312526448357/d177209d8k.htm",
+    tags: [
+      "MSFT",
+      "8-K",
+      "SEC開示",
+      "公的一次情報"
+    ],
+    tagsEn: [
+      "MSFT",
+      "8-K",
+      "SEC Filing",
+      "Primary Source"
+    ],
+    involvedCompanies: [
+      "Microsoft Corp",
+      "BlackRock",
+      "Vanguard"
+    ],
+    impactScore: 88
+  },
   {
     id: "feed-sec-msft-20261104",
     date: "2026-11-04",
@@ -2377,89 +2458,6 @@ export const trackerItemsData: TrackerItem[] = [
       "Electronic Arts"
     ],
     impactScore: 96
-  },
-  {
-    id: "item-boeing-ceo-ouster-2026",
-    date: "2026-08-15",
-    institution: "The Boeing Company & Major Institutional Shareholders (SEC Form 8-K)",
-    institutionEn: "The Boeing Company & Major Institutional Shareholders (SEC Form 8-K)",
-    institutionType: "Corporation",
-    category: "governance",
-    title: "ボーイング（Boeing）：航空機品質不正危機と大株主ファンドによるCEO更迭・経営陣刷新",
-    titleEn: "Boeing Mega-Shareholders Force Out CEO Dave Calhoun & Re-Integrate Spirit AeroSystems",
-    summary: [
-      "737 MAXのドアプラグ脱落事故や品質不正問題を受け、大株主ファンド（BlackRock, Vanguard, Capital Group等）が経営陣への信任を撤回。",
-      "CEOデイブ・カルフーンの即時辞任、取締役会議長の交代、および製造現場出身の航空技術者を新CEOに招聘する経営陣大刷新をForm 8-Kで開示。",
-      "過度な自社株買い（金融工学）による製造現場の疲弊を是正し、安全性と品質工学最優先の資本配分へ強制回帰。"
-    ],
-    summaryEn: [
-      "Following 737 MAX manufacturing failures, major shareholders (BlackRock, Vanguard, Capital Group) withdrew confidence in management.",
-      "Form 8-K disclosed the immediate resignation of CEO Dave Calhoun, board chair replacement, and hiring of an aerospace engineer as CEO.",
-      "Ended financial engineering (excessive share buybacks) to redirect billions into factory floor safety and quality engineering."
-    ],
-    primaryPolicy: {
-      title: "エンジニアリング主導の製造ガバナンス復活と下請けスピリット買収統合",
-      titleEn: "Engineering-Led Governance & $8.3B Re-Acquisition of Spirit AeroSystems",
-      description: "経営陣がコスト削減と自社株買いのために製造ラインを分社化（スピリット・エアロシステムズ）していた体制を解体し、完全自社管理下へ再統合。",
-      descriptionEn: "Reversed the outsourced fuselage model by re-acquiring Spirit AeroSystems for $8.3B to regain total quality control.",
-      keyPoints: [
-        "主要下請け企業「スピリット・エアロシステムズ（Spirit AeroSystems）」の数十億ドル規模での買収・再統合",
-        "役員報酬KPIから「短期株価指標」を排除し、「製造品質・安全性監査スコア」と完全連動",
-        "連邦航空局（FAA）による製造上限規制の解除に向けた独立監査委員会の設置"
-      ],
-      keyPointsEn: [
-        "Multi-billion dollar re-acquisition and vertical integration of Spirit AeroSystems",
-        "Decoupled executive pay from stock price targets, tying comp to FAA safety audit scores",
-        "Established independent safety oversight board to lift FAA 737 MAX production caps"
-      ]
-    },
-    capitalIncentive: {
-      title: "国家航空主権の破綻と数百億ドル規模の企業価値消失（テールリスク）の遮断",
-      titleEn: "Halting Sovereign Insolvency Risk & Multi-Decade Franchise Destruction",
-      description: "エアバスへの世界シェア完全喪失と航空機墜落による賠償リスクを前に、ファンドが経営陣の保身を許さず強制的な外科手術を実行。",
-      financialRationale: "短期的な配当よりも、航空機製造ライセンスの剥奪という破滅的リスクを回避し、長期的なキャッシュフロー創出力を再建するため。",
-      financialRationaleEn: "Preventing catastrophic loss of commercial type-certificates and existential sovereign aerospace bankruptcy."
-    },
-    industryImpact: {
-      title: "グローバル航空宇宙・防衛産業における「金融主導経営から品質工学への回帰」",
-      titleEn: "Aerospace Reversal from Financial Engineering to Quality Manufacturing",
-      description: "GE、Raytheon（RTX）、Lockheed Martinなど欧米重工大手が、過度なアウトソーシングを見直し、中核製造工程の内製化を推進。",
-      descriptionEn: "Western defense giants (RTX, Lockheed, GE Aerospace) ending hyper-outsourcing to insource critical manufacturing.",
-      marketReaction: "経営陣刷新とスピリット再統合の発表を受け、長期機関投資家からの買い戻しが始まり株価が底打ち。",
-      marketReactionEn: "Boeing stock stabilized as long-term value funds began re-accumulating shares on turnaround credibility.",
-      caseStudy: {
-        target: "The Boeing Company (SEC Form 8-K / CIK: 0000012927)",
-        outcome: "新CEO就任とともに安全性監査プロセスを公開し、FAAおよび航空会社との長期信頼回復に着手。",
-        outcomeEn: "New engineer-CEO initiated comprehensive factory audits, gradually rebuilding FAA and airline trust."
-      }
-    },
-    status: "active",
-    statusLabel: "経営陣刷新・構造改革",
-    statusLabelEn: "Executive Restructuring Active",
-    sourceName: "The Boeing Company Form 8-K (SEC Accession: 0000012927-26-000042)",
-    sourceType: "SEC Official Form 8-K (2026-08)",
-    sourceUrl: "https://www.sec.gov/Archives/edgar/data/12927/000001292724000030/ba-20240325.htm",
-    tags: [
-      "#Boeing",
-      "#ガバナンス",
-      "#CEO更迭",
-      "#航空宇宙",
-      "#自社株買い是正"
-    ],
-    tagsEn: [
-      "#Boeing",
-      "#Governance",
-      "#CEOOuster",
-      "#Aerospace",
-      "#BuybackReform"
-    ],
-    involvedCompanies: [
-      "The Boeing Company",
-      "Spirit AeroSystems",
-      "Airbus SE",
-      "GE Aerospace"
-    ],
-    impactScore: 98
   }
 ];
 
