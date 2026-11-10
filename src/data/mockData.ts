@@ -9,12 +9,12 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 1,
     name: "AIデータセンター ＆ 電力・送電インフラ",
     nameEn: "AI Compute & Power Grid Infrastructure",
-    inflowAmount: "$218 億 / 四半期",
-    inflowAmountEn: "$217.6B / Quarter",
-    inflowGrowth: "+34% YoY",
-    inflowGrowthEn: "+34% YoY",
-    growthNum: 34,
-    shareRatio: 32,
+    inflowAmount: "$223 億 / 四半期",
+    inflowAmountEn: "$223.4B / Quarter",
+    inflowGrowth: "+38% YoY",
+    inflowGrowthEn: "+38% YoY",
+    growthNum: 38,
+    shareRatio: 31,
     description: "生成AIの急激な普及に伴い「電力不足」が最大のボトルネック化。半導体に加え、原子力発電所・送電網・天然ガス火力・冷却システムへ巨額マネーが集中。",
     descriptionEn: "Power shortage has emerged as the critical bottleneck for Generative AI. Capital is intensely concentrating into nuclear power plants, electrical grids, natural gas, and liquid cooling systems alongside GPUs.",
     drivingForce: "メガテック各社のAI設備投資（CAPEX）が年間数千億ドル規模へ倍増。安定したベースロード電力を供給できるエネルギー企業が最優先の買い対象に。",
@@ -76,10 +76,10 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     name: "GLP-1肥満・代謝薬 ＆ 次世代ヘルスケア",
     nameEn: "GLP-1 Obesity, Metabolic & Next-Gen Healthcare",
     inflowAmount: "$134 億 / 四半期",
-    inflowAmountEn: "$133.8B / Quarter",
-    inflowGrowth: "+58% YoY",
-    inflowGrowthEn: "+58% YoY",
-    growthNum: 58,
+    inflowAmountEn: "$134.2B / Quarter",
+    inflowGrowth: "+59% YoY",
+    inflowGrowthEn: "+59% YoY",
+    growthNum: 59,
     shareRatio: 19,
     description: "肥満症・糖尿病・心血管疾患・脂肪肝（MASH）など、全世界の成人人口の数十％に及ぶ巨大実需市場。空前の売上と利益率を叩き出す製薬大手へ買いが集中。",
     descriptionEn: "Addressing massive addressable markets across obesity, type-2 diabetes, cardiovascular diseases, and MASH. Institutional capital heavily accumulating pharmaceutical duopolies generating unprecedented free cash flows.",
@@ -129,11 +129,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 3,
     name: "防衛テック ＆ サイバーセキュリティ・自律システム",
     nameEn: "Defense Tech, Cyber Security & Autonomous Systems",
-    inflowAmount: "$124 億 / 四半期",
-    inflowAmountEn: "$123.8B / Quarter",
-    inflowGrowth: "+21% YoY",
-    inflowGrowthEn: "+21% YoY",
-    growthNum: 21,
+    inflowAmount: "$128 億 / 四半期",
+    inflowAmountEn: "$128.4B / Quarter",
+    inflowGrowth: "+23% YoY",
+    inflowGrowthEn: "+23% YoY",
+    growthNum: 23,
     shareRatio: 18,
     description: "ウクライナ・中東・台湾海峡の地政学リスクにより、欧米各国の国防予算がGDP比2〜3%超へ大幅拡大。軍事AI、ドローン、サイバー防衛企業へ資金が殺到。",
     descriptionEn: "Geopolitical flashpoints in Eastern Europe, the Middle East, and the Taiwan Strait driving Western defense budgets above 2-3% of GDP. Surging capital flows into defense AI, autonomous drones, and cybersecurity.",
@@ -189,12 +189,12 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 4,
     name: "先端半導体製造 ＆ AIハードウェアサプライチェーン",
     nameEn: "Advanced Semiconductor Foundry & AI Hardware",
-    inflowAmount: "$112 億 / 四半期",
-    inflowAmountEn: "$111.5B / Quarter",
-    inflowGrowth: "+19% YoY",
-    inflowGrowthEn: "+19% YoY",
-    growthNum: 19,
-    shareRatio: 16,
+    inflowAmount: "$120 億 / 四半期",
+    inflowAmountEn: "$119.8B / Quarter",
+    inflowGrowth: "+23% YoY",
+    inflowGrowthEn: "+23% YoY",
+    growthNum: 23,
+    shareRatio: 17,
     description: "AIモデルの巨大化に伴う2nm・3nm先端プロセス微細化、先端パッケージング（CoWoS）、高帯域メモリ（HBM）への独占的供給企業へ資本が集中。",
     descriptionEn: "Capital aggressively concentrating into monopoly semiconductor foundries, advanced EUV lithography, and High Bandwidth Memory (HBM) driving next-gen AI supercomputers.",
     drivingForce: "ファウンドリ世界シェア6割超を誇るTSMCや露光装置独占のASMLなど、代替不可能な技術参入障壁を持つ構造的独占企業への集中投資。",
@@ -249,11 +249,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 5,
     name: "プライベートクレジット ＆ オルタナティブ金融",
     nameEn: "Private Credit & Alternative Direct Lending",
-    inflowAmount: "$102 億 / 四半期",
-    inflowAmountEn: "$102.3B / Quarter",
-    inflowGrowth: "+29% YoY",
-    inflowGrowthEn: "+29% YoY",
-    growthNum: 29,
+    inflowAmount: "$107 億 / 四半期",
+    inflowAmountEn: "$106.8B / Quarter",
+    inflowGrowth: "+33% YoY",
+    inflowGrowthEn: "+33% YoY",
+    growthNum: 33,
     shareRatio: 15,
     description: "銀行の融資規制強化（バーゼル3最終化）を受け、企業向け直接融資（プライベートデット）を手掛けるメガオルタナティブ資産運用会社へ年金マネーが流入。",
     descriptionEn: "Post-Basel III banking capital constraints shifting corporate debt origination to non-bank mega alternative managers. Public pensions allocating heavily to direct lending funds.",
@@ -829,6 +829,87 @@ export const topAssetManagersData: AssetManagerProfile[] = [
 
 // 4. アジェンダ別 政策分析＆産業インパクト・フィード（世界市場を揺るがすグローバル・メガトレンド）
 export const trackerItemsData: TrackerItem[] = [
+  {
+    id: "feed-sec-aapl-20261109",
+    date: "2026-11-09",
+    institution: "Apple Inc. (AAPL)",
+    institutionEn: "Apple Inc. (AAPL)",
+    institutionType: "Corporation",
+    category: "supply_chain",
+    title: "【SEC公的開示】Apple Inc.が最新重要報告書（Form 8-K）を正式提出",
+    titleEn: "[SEC Filing] Apple Inc. Files Official Current Report (Form 8-K)",
+    summary: [
+      "米SEC EDGARに提出された公式文書（Form 8-K）を検知。公的提出日: 2026-11-09。",
+      "資本市場および機関投資家向けに開示された法定報告書原本へのアクセスを即時同期。",
+      "市場への重大な影響を持つ重要事項・資本異動に関する最新ファクトチェックを反映。"
+    ],
+    summaryEn: [
+      "Verified official regulatory submission (Form 8-K) via SEC EDGAR. Filing Date: 2026-11-09.",
+      "Direct primary source link synchronized for institutional capital flow verification.",
+      "Incorporating latest corporate material event updates and governance disclosures."
+    ],
+    primaryPolicy: {
+      title: "SEC Form 8-K 法定報告書の正式受理・原本照合",
+      titleEn: "Official Acceptance & Verification of SEC Form 8-K",
+      description: "Apple Inc.が米国証券取引委員会に提出した法定重要報告書。事業運営や資本政策、重要契約に関する公的開示。",
+      descriptionEn: "Statutory material filing submitted by Apple Inc. to the US SEC, disclosing corporate operations and capital events.",
+      keyPoints: [
+        "提出書類: SEC Form 8-K（公式原本リンク検証済）",
+        "開示企業: Apple Inc. (CIK: 0000320193)",
+        "法定報告日: 2026-11-09"
+      ],
+      keyPointsEn: [
+        "Filing Type: SEC Form 8-K (Verified Primary URL)",
+        "Reporting Entity: Apple Inc. (CIK: 0000320193)",
+        "Filing Date: 2026-11-09"
+      ]
+    },
+    capitalIncentive: {
+      title: "巨大資本・機関投資家への開示義務と市場規律",
+      titleEn: "Institutional Market Discipline and Mandatory Disclosures",
+      description: "BlackRockやVanguardなど主要機関投資家に対する法定開示責任の履行。透明性維持による資本コスト抑制と信認確保。",
+      descriptionEn: "Fulfilling fiduciary reporting obligations to mega asset managers to preserve market credibility.",
+      financialRationale: "連邦証券法に基づく情報開示の即時反映による情報非対称性の排除と株価形成の適正化。",
+      financialRationaleEn: "Mitigating information asymmetry and ensuring fair price discovery under federal securities law."
+    },
+    industryImpact: {
+      title: "先端サプライチェーン・端末セクターおよび競合サプライチェーンへの波及",
+      titleEn: "Spillover Effects across Supply_chain Supply Chain",
+      description: "グローバルな産業構造におけるキープレイヤーの動向が、提携先・下請け・競合他社の投資判断に直接波及。",
+      descriptionEn: "Decisions by core industry pillars directly influencing supply chain partners and competitors.",
+      marketReaction: "機関投資家のアルゴリズム取引による即時プライシングおよびポジション調整の契機。",
+      marketReactionEn: "Catalyst for institutional algorithmic rebalancing and credit assessment.",
+      caseStudy: {
+        target: "Apple Inc. サプライチェーン関係各社",
+        outcome: "公式開示情報の即時確認によるリスクヘッジと投資戦略の再検証",
+        outcomeEn: "Real-time risk mitigation and strategic reassessment via primary source validation"
+      }
+    },
+    status: "active",
+    statusLabel: "SEC公的開示済",
+    statusLabelEn: "SEC Filing Verified",
+    sourceName: "SEC EDGAR (CIK: 0000320193)",
+    sourceType: "SEC Form 8-K",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/320193/000114036126042798/ef20085077_8k.htm",
+    tags: [
+      "AAPL",
+      "8-K",
+      "SEC開示",
+      "公的一次情報"
+    ],
+    tagsEn: [
+      "AAPL",
+      "8-K",
+      "SEC Filing",
+      "Primary Source"
+    ],
+    involvedCompanies: [
+      "Apple Inc.",
+      "BlackRock",
+      "Vanguard"
+    ],
+    impactScore: 88
+  },
   {
     id: "feed-sec-msft-20261105",
     date: "2026-11-05",
@@ -2373,89 +2454,6 @@ export const trackerItemsData: TrackerItem[] = [
       "Warner Bros. Discovery",
       "Paramount Global",
       "Trian Fund Management"
-    ],
-    impactScore: 96
-  },
-  {
-    id: "item-wb-sony-entertainment-2026",
-    date: "2026-08-12",
-    institution: "Warner Bros. Discovery & Sony Group (SEC Form 10-K / 6-K)",
-    institutionEn: "Warner Bros. Discovery & Sony Group (SEC Form 10-K / 6-K)",
-    institutionType: "Corporation",
-    category: "gaming",
-    title: "グローバルエンタメ大手：大作ゲーム・映画の巨額減損リスク遮断と開発ROI基準の厳格化",
-    titleEn: "Gaming Giants (Sony, Warner Bros) Eliminate External DEI Mandates to Halt Impairments",
-    summary: [
-      "Warner Bros. Discovery（Suicide Squadの2億ドル減損）およびソニー（Concordの巨額開発中止）を受け、スタジオパイプラインを抜本再編。",
-      "外部コンサル（Sweet Baby Inc.等）による一律の非財務属性ノルマや説教的イデオロギー監修条項を全廃。",
-      "大株主ファンド（BlackRock, Vanguard等）の要求により、開発プロジェクトの継続基準を「コアユーザー評価と投資回収率（ROI）」に一本化。"
-    ],
-    summaryEn: [
-      "Warner Bros. Discovery ($200M Suicide Squad write-down) and Sony (Concord shutdown) enacted sweeping gaming pipeline overhauls.",
-      "Terminated contracts with external DEI narrative consultancies (Sweet Baby Inc., etc.) to remove non-commercial story constraints.",
-      "Institutional shareholders mandated restructuring greenlight criteria strictly around player retention and capital return on investment (ROI)."
-    ],
-    primaryPolicy: {
-      title: "外部監修依存の完全解除とプロジェクト収益性KPIの再導入",
-      titleEn: "Abolition of External Narrative Mandates & Re-Imposition of ROI KPIs",
-      description: "AAAゲーム（開発費200〜300億円規模）に対し、売上に直結しない外部イデオロギー監修条項を開発契約から完全排除。",
-      descriptionEn: "Eliminated mandatory external sensitivity review clauses from AAA production contracts ($150M-250M budgets).",
-      keyPoints: [
-        "外部DE&Iコンサルタントとの包括契約終了とスタジオ責任者のクリエイティブ裁量復活",
-        "スタジオ単位の投資対効果（ROI）とユーザー評価に基づく開発継続・打ち切り判断",
-        "既存人気IPのキャラクター・世界観改変に関する厳格な社内禁止ルールの設定"
-      ],
-      keyPointsEn: [
-        "Complete termination of blanket external sensitivity consulting agreements",
-        "Rigorous project-level hurdle rates and community sentiment gates",
-        "Strict prohibition against arbitrary lore altercations in flagship franchises"
-      ]
-    },
-    capitalIncentive: {
-      title: "大爆死による数百億円単位の減損損失遮断と営業利益率（マージン）防衛",
-      titleEn: "Eliminating Catastrophic $200M+ Impairments & Defending Margins",
-      description: "ESG圧力よりも、大型タイトルの連続失敗による巨額減損の方が財務的に致命傷となったため。",
-      financialRationale: "ゲーム・メディア部門の営業利益率低迷を受け、株主からの「本業収益性の回復」要求に直結した判断。",
-      financialRationaleEn: "Protecting division operating margins (sub-8%) from ruinous impairment write-downs."
-    },
-    industryImpact: {
-      title: "欧米パブリッシャー（Ubisoft、EA、Square Enix等）におけるドミノ的方針転換",
-      titleEn: "Industry-Wide Domino Reversals Across Western & Japanese Publishers",
-      description: "各社が2026年後半以降の新作ラインナップから過度なポリコレ要素を全廃し、娯楽性とゲームプレイ第一主義へ原点回帰。",
-      descriptionEn: "Ubisoft, EA, and Square Enix following suit, purging preaching narrative elements from upcoming pipelines.",
-      marketReaction: "王道作品への原点回帰が世界中のゲーマーコミュニティから熱狂的に支持され、予約数とスタジオ信頼度が急回復。",
-      marketReactionEn: "Core gamer trust restored, driving pre-orders and sentiment recovery for upcoming mainline releases.",
-      caseStudy: {
-        target: "Warner Bros. Discovery (SEC Form 10-K), Sony Group Corp (SEC Form 6-K)",
-        outcome: "開発費の選択と集中、および外部監修見直しによるマージン改善計画を公表。",
-        outcomeEn: "Officially reported margin recovery strategies via disciplined capital allocation and focused studio pipelines."
-      }
-    },
-    status: "reversing",
-    statusLabel: "完全回帰・路線修正",
-    statusLabelEn: "Course Correction Complete",
-    sourceName: "Warner Bros Discovery Form 10-K & Sony Group Form 6-K",
-    sourceType: "SEC Official Filings (2026-08)",
-    sourceUrl: "https://www.sec.gov/Archives/edgar/data/313838/000110465926094573/tm2622562d1_6k.htm",
-    tags: [
-      "#AAAゲーム",
-      "#PlayStation",
-      "#WarnerBros",
-      "#SweetBabyInc",
-      "#ROI重視"
-    ],
-    tagsEn: [
-      "#AAAGaming",
-      "#PlayStation",
-      "#WarnerBros",
-      "#SweetBabyInc",
-      "#ROIFocus"
-    ],
-    involvedCompanies: [
-      "Warner Bros. Discovery",
-      "Sony Group Corp",
-      "Ubisoft Entertainment",
-      "Electronic Arts"
     ],
     impactScore: 96
   }
