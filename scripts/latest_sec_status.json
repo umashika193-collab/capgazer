@@ -1,5 +1,5 @@
 {
-  "lastUpdatedUtc": "2026-11-12T02:43:12.369774+00:00",
+  "lastUpdatedUtc": "2026-11-13T02:26:17.416899+00:00",
   "pipelineStatus": "SUCCESS_100_PERCENT",
   "sectionsAutomated": [
     "01. Macro Inflow Sectors (Real-time Flow)",
@@ -7,14 +7,28 @@
     "03. Policy & Industry Impact Feed (SEC 8-K/6-K + AI)",
     "04. Recent Trending Explainer (30-Day Retention)"
   ],
-  "totalFilingsVerified": 4,
+  "totalFilingsVerified": 6,
   "filings": [
+    {
+      "key": "STATE_STREET",
+      "name": "State Street Corp",
+      "form": "13F-HR",
+      "date": "2026-11-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000747/xslForm13F_X02/primary_doc.xml"
+    },
+    {
+      "key": "NVDA",
+      "name": "Nvidia Corp",
+      "form": "8-K",
+      "date": "2026-11-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm"
+    },
     {
       "key": "SONY",
       "name": "Sony Group Corp",
       "form": "6-K",
-      "date": "2026-11-10",
-      "url": "https://www.sec.gov/Archives/edgar/data/313838/000119312526454312/d148641d6k.htm"
+      "date": "2026-11-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/313838/000110465926125990/tm2629459d1_6k.htm"
     },
     {
       "key": "AAPL",
@@ -34,8 +48,8 @@
       "key": "TSM",
       "name": "TSMC (ADR)",
       "form": "6-K",
-      "date": "2026-11-10",
-      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000797/tsm-boardx202611xx.htm"
+      "date": "2026-11-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm"
     }
   ]
 }

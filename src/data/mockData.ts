@@ -9,8 +9,8 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 1,
     name: "AIデータセンター ＆ 電力・送電インフラ",
     nameEn: "AI Compute & Power Grid Infrastructure",
-    inflowAmount: "$220 億 / 四半期",
-    inflowAmountEn: "$219.9B / Quarter",
+    inflowAmount: "$219 億 / 四半期",
+    inflowAmountEn: "$218.9B / Quarter",
     inflowGrowth: "+35% YoY",
     inflowGrowthEn: "+35% YoY",
     growthNum: 35,
@@ -76,7 +76,7 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     name: "GLP-1肥満・代謝薬 ＆ 次世代ヘルスケア",
     nameEn: "GLP-1 Obesity, Metabolic & Next-Gen Healthcare",
     inflowAmount: "$135 億 / 四半期",
-    inflowAmountEn: "$134.6B / Quarter",
+    inflowAmountEn: "$134.7B / Quarter",
     inflowGrowth: "+59% YoY",
     inflowGrowthEn: "+59% YoY",
     growthNum: 59,
@@ -129,12 +129,12 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 3,
     name: "防衛テック ＆ サイバーセキュリティ・自律システム",
     nameEn: "Defense Tech, Cyber Security & Autonomous Systems",
-    inflowAmount: "$131 億 / 四半期",
-    inflowAmountEn: "$131.0B / Quarter",
+    inflowAmount: "$132 億 / 四半期",
+    inflowAmountEn: "$132.0B / Quarter",
     inflowGrowth: "+25% YoY",
     inflowGrowthEn: "+25% YoY",
     growthNum: 25,
-    shareRatio: 18,
+    shareRatio: 19,
     description: "ウクライナ・中東・台湾海峡の地政学リスクにより、欧米各国の国防予算がGDP比2〜3%超へ大幅拡大。軍事AI、ドローン、サイバー防衛企業へ資金が殺到。",
     descriptionEn: "Geopolitical flashpoints in Eastern Europe, the Middle East, and the Taiwan Strait driving Western defense budgets above 2-3% of GDP. Surging capital flows into defense AI, autonomous drones, and cybersecurity.",
     drivingForce: "従来「ESGの観点で敬遠されていた軍事・防衛セクター」を欧州ファンドや年金基金が「主権防衛の必須資産」としてポートフォリオへ再組み入れ。",
@@ -189,8 +189,8 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 4,
     name: "先端半導体製造 ＆ AIハードウェアサプライチェーン",
     nameEn: "Advanced Semiconductor Foundry & AI Hardware",
-    inflowAmount: "$121 億 / 四半期",
-    inflowAmountEn: "$121.4B / Quarter",
+    inflowAmount: "$120 億 / 四半期",
+    inflowAmountEn: "$120.5B / Quarter",
     inflowGrowth: "+24% YoY",
     inflowGrowthEn: "+24% YoY",
     growthNum: 24,
@@ -249,12 +249,12 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 5,
     name: "プライベートクレジット ＆ オルタナティブ金融",
     nameEn: "Private Credit & Alternative Direct Lending",
-    inflowAmount: "$104 億 / 四半期",
-    inflowAmountEn: "$104.5B / Quarter",
-    inflowGrowth: "+31% YoY",
-    inflowGrowthEn: "+31% YoY",
-    growthNum: 31,
-    shareRatio: 15,
+    inflowAmount: "$102 億 / 四半期",
+    inflowAmountEn: "$102.4B / Quarter",
+    inflowGrowth: "+29% YoY",
+    inflowGrowthEn: "+29% YoY",
+    growthNum: 29,
+    shareRatio: 14,
     description: "銀行の融資規制強化（バーゼル3最終化）を受け、企業向け直接融資（プライベートデット）を手掛けるメガオルタナティブ資産運用会社へ年金マネーが流入。",
     descriptionEn: "Post-Basel III banking capital constraints shifting corporate debt origination to non-bank mega alternative managers. Public pensions allocating heavily to direct lending funds.",
     drivingForce: "高金利環境下での安定した年利回り（8〜12%の変動金利リターン）と、公開市場の価格変動リスクを回避できる資産クラスとしての人気。",
@@ -829,6 +829,168 @@ export const topAssetManagersData: AssetManagerProfile[] = [
 
 // 4. アジェンダ別 政策分析＆産業インパクト・フィード（世界市場を揺るがすグローバル・メガトレンド）
 export const trackerItemsData: TrackerItem[] = [
+  {
+    id: "feed-sec-nvda-20261112",
+    date: "2026-11-12",
+    institution: "Nvidia Corp (NVDA)",
+    institutionEn: "Nvidia Corp (NVDA)",
+    institutionType: "Corporation",
+    category: "tech",
+    title: "【SEC公的開示】Nvidia Corpが最新重要報告書（Form 8-K）を正式提出",
+    titleEn: "[SEC Filing] Nvidia Corp Files Official Current Report (Form 8-K)",
+    summary: [
+      "米SEC EDGARに提出された公式文書（Form 8-K）を検知。公的提出日: 2026-11-12。",
+      "資本市場および機関投資家向けに開示された法定報告書原本へのアクセスを即時同期。",
+      "市場への重大な影響を持つ重要事項・資本異動に関する最新ファクトチェックを反映。"
+    ],
+    summaryEn: [
+      "Verified official regulatory submission (Form 8-K) via SEC EDGAR. Filing Date: 2026-11-12.",
+      "Direct primary source link synchronized for institutional capital flow verification.",
+      "Incorporating latest corporate material event updates and governance disclosures."
+    ],
+    primaryPolicy: {
+      title: "SEC Form 8-K 法定報告書の正式受理・原本照合",
+      titleEn: "Official Acceptance & Verification of SEC Form 8-K",
+      description: "Nvidia Corpが米国証券取引委員会に提出した法定重要報告書。事業運営や資本政策、重要契約に関する公的開示。",
+      descriptionEn: "Statutory material filing submitted by Nvidia Corp to the US SEC, disclosing corporate operations and capital events.",
+      keyPoints: [
+        "提出書類: SEC Form 8-K（公式原本リンク検証済）",
+        "開示企業: Nvidia Corp (CIK: 0001045810)",
+        "法定報告日: 2026-11-12"
+      ],
+      keyPointsEn: [
+        "Filing Type: SEC Form 8-K (Verified Primary URL)",
+        "Reporting Entity: Nvidia Corp (CIK: 0001045810)",
+        "Filing Date: 2026-11-12"
+      ]
+    },
+    capitalIncentive: {
+      title: "巨大資本・機関投資家への開示義務と市場規律",
+      titleEn: "Institutional Market Discipline and Mandatory Disclosures",
+      description: "BlackRockやVanguardなど主要機関投資家に対する法定開示責任の履行。透明性維持による資本コスト抑制と信認確保。",
+      descriptionEn: "Fulfilling fiduciary reporting obligations to mega asset managers to preserve market credibility.",
+      financialRationale: "連邦証券法に基づく情報開示の即時反映による情報非対称性の排除と株価形成の適正化。",
+      financialRationaleEn: "Mitigating information asymmetry and ensuring fair price discovery under federal securities law."
+    },
+    industryImpact: {
+      title: "半導体・AIコンピューティングセクターおよび競合サプライチェーンへの波及",
+      titleEn: "Spillover Effects across Tech Supply Chain",
+      description: "グローバルな産業構造におけるキープレイヤーの動向が、提携先・下請け・競合他社の投資判断に直接波及。",
+      descriptionEn: "Decisions by core industry pillars directly influencing supply chain partners and competitors.",
+      marketReaction: "機関投資家のアルゴリズム取引による即時プライシングおよびポジション調整の契機。",
+      marketReactionEn: "Catalyst for institutional algorithmic rebalancing and credit assessment.",
+      caseStudy: {
+        target: "Nvidia Corp サプライチェーン関係各社",
+        outcome: "公式開示情報の即時確認によるリスクヘッジと投資戦略の再検証",
+        outcomeEn: "Real-time risk mitigation and strategic reassessment via primary source validation"
+      }
+    },
+    status: "active",
+    statusLabel: "SEC公的開示済",
+    statusLabelEn: "SEC Filing Verified",
+    sourceName: "SEC EDGAR (CIK: 0001045810)",
+    sourceType: "SEC Form 8-K",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+    tags: [
+      "NVDA",
+      "8-K",
+      "SEC開示",
+      "公的一次情報"
+    ],
+    tagsEn: [
+      "NVDA",
+      "8-K",
+      "SEC Filing",
+      "Primary Source"
+    ],
+    involvedCompanies: [
+      "Nvidia Corp",
+      "BlackRock",
+      "Vanguard"
+    ],
+    impactScore: 88
+  },
+  {
+    id: "feed-sec-tsm-20261112",
+    date: "2026-11-12",
+    institution: "TSMC (ADR) (TSM)",
+    institutionEn: "TSMC (ADR) (TSM)",
+    institutionType: "Corporation",
+    category: "supply_chain",
+    title: "【SEC公的開示】TSMC (ADR)が最新重要報告書（Form 6-K）を正式提出",
+    titleEn: "[SEC Filing] TSMC (ADR) Files Official Current Report (Form 6-K)",
+    summary: [
+      "米SEC EDGARに提出された公式文書（Form 6-K）を検知。公的提出日: 2026-11-12。",
+      "資本市場および機関投資家向けに開示された法定報告書原本へのアクセスを即時同期。",
+      "市場への重大な影響を持つ重要事項・資本異動に関する最新ファクトチェックを反映。"
+    ],
+    summaryEn: [
+      "Verified official regulatory submission (Form 6-K) via SEC EDGAR. Filing Date: 2026-11-12.",
+      "Direct primary source link synchronized for institutional capital flow verification.",
+      "Incorporating latest corporate material event updates and governance disclosures."
+    ],
+    primaryPolicy: {
+      title: "SEC Form 6-K 法定報告書の正式受理・原本照合",
+      titleEn: "Official Acceptance & Verification of SEC Form 6-K",
+      description: "TSMC (ADR)が米国証券取引委員会に提出した法定重要報告書。事業運営や資本政策、重要契約に関する公的開示。",
+      descriptionEn: "Statutory material filing submitted by TSMC (ADR) to the US SEC, disclosing corporate operations and capital events.",
+      keyPoints: [
+        "提出書類: SEC Form 6-K（公式原本リンク検証済）",
+        "開示企業: TSMC (ADR) (CIK: 0001046179)",
+        "法定報告日: 2026-11-12"
+      ],
+      keyPointsEn: [
+        "Filing Type: SEC Form 6-K (Verified Primary URL)",
+        "Reporting Entity: TSMC (ADR) (CIK: 0001046179)",
+        "Filing Date: 2026-11-12"
+      ]
+    },
+    capitalIncentive: {
+      title: "巨大資本・機関投資家への開示義務と市場規律",
+      titleEn: "Institutional Market Discipline and Mandatory Disclosures",
+      description: "BlackRockやVanguardなど主要機関投資家に対する法定開示責任の履行。透明性維持による資本コスト抑制と信認確保。",
+      descriptionEn: "Fulfilling fiduciary reporting obligations to mega asset managers to preserve market credibility.",
+      financialRationale: "連邦証券法に基づく情報開示の即時反映による情報非対称性の排除と株価形成の適正化。",
+      financialRationaleEn: "Mitigating information asymmetry and ensuring fair price discovery under federal securities law."
+    },
+    industryImpact: {
+      title: "ファウンドリ・先端製造セクターおよび競合サプライチェーンへの波及",
+      titleEn: "Spillover Effects across Supply_chain Supply Chain",
+      description: "グローバルな産業構造におけるキープレイヤーの動向が、提携先・下請け・競合他社の投資判断に直接波及。",
+      descriptionEn: "Decisions by core industry pillars directly influencing supply chain partners and competitors.",
+      marketReaction: "機関投資家のアルゴリズム取引による即時プライシングおよびポジション調整の契機。",
+      marketReactionEn: "Catalyst for institutional algorithmic rebalancing and credit assessment.",
+      caseStudy: {
+        target: "TSMC (ADR) サプライチェーン関係各社",
+        outcome: "公式開示情報の即時確認によるリスクヘッジと投資戦略の再検証",
+        outcomeEn: "Real-time risk mitigation and strategic reassessment via primary source validation"
+      }
+    },
+    status: "active",
+    statusLabel: "SEC公的開示済",
+    statusLabelEn: "SEC Filing Verified",
+    sourceName: "SEC EDGAR (CIK: 0001046179)",
+    sourceType: "SEC Form 6-K",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
+    tags: [
+      "TSM",
+      "6-K",
+      "SEC開示",
+      "公的一次情報"
+    ],
+    tagsEn: [
+      "TSM",
+      "6-K",
+      "SEC Filing",
+      "Primary Source"
+    ],
+    involvedCompanies: [
+      "TSMC (ADR)",
+      "BlackRock",
+      "Vanguard"
+    ],
+    impactScore: 88
+  },
   {
     id: "feed-sec-tsm-20261110",
     date: "2026-11-10",
@@ -2286,174 +2448,6 @@ export const trackerItemsData: TrackerItem[] = [
       "Vanguard"
     ],
     impactScore: 88
-  },
-  {
-    id: "item-nvidia-doj-2026",
-    date: "2026-08-26",
-    institution: "Nvidia Corp & US Dept of Justice (SEC Form 8-K)",
-    institutionEn: "Nvidia Corp & US Department of Justice (SEC Form 8-K)",
-    institutionType: "Corporation",
-    category: "tech",
-    title: "NvidiaとAI大手に対する米司法省（DOJ）反トラスト調査とGPU配分開示要求",
-    titleEn: "Nvidia & Big Tech Face DOJ Antitrust Subpoenas Over AI GPU Allocation & Bundling",
-    summary: [
-      "米司法省およびFTCが、NvidiaによるAIチップ供給の優先配分（メガテック優遇）に関する独占禁止法調査を本格化。",
-      "NvidiaがSEC Form 8-Kを提出し、クラウド事業者への拘束条項や独禁法リスクに関する追加開示を実施。",
-      "機関投資家はAIインフラの過度な一極集中リスクを警戒し、BroadcomやカスタムASIC企業への分散投資を開始。"
-    ],
-    summaryEn: [
-      "US DOJ and FTC escalated formal antitrust investigations into Nvidia regarding preferential AI chip allocations to mega hyperscalers.",
-      "Nvidia filed an SEC Form 8-K disclosing regulatory inquiries and restrictive covenants in datacenter networking contracts.",
-      "Institutional investors diversifying capital into Broadcom, Marvell, and custom ASIC designers to hedge single-vendor regulatory risk."
-    ],
-    primaryPolicy: {
-      title: "AIサプライチェーンにおける優越的地位濫用と拘束条件の審査",
-      titleEn: "Scrutiny of Market Abuse & Restrictive AI Supply Covenants",
-      description: "Nvidiaが自社製ネットワーク機器（Quantum/Spectrum-X）をGPUと抱き合わせ販売している疑い、および特定テック大手への優先供給に対する召喚状送付。",
-      descriptionEn: "DOJ subpoenas examining whether Nvidia tied GPU availability to the purchase of its proprietary Spectrum-X/Quantum networking gear.",
-      keyPoints: [
-        "SEC Form 8-Kにおける法的調査リスクの公式記載（2026年8月開示）",
-        "顧客企業（クラウド各社）に対する競合チップ利用制限条項の無効化審査",
-        "欧州委員会（EC）によるフランス・ドイツ拠点への立ち入り調査の連動"
-      ],
-      keyPointsEn: [
-        "Formal disclosure of antitrust investigations in SEC Form 8-K (August 2026)",
-        "Regulatory review of exclusivity lock-in terms imposed on cloud customers",
-        "Parallel EU Commission dawn raids across French and German subsidiaries"
-      ]
-    },
-    capitalIncentive: {
-      title: "AIバブルの法的規制リスクヘッジとマルチベンダー化（供給網分散）",
-      titleEn: "Regulatory Risk Hedging & Multi-Vendor Supply Redundancy",
-      description: "Nvidia 1社に依存したポートフォリオが独禁法制裁で急落するリスクを回避するため、ファンド各社がAMD、Broadcom、カスタム半導体開発企業へ資金を分散配分。",
-      descriptionEn: "Funds hedging against single-stock concentration risks by allocating capital to AMD, Broadcom, and custom ASIC architectures.",
-      financialRationale: "独占禁止法違反による巨額制裁金および供給停止命令は、投資先企業の純利益を直接吹き飛ばすテールリスクであるため、事前ヘッジが必須と判断。",
-      financialRationaleEn: "Antitrust injunctions and multibillion-dollar penalties represent uninsurable tail risks, compelling proactive institutional portfolio diversification."
-    },
-    industryImpact: {
-      title: "メガテックの自社製AIチップ（TPU/Trainium/Maia）内製化の加速",
-      titleEn: "Accelerated In-House Silicon Deployment by Hyperscalers",
-      description: "Google、Amazon、MicrosoftがNvidiaへの依存比率を下げるため、自社開発プロセッサのデータセンター配備比率を前年比50%以上引き上げ。",
-      descriptionEn: "Google (TPU), Amazon (Trainium), and Microsoft (Maia) increasing in-house silicon datacenter deployment by over 50% YoY.",
-      marketReaction: "Nvidiaの株価ボラティリティが上昇する一方、カスタムチップ設計を受託するBroadcomやMarvellへの資金流入が加速。",
-      marketReactionEn: "Nvidia options volatility spiked while institutional inflows accelerated into custom silicon architects (Broadcom, Marvell).",
-      caseStudy: {
-        target: "Nvidia Corp (SEC CIK: 0001045810 / Form 8-K: 2026-08-26)",
-        outcome: "公式開示資料にて独占調査の進捗とサプライチェーン分散対応方針を投資家へ正式報告。",
-        outcomeEn: "Formally disclosed antitrust inquiry status and multi-vendor diversification roadmap in official SEC 8-K filing."
-      }
-    },
-    status: "investigating",
-    statusLabel: "米司法省調査本格化",
-    statusLabelEn: "DOJ Investigation Escalating",
-    sourceName: "Nvidia Corp Form 8-K (SEC Accession: 0001045810-26-000073)",
-    sourceType: "SEC Official Form 8-K (2026-08-26)",
-    sourceUrl: "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/nvda-20260826.htm",
-    tags: [
-      "#Nvidia",
-      "#生成AI",
-      "#反トラスト法",
-      "#米司法省",
-      "#SEC開示"
-    ],
-    tagsEn: [
-      "#Nvidia",
-      "#GenerativeAI",
-      "#Antitrust",
-      "#DOJ",
-      "#SECFiling"
-    ],
-    involvedCompanies: [
-      "Nvidia Corp",
-      "Microsoft Corp",
-      "Alphabet Inc.",
-      "Amazon.com",
-      "Broadcom Inc."
-    ],
-    impactScore: 98
-  },
-  {
-    id: "item-msft-openai-ftc-2026",
-    date: "2026-07-10",
-    institution: "Microsoft Corp & US FTC / EU Commission (SEC Form 10-K)",
-    institutionEn: "Microsoft Corp & US FTC / EU Commission (SEC Form 10-K)",
-    institutionType: "Corporation",
-    category: "tech",
-    title: "Microsoft ＆ OpenAI：米欧独禁当局の企業結合審査とクラウド排他条項の自主是正",
-    titleEn: "Microsoft & OpenAI Relinquish Board Observers & Ease Azure Exclusivity Amid FTC Scrutiny",
-    summary: [
-      "FTCおよび欧州委員会によるAI寡占調査を受け、MicrosoftがOpenAIの取締役会オブザーバー席を自主返上。",
-      "Azureクラウド利用の排他的拘束条項を緩和し、競合クラウド（AWS, GCP）でのOpenAIモデル提供を容認。",
-      "機関投資家は独禁法制裁リスクを警戒し、特定AI企業への過度な依存からマルチモデル戦略への転換を要求。"
-    ],
-    summaryEn: [
-      "Microsoft voluntarily gave up its OpenAI board observer seat following US FTC and EU Commission merger probes.",
-      "Relaxed Azure cloud exclusivity clauses, allowing OpenAI models to be served across AWS and Google Cloud environments.",
-      "Institutional investors pressured tech giants to pivot toward open multi-model architectures to avoid regulatory break-up risks."
-    ],
-    primaryPolicy: {
-      title: "生成AIスタートアップへの巨額出資に対する実質的企業結合審査",
-      titleEn: "Substantive Merger Review of Minority GenAI Stakes",
-      description: "議決権を持たない出資比率（49%）であっても、実質的な支配権や独占的インフラ拘束があるとみなす新基準への対応。",
-      descriptionEn: "Regulators treating non-voting 49% stakes and compute exclusivity as de facto merger acquisitions requiring antitrust clearance.",
-      keyPoints: [
-        "OpenAI取締役会におけるオブザーバー席の完全返上（SEC Form 10-K開示）",
-        "クラウドインフラ排他的供給契約の解除と第三者プラットフォーム開放",
-        "Meta (Llama) や Mistral AI などオープンモデルのAzure積極採用"
-      ],
-      keyPointsEn: [
-        "Surrender of OpenAI board observer seat disclosed in SEC Form 10-K",
-        "Termination of compute lock-in, enabling multi-cloud OpenAI deployments",
-        "Aggressive Azure integration of open-weights models (Meta Llama, Mistral)"
-      ]
-    },
-    capitalIncentive: {
-      title: "独禁法による強制分割・巨額制裁金リスクの回避とエコシステム防衛",
-      titleEn: "Antitrust Injunction Mitigation & Cloud Revenue Protection",
-      description: "米欧当局による反トラスト訴訟が長期化し、AI事業全体の成長が法的に差し止められる破滅的リスクを未然に防ぐため。",
-      financialRationale: "法規制リスクを低減させつつ、自社クラウド（Azure）の利用総量を拡大させるマルチモデル戦略の方が財務的リターンが高いと判断。",
-      financialRationaleEn: "Preventing regulatory injunctions while maximizing aggregate Azure consumption via open multi-model offerings."
-    },
-    industryImpact: {
-      title: "エンタープライズAIの「マルチモデル（複数AI併用）」化の決定打",
-      titleEn: "Enterprise Shift to Vendor-Agnostic Multi-Model AI",
-      description: "企業顧客が特定モデル（GPT-4等）にロックインされることを避け、用途に応じてAnthropicやオープンソースAIを使い分ける体制へ移行。",
-      descriptionEn: "Global enterprises transitioning away from single-model lock-in toward diversified model routing architectures.",
-      marketReaction: "Microsoftの法務リスクが後退し、AI関連クラウド売上が四半期ベースで過去最高を更新。",
-      marketReactionEn: "Microsoft cloud revenue hit all-time highs as legal antitrust uncertainty eased.",
-      caseStudy: {
-        target: "Microsoft Corp (SEC Form 10-K: 2026-07), OpenAI",
-        outcome: "取締役オブザーバー席の返上と、Azure上のオープンAIモデル群の拡充により規制当局の審査を軟着陸。",
-        outcomeEn: "Successfully resolved regulatory scrutiny by relinquishing board seats and broadening Azure AI offerings."
-      }
-    },
-    status: "shifting",
-    statusLabel: "自主是正・規制対応",
-    statusLabelEn: "Voluntary Compliance",
-    sourceName: "Microsoft Corp Annual Report (SEC Form 10-K 2026-07)",
-    sourceType: "SEC Official Form 10-K",
-    sourceUrl: "https://www.sec.gov/Archives/edgar/data/789019/000078901924000038/msft-20240630.htm",
-    tags: [
-      "#Microsoft",
-      "#OpenAI",
-      "#FTC独占審査",
-      "#Azure",
-      "#マルチモデル"
-    ],
-    tagsEn: [
-      "#Microsoft",
-      "#OpenAI",
-      "#FTCAntitrust",
-      "#Azure",
-      "#MultiModel"
-    ],
-    involvedCompanies: [
-      "Microsoft Corp",
-      "OpenAI",
-      "Alphabet Inc.",
-      "Amazon.com"
-    ],
-    impactScore: 94
   }
 ];
 
