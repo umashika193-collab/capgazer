@@ -10,7 +10,7 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     name: "AIデータセンター ＆ 電力・送電インフラ",
     nameEn: "AI Compute & Power Grid Infrastructure",
     inflowAmount: "$219 億 / 四半期",
-    inflowAmountEn: "$218.9B / Quarter",
+    inflowAmountEn: "$218.7B / Quarter",
     inflowGrowth: "+35% YoY",
     inflowGrowthEn: "+35% YoY",
     growthNum: 35,
@@ -76,10 +76,10 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     name: "GLP-1肥満・代謝薬 ＆ 次世代ヘルスケア",
     nameEn: "GLP-1 Obesity, Metabolic & Next-Gen Healthcare",
     inflowAmount: "$135 億 / 四半期",
-    inflowAmountEn: "$134.7B / Quarter",
-    inflowGrowth: "+59% YoY",
-    inflowGrowthEn: "+59% YoY",
-    growthNum: 59,
+    inflowAmountEn: "$135.4B / Quarter",
+    inflowGrowth: "+61% YoY",
+    inflowGrowthEn: "+61% YoY",
+    growthNum: 61,
     shareRatio: 19,
     description: "肥満症・糖尿病・心血管疾患・脂肪肝（MASH）など、全世界の成人人口の数十％に及ぶ巨大実需市場。空前の売上と利益率を叩き出す製薬大手へ買いが集中。",
     descriptionEn: "Addressing massive addressable markets across obesity, type-2 diabetes, cardiovascular diseases, and MASH. Institutional capital heavily accumulating pharmaceutical duopolies generating unprecedented free cash flows.",
@@ -129,12 +129,12 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 3,
     name: "防衛テック ＆ サイバーセキュリティ・自律システム",
     nameEn: "Defense Tech, Cyber Security & Autonomous Systems",
-    inflowAmount: "$132 億 / 四半期",
-    inflowAmountEn: "$132.0B / Quarter",
-    inflowGrowth: "+25% YoY",
-    inflowGrowthEn: "+25% YoY",
-    growthNum: 25,
-    shareRatio: 19,
+    inflowAmount: "$127 億 / 四半期",
+    inflowAmountEn: "$127.1B / Quarter",
+    inflowGrowth: "+23% YoY",
+    inflowGrowthEn: "+23% YoY",
+    growthNum: 23,
+    shareRatio: 18,
     description: "ウクライナ・中東・台湾海峡の地政学リスクにより、欧米各国の国防予算がGDP比2〜3%超へ大幅拡大。軍事AI、ドローン、サイバー防衛企業へ資金が殺到。",
     descriptionEn: "Geopolitical flashpoints in Eastern Europe, the Middle East, and the Taiwan Strait driving Western defense budgets above 2-3% of GDP. Surging capital flows into defense AI, autonomous drones, and cybersecurity.",
     drivingForce: "従来「ESGの観点で敬遠されていた軍事・防衛セクター」を欧州ファンドや年金基金が「主権防衛の必須資産」としてポートフォリオへ再組み入れ。",
@@ -189,11 +189,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 4,
     name: "先端半導体製造 ＆ AIハードウェアサプライチェーン",
     nameEn: "Advanced Semiconductor Foundry & AI Hardware",
-    inflowAmount: "$120 億 / 四半期",
-    inflowAmountEn: "$120.5B / Quarter",
-    inflowGrowth: "+24% YoY",
-    inflowGrowthEn: "+24% YoY",
-    growthNum: 24,
+    inflowAmount: "$116 億 / 四半期",
+    inflowAmountEn: "$115.9B / Quarter",
+    inflowGrowth: "+21% YoY",
+    inflowGrowthEn: "+21% YoY",
+    growthNum: 21,
     shareRatio: 17,
     description: "AIモデルの巨大化に伴う2nm・3nm先端プロセス微細化、先端パッケージング（CoWoS）、高帯域メモリ（HBM）への独占的供給企業へ資本が集中。",
     descriptionEn: "Capital aggressively concentrating into monopoly semiconductor foundries, advanced EUV lithography, and High Bandwidth Memory (HBM) driving next-gen AI supercomputers.",
@@ -250,11 +250,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     name: "プライベートクレジット ＆ オルタナティブ金融",
     nameEn: "Private Credit & Alternative Direct Lending",
     inflowAmount: "$102 億 / 四半期",
-    inflowAmountEn: "$102.4B / Quarter",
+    inflowAmountEn: "$102.3B / Quarter",
     inflowGrowth: "+29% YoY",
     inflowGrowthEn: "+29% YoY",
     growthNum: 29,
-    shareRatio: 14,
+    shareRatio: 15,
     description: "銀行の融資規制強化（バーゼル3最終化）を受け、企業向け直接融資（プライベートデット）を手掛けるメガオルタナティブ資産運用会社へ年金マネーが流入。",
     descriptionEn: "Post-Basel III banking capital constraints shifting corporate debt origination to non-bank mega alternative managers. Public pensions allocating heavily to direct lending funds.",
     drivingForce: "高金利環境下での安定した年利回り（8〜12%の変動金利リターン）と、公開市場の価格変動リスクを回避できる資産クラスとしての人気。",
@@ -829,6 +829,87 @@ export const topAssetManagersData: AssetManagerProfile[] = [
 
 // 4. アジェンダ別 政策分析＆産業インパクト・フィード（世界市場を揺るがすグローバル・メガトレンド）
 export const trackerItemsData: TrackerItem[] = [
+  {
+    id: "feed-sec-tsm-20261113",
+    date: "2026-11-13",
+    institution: "TSMC (ADR) (TSM)",
+    institutionEn: "TSMC (ADR) (TSM)",
+    institutionType: "Corporation",
+    category: "supply_chain",
+    title: "【SEC公的開示】TSMC (ADR)が最新重要報告書（Form 6-K）を正式提出",
+    titleEn: "[SEC Filing] TSMC (ADR) Files Official Current Report (Form 6-K)",
+    summary: [
+      "米SEC EDGARに提出された公式文書（Form 6-K）を検知。公的提出日: 2026-11-13。",
+      "資本市場および機関投資家向けに開示された法定報告書原本へのアクセスを即時同期。",
+      "市場への重大な影響を持つ重要事項・資本異動に関する最新ファクトチェックを反映。"
+    ],
+    summaryEn: [
+      "Verified official regulatory submission (Form 6-K) via SEC EDGAR. Filing Date: 2026-11-13.",
+      "Direct primary source link synchronized for institutional capital flow verification.",
+      "Incorporating latest corporate material event updates and governance disclosures."
+    ],
+    primaryPolicy: {
+      title: "SEC Form 6-K 法定報告書の正式受理・原本照合",
+      titleEn: "Official Acceptance & Verification of SEC Form 6-K",
+      description: "TSMC (ADR)が米国証券取引委員会に提出した法定重要報告書。事業運営や資本政策、重要契約に関する公的開示。",
+      descriptionEn: "Statutory material filing submitted by TSMC (ADR) to the US SEC, disclosing corporate operations and capital events.",
+      keyPoints: [
+        "提出書類: SEC Form 6-K（公式原本リンク検証済）",
+        "開示企業: TSMC (ADR) (CIK: 0001046179)",
+        "法定報告日: 2026-11-13"
+      ],
+      keyPointsEn: [
+        "Filing Type: SEC Form 6-K (Verified Primary URL)",
+        "Reporting Entity: TSMC (ADR) (CIK: 0001046179)",
+        "Filing Date: 2026-11-13"
+      ]
+    },
+    capitalIncentive: {
+      title: "巨大資本・機関投資家への開示義務と市場規律",
+      titleEn: "Institutional Market Discipline and Mandatory Disclosures",
+      description: "BlackRockやVanguardなど主要機関投資家に対する法定開示責任の履行。透明性維持による資本コスト抑制と信認確保。",
+      descriptionEn: "Fulfilling fiduciary reporting obligations to mega asset managers to preserve market credibility.",
+      financialRationale: "連邦証券法に基づく情報開示の即時反映による情報非対称性の排除と株価形成の適正化。",
+      financialRationaleEn: "Mitigating information asymmetry and ensuring fair price discovery under federal securities law."
+    },
+    industryImpact: {
+      title: "ファウンドリ・先端製造セクターおよび競合サプライチェーンへの波及",
+      titleEn: "Spillover Effects across Supply_chain Supply Chain",
+      description: "グローバルな産業構造におけるキープレイヤーの動向が、提携先・下請け・競合他社の投資判断に直接波及。",
+      descriptionEn: "Decisions by core industry pillars directly influencing supply chain partners and competitors.",
+      marketReaction: "機関投資家のアルゴリズム取引による即時プライシングおよびポジション調整の契機。",
+      marketReactionEn: "Catalyst for institutional algorithmic rebalancing and credit assessment.",
+      caseStudy: {
+        target: "TSMC (ADR) サプライチェーン関係各社",
+        outcome: "公式開示情報の即時確認によるリスクヘッジと投資戦略の再検証",
+        outcomeEn: "Real-time risk mitigation and strategic reassessment via primary source validation"
+      }
+    },
+    status: "active",
+    statusLabel: "SEC公的開示済",
+    statusLabelEn: "SEC Filing Verified",
+    sourceName: "SEC EDGAR (CIK: 0001046179)",
+    sourceType: "SEC Form 6-K",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000801/tsm-fsx20261113x6k.htm",
+    tags: [
+      "TSM",
+      "6-K",
+      "SEC開示",
+      "公的一次情報"
+    ],
+    tagsEn: [
+      "TSM",
+      "6-K",
+      "SEC Filing",
+      "Primary Source"
+    ],
+    involvedCompanies: [
+      "TSMC (ADR)",
+      "BlackRock",
+      "Vanguard"
+    ],
+    impactScore: 88
+  },
   {
     id: "feed-sec-nvda-20261112",
     date: "2026-11-12",
@@ -2363,87 +2444,6 @@ export const trackerItemsData: TrackerItem[] = [
     ],
     involvedCompanies: [
       "Microsoft Corp",
-      "BlackRock",
-      "Vanguard"
-    ],
-    impactScore: 88
-  },
-  {
-    id: "feed-sec-sony-20260903",
-    date: "2026-09-03",
-    institution: "Sony Group Corp (SONY)",
-    institutionEn: "Sony Group Corp (SONY)",
-    institutionType: "Corporation",
-    category: "gaming",
-    title: "【SEC公的開示】Sony Group Corpが最新重要報告書（Form 6-K）を正式提出",
-    titleEn: "[SEC Filing] Sony Group Corp Files Official Current Report (Form 6-K)",
-    summary: [
-      "米SEC EDGARに提出された公式文書（Form 6-K）を検知。公的提出日: 2026-09-03。",
-      "資本市場および機関投資家向けに開示された法定報告書原本へのアクセスを即時同期。",
-      "市場への重大な影響を持つ重要事項・資本異動に関する最新ファクトチェックを反映。"
-    ],
-    summaryEn: [
-      "Verified official regulatory submission (Form 6-K) via SEC EDGAR. Filing Date: 2026-09-03.",
-      "Direct primary source link synchronized for institutional capital flow verification.",
-      "Incorporating latest corporate material event updates and governance disclosures."
-    ],
-    primaryPolicy: {
-      title: "SEC Form 6-K 法定報告書の正式受理・原本照合",
-      titleEn: "Official Acceptance & Verification of SEC Form 6-K",
-      description: "Sony Group Corpが米国証券取引委員会に提出した法定重要報告書。事業運営や資本政策、重要契約に関する公的開示。",
-      descriptionEn: "Statutory material filing submitted by Sony Group Corp to the US SEC, disclosing corporate operations and capital events.",
-      keyPoints: [
-        "提出書類: SEC Form 6-K（公式原本リンク検証済）",
-        "開示企業: Sony Group Corp (CIK: 0000313838)",
-        "法定報告日: 2026-09-03"
-      ],
-      keyPointsEn: [
-        "Filing Type: SEC Form 6-K (Verified Primary URL)",
-        "Reporting Entity: Sony Group Corp (CIK: 0000313838)",
-        "Filing Date: 2026-09-03"
-      ]
-    },
-    capitalIncentive: {
-      title: "巨大資本・機関投資家への開示義務と市場規律",
-      titleEn: "Institutional Market Discipline and Mandatory Disclosures",
-      description: "BlackRockやVanguardなど主要機関投資家に対する法定開示責任の履行。透明性維持による資本コスト抑制と信認確保。",
-      descriptionEn: "Fulfilling fiduciary reporting obligations to mega asset managers to preserve market credibility.",
-      financialRationale: "連邦証券法に基づく情報開示の即時反映による情報非対称性の排除と株価形成の適正化。",
-      financialRationaleEn: "Mitigating information asymmetry and ensuring fair price discovery under federal securities law."
-    },
-    industryImpact: {
-      title: "エンタメ・IPコンテンツ・半導体セクターおよび競合サプライチェーンへの波及",
-      titleEn: "Spillover Effects across Gaming Supply Chain",
-      description: "グローバルな産業構造におけるキープレイヤーの動向が、提携先・下請け・競合他社の投資判断に直接波及。",
-      descriptionEn: "Decisions by core industry pillars directly influencing supply chain partners and competitors.",
-      marketReaction: "機関投資家のアルゴリズム取引による即時プライシングおよびポジション調整の契機。",
-      marketReactionEn: "Catalyst for institutional algorithmic rebalancing and credit assessment.",
-      caseStudy: {
-        target: "Sony Group Corp サプライチェーン関係各社",
-        outcome: "公式開示情報の即時確認によるリスクヘッジと投資戦略の再検証",
-        outcomeEn: "Real-time risk mitigation and strategic reassessment via primary source validation"
-      }
-    },
-    status: "active",
-    statusLabel: "SEC公的開示済",
-    statusLabelEn: "SEC Filing Verified",
-    sourceName: "SEC EDGAR (CIK: 0000313838)",
-    sourceType: "SEC Form 6-K",
-    sourceUrl: "https://www.sec.gov/Archives/edgar/data/313838/000110465926104960/tm2624661d1_6k.htm",
-    tags: [
-      "SONY",
-      "6-K",
-      "SEC開示",
-      "公的一次情報"
-    ],
-    tagsEn: [
-      "SONY",
-      "6-K",
-      "SEC Filing",
-      "Primary Source"
-    ],
-    involvedCompanies: [
-      "Sony Group Corp",
       "BlackRock",
       "Vanguard"
     ],

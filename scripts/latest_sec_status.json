@@ -1,5 +1,5 @@
 {
-  "lastUpdatedUtc": "2026-11-13T02:26:17.416899+00:00",
+  "lastUpdatedUtc": "2026-11-14T01:59:04.636306+00:00",
   "pipelineStatus": "SUCCESS_100_PERCENT",
   "sectionsAutomated": [
     "01. Macro Inflow Sectors (Real-time Flow)",
@@ -27,8 +27,8 @@
       "key": "SONY",
       "name": "Sony Group Corp",
       "form": "6-K",
-      "date": "2026-11-12",
-      "url": "https://www.sec.gov/Archives/edgar/data/313838/000110465926125990/tm2629459d1_6k.htm"
+      "date": "2026-11-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/313838/000110465926126552/tm2629459d2_6k.htm"
     },
     {
       "key": "AAPL",
@@ -48,8 +48,8 @@
       "key": "TSM",
       "name": "TSMC (ADR)",
       "form": "6-K",
-      "date": "2026-11-12",
-      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm"
+      "date": "2026-11-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000801/tsm-fsx20261113x6k.htm"
     }
   ]
 }
