@@ -1,5 +1,5 @@
 {
-  "lastUpdatedUtc": "2026-11-14T01:59:04.636306+00:00",
+  "lastUpdatedUtc": "2026-11-17T04:19:57.132988+00:00",
   "pipelineStatus": "SUCCESS_100_PERCENT",
   "sectionsAutomated": [
     "01. Macro Inflow Sectors (Real-time Flow)",
@@ -7,21 +7,14 @@
     "03. Policy & Industry Impact Feed (SEC 8-K/6-K + AI)",
     "04. Recent Trending Explainer (30-Day Retention)"
   ],
-  "totalFilingsVerified": 6,
+  "totalFilingsVerified": 4,
   "filings": [
-    {
-      "key": "STATE_STREET",
-      "name": "State Street Corp",
-      "form": "13F-HR",
-      "date": "2026-11-12",
-      "url": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000747/xslForm13F_X02/primary_doc.xml"
-    },
     {
       "key": "NVDA",
       "name": "Nvidia Corp",
-      "form": "8-K",
-      "date": "2026-11-12",
-      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm"
+      "form": "13F-HR",
+      "date": "2026-11-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000084/xslForm13F_X02/primary_doc.xml"
     },
     {
       "key": "SONY",
@@ -29,13 +22,6 @@
       "form": "6-K",
       "date": "2026-11-13",
       "url": "https://www.sec.gov/Archives/edgar/data/313838/000110465926126552/tm2629459d2_6k.htm"
-    },
-    {
-      "key": "AAPL",
-      "name": "Apple Inc.",
-      "form": "8-K",
-      "date": "2026-11-09",
-      "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126042798/ef20085077_8k.htm"
     },
     {
       "key": "CEG",
