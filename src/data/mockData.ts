@@ -9,11 +9,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 1,
     name: "AIデータセンター ＆ 電力・送電インフラ",
     nameEn: "AI Compute & Power Grid Infrastructure",
-    inflowAmount: "$220 億 / 四半期",
-    inflowAmountEn: "$219.7B / Quarter",
-    inflowGrowth: "+35% YoY",
-    inflowGrowthEn: "+35% YoY",
-    growthNum: 35,
+    inflowAmount: "$217 億 / 四半期",
+    inflowAmountEn: "$217.0B / Quarter",
+    inflowGrowth: "+34% YoY",
+    inflowGrowthEn: "+34% YoY",
+    growthNum: 34,
     shareRatio: 32,
     description: "生成AIの急激な普及に伴い「電力不足」が最大のボトルネック化。半導体に加え、原子力発電所・送電網・天然ガス火力・冷却システムへ巨額マネーが集中。",
     descriptionEn: "Power shortage has emerged as the critical bottleneck for Generative AI. Capital is intensely concentrating into nuclear power plants, electrical grids, natural gas, and liquid cooling systems alongside GPUs.",
@@ -75,12 +75,12 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 2,
     name: "GLP-1肥満・代謝薬 ＆ 次世代ヘルスケア",
     nameEn: "GLP-1 Obesity, Metabolic & Next-Gen Healthcare",
-    inflowAmount: "$135 億 / 四半期",
-    inflowAmountEn: "$135.0B / Quarter",
-    inflowGrowth: "+60% YoY",
-    inflowGrowthEn: "+60% YoY",
-    growthNum: 60,
-    shareRatio: 20,
+    inflowAmount: "$131 億 / 四半期",
+    inflowAmountEn: "$131.0B / Quarter",
+    inflowGrowth: "+53% YoY",
+    inflowGrowthEn: "+53% YoY",
+    growthNum: 53,
+    shareRatio: 19,
     description: "肥満症・糖尿病・心血管疾患・脂肪肝（MASH）など、全世界の成人人口の数十％に及ぶ巨大実需市場。空前の売上と利益率を叩き出す製薬大手へ買いが集中。",
     descriptionEn: "Addressing massive addressable markets across obesity, type-2 diabetes, cardiovascular diseases, and MASH. Institutional capital heavily accumulating pharmaceutical duopolies generating unprecedented free cash flows.",
     drivingForce: "景気変動に左右されない確実な現金創出（キャッシュマシーン）力。保険適用拡大と適応症の追加による持続的成長期待。",
@@ -129,11 +129,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 3,
     name: "防衛テック ＆ サイバーセキュリティ・自律システム",
     nameEn: "Defense Tech, Cyber Security & Autonomous Systems",
-    inflowAmount: "$125 億 / 四半期",
-    inflowAmountEn: "$125.0B / Quarter",
-    inflowGrowth: "+22% YoY",
-    inflowGrowthEn: "+22% YoY",
-    growthNum: 22,
+    inflowAmount: "$124 億 / 四半期",
+    inflowAmountEn: "$124.2B / Quarter",
+    inflowGrowth: "+21% YoY",
+    inflowGrowthEn: "+21% YoY",
+    growthNum: 21,
     shareRatio: 18,
     description: "ウクライナ・中東・台湾海峡の地政学リスクにより、欧米各国の国防予算がGDP比2〜3%超へ大幅拡大。軍事AI、ドローン、サイバー防衛企業へ資金が殺到。",
     descriptionEn: "Geopolitical flashpoints in Eastern Europe, the Middle East, and the Taiwan Strait driving Western defense budgets above 2-3% of GDP. Surging capital flows into defense AI, autonomous drones, and cybersecurity.",
@@ -189,11 +189,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 4,
     name: "先端半導体製造 ＆ AIハードウェアサプライチェーン",
     nameEn: "Advanced Semiconductor Foundry & AI Hardware",
-    inflowAmount: "$109 億 / 四半期",
-    inflowAmountEn: "$108.9B / Quarter",
-    inflowGrowth: "+17% YoY",
-    inflowGrowthEn: "+17% YoY",
-    growthNum: 17,
+    inflowAmount: "$113 億 / 四半期",
+    inflowAmountEn: "$113.1B / Quarter",
+    inflowGrowth: "+20% YoY",
+    inflowGrowthEn: "+20% YoY",
+    growthNum: 20,
     shareRatio: 16,
     description: "AIモデルの巨大化に伴う2nm・3nm先端プロセス微細化、先端パッケージング（CoWoS）、高帯域メモリ（HBM）への独占的供給企業へ資本が集中。",
     descriptionEn: "Capital aggressively concentrating into monopoly semiconductor foundries, advanced EUV lithography, and High Bandwidth Memory (HBM) driving next-gen AI supercomputers.",
@@ -249,11 +249,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 5,
     name: "プライベートクレジット ＆ オルタナティブ金融",
     nameEn: "Private Credit & Alternative Direct Lending",
-    inflowAmount: "$102 億 / 四半期",
-    inflowAmountEn: "$102.4B / Quarter",
-    inflowGrowth: "+29% YoY",
-    inflowGrowthEn: "+29% YoY",
-    growthNum: 29,
+    inflowAmount: "$101 億 / 四半期",
+    inflowAmountEn: "$101.0B / Quarter",
+    inflowGrowth: "+28% YoY",
+    inflowGrowthEn: "+28% YoY",
+    growthNum: 28,
     shareRatio: 15,
     description: "銀行の融資規制強化（バーゼル3最終化）を受け、企業向け直接融資（プライベートデット）を手掛けるメガオルタナティブ資産運用会社へ年金マネーが流入。",
     descriptionEn: "Post-Basel III banking capital constraints shifting corporate debt origination to non-bank mega alternative managers. Public pensions allocating heavily to direct lending funds.",
@@ -829,6 +829,87 @@ export const topAssetManagersData: AssetManagerProfile[] = [
 
 // 4. アジェンダ別 政策分析＆産業インパクト・フィード（世界市場を揺るがすグローバル・メガトレンド）
 export const trackerItemsData: TrackerItem[] = [
+  {
+    id: "feed-sec-nvda-20261117",
+    date: "2026-11-17",
+    institution: "Nvidia Corp (NVDA)",
+    institutionEn: "Nvidia Corp (NVDA)",
+    institutionType: "Corporation",
+    category: "tech",
+    title: "【SEC公的開示】Nvidia Corpが最新重要報告書（Form 8-K）を正式提出",
+    titleEn: "[SEC Filing] Nvidia Corp Files Official Current Report (Form 8-K)",
+    summary: [
+      "米SEC EDGARに提出された公式文書（Form 8-K）を検知。公的提出日: 2026-11-17。",
+      "資本市場および機関投資家向けに開示された法定報告書原本へのアクセスを即時同期。",
+      "市場への重大な影響を持つ重要事項・資本異動に関する最新ファクトチェックを反映。"
+    ],
+    summaryEn: [
+      "Verified official regulatory submission (Form 8-K) via SEC EDGAR. Filing Date: 2026-11-17.",
+      "Direct primary source link synchronized for institutional capital flow verification.",
+      "Incorporating latest corporate material event updates and governance disclosures."
+    ],
+    primaryPolicy: {
+      title: "SEC Form 8-K 法定報告書の正式受理・原本照合",
+      titleEn: "Official Acceptance & Verification of SEC Form 8-K",
+      description: "Nvidia Corpが米国証券取引委員会に提出した法定重要報告書。事業運営や資本政策、重要契約に関する公的開示。",
+      descriptionEn: "Statutory material filing submitted by Nvidia Corp to the US SEC, disclosing corporate operations and capital events.",
+      keyPoints: [
+        "提出書類: SEC Form 8-K（公式原本リンク検証済）",
+        "開示企業: Nvidia Corp (CIK: 0001045810)",
+        "法定報告日: 2026-11-17"
+      ],
+      keyPointsEn: [
+        "Filing Type: SEC Form 8-K (Verified Primary URL)",
+        "Reporting Entity: Nvidia Corp (CIK: 0001045810)",
+        "Filing Date: 2026-11-17"
+      ]
+    },
+    capitalIncentive: {
+      title: "巨大資本・機関投資家への開示義務と市場規律",
+      titleEn: "Institutional Market Discipline and Mandatory Disclosures",
+      description: "BlackRockやVanguardなど主要機関投資家に対する法定開示責任の履行。透明性維持による資本コスト抑制と信認確保。",
+      descriptionEn: "Fulfilling fiduciary reporting obligations to mega asset managers to preserve market credibility.",
+      financialRationale: "連邦証券法に基づく情報開示の即時反映による情報非対称性の排除と株価形成の適正化。",
+      financialRationaleEn: "Mitigating information asymmetry and ensuring fair price discovery under federal securities law."
+    },
+    industryImpact: {
+      title: "半導体・AIコンピューティングセクターおよび競合サプライチェーンへの波及",
+      titleEn: "Spillover Effects across Tech Supply Chain",
+      description: "グローバルな産業構造におけるキープレイヤーの動向が、提携先・下請け・競合他社の投資判断に直接波及。",
+      descriptionEn: "Decisions by core industry pillars directly influencing supply chain partners and competitors.",
+      marketReaction: "機関投資家のアルゴリズム取引による即時プライシングおよびポジション調整の契機。",
+      marketReactionEn: "Catalyst for institutional algorithmic rebalancing and credit assessment.",
+      caseStudy: {
+        target: "Nvidia Corp サプライチェーン関係各社",
+        outcome: "公式開示情報の即時確認によるリスクヘッジと投資戦略の再検証",
+        outcomeEn: "Real-time risk mitigation and strategic reassessment via primary source validation"
+      }
+    },
+    status: "active",
+    statusLabel: "SEC公的開示済",
+    statusLabelEn: "SEC Filing Verified",
+    sourceName: "SEC EDGAR (CIK: 0001045810)",
+    sourceType: "SEC Form 8-K",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm",
+    tags: [
+      "NVDA",
+      "8-K",
+      "SEC開示",
+      "公的一次情報"
+    ],
+    tagsEn: [
+      "NVDA",
+      "8-K",
+      "SEC Filing",
+      "Primary Source"
+    ],
+    involvedCompanies: [
+      "Nvidia Corp",
+      "BlackRock",
+      "Vanguard"
+    ],
+    impactScore: 88
+  },
   {
     id: "feed-sec-tsm-20261113",
     date: "2026-11-13",
@@ -2363,87 +2444,6 @@ export const trackerItemsData: TrackerItem[] = [
     ],
     involvedCompanies: [
       "Nvidia Corp",
-      "BlackRock",
-      "Vanguard"
-    ],
-    impactScore: 88
-  },
-  {
-    id: "feed-sec-msft-20260902",
-    date: "2026-09-02",
-    institution: "Microsoft Corp (MSFT)",
-    institutionEn: "Microsoft Corp (MSFT)",
-    institutionType: "Corporation",
-    category: "tech",
-    title: "【SEC公的開示】Microsoft Corpが最新重要報告書（Form 8-K）を正式提出",
-    titleEn: "[SEC Filing] Microsoft Corp Files Official Current Report (Form 8-K)",
-    summary: [
-      "米SEC EDGARに提出された公式文書（Form 8-K）を検知。公的提出日: 2026-09-02。",
-      "資本市場および機関投資家向けに開示された法定報告書原本へのアクセスを即時同期。",
-      "市場への重大な影響を持つ重要事項・資本異動に関する最新ファクトチェックを反映。"
-    ],
-    summaryEn: [
-      "Verified official regulatory submission (Form 8-K) via SEC EDGAR. Filing Date: 2026-09-02.",
-      "Direct primary source link synchronized for institutional capital flow verification.",
-      "Incorporating latest corporate material event updates and governance disclosures."
-    ],
-    primaryPolicy: {
-      title: "SEC Form 8-K 法定報告書の正式受理・原本照合",
-      titleEn: "Official Acceptance & Verification of SEC Form 8-K",
-      description: "Microsoft Corpが米国証券取引委員会に提出した法定重要報告書。事業運営や資本政策、重要契約に関する公的開示。",
-      descriptionEn: "Statutory material filing submitted by Microsoft Corp to the US SEC, disclosing corporate operations and capital events.",
-      keyPoints: [
-        "提出書類: SEC Form 8-K（公式原本リンク検証済）",
-        "開示企業: Microsoft Corp (CIK: 0000789019)",
-        "法定報告日: 2026-09-02"
-      ],
-      keyPointsEn: [
-        "Filing Type: SEC Form 8-K (Verified Primary URL)",
-        "Reporting Entity: Microsoft Corp (CIK: 0000789019)",
-        "Filing Date: 2026-09-02"
-      ]
-    },
-    capitalIncentive: {
-      title: "巨大資本・機関投資家への開示義務と市場規律",
-      titleEn: "Institutional Market Discipline and Mandatory Disclosures",
-      description: "BlackRockやVanguardなど主要機関投資家に対する法定開示責任の履行。透明性維持による資本コスト抑制と信認確保。",
-      descriptionEn: "Fulfilling fiduciary reporting obligations to mega asset managers to preserve market credibility.",
-      financialRationale: "連邦証券法に基づく情報開示の即時反映による情報非対称性の排除と株価形成の適正化。",
-      financialRationaleEn: "Mitigating information asymmetry and ensuring fair price discovery under federal securities law."
-    },
-    industryImpact: {
-      title: "クラウド・生成AIインフラセクターおよび競合サプライチェーンへの波及",
-      titleEn: "Spillover Effects across Tech Supply Chain",
-      description: "グローバルな産業構造におけるキープレイヤーの動向が、提携先・下請け・競合他社の投資判断に直接波及。",
-      descriptionEn: "Decisions by core industry pillars directly influencing supply chain partners and competitors.",
-      marketReaction: "機関投資家のアルゴリズム取引による即時プライシングおよびポジション調整の契機。",
-      marketReactionEn: "Catalyst for institutional algorithmic rebalancing and credit assessment.",
-      caseStudy: {
-        target: "Microsoft Corp サプライチェーン関係各社",
-        outcome: "公式開示情報の即時確認によるリスクヘッジと投資戦略の再検証",
-        outcomeEn: "Real-time risk mitigation and strategic reassessment via primary source validation"
-      }
-    },
-    status: "active",
-    statusLabel: "SEC公的開示済",
-    statusLabelEn: "SEC Filing Verified",
-    sourceName: "SEC EDGAR (CIK: 0000789019)",
-    sourceType: "SEC Form 8-K",
-    sourceUrl: "https://www.sec.gov/Archives/edgar/data/789019/000119312526380280/d291965d8k.htm",
-    tags: [
-      "MSFT",
-      "8-K",
-      "SEC開示",
-      "公的一次情報"
-    ],
-    tagsEn: [
-      "MSFT",
-      "8-K",
-      "SEC Filing",
-      "Primary Source"
-    ],
-    involvedCompanies: [
-      "Microsoft Corp",
       "BlackRock",
       "Vanguard"
     ],
