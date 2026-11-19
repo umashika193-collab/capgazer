@@ -1,5 +1,5 @@
 {
-  "lastUpdatedUtc": "2026-11-18T03:20:40.136421+00:00",
+  "lastUpdatedUtc": "2026-11-19T02:56:52.545888+00:00",
   "pipelineStatus": "SUCCESS_100_PERCENT",
   "sectionsAutomated": [
     "01. Macro Inflow Sectors (Real-time Flow)",
@@ -7,7 +7,7 @@
     "03. Policy & Industry Impact Feed (SEC 8-K/6-K + AI)",
     "04. Recent Trending Explainer (30-Day Retention)"
   ],
-  "totalFilingsVerified": 5,
+  "totalFilingsVerified": 4,
   "filings": [
     {
       "key": "NVDA",
@@ -22,13 +22,6 @@
       "form": "6-K",
       "date": "2026-11-13",
       "url": "https://www.sec.gov/Archives/edgar/data/313838/000110465926126552/tm2629459d2_6k.htm"
-    },
-    {
-      "key": "DIS",
-      "name": "Walt Disney Co",
-      "form": "8-K",
-      "date": "2026-11-17",
-      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000067/dis-20261117.htm"
     },
     {
       "key": "CEG",
