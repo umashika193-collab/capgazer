@@ -9,8 +9,8 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 1,
     name: "AIデータセンター ＆ 電力・送電インフラ",
     nameEn: "AI Compute & Power Grid Infrastructure",
-    inflowAmount: "$218 億 / 四半期",
-    inflowAmountEn: "$217.7B / Quarter",
+    inflowAmount: "$216 億 / 四半期",
+    inflowAmountEn: "$216.2B / Quarter",
     inflowGrowth: "+34% YoY",
     inflowGrowthEn: "+34% YoY",
     growthNum: 34,
@@ -75,11 +75,11 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 2,
     name: "防衛テック ＆ サイバーセキュリティ・自律システム",
     nameEn: "Defense Tech, Cyber Security & Autonomous Systems",
-    inflowAmount: "$127 億 / 四半期",
-    inflowAmountEn: "$126.9B / Quarter",
-    inflowGrowth: "+23% YoY",
-    inflowGrowthEn: "+23% YoY",
-    growthNum: 23,
+    inflowAmount: "$129 億 / 四半期",
+    inflowAmountEn: "$129.2B / Quarter",
+    inflowGrowth: "+24% YoY",
+    inflowGrowthEn: "+24% YoY",
+    growthNum: 24,
     shareRatio: 19,
     description: "ウクライナ・中東・台湾海峡の地政学リスクにより、欧米各国の国防予算がGDP比2〜3%超へ大幅拡大。軍事AI、ドローン、サイバー防衛企業へ資金が殺到。",
     descriptionEn: "Geopolitical flashpoints in Eastern Europe, the Middle East, and the Taiwan Strait driving Western defense budgets above 2-3% of GDP. Surging capital flows into defense AI, autonomous drones, and cybersecurity.",
@@ -136,7 +136,7 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     name: "GLP-1肥満・代謝薬 ＆ 次世代ヘルスケア",
     nameEn: "GLP-1 Obesity, Metabolic & Next-Gen Healthcare",
     inflowAmount: "$124 億 / 四半期",
-    inflowAmountEn: "$123.8B / Quarter",
+    inflowAmountEn: "$123.5B / Quarter",
     inflowGrowth: "+41% YoY",
     inflowGrowthEn: "+41% YoY",
     growthNum: 41,
@@ -189,12 +189,12 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 4,
     name: "先端半導体製造 ＆ AIハードウェアサプライチェーン",
     nameEn: "Advanced Semiconductor Foundry & AI Hardware",
-    inflowAmount: "$115 億 / 四半期",
-    inflowAmountEn: "$114.7B / Quarter",
-    inflowGrowth: "+21% YoY",
-    inflowGrowthEn: "+21% YoY",
-    growthNum: 21,
-    shareRatio: 17,
+    inflowAmount: "$111 億 / 四半期",
+    inflowAmountEn: "$111.3B / Quarter",
+    inflowGrowth: "+19% YoY",
+    inflowGrowthEn: "+19% YoY",
+    growthNum: 19,
+    shareRatio: 16,
     description: "AIモデルの巨大化に伴う2nm・3nm先端プロセス微細化、先端パッケージング（CoWoS）、高帯域メモリ（HBM）への独占的供給企業へ資本が集中。",
     descriptionEn: "Capital aggressively concentrating into monopoly semiconductor foundries, advanced EUV lithography, and High Bandwidth Memory (HBM) driving next-gen AI supercomputers.",
     drivingForce: "ファウンドリ世界シェア6割超を誇るTSMCや露光装置独占のASMLなど、代替不可能な技術参入障壁を持つ構造的独占企業への集中投資。",
@@ -249,8 +249,8 @@ export const currentInflowSectorsData: CurrentInflowSector[] = [
     rank: 5,
     name: "プライベートクレジット ＆ オルタナティブ金融",
     nameEn: "Private Credit & Alternative Direct Lending",
-    inflowAmount: "$99.9 億 / 四半期",
-    inflowAmountEn: "$99.9B / Quarter",
+    inflowAmount: "$100 億 / 四半期",
+    inflowAmountEn: "$100.1B / Quarter",
     inflowGrowth: "+28% YoY",
     inflowGrowthEn: "+28% YoY",
     growthNum: 28,
@@ -829,6 +829,87 @@ export const topAssetManagersData: AssetManagerProfile[] = [
 
 // 4. アジェンダ別 政策分析＆産業インパクト・フィード（世界市場を揺るがすグローバル・メガトレンド）
 export const trackerItemsData: TrackerItem[] = [
+  {
+    id: "feed-sec-sony-20261113",
+    date: "2026-11-13",
+    institution: "Sony Group Corp (SONY)",
+    institutionEn: "Sony Group Corp (SONY)",
+    institutionType: "Corporation",
+    category: "gaming",
+    title: "【SEC公的開示】Sony Group Corpが最新重要報告書（Form 6-K）を正式提出",
+    titleEn: "[SEC Filing] Sony Group Corp Files Official Current Report (Form 6-K)",
+    summary: [
+      "米SEC EDGARに提出された公式文書（Form 6-K）を検知。公的提出日: 2026-11-13。",
+      "資本市場および機関投資家向けに開示された法定報告書原本へのアクセスを即時同期。",
+      "市場への重大な影響を持つ重要事項・資本異動に関する最新ファクトチェックを反映。"
+    ],
+    summaryEn: [
+      "Verified official regulatory submission (Form 6-K) via SEC EDGAR. Filing Date: 2026-11-13.",
+      "Direct primary source link synchronized for institutional capital flow verification.",
+      "Incorporating latest corporate material event updates and governance disclosures."
+    ],
+    primaryPolicy: {
+      title: "SEC Form 6-K 法定報告書の正式受理・原本照合",
+      titleEn: "Official Acceptance & Verification of SEC Form 6-K",
+      description: "Sony Group Corpが米国証券取引委員会に提出した法定重要報告書。事業運営や資本政策、重要契約に関する公的開示。",
+      descriptionEn: "Statutory material filing submitted by Sony Group Corp to the US SEC, disclosing corporate operations and capital events.",
+      keyPoints: [
+        "提出書類: SEC Form 6-K（公式原本リンク検証済）",
+        "開示企業: Sony Group Corp (CIK: 0000313838)",
+        "法定報告日: 2026-11-13"
+      ],
+      keyPointsEn: [
+        "Filing Type: SEC Form 6-K (Verified Primary URL)",
+        "Reporting Entity: Sony Group Corp (CIK: 0000313838)",
+        "Filing Date: 2026-11-13"
+      ]
+    },
+    capitalIncentive: {
+      title: "巨大資本・機関投資家への開示義務と市場規律",
+      titleEn: "Institutional Market Discipline and Mandatory Disclosures",
+      description: "BlackRockやVanguardなど主要機関投資家に対する法定開示責任の履行。透明性維持による資本コスト抑制と信認確保。",
+      descriptionEn: "Fulfilling fiduciary reporting obligations to mega asset managers to preserve market credibility.",
+      financialRationale: "連邦証券法に基づく情報開示の即時反映による情報非対称性の排除と株価形成の適正化。",
+      financialRationaleEn: "Mitigating information asymmetry and ensuring fair price discovery under federal securities law."
+    },
+    industryImpact: {
+      title: "エンタメ・IPコンテンツ・半導体セクターおよび競合サプライチェーンへの波及",
+      titleEn: "Spillover Effects across Gaming Supply Chain",
+      description: "グローバルな産業構造におけるキープレイヤーの動向が、提携先・下請け・競合他社の投資判断に直接波及。",
+      descriptionEn: "Decisions by core industry pillars directly influencing supply chain partners and competitors.",
+      marketReaction: "機関投資家のアルゴリズム取引による即時プライシングおよびポジション調整の契機。",
+      marketReactionEn: "Catalyst for institutional algorithmic rebalancing and credit assessment.",
+      caseStudy: {
+        target: "Sony Group Corp サプライチェーン関係各社",
+        outcome: "公式開示情報の即時確認によるリスクヘッジと投資戦略の再検証",
+        outcomeEn: "Real-time risk mitigation and strategic reassessment via primary source validation"
+      }
+    },
+    status: "active",
+    statusLabel: "SEC公的開示済",
+    statusLabelEn: "SEC Filing Verified",
+    sourceName: "SEC EDGAR (CIK: 0000313838)",
+    sourceType: "SEC Form 6-K",
+    sourceUrl: "https://www.sec.gov/Archives/edgar/data/313838/000110465926126552/tm2629459d2_6k.htm",
+    tags: [
+      "SONY",
+      "6-K",
+      "SEC開示",
+      "公的一次情報"
+    ],
+    tagsEn: [
+      "SONY",
+      "6-K",
+      "SEC Filing",
+      "Primary Source"
+    ],
+    involvedCompanies: [
+      "Sony Group Corp",
+      "BlackRock",
+      "Vanguard"
+    ],
+    impactScore: 88
+  },
   {
     id: "feed-sec-nvda-20261117",
     date: "2026-11-17",
@@ -2363,87 +2444,6 @@ export const trackerItemsData: TrackerItem[] = [
     ],
     involvedCompanies: [
       "TSMC (ADR)",
-      "BlackRock",
-      "Vanguard"
-    ],
-    impactScore: 88
-  },
-  {
-    id: "feed-sec-nvda-20260903",
-    date: "2026-09-03",
-    institution: "Nvidia Corp (NVDA)",
-    institutionEn: "Nvidia Corp (NVDA)",
-    institutionType: "Corporation",
-    category: "tech",
-    title: "【SEC公的開示】Nvidia Corpが最新重要報告書（Form 8-K）を正式提出",
-    titleEn: "[SEC Filing] Nvidia Corp Files Official Current Report (Form 8-K)",
-    summary: [
-      "米SEC EDGARに提出された公式文書（Form 8-K）を検知。公的提出日: 2026-09-03。",
-      "資本市場および機関投資家向けに開示された法定報告書原本へのアクセスを即時同期。",
-      "市場への重大な影響を持つ重要事項・資本異動に関する最新ファクトチェックを反映。"
-    ],
-    summaryEn: [
-      "Verified official regulatory submission (Form 8-K) via SEC EDGAR. Filing Date: 2026-09-03.",
-      "Direct primary source link synchronized for institutional capital flow verification.",
-      "Incorporating latest corporate material event updates and governance disclosures."
-    ],
-    primaryPolicy: {
-      title: "SEC Form 8-K 法定報告書の正式受理・原本照合",
-      titleEn: "Official Acceptance & Verification of SEC Form 8-K",
-      description: "Nvidia Corpが米国証券取引委員会に提出した法定重要報告書。事業運営や資本政策、重要契約に関する公的開示。",
-      descriptionEn: "Statutory material filing submitted by Nvidia Corp to the US SEC, disclosing corporate operations and capital events.",
-      keyPoints: [
-        "提出書類: SEC Form 8-K（公式原本リンク検証済）",
-        "開示企業: Nvidia Corp (CIK: 0001045810)",
-        "法定報告日: 2026-09-03"
-      ],
-      keyPointsEn: [
-        "Filing Type: SEC Form 8-K (Verified Primary URL)",
-        "Reporting Entity: Nvidia Corp (CIK: 0001045810)",
-        "Filing Date: 2026-09-03"
-      ]
-    },
-    capitalIncentive: {
-      title: "巨大資本・機関投資家への開示義務と市場規律",
-      titleEn: "Institutional Market Discipline and Mandatory Disclosures",
-      description: "BlackRockやVanguardなど主要機関投資家に対する法定開示責任の履行。透明性維持による資本コスト抑制と信認確保。",
-      descriptionEn: "Fulfilling fiduciary reporting obligations to mega asset managers to preserve market credibility.",
-      financialRationale: "連邦証券法に基づく情報開示の即時反映による情報非対称性の排除と株価形成の適正化。",
-      financialRationaleEn: "Mitigating information asymmetry and ensuring fair price discovery under federal securities law."
-    },
-    industryImpact: {
-      title: "半導体・AIコンピューティングセクターおよび競合サプライチェーンへの波及",
-      titleEn: "Spillover Effects across Tech Supply Chain",
-      description: "グローバルな産業構造におけるキープレイヤーの動向が、提携先・下請け・競合他社の投資判断に直接波及。",
-      descriptionEn: "Decisions by core industry pillars directly influencing supply chain partners and competitors.",
-      marketReaction: "機関投資家のアルゴリズム取引による即時プライシングおよびポジション調整の契機。",
-      marketReactionEn: "Catalyst for institutional algorithmic rebalancing and credit assessment.",
-      caseStudy: {
-        target: "Nvidia Corp サプライチェーン関係各社",
-        outcome: "公式開示情報の即時確認によるリスクヘッジと投資戦略の再検証",
-        outcomeEn: "Real-time risk mitigation and strategic reassessment via primary source validation"
-      }
-    },
-    status: "active",
-    statusLabel: "SEC公的開示済",
-    statusLabelEn: "SEC Filing Verified",
-    sourceName: "SEC EDGAR (CIK: 0001045810)",
-    sourceType: "SEC Form 8-K",
-    sourceUrl: "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm",
-    tags: [
-      "NVDA",
-      "8-K",
-      "SEC開示",
-      "公的一次情報"
-    ],
-    tagsEn: [
-      "NVDA",
-      "8-K",
-      "SEC Filing",
-      "Primary Source"
-    ],
-    involvedCompanies: [
-      "Nvidia Corp",
       "BlackRock",
       "Vanguard"
     ],
