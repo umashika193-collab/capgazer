@@ -1,5 +1,5 @@
 {
-  "lastUpdatedUtc": "2026-11-20T02:51:53.709736+00:00",
+  "lastUpdatedUtc": "2026-11-21T02:59:20.191153+00:00",
   "pipelineStatus": "SUCCESS_100_PERCENT",
   "sectionsAutomated": [
     "01. Macro Inflow Sectors (Real-time Flow)",
@@ -7,7 +7,7 @@
     "03. Policy & Industry Impact Feed (SEC 8-K/6-K + AI)",
     "04. Recent Trending Explainer (30-Day Retention)"
   ],
-  "totalFilingsVerified": 4,
+  "totalFilingsVerified": 3,
   "filings": [
     {
       "key": "NVDA",
@@ -22,13 +22,6 @@
       "form": "6-K",
       "date": "2026-11-13",
       "url": "https://www.sec.gov/Archives/edgar/data/313838/000110465926126552/tm2629459d2_6k.htm"
-    },
-    {
-      "key": "CEG",
-      "name": "Constellation Energy",
-      "form": "8-K",
-      "date": "2026-11-09",
-      "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000116/ceg-20261109.htm"
     },
     {
       "key": "TSM",
